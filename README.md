@@ -11,11 +11,7 @@
 # 講義ノート
 
 - [AZ-104 Administrator](AZ-104/README.md)
-- [AZ-204 Developing](AZ-204/README.md)
 - [AZ-500 Security](AZ-500/README.md)
-- [AZ-400 DevOps](AZ-400/README.md)
-- [AZ-220 IoT](AZ-220/README.md)
-- [AZ-010 Administrator for AWS SysOps](AZ-010/README.md)
 
 ラボ: [AZ-104](https://github.com/MicrosoftLearning/AZ-104JA-MicrosoftAzureAdministrator) - 「Instructions/Labs」内の各Markdownファイル
 
@@ -92,13 +88,8 @@ Azure へのアクセス(要Azureアカウント):
 , [ご案内2](https://docs.microsoft.com/ja-jp/learn/certifications/deals)
 
 認定試験(出題範囲等):
-[AZ-900 Fundamentals](https://docs.microsoft.com/ja-jp/learn/certifications/exams/az-900) 
 / [AZ-104 Administrator](https://docs.microsoft.com/ja-jp/learn/certifications/exams/az-104) 
-/ [AZ-204 Developing](https://docs.microsoft.com/ja-jp/learn/certifications/exams/az-204) 
 / [AZ-500 Security](https://docs.microsoft.com/ja-jp/learn/certifications/exams/AZ-500)
-/ [AZ-400 DevOps](https://docs.microsoft.com/ja-jp/learn/certifications/exams/AZ-400)
-/ [AZ-303 Architect Technologies](https://docs.microsoft.com/ja-jp/learn/certifications/exams/AZ-303)
-/ [AZ-304 Architect Design](https://docs.microsoft.com/ja-jp/learn/certifications/exams/az-304)
 
 認定試験（全体像とリンク）:
 ポスター:
