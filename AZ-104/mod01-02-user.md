@@ -39,9 +39,19 @@ Portalより実行
 - カンマは17個必要（サンプルは途中で終わっていて、アップロード時にカンマの数がチェックされる）
 - 利用場所は記載したほうがベター（Office365のライセンス登録では必須となるため）
 
+Sample
+
+```
+version:v1.0
+名前 [displayName] 必須,ユーザー名 [userPrincipalName] 必須,初期パスワード [passwordProfile] 必須,サインインのブロック (はい/いいえ) [accountEnabled] 必須,名 [givenName],姓 [surname],役職 [jobTitle],部署 [department],利用場所 [usageLocation],番地 [streetAddress],都道府県 [state],国/リージョン [country],Office [physicalDeliveryOfficeName],市区町村 [city],郵便番号 [postalCode],会社電話 [telephoneNumber],携帯電話 [mobile]
+Example: Chris Green, chris@contoso.com, myPassword1234, No
+Taro Micro,taro@mctjp.onmicrosoft.com,myPassword1234,No,Taro,Micro,Trainer,WWL,JP,,,,,,,,
+Jiro Micro,jiro@mctjp.onmicrosoft.com,myPassword1234,No,Jiro,Micro,Trainer,WWL,JP,,,,,,,,
+```
+
 Powershellを使用する場合
 
-sample
+Sample
 
 CSVファイル
 
