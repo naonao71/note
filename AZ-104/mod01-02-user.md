@@ -28,6 +28,36 @@
 
 CSVファイルには初期パスワードを指定します。ユーザーは、初期パスワードでサインインし、その後パスワードを変更できます。
 
+<span style="color: red; ">Point!</span>
+
+Portalより実行
+- テンプレートをダウンロードして最新版を利用する
+- 1行目～3行目はいじらない
+- 3行目にサンプルがあるが、実際には4行目から記述し、空白は入れない（ユーザープリンシパル名に空白があるとエラーになる）
+- ファイルは文字コードを<span style="color: red; ">UTF-8 (BOM付き)</span>で保存すること
+- ExcelでCSV保存すると1行目に余分なカンマが入ってしまうので修正が必要となる。よって、メモ帳などで操作したほうがベター
+- カンマは17個必要（サンプルは途中で終わっていて、アップロード時にカンマの数がチェックされる）
+- 利用場所は記載したほうがベター（Office365のライセンス登録では必須となるため）
+
+Powershellを使用する場合
+
+sample
+
+CSVファイル
+
+ ```
+displayName,userPrincipalName,usageLocation,MailNickname
+Ichiro Micro,ichiro@mctjp.onmicrosoft.com,JP,Ichiro
+Goro Micro,goro@mctjp.onmicrosoft.com,JP,Goro
+ ```
+
+コマンド
+
+ ```
+$SecureStringPassword = ConvertTo-SecureString -String "Pa$$w0rd1234" -AsPlainText -Force
+Import-Csv -Path <CSVファイルのパス> | foreach {New-AzADUser -DisplayName $_.displayName -UserPrincipalName $_.userPrincipalName -Password $SecureStringPassword -MailNickname $_.MailNickname}
+ ```
+
 # ユーザーの削除
 
 [ユーザーを削除した後、アカウントは 30 日間、中断(suspended)状態のままになります。](https://docs.microsoft.com/ja-jp/azure/active-directory/fundamentals/active-directory-users-restore)
