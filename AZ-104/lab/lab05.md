@@ -59,11 +59,11 @@ VMの「実行コマンド」,「RunPowerShellScript」をクリックし、実�
 ## 補足事項
 
 タスク1の5
-リージョン：japaneast
+リージョン：eastus
 
 以下のように、`[`と`]`は取り除いてください。
 ```
-$location = 'japaneast'
+$location = 'eastus'
 ```
 
 タスク1の9
