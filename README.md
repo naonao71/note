@@ -11,7 +11,7 @@
 # 講義ノート
 
 - [AZ-104 Administrator](AZ-104/README.md)
-- [AZ-500 Security](AZ-500/README.md)
+- [AZ-500 Security](AZ-500/memo.md)
 
 ラボ: [AZ-104](https://github.com/MicrosoftLearning/AZ-104JA-MicrosoftAzureAdministrator) - 「Instructions/Labs」内の各Markdownファイル
 
