@@ -34,6 +34,7 @@
     - [AZ-104:Azure 管理者向けの仮想ネットワークの構成と管理](https://docs.microsoft.com/ja-jp/learn/paths/az-104-manage-virtual-networks/)
     - [AZ-104:Azure リソースの監視とバックアップ](https://docs.microsoft.com/ja-jp/learn/paths/az-104-monitor-backup-resources/)
 - 書籍
+  - [合格対策Microsoft認定試験AZ-104:Microsoft Azure Administratorテキスト&演習問題](https://amzn.to/38VTQe8)
   - [合格対策 Microsoft認定 AZ-900：Microsoft Azure Fundamentalsテキスト＆問題集](https://www.google.com/search?q=Microsoft%E8%AA%8D%E5%AE%9A+AZ-900%3AMicrosoft+Azure+Fundamentals%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%26%E5%95%8F%E9%A1%8C%E9%9B%86)
   - [速習Azure Administrator](https://www.google.com/search?q=%E5%9C%9F%E7%94%B0+%E6%99%83%E4%BB%A4+%E9%80%9F%E7%BF%92+Azure+Administrator) （AZ-104: Microsoft Azure Administrator」の受験対策本）
 
