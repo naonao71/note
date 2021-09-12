@@ -282,6 +282,17 @@ Azure AD Connect を実行するためのこれら 3 つのアカウントに加
 - 監査履歴をしようすることで、PIMイベントを継続的に追跡可能。外部監査にも利用できる。
 
 [Azure AD Privileged Identity Management とは](https://docs.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure)
+
+**アクセスレビュー**
+
+Identity Governanceは、「適切なユーザーに」 「適切なアクセス権を」 「適切な期間のみ」 を実現するもの。
+
+- アクセスライフサイクル
+  - エンタイトルメント管理（アクセス権の付与をプロセス化）
+  - **アクセスレビュー（アクセス権のはく奪をプロセス化）**
+
+
+
 ***
 ### 1.1.5. エンタープライズ ガバナンス
 
