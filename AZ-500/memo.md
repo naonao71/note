@@ -141,6 +141,7 @@ Get-AzureADUser -SearchString user01 | fl *
 
 [Azure Active Directory でパスワードレス認証のデプロイを計画する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-authentication-passwordless-deployment)
 
+***
 ### 1.1.2. ハイブリッド ID
 
 **Azure AD Connect**
@@ -176,7 +177,7 @@ Azure AD Connect を実行するためのこれら 3 つのアカウントに加
 
 [NIST SP800-207 「ゼロトラスト・アーキテクチャ」の解説と日本語訳](https://www.pwc.com/jp/ja/knowledge/column/awareness-cyber-security/zero-trust-architecture-jp.html)
 
-
+***
 ### 1.1.3. Azure AD Identity Protection
 
 [Azure AD Identity Protection のリスク](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-risks)
@@ -195,6 +196,44 @@ Azure AD Connect を実行するためのこれら 3 つのアカウントに加
 [セキュリティの既定値群](https://docs.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
 [Azure AD で緊急アクセス用管理者アカウントを管理する](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/security-emergency-access)
+
+**条件付きアクセスポリシー(CA)**
+-
+
+**条件付きアクセスの動作**
+- 動作はブラックリスト方式であるため、設計時に要考慮
+  - <span style="color: red; ">明示的にポリシーを設定しない限り、アクセス許可</span>
+  - CAポリシーで設定できるのは
+    - アクセスのブロック
+    - アクセス権の付与
+- [割り当て] と [アクセス制御] の二つの要素でユーザー動作を制御
+  - [割り当て]で「すべてのユーザー」、「すべてのクラウドアプリ」を対象にすると、管理者を締め出してしまう可能性あり（Azure AD Connect の同期用アカウントにも要注意）
+  - 「すべてのユーザー」、「すべてのクラウドアプリ」 に対し、社外からのアクセスをブロックすると、Intune 登録、Graph などがブロックされてしまう
+    - Microsoft Intune Enrollment クラウドアプリを除外してもダメ
+- アクセスポリシーに順序はなく、すべてが評価される
+    - CAポリシーに優先順位という概念はない
+    - すべてのポリシーが評価され、割り当て条件に合致したサインインイベントに対し、制御がすべて適用される
+    - <span style="color: red; ">許可よりもブロックが勝つ</span>
+- [対象外] うまく使って割り当て条件を指定する
+  - <span style="color: red; ">対象外が勝つ</span>（すべてのユーザーが対象でも対象外に設定したユーザーが勝つ）
+- 問題があったら “サインインログ” を確認すると知りたいことはほぼすべてわかる
+  - AADの監視＞サインイン（**条件付きアクセス項目**を参照する）
+
+> **CAのポイント**
+> - CAポリシーに優先順位という概念はない
+> - すべてのポリシーが評価され、割り当て条件に合致したサインインイベントに対し、制御がすべて適用される
+> - 許可よりもブロックが勝つ
+
+
+- [割り当て] ベストプラクティス
+  - すべてを対象にする際には細心の注意を
+  - 対象を除外し、管理者は別ポリシーで保護
+  - 除外には、ディレクトリ ロール を利用する
+  - 不測の事態に備え、Break Glass アカウントを用意
+
+- [アクセス制御] ベストプラクティス
+  - ブロックの代わりに、「要 準拠デバイス」をお奨め
+    - Intune 登録はブロックされない
 
 **Break Glass アカウントとは**
 - 不測の事態に影響を受けない緊急用 全体管理者アカウント
@@ -216,12 +255,12 @@ Azure AD Connect を実行するためのこれら 3 つのアカウントに加
 
 **ベストプラクティス(この順番で実装を検討)**
 1. Managed Identity を利用する（モジュール3で説明）
-1. サービスプリンシパル を利用した証明書認証を利用する
-1. やむなくユーザーアカウントを利用する場合にも要保護対策
+2. サービスプリンシパル を利用した証明書認証を利用する
+3. やむなくユーザーアカウントを利用する場合にも要保護対策
 
 [Azure AD アクセス レビューとは](https://docs.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview)
 
-
+***
 ### 1.1.4. Azure AD Pricileged Identity Management
 
 **特権アカウント保護のためにやるべきこと**
@@ -243,7 +282,7 @@ Azure AD Connect を実行するためのこれら 3 つのアカウントに加
 - 監査履歴をしようすることで、PIMイベントを継続的に追跡可能。外部監査にも利用できる。
 
 [Azure AD Privileged Identity Management とは](https://docs.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/pim-configure)
-
+***
 ### 1.1.5. エンタープライズ ガバナンス
 
 **Azure ポリシー**
@@ -280,6 +319,7 @@ Get-AzRoleDefinition 'user access administrator'
 
 [Azure サブスクリプションの課金所有権の譲渡の概要](https://docs.microsoft.com/ja-jp/azure/cost-management-billing/understand/subscription-transfer)
 
+***
 ## 1.2. **モジュール02**
 
 **HubSpok 環境の作成**
@@ -294,6 +334,7 @@ New-AzResourceGroupDeployment -ResourceGroupName hub-spoke -TemplateUri https://
 Remove-AzResourceGroup -Name hub-spoke
 ```
 
+***
 ### 1.2.1. 境界セキュリティ
 
 [Local Administrator Password Solution (LAPS) 導入ガイド (日本語版)](https://msrc-blog.microsoft.com/2020/08/26/20200827_laps/)
@@ -330,6 +371,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 - **Azure Monitor のログ**
   - すべてのイベントは Azure Monitor と統合されます。そのため、ログをストレージ アカウントにアーカイブしたり、イベントを Event Hub にストリーム配信したり、それらを Azure Monitor ログに送信したりできます。
 
+***
 ### 1.2.2. ネットワークセキュリティ
 
 [仮想ネットワーク サービス エンドポイント](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview)
@@ -348,6 +390,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 [ExpressRoute Direct について](https://docs.microsoft.com/ja-jp/azure/expressroute/expressroute-erdirect-about#workflow)
 
+***
 ### 1.2.3. ホストセキュリティ
 
 [Windows Autopilot の概要](https://docs.microsoft.com/ja-jp/mem/autopilot/windows-autopilot)
@@ -374,6 +417,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 [Microsoft Defender for Endpoint Plan 1 の概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/defender-endpoint-plan-1?view=o365-worldwide)
 
+***
 ### 1.2.4. コンテナーセキュリティ
 
 [脅威分析モデル～STRIDE～](https://hanakutoman.com/threat-modeling-stride/)
@@ -386,7 +430,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 [Azure Container Registry のロールとアクセス許可](https://docs.microsoft.com/ja-jp/azure/container-registry/container-registry-roles?tabs=azure-cli)
 
-
+***
 ## 1.3. モジュール03
 
 ### 1.3.1. Azure Key Vault
@@ -395,6 +439,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 [Azure Key Vault のバックアップ](https://docs.microsoft.com/ja-jp/azure/key-vault/general/backup?tabs=azure-cli)
 
+***
 ### 1.3.2. アプリケーションのセキュリティ
 
 [Microsoft ID プラットフォームとは](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/v2-overview)
@@ -413,12 +458,14 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 [Azure App Service に対する TLS 相互認証の構成](https://docs.microsoft.com/ja-jp/azure/app-service/app-service-web-configure-tls-mutual-auth)
 
+***
 ### 1.3.3. ストレージ セキュリティ
 
 [SAS を使用する際のベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview#best-practices-when-using-sas)
 
 [Azure Active Directory を使用して BLOB へのアクセスを認可する](https://docs.microsoft.com/ja-jp/azure/storage/blobs/authorize-access-azure-active-directory)
 
+***
 ### 1.3.4. データベース セキュリティ
 
 [Azure SQL Database と SQL Managed Instance のセキュリティ機能の概要](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/security-overview)
@@ -468,6 +515,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 **ラボ情報**
 - PDT update suggestionsフォルダに入っている「az-500-10_azuredeploy.json」ファイルを使用する。
 
+***
 ## 1.4. モジュール04
 
 ### 1.4.1. Azure Monitor
@@ -476,6 +524,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 [Log Analytics Demo Site](https://aka.ms/lademo)
 
+***
 ### 1.4.2. Azure Security Center
 
 [MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
@@ -500,6 +549,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 [Azure Security Center のファイルの整合性の監視](https://docs.microsoft.com/ja-jp/azure/security-center/security-center-file-integrity-monitoring)
 
+***
 ### 1.4.3. Azure Sentinel
 
 [Azure Sentinel のドキュメント](https://docs.microsoft.com/ja-jp/azure/sentinel/)
