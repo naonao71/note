@@ -354,6 +354,8 @@ New-AzResourceGroupDeployment -ResourceGroupName hub-spoke -TemplateUri https://
 Remove-AzResourceGroup -Name hub-spoke
 ```
 
+![image](../media/hub-spoke.jpg)
+
 ***
 ### 1.2.1. 境界セキュリティ
 
