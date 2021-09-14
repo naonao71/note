@@ -315,6 +315,7 @@ Azureポリシーの機能には以下の3つの大きな柱があります
   - 管理グループにポリシーを適用できることで、1つのポリシーを数百のサブスクリプションとそのすべてのリソースに対して適用できる
 - 修復
   - コンプライアンスが非準拠のリソースを自動的に修復する修復ポリシーを使用できる
+  - 修復時にマネージドIDが必要な効果は**DeployIfNotExists**と**Modify**
 
 [Azure Policy の効果について](https://docs.microsoft.com/ja-jp/azure/governance/policy/concepts/effects)
 
