@@ -316,6 +316,8 @@ Azureポリシーの機能には以下の3つの大きな柱があります
 - 修復
   - コンプライアンスが非準拠のリソースを自動的に修復する修復ポリシーを使用できる
 
+[Azure Policy の効果について](https://docs.microsoft.com/ja-jp/azure/governance/policy/concepts/effects)
+
 [Azure Policy の定義の構造](https://docs.microsoft.com/ja-jp/azure/governance/policy/concepts/definition-structure)
 
 [チュートリアル:コンプライアンスを強制するポリシーの作成と管理](https://docs.microsoft.com/ja-jp/azure/governance/policy/tutorials/create-and-manage)
