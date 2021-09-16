@@ -523,6 +523,12 @@ MSAL(Microsoft Authentication Library：Microsoft 認証ライブラリ）を取
 
 [Azure Active Directory における管理タスク別の管理者ロール](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/delegate-by-task)
 
+**Microsoft Graph には２種類のアクセス許可方法があります。**
+- 委任されたアクセス許可：
+  - **サインイン済みユーザーが存在するアプリ**で使用されます。この場合、ユーザーはアプリが要求するアクセス許可に同意して、アプリはMicrosoft Graph を呼び出すときにサインインユーザーとして機能できます。
+- アプリケーションのアクセス許可：
+  - サインイン済みユーザーが存在せずに実行されるアプリ (**バックグラウンド サービスやデーモンとして実行されるアプリなど**) で使用されます。アプリケーションの権限は、管理者のみが同意できます。
+
 [Graph Explorer - Microsoft Graph](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
 [Microsoft ID プラットフォームでのアクセス許可と同意](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/v2-permissions-and-consent#permission-types)
@@ -535,6 +541,38 @@ MSAL(Microsoft Authentication Library：Microsoft 認証ライブラリ）を取
 
 ***
 ### 1.3.3. ストレージ セキュリティ
+
+**ストレージサービスの種類：**
+- Azureコンテナー（BLOBストレージ-バイナリラージオブジェクト）
+  - 画像またはドキュメントを保存して、直接ブラウザから参照可能。また仮想マシンのディスクの保存先としても活用されている。
+- Azure Files
+  - SMBを使用したファイル共有として使用。
+- Table Storage
+  - KVS（Key Value Storage）の環境を提供。Azure Cosmos DBの一部として使用するなどが可能
+- Queue Storage
+  - メッセージのキュー環境（格納と取得）に使用。例として、Azure Functionsと一緒に使用するなどが考えられる（プログラミング）。
+
+**承認オプション**
+- アカウント共有キー
+- SAS（Shared Access Signatures）
+- Azure Active Directory
+- Active Directory（SMBのみ）
+- 匿名アクセス（PublicなBlob）
+アカウント共有キーとSASに関しては、すべてのストレージサービスで使用できます。BlobとキューはAADをサポートしています。
+
+Blobを使用する際のアクセス認証方法の推奨方法は以下の通り
+AAD＞SAS＞共有キー＞匿名アクセス
+
+SAS の種類
+
+|SAS|AUTH|SCOPE|
+|:----|:----|:----|
+|アカウントSAS|ストレージアカウントキー|Storage account|
+|サービスSAS|ストレージアカウントキー|Single resource|
+|ユーザー委任 SAS|Azure AD|Single resource|
+
+保存されたアクセスポリシー
+ストレージアカウントに作成した各ストレージコンテナ個別に設定しているアクセスポリシーのこと。
 
 [SAS を使用する際のベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-sas-overview#best-practices-when-using-sas)
 
