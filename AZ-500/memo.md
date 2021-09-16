@@ -561,7 +561,7 @@ MSAL(Microsoft Authentication Library：Microsoft 認証ライブラリ）を取
 アカウント共有キーとSASに関しては、すべてのストレージサービスで使用できます。BlobとキューはAADをサポートしています。
 
 Blobを使用する際のアクセス認証方法の推奨方法は以下の通り
-AAD＞SAS＞共有キー＞匿名アクセス
+- AAD＞SAS＞共有キー＞匿名アクセス
 
 SAS の種類
 
@@ -583,13 +583,42 @@ SAS の種類
 
 [Azure SQL Database と SQL Managed Instance のセキュリティ機能の概要](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/security-overview)
 
+**ユーザーの種類について**
+SQL Serverには大きく分けて2種類のユーザーが存在しています。
+- ログインするユーザー（テキストでは、ログインとして紹介）
+  - SQL Server（インスタンス）へログインする際に使用するユーザーとなります。
+- データベースを利用するユーザー（テキストでは、ユーザーアカウントとして紹介）
+  - こちらはデータベース毎に作成するユーザーとなります。
+
+ベストプラクティスとしては、各DBごとにユーザー作成する（テキストでは、包含データベースユーザーと記載）になります。この方法ならSQLインジェクションなどの脆弱性があった場合に、他のDBに波及せず侵害のリスクを軽減することができる。
+
 [SQL Server Management Studio (SSMS) のダウンロード](https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
+
+**SQL Database のファイアウォールの考え方**
+SQL Database のファイアウォールは、利用する接続を追記する設定方法。よって、基本はブロックだが、登録されていればアクセス可能ですよ！になる。
+- SQL DBのファイアウォールが2つ存在する。
+  - SQLサーバーのファイアウォールと、SQL Databaseのファイアウォール。
+- Portalで設定できるのはSQLサーバーのファイアウォールである。
+- SQL Databaseのファイアウォールは、Portalから操作はできない。SQL文を書いてFWをコントロールする。
+- DBレベル、または、サーバーレベルのファイアウォールのどちらかで許可されていればアクセスできる。両方ではないことに注意。
+先に評価されるのは、DBレベル。
+
+ベストプラクティスとしては、可能な限りデータベースレベルのIPファイアウォール規則を使用する。
 
 [データベースレベルのファイアウォール規則](https://docs.microsoft.com/ja-jp/sql/relational-databases/system-stored-procedures/sp-set-database-firewall-rule-azure-sql-database?view=azuresqldb-current)
 
 [ポータルを使用して仮想ネットワーク規則を作成する](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/vnet-service-endpoint-rule-overview#anchor-how-to-by-using-firewall-portal-59j)
 
 [Azure SQL Database と Azure Synapse Analytics の接続アーキテクチャ](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/connectivity-architecture)
+
+**監査の設定**
+- サーバーレベル
+  - 既定の監査ポリシーには、すべてのアクションと次のアクション グループのセットが含まれます。これは、データベースに対して実行されたすべてのクエリとストアド プロシージャに加えて、成功および失敗したログインを監査（管理の変更やログオンおよびログオフの操作などのサーバーの操作が含まれます）します。
+- データベースレベル
+  - これらのアクションには、データ操作言語 (DML) とデータ定義言語 (DDL) の操作が含まれます。
+
+通常は、サーバーポリシーのみONにする。
+- データベースレベルの監査の設定の有無にかかわらず、データベースレベルの監査が行われる。
 
 [SQL Server 監査のアクション グループとアクション](https://docs.microsoft.com/ja-jp/sql/relational-databases/security/auditing/sql-server-audit-action-groups-and-actions?view=sql-server-ver15)
 
