@@ -481,6 +481,20 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 ### 1.3.1. Azure Key Vault
 
+Azure keyコンテナー（Azure Key Vault）は、クラウドアプリケーションやサービスが使用する暗号化キーやシークレットの保護に役立ちます。シークレットとは、暗号化処理や認証に使用する機密性の高い情報のことで、具体的にはトークン、パスワード、証明書、API キーなどを指します。
+
+Azure keyコンテナー（Azure Key Vault）では
+- シークレット管理
+- キー管理
+- 証明書の管理
+- HSMを使用したシークレットの格納（プレミアムのみ）
+を扱うことができる。
+
+> **Point**
+> ストレージアカウントでカスタマーマネージドキーをサポートしているサービスは
+> - BLOBストレージ
+> - Azure Files
+
 [保存データに対する Azure Storage 暗号化](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-service-encryption)
 
 [Azure Key Vault のバックアップ](https://docs.microsoft.com/ja-jp/azure/key-vault/general/backup?tabs=azure-cli)
@@ -488,9 +502,24 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 ***
 ### 1.3.2. アプリケーションのセキュリティ
 
+AzureADとの連携シナリオ
+- アプリのユーザー認証/認可に Azure AD を利用したい
+- 開発したアプリに Azure AD 上のアプリケーション (O365 含む) の API アクセス許可を与えたい
+- 開発したアプリの API を Azure AD で保護したい
+このような代表的なシナリオの実現とそのアプリケーション開発/管理の機能を提供している機能群を Microsoft Identity Platform と呼んでいる
+
+認証の仕組みを実装する場合は以下を提供している。
+MSAL(Microsoft Authentication Library：Microsoft 認証ライブラリ）を取り込むことでMicrosoft ID プラットフォームエンドポイントを使用できる（マイクロソフトアカウント、組織アカウント、ソーシャルまたはローカルアカウント）
+
+**MSAL は、Microsoft ID プラットフォームと併せて使用する際にお勧めの認証ライブラリ**
+
 [Microsoft ID プラットフォームとは](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/v2-overview)
 
 [Microsoft ID プラットフォームにアプリケーションを登録する](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app)
+
+> **Point**
+> - エンタープライズアプリケーション（サービスプリンシパル）
+> - アプリの登録（アプリケーションオブジェクト）
 
 [Azure Active Directory における管理タスク別の管理者ロール](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/delegate-by-task)
 
