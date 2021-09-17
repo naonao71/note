@@ -31,6 +31,18 @@
 
 - ローカルにダウンロードする
 
+***
+**AZ-500 タイムスケジュール**
+
+| |Day1|Day2|Day3|Day4|
+|:----|:----|:----|:----|:----|
+|午前|環境構築 モジュール1（Lab01）| 前日の振り返り モジュール1（Lab4,5）|前日の振り返り モジュール3|前日の振り返り モジュール3（Lab11,12）|
+|午後|モジュール1|モジュール2（Lab7,8）|モジュール3（Lab10）|モジュール4 （Lab13,14,15）|
+|オプションラボ|2,3|6,9| | |
+
+> 進行状況によってはこのスケジュール通りに進まないことがあります。
+> すべてのラボを講義中に行わないことがあります。その場合は、別途ご自身の都合がよい時間に行ってください。
+***
 **コンテンツ**
 
 - [1. **AZ-500**](#1-az-500)
@@ -584,6 +596,7 @@ SAS の種類
 [Azure SQL Database と SQL Managed Instance のセキュリティ機能の概要](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/security-overview)
 
 **ユーザーの種類について**
+
 SQL Serverには大きく分けて2種類のユーザーが存在しています。
 - ログインするユーザー（テキストでは、ログインとして紹介）
   - SQL Server（インスタンス）へログインする際に使用するユーザーとなります。
@@ -595,6 +608,7 @@ SQL Serverには大きく分けて2種類のユーザーが存在しています
 [SQL Server Management Studio (SSMS) のダウンロード](https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 
 **SQL Database のファイアウォールの考え方**
+
 SQL Database のファイアウォールは、利用する接続を追記する設定方法。よって、基本はブロックだが、登録されていればアクセス可能ですよ！になる。
 - SQL DBのファイアウォールが2つ存在する。
   - SQLサーバーのファイアウォールと、SQL Databaseのファイアウォール。
