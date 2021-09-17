@@ -40,19 +40,19 @@
 |午後|モジュール1|モジュール2（Lab7,8）|モジュール3（Lab10）|モジュール4 （Lab13,14,15）|
 |オプションラボ|2,3|6,9| | |
 
-> 進行状況によってはこのスケジュール通りに進まないことがあります。
-> すべてのラボを講義中に行わないことがあります。その場合は、別途ご自身の都合がよい時間に行ってください。
+> - 進行状況によってはこのスケジュール通りに進まないことがあります。 
+> - すべてのラボを講義中に行わないことがあります。その場合は、別途ご自身の都合がよい時間に行ってください。
 ***
 **コンテンツ**
 
 - [1. **AZ-500**](#1-az-500)
-  - [1.1. **モジュール01**](#11-モジュール01)
+  - [1.1. モジュール01](#11-モジュール01)
     - [1.1.1. Azure Active Diarectory](#111-azure-active-diarectory)
     - [1.1.2. ハイブリッド ID](#112-ハイブリッド-id)
     - [1.1.3. Azure AD Identity Protection](#113-azure-ad-identity-protection)
     - [1.1.4. Azure AD Pricileged Identity Management](#114-azure-ad-pricileged-identity-management)
     - [1.1.5. エンタープライズ ガバナンス](#115-エンタープライズ-ガバナンス)
-  - [1.2. **モジュール02**](#12-モジュール02)
+  - [1.2. モジュール02](#12-モジュール02)
     - [1.2.1. 境界セキュリティ](#121-境界セキュリティ)
     - [1.2.2. ネットワークセキュリティ](#122-ネットワークセキュリティ)
     - [1.2.3. ホストセキュリティ](#123-ホストセキュリティ)
@@ -67,7 +67,7 @@
     - [1.4.2. Azure Security Center](#142-azure-security-center)
     - [1.4.3. Azure Sentinel](#143-azure-sentinel)
 
-## 1.1. **モジュール01**
+## 1.1. モジュール01
 
 ### 1.1.1. Azure Active Diarectory
 
@@ -367,7 +367,7 @@ Get-AzRoleDefinition 'user access administrator'
 [Azure サブスクリプションの課金所有権の譲渡の概要](https://docs.microsoft.com/ja-jp/azure/cost-management-billing/understand/subscription-transfer)
 
 ***
-## 1.2. **モジュール02**
+## 1.2. モジュール02
 
 **HubSpok 環境の作成**
 ```powershell
