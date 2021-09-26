@@ -6,10 +6,6 @@
 
 - ラボファイルをローカルにダウンロードする
 
-[インストラクションシート](https://aka.ms/AAd306b)
-
-- トレーニング情報が記載されている
-
 [Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
 - トレーニングで使用するテキスト
