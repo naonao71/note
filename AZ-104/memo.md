@@ -107,7 +107,6 @@ AZ-104
 
 [ユーザーの種類](https://github.com/naonao71/note/blob/main/AZ-104/mod01-02-user.md)
 
-[サブスクリプション](https://github.com/naonao71/note/blob/main/AZ-104/mod02-01-subscription.md)
 ## 1.2. モジュール 02 – ガバナンスとコンプライアンスを管理する
 
 [Azure でのデータ所在地](https://azure.microsoft.com/ja-jp/global-infrastructure/data-residency/)
@@ -152,6 +151,14 @@ Get-AzRoleDefinition 'user access administrator'
   - 新しいユーザー「az104-02-aaduser1」を作成します。
   - タスク2で作成したロールをこのユーザーに割り当てます。
   - 「az104-02-aaduser1」でサインインし、ロールのActionsで許可された操作が実行できることを確認します。
+**補足情報**
+-
+
+[サブスクリプション](https://github.com/naonao71/note/blob/main/AZ-104/mod02-01-subscription.md)
+
+[ポリシー](https://github.com/naonao71/note/blob/main/AZ-104/mod02-02-policy.md)
+
+[RBAC](https://github.com/naonao71/note/blob/main/AZ-104/mod02-03-rbac.md)
 
 ## 1.3. モジュール 03 – Azure リソースを管理する
 
@@ -222,6 +229,18 @@ Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
 	- ディスクを更新しています
   - クリーンアップ
     - ラボ3a/3b/3c/3dのリソースをすべて削除します
+
+**補足情報**
+-
+
+[Azure Resource Manager](https://github.com/naonao71/note/blob/main/AZ-104/mod03-01-arm.md)
+
+[Azure Portal](https://github.com/naonao71/note/blob/main/AZ-104/mod03-02-portal.md)
+
+[Azure PowerShell](https://github.com/naonao71/note/blob/main/AZ-104/mod03-03-psh-cli.md)
+
+[ARMテンプレート](https://github.com/naonao71/note/blob/main/AZ-104/mod03-04-template.md)
+
 ## 1.4. モジュール 04 – 仮想ネットワークを管理する
 
 - サブネットを作成すると各サブネットには5つの予約されたアドレス作成されます。
@@ -285,6 +304,18 @@ $vnet | Set-AzVirtualNetwork
 	- Cloud Shellを使用して、nslookupを実行し、vm0とvm1のパブリックIPアドレスに解決されることを確認します。
 	- 解決するFQDNのドメイン名は、実際に取得したものではないため、インターネットのDNSを使用した名前解決はできません。したがって、ここでは、nslookupの第2引数で、パブリックのDNSゾーンの「ネームサーバー」のいずれかを指定して、そのネームサーバーで名前解決をするようにnslookupに指示する必要があります。
 
+**補足情報**
+-
+
+[仮想ネットワーク コンポーネント](https://github.com/naonao71/note/blob/main/AZ-104/mod04-01-vnet.md)
+
+[IPアドレス](https://github.com/naonao71/note/blob/main/AZ-104/mod04-02-ip.md)
+
+[ネットワークセキュリティグループ（NSG）](https://github.com/naonao71/note/blob/main/AZ-104/mod04-03-nsg.md)
+
+[Azure Firewall](https://github.com/naonao71/note/blob/main/AZ-104/mod04-04-firewall.md)
+
+[Azure DNS](https://github.com/naonao71/note/blob/main/AZ-104/mod04-05-dns.md)
 ## 1.5. モジュール 05 – サイト間の接続性を管理する
 
 [仮想ネットワーク ピアリングの作成、変更、削除](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-manage-peering)
@@ -326,6 +357,13 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 - 備考
   - vm1とvm2の通信（推移的な接続）は不可能です。
 
+**補足情報**
+-
+
+[VNetピアリング](https://github.com/naonao71/note/blob/main/AZ-104/mod05-01-peering.md)
+
+[Azure ExpressRoute](https://github.com/naonao71/note/blob/main/AZ-104/mod05-03-expressroute.md)
+
 ## 1.6. モジュール 06 – ネットワーク トラフィック管理を管理する
 
 [仮想ネットワーク トラフィックのルーティング](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-networks-udr-overview)
@@ -343,6 +381,15 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 [Azure Application Gateway のセッション アフィニティに関する問題をトラブルシューティングする](https://docs.microsoft.com/ja-jp/azure/application-gateway/how-to-troubleshoot-application-gateway-session-affinity-issues)
 
 [Application Gateway の価格](https://azure.microsoft.com/ja-jp/pricing/details/application-gateway/)
+
+**補足情報**
+-
+
+[ルーティング](https://github.com/naonao71/note/blob/main/AZ-104/mod06-01-routing.md)
+
+[Azure Load Balancer](https://github.com/naonao71/note/blob/main/AZ-104/mod06-02-lb.md)
+
+[Application Gateway](https://github.com/naonao71/note/blob/main/AZ-104/mod06-03-appgw.md)
 
 ## 1.7. モジュール 07 – Azure Storage を管理する
 
@@ -366,6 +413,18 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [AzCopy と Azure Active Directory (Azure AD) を使用して BLOB へのアクセスを承認する](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-use-azcopy-authorize-azure-active-directory)
 
+**補足情報**
+-
+
+[Azure Blob Storage](https://github.com/naonao71/note/blob/main/AZ-104/mod07-02-blob.md)
+
+[Azure Files](https://github.com/naonao71/note/blob/main/AZ-104/mod07-03-files.md)
+
+[Azure File Sync](https://github.com/naonao71/note/blob/main/AZ-104/mod07-04-filesync.md)
+
+[ストレージのセキュリティ](https://github.com/naonao71/note/blob/main/AZ-104/mod07-05-security.md)
+
+[ストレージの管理ツール](https://github.com/naonao71/note/blob/main/AZ-104/mod07-06-admin.md)
 ## 1.8. モジュール 08 – Azure Virtual Machines を管理する
 
 [仮想マシン の SLA](https://azure.microsoft.com/ja-jp/support/legal/sla/virtual-machines/v1_9/)
