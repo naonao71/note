@@ -4,7 +4,7 @@
 
 [AZ-104 ラボコンテンツ](https://microsoftlearning.github.io/AZ-104JA-MicrosoftAzureAdministrator/)
 
-- ラボファイルをローカルにダウンロードする
+[AZ-104 ラボコンテンツ（翻訳修正版）](https://github.com/naonao71/AZ-104JA-MicrosoftAzureAdministrator/tree/master/Instructions/Labs)
 
 [Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
