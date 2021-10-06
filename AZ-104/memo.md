@@ -119,11 +119,12 @@
 [Azure ロール](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/rbac-and-directory-admin-roles#azure-roles)
 
 **AD Role の確認方法**
---- powershell
+
+``` powershell
 Get-AzRoleDefinition 'Owner'
 Get-AzRoleDefinition contributor
 Get-AzRoleDefinition 'user access administrator'
----
+```
 
 [Azure RBAC のベスト プラクティスAzure RBAC のベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/best-practices)
 
