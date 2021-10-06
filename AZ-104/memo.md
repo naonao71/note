@@ -212,7 +212,66 @@ Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
 	- ディスクを更新しています
   - クリーンアップ
     - ラボ3a/3b/3c/3dのリソースをすべて削除します
+## モジュール 04 – 仮想ネットワークを管理する
+
+- サブネットを作成すると各サブネットには5つの予約されたアドレス作成されます。
+  - x.x.x.0: ネットワーク アドレス
+  - x.x.x.1: Azure によってデフォルト ゲートウェイ用に予約されています
+  - x.x.x.2, x.x.x.3: Azure によって予約され、Azure DNS IP アドレスを VNet 空間にマップします
+  - x.x.x.255: ネットワーク ブロードキャスト アドレス
+
+[仮想マシンにプライベートIPアドレスを静的に登録する](https://docs.microsoft.com/ja-jp/azure/virtual-network/ip-services/virtual-networks-static-private-ip-arm-ps)
 
 
+**コマンドを使用した仮想ネットワーク作成デモ**
 
+``` powershell
+$rgName='az104-lab4'
+$location='eastus'
+New-AzResourceGroup -Name $rgname -Location $location
+New-AzVirtualNetwork -Name 'vnet-lab4' -ResourceGroupName $rgName -Location $location -AddressPrefix '10.10.0.0/16'
+$vnet=Get-AzVirtualNetwork -Name vnet-lab4
+Add-AzVirtualNetworkSubnetConfig -Name 'lab4-subnet1' -AddressPrefix '10.10.1.0/24' -VirtualNetwork $vnet
+$vnet | Set-AzVirtualNetwork
+```
+
+[ネットワーク セキュリティ グループ](https://docs.microsoft.com/ja-jp/azure/virtual-network/network-security-groups-overview)
+
+[仮想ネットワーク サービス タグ](https://docs.microsoft.com/ja-jp/azure/virtual-network/service-tags-overview)
+
+[Azure プライベート DNS](https://docs.microsoft.com/ja-jp/azure/dns/private-dns-overview)
+
+[仮想ネットワーク リンク](https://docs.microsoft.com/ja-jp/azure/dns/private-dns-virtual-network-links)
+
+**ラボ内容**
+
+- VNetの基礎（タスク1～4）
+  - タスク1
+    - VNetを作成します。同時に1つ目のサブネットも作られます。
+    - 2つ目のサブネットをVNetに追加します。
+  - タスク2
+    - テンプレートを使用して、VNetに2つのVMをデプロイします。
+  - タスク3
+    - それぞれのVMのNICのIP構成で、以下を実施します。
+    	- プライベートIPアドレスの割り当てを「静的」に変更し、IPアドレスを固定します。
+    	- 新しいStandardのパブリックIPアドレスを作成して割り当てます。
+  - タスク4
+    - NSGがない場合、StandardのパブリックIPアドレスを使用したリモートデスクチップ（RDP）接続が失敗することを確認します。
+    - 新しいNSGを作成し、受信セキュリティ規則で、RDP接続を許可します。
+    - 2つのNICにNSGを関連付けします。
+    - RDP接続が成功します。（このRDP接続はタスク5で使用します）
+- Azure DNS プライベートDNSゾーン（タスク5）
+  - タスク5
+	- Azure DNSのプライベートDNSゾーン「contoso.org」を作成します。「自動登録」を有効化します。
+	- タスク1で作成したVNetとゾーンをリンクします。
+	- タスク2で作成した2つのVMが「az104-04-vm0.contoso.org」「az104-04-vm1.contoso.org」としてゾーンに自動登録されることを確認します。
+	- vm0上で「nslookup az104-04-vm1.contoso.org」を実行し、vm1のプライベートIPアドレスに解決されることを確認します。
+- Azure DNS パブリックDNSゾーン（タスク6）
+  - タスク6
+	- Godaddy（ドメインレジストラの一種。なお、App Serviceのカスタムドメイン購入でも内部的にGodaddyが使用されます）を使用して、インターネットでまだ使われていないドメインを検索します。
+	- このドメインを購入した、という想定で、続く作業を進めます。
+	- パブリックのDNSゾーンを作成します。
+	- vm0とvm1の名前とパブリックIPアドレスをそれぞれゾーンのAレコードとして設定します。
+	- Cloud Shellを使用して、nslookupを実行し、vm0とvm1のパブリックIPアドレスに解決されることを確認します。
+	- 解決するFQDNのドメイン名は、実際に取得したものではないため、インターネットのDNSを使用した名前解決はできません。したがって、ここでは、nslookupの第2引数で、パブリックのDNSゾーンの「ネームサーバー」のいずれかを指定して、そのネームサーバーで名前解決をするようにnslookupに指示する必要があります。
 
