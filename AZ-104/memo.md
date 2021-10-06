@@ -143,8 +143,29 @@ Get-AzRoleDefinition 'user access administrator'
   - タスク2で作成したロールをこのユーザーに割り当てます。
   - 「az104-02-aaduser1」でサインインし、ロールのActionsで許可された操作が実行できることを確認します。
 
+## モジュール 03 – Azure リソースを管理する
 
+[ARM テンプレートとは](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/templates/overview)
 
+[Azure サービスのリソース プロバイダー](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-services-resource-providers)
 
+[Azure サブスクリプションとサービスの制限、クォータ、制約](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits?toc=%2Fazure%2Fnetworking%2Ftoc.json)
 
+**コマンドを使用したリソースロックデモ**
+
+''' powershell
+New-AzResourceGroup -Name az104-lab3 -Location eastus
+Get-AzResourceGroup -Name az-104*
+
+New-AzResourceLock -LockName LockGroup -LockLevel CanNotDelete -ResourceGroupName az104-lab3 -Force
+
+Get-AzResourceLock
+
+Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
+
+$lockId = (Get-AzResourceLock -ResourceGroupName az104-lab3).LockId
+Remove-AzResourceLock -LockId $lockId -Force
+
+Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
+'''
 
