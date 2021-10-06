@@ -471,9 +471,23 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [Azure Automation State Configuration の概要](https://docs.microsoft.com/ja-jp/azure/automation/automation-dsc-overview)
 
+**補足情報**
+-
+
+[Azure Virtual Machines (VM)](https://github.com/naonao71/note/blob/main/AZ-104/mod08-01-vm.md)
+
+[VMSS](https://github.com/naonao71/note/blob/main/AZ-104/mod08-02-vmss.md)
+
 ## 1.9. モジュール 09 - PaaS Compute オプションを管理する
 
 [Docker Hub](https://hub.docker.com/)
+
+**補足情報**
+-
+
+[Azure Container Instances](https://github.com/naonao71/note/blob/main/AZ-104/mod09-02-container.md)
+
+[Azure Kubernetes Service (AKS)](https://github.com/naonao71/note/blob/main/AZ-104/mod09-03-aks.md)
 
 ## 1.10. モジュール 10 – データ保護を管理する
 
@@ -488,6 +502,15 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 [Azure portal で Azure VM データを復元する方法](https://docs.microsoft.com/ja-jp/azure/backup/backup-azure-arm-restore-vms)
 
 [Azure 仮想マシンのバックアップからファイルを回復する](https://docs.microsoft.com/ja-jp/azure/backup/backup-azure-restore-files-from-vm)
+
+**補足情報**
+-
+
+[ストレージアカウントのデータ保護](https://github.com/naonao71/note/blob/main/AZ-104/mod10-01-backup.md)
+
+[Recovery Servicesコンテナー](https://github.com/naonao71/note/blob/main/AZ-104/mod10-02-rsvault.md)
+
+[Azure Site Recovery](https://github.com/naonao71/note/blob/main/AZ-104/mod10-03-asr.md)
 
 ## 1.11. モジュール 11 - 監視を管理する
 
@@ -505,4 +528,7 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [IT Service Management Connector 概要](https://docs.microsoft.com/ja-jp/azure/azure-monitor/alerts/itsmc-overview)
 
+**補足情報**
+-
 
+[Azure Monitor](https://github.com/naonao71/note/blob/main/AZ-104/mod11-01-azure-monitor.md)
