@@ -402,4 +402,38 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [Azure Automation State Configuration の概要](https://docs.microsoft.com/ja-jp/azure/automation/automation-dsc-overview)
 
+## モジュール 09 - PaaS Compute オプションを管理する
+
+[Docker Hub](https://hub.docker.com/)
+
+## モジュール 10 – データ保護を管理する
+
+[Azure Backup のアーキテクチャとコンポーネント](https://docs.microsoft.com/ja-jp/azure/backup/backup-architecture)
+
+[Azure VM バックアップの概要](https://docs.microsoft.com/ja-jp/azure/backup/backup-azure-vms-introduction)
+
+[Azure Backup 用の VM スナップショットの Windows 拡張機能](https://docs.microsoft.com/ja-jp/azure/virtual-machines/extensions/vmsnapshot-windows)
+
+[Azure Backup のレポートを構成する](https://docs.microsoft.com/ja-jp/azure/backup/configure-reports)
+
+[Azure portal で Azure VM データを復元する方法](https://docs.microsoft.com/ja-jp/azure/backup/backup-azure-arm-restore-vms)
+
+[Azure 仮想マシンのバックアップからファイルを回復する](https://docs.microsoft.com/ja-jp/azure/backup/backup-azure-restore-files-from-vm)
+
+## モジュール 11 - 監視を管理する
+
+[Azure Monitor ログの概要](https://docs.microsoft.com/ja-jp/azure/azure-monitor/logs/data-platform-logs)
+
+[Azure プラットフォーム ログの概要](https://docs.microsoft.com/ja-jp/azure/azure-monitor/essentials/platform-logs-overview)
+
+[Azure アクティビティ ログ](https://docs.microsoft.com/ja-jp/azure/azure-monitor/essentials/activity-log)
+
+[クエリのベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/best-practices)
+
+[Azure Monitor を使用して仮想マシンを監視する](https://docs.microsoft.com/ja-jp/azure/azure-monitor//vm/monitor-virtual-machine)
+
+[アクション ルール](https://docs.microsoft.com/ja-jp/azure/azure-monitor/alerts/alerts-action-rules?tabs=portal)
+
+[IT Service Management Connector 概要](https://docs.microsoft.com/ja-jp/azure/azure-monitor/alerts/itsmc-overview)
+
 
