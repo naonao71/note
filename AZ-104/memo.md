@@ -1,4 +1,4 @@
-# **AZ-104**
+# 1. **AZ-104**
 
 **リンク一覧およびメモ**
 
@@ -41,20 +41,22 @@
 ***
 **コンテンツ**
 
-# AZ-104
-- [モジュール 01 - ID を管理する]
-- [モジュール 02 – ガバナンスとコンプライアンスを管理する]
-- [モジュール 03 – Azure リソースを管理する]
-- [モジュール 04 – 仮想ネットワークを管理する]
-- [モジュール 05 – サイト間の接続性を管理する]
-- [モジュール 06 – ネットワーク トラフィック管理を管理する]
-- [モジュール 07 – Azure Storage を管理する]
-- [モジュール 08 – Azure Virtual Machines を管理する]
-- [モジュール 09 - PaaS Compute オプションを管理する]
-- [モジュール 10 – データ保護を管理する]
-- [モジュール 11 - 監視を管理する]
+AZ-104
 
-## モジュール 01 - ID を管理する
+- [1. **AZ-104**](#1-az-104)
+  - [1.1. モジュール 01 - ID を管理する](#11-モジュール-01---id-を管理する)
+  - [1.2. モジュール 02 – ガバナンスとコンプライアンスを管理する](#12-モジュール-02--ガバナンスとコンプライアンスを管理する)
+  - [1.3. モジュール 03 – Azure リソースを管理する](#13-モジュール-03--azure-リソースを管理する)
+  - [1.4. モジュール 04 – 仮想ネットワークを管理する](#14-モジュール-04--仮想ネットワークを管理する)
+  - [1.5. モジュール 05 – サイト間の接続性を管理する](#15-モジュール-05--サイト間の接続性を管理する)
+  - [1.6. モジュール 06 – ネットワーク トラフィック管理を管理する](#16-モジュール-06--ネットワーク-トラフィック管理を管理する)
+  - [1.7. モジュール 07 – Azure Storage を管理する](#17-モジュール-07--azure-storage-を管理する)
+  - [1.8. モジュール 08 – Azure Virtual Machines を管理する](#18-モジュール-08--azure-virtual-machines-を管理する)
+  - [1.9. モジュール 09 - PaaS Compute オプションを管理する](#19-モジュール-09---paas-compute-オプションを管理する)
+  - [1.10. モジュール 10 – データ保護を管理する](#110-モジュール-10--データ保護を管理する)
+  - [1.11. モジュール 11 - 監視を管理する](#111-モジュール-11---監視を管理する)
+
+## 1.1. モジュール 01 - ID を管理する
 
 [Azure Active Directory の価格](https://azure.microsoft.com/ja-jp/pricing/details/active-directory/)
 
@@ -98,7 +100,15 @@
   - このラボで作成したユーザー、グループ、テナントなどを削除します。
   - Azure Active Directoryを削除する際は、自分が規定のディレクトリにいないと削除できない
 
-## モジュール 02 – ガバナンスとコンプライアンスを管理する
+**補足情報**
+-
+
+[Azure Active Directory](https://github.com/naonao71/note/blob/main/AZ-104/mod01-01-aad.md)
+
+[ユーザーの種類](https://github.com/naonao71/note/blob/main/AZ-104/mod01-02-user.md)
+
+[サブスクリプション](https://github.com/naonao71/note/blob/main/AZ-104/mod02-01-subscription.md)
+## 1.2. モジュール 02 – ガバナンスとコンプライアンスを管理する
 
 [Azure でのデータ所在地](https://azure.microsoft.com/ja-jp/global-infrastructure/data-residency/)
 
@@ -143,7 +153,7 @@ Get-AzRoleDefinition 'user access administrator'
   - タスク2で作成したロールをこのユーザーに割り当てます。
   - 「az104-02-aaduser1」でサインインし、ロールのActionsで許可された操作が実行できることを確認します。
 
-## モジュール 03 – Azure リソースを管理する
+## 1.3. モジュール 03 – Azure リソースを管理する
 
 [ARM テンプレートとは](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/templates/overview)
 
@@ -212,7 +222,7 @@ Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
 	- ディスクを更新しています
   - クリーンアップ
     - ラボ3a/3b/3c/3dのリソースをすべて削除します
-## モジュール 04 – 仮想ネットワークを管理する
+## 1.4. モジュール 04 – 仮想ネットワークを管理する
 
 - サブネットを作成すると各サブネットには5つの予約されたアドレス作成されます。
   - x.x.x.0: ネットワーク アドレス
@@ -275,7 +285,7 @@ $vnet | Set-AzVirtualNetwork
 	- Cloud Shellを使用して、nslookupを実行し、vm0とvm1のパブリックIPアドレスに解決されることを確認します。
 	- 解決するFQDNのドメイン名は、実際に取得したものではないため、インターネットのDNSを使用した名前解決はできません。したがって、ここでは、nslookupの第2引数で、パブリックのDNSゾーンの「ネームサーバー」のいずれかを指定して、そのネームサーバーで名前解決をするようにnslookupに指示する必要があります。
 
-## モジュール 05 – サイト間の接続性を管理する
+## 1.5. モジュール 05 – サイト間の接続性を管理する
 
 [仮想ネットワーク ピアリングの作成、変更、削除](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-manage-peering)
 
@@ -316,7 +326,7 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 - 備考
   - vm1とvm2の通信（推移的な接続）は不可能です。
 
-## モジュール 06 – ネットワーク トラフィック管理を管理する
+## 1.6. モジュール 06 – ネットワーク トラフィック管理を管理する
 
 [仮想ネットワーク トラフィックのルーティング](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-networks-udr-overview)
 
@@ -334,7 +344,7 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [Application Gateway の価格](https://azure.microsoft.com/ja-jp/pricing/details/application-gateway/)
 
-## モジュール 07 – Azure Storage を管理する
+## 1.7. モジュール 07 – Azure Storage を管理する
 
 [ストレージ アカウントの概要](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview)
 
@@ -356,7 +366,7 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [AzCopy と Azure Active Directory (Azure AD) を使用して BLOB へのアクセスを承認する](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-use-azcopy-authorize-azure-active-directory)
 
-## モジュール 08 – Azure Virtual Machines を管理する
+## 1.8. モジュール 08 – Azure Virtual Machines を管理する
 
 [仮想マシン の SLA](https://azure.microsoft.com/ja-jp/support/legal/sla/virtual-machines/v1_9/)
 
@@ -402,11 +412,11 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [Azure Automation State Configuration の概要](https://docs.microsoft.com/ja-jp/azure/automation/automation-dsc-overview)
 
-## モジュール 09 - PaaS Compute オプションを管理する
+## 1.9. モジュール 09 - PaaS Compute オプションを管理する
 
 [Docker Hub](https://hub.docker.com/)
 
-## モジュール 10 – データ保護を管理する
+## 1.10. モジュール 10 – データ保護を管理する
 
 [Azure Backup のアーキテクチャとコンポーネント](https://docs.microsoft.com/ja-jp/azure/backup/backup-architecture)
 
@@ -420,7 +430,7 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [Azure 仮想マシンのバックアップからファイルを回復する](https://docs.microsoft.com/ja-jp/azure/backup/backup-azure-restore-files-from-vm)
 
-## モジュール 11 - 監視を管理する
+## 1.11. モジュール 11 - 監視を管理する
 
 [Azure Monitor ログの概要](https://docs.microsoft.com/ja-jp/azure/azure-monitor/logs/data-platform-logs)
 
