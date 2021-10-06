@@ -356,3 +356,50 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [AzCopy と Azure Active Directory (Azure AD) を使用して BLOB へのアクセスを承認する](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-use-azcopy-authorize-azure-active-directory)
 
+## モジュール 08 – Azure Virtual Machines を管理する
+
+[仮想マシン の SLA](https://azure.microsoft.com/ja-jp/support/legal/sla/virtual-machines/v1_9/)
+
+障害シナリオとしては、以下の3つがあります。
+- 計画外のHWメンテナンス
+- 予期しないダウンタイム
+- 計画メンテナンス
+です。
+
+[可用性セットの概要](https://docs.microsoft.com/ja-jp/azure/virtual-machines/availability-set-overview)
+
+試験対策：
+可用性セットは同じリージョン内に作成される
+障害ドメインの最大は3
+更新ドメインの最大は20
+
+仮想マシンが14台あり、可用性セットを構築した。この際、更新ドメイン、障害ドメインにおける最大の仮想マシンダウン数は？
+
+| |障害ドメイン1（ラック）|障害ドメイン2（ラック）|更新ドメイン|
+|:----|:----|:----|:----|
+|仮想マシン1|〇| |更新ドメイン1|
+|仮想マシン2| |〇|更新ドメイン2|
+|仮想マシン3|〇| |更新ドメイン3|
+|仮想マシン4| |〇|更新ドメイン4|
+|仮想マシン5|〇| |更新ドメイン5|
+|仮想マシン6| |〇|更新ドメイン6|
+|仮想マシン7|〇| |更新ドメイン7|
+|仮想マシン8| |〇|更新ドメイン8|
+|仮想マシン9|〇| |更新ドメイン9|
+|仮想マシン10| |〇|更新ドメイン10|
+|仮想マシン11|〇| |更新ドメイン1|
+|仮想マシン12| |〇|更新ドメイン2|
+|仮想マシン13|〇| |更新ドメイン3|
+|仮想マシン14| |〇|更新ドメイン4|
+
+[仮想マシン スケール セットとは](https://docs.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/overview?context=/azure/virtual-machines/context/context)
+
+[最新のスケール セット モデルで VM を最新の状態にする方法](https://docs.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-upgrade-scale-set#how-to-bring-vms-up-to-date-with-the-latest-scale-set-model)
+
+[Azure 仮想マシン スケール セットによる OS イメージの自動アップグレード](https://docs.microsoft.com/ja-jp/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade)
+
+[Windows でのカスタムのスクリプト拡張機能](https://docs.microsoft.com/ja-jp/azure/virtual-machines/extensions/custom-script-windows)
+
+[Azure Automation State Configuration の概要](https://docs.microsoft.com/ja-jp/azure/automation/automation-dsc-overview)
+
+
