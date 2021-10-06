@@ -153,19 +153,16 @@ Get-AzRoleDefinition 'user access administrator'
 
 **コマンドを使用したリソースロックデモ**
 
-''' powershell
+``` powershell
 New-AzResourceGroup -Name az104-lab3 -Location eastus
 Get-AzResourceGroup -Name az-104*
-
 New-AzResourceLock -LockName LockGroup -LockLevel CanNotDelete -ResourceGroupName az104-lab3 -Force
-
 Get-AzResourceLock
-
 Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
-
 $lockId = (Get-AzResourceLock -ResourceGroupName az104-lab3).LockId
 Remove-AzResourceLock -LockId $lockId -Force
-
 Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
-'''
+```
+
+
 
