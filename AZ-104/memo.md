@@ -98,11 +98,49 @@
   - このラボで作成したユーザー、グループ、テナントなどを削除します。
   - Azure Active Directoryを削除する際は、自分が規定のディレクトリにいないと削除できない
 
+## モジュール 02 – ガバナンスとコンプライアンスを管理する
 
+[Azure でのデータ所在地](https://azure.microsoft.com/ja-jp/global-infrastructure/data-residency/)
 
+[リージョン別の利用可能な製品](https://azure.microsoft.com/ja-jp/global-infrastructure/services/?regions=japan-east,japan-west,non-regional&products=all)
 
+[Azureが提供しているサービス一覧](https://docs.microsoft.com/ja-jp/azure/?product=all)
 
+[Microsoft Azure プランの詳細](https://azure.microsoft.com/ja-jp/support/legal/offer-details/)
 
+[Azure Cost Management および Billing のドキュメント](https://docs.microsoft.com/ja-jp/azure/cost-management-billing/)
+
+[Azure Advisor を使用してサービス コストを削減する](https://docs.microsoft.com/ja-jp/azure/advisor/advisor-cost-recommendations)
+
+[Azure リソースのコンプライアンス データを取得する](https://docs.microsoft.com/ja-jp/azure/governance/policy/how-to/get-compliance-data)
+
+[Azure AD の組み込みロール](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/permissions-reference)
+
+[Azure ロール](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/rbac-and-directory-admin-roles#azure-roles)
+
+**AD Role の確認方法**
+--- powershell
+Get-AzRoleDefinition 'Owner'
+Get-AzRoleDefinition contributor
+Get-AzRoleDefinition 'user access administrator'
+---
+
+[Azure RBAC のベスト プラクティスAzure RBAC のベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/best-practices)
+
+**ラボ内容**
+
+- タスク1
+  - 新しい管理グループを作成し、管理グループの下にサブスクリプションを移動（追加）します。これによって、サブスクリプションの管理を、管理グループ単位で実行することができるようになります。
+  - このラボでは、1つのサブスクリプションだけを扱っているのであまり管理グループの必要性はありません。実際の業務での利用例としては、複数のサブスクリプションを1つの管理グループにまとめて、管理グループ単位でロール割り当てやポリシー割り当てを行う形となります。
+- タスク2
+  - Azureにはたくさんの組み込みのRBACロールがありますが、それらのロールに適切な権限セットのものがない場合、「カスタムRBACロール」を作成して、利用することができます。
+  - ここでは「Support Request Contributor (Custom)」というカスタムRBACロールを定義します。
+  - このロール定義内の「Actions」で、リソースグループの情報の読み取りと、Azureサポートの全機能が利用できる、というアクションを指定しています。
+  - ロール定義内の「AssignableScopes」では、このロールを割り当てすることができるスコープ（管理グループやサブスクリプション）を指定します。
+- タスク3
+  - 新しいユーザー「az104-02-aaduser1」を作成します。
+  - タスク2で作成したロールをこのユーザーに割り当てます。
+  - 「az104-02-aaduser1」でサインインし、ロールのActionsで許可された操作が実行できることを確認します。
 
 
 
