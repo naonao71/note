@@ -275,3 +275,54 @@ $vnet | Set-AzVirtualNetwork
 	- Cloud Shellを使用して、nslookupを実行し、vm0とvm1のパブリックIPアドレスに解決されることを確認します。
 	- 解決するFQDNのドメイン名は、実際に取得したものではないため、インターネットのDNSを使用した名前解決はできません。したがって、ここでは、nslookupの第2引数で、パブリックのDNSゾーンの「ネームサーバー」のいずれかを指定して、そのネームサーバーで名前解決をするようにnslookupに指示する必要があります。
 
+## モジュール 05 – サイト間の接続性を管理する
+
+[仮想ネットワーク ピアリングの作成、変更、削除](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-manage-peering)
+
+[ポリシー ベース VPN の Azure のサポート](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps#azure-support-for-policy-based-vpn)
+
+[ポイント対サイト VPN について](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/point-to-site-about)
+
+[VPN Gateway の価格](https://azure.microsoft.com/ja-jp/pricing/details/vpn-gateway/)
+
+[VPN デバイスについて](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-about-vpn-devices)
+
+[高可用性接続について](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-highlyavailable)
+
+[ExpressRoute のドキュメント](https://docs.microsoft.com/ja-jp/azure/expressroute/)
+
+[ExpressRoute Global Reach](https://docs.microsoft.com/ja-jp/azure/expressroute/expressroute-global-reach)
+
+[Virtual WAN の FAQ](https://docs.microsoft.com/ja-jp/azure/virtual-wan/virtual-wan-faq)
+
+[Virtual WAN の制限](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-subscription-service-limits#virtual-wan-limits)
+
+**ラボ内容**
+
+vnet1(米国東部): vm1(10.51.0.4)
+↓↑ローカル ピアリング 
+vnet0(米国東部): vm0(10.50.0.4)
+↓↑グローバル ピアリング 
+vnet2(米国西部): vm2(10.52.0.4)
+
+- タスク1
+  - VNetとVMをデプロイします
+- タスク2
+  - vnet0とvnet1のローカルピアリングを構成します
+  - vnet0とvnet2のグローバルピアリングを構成します
+- タスク3
+  - vm0からvm1への接続（ローカルピアリング経由）が成功することを確認します。
+  - vm0からvm2への接続（グローバルピアリング経由）が成功することを確認します。
+- 備考
+  - vm1とvm2の通信（推移的な接続）は不可能です。
+
+
+
+
+
+
+
+
+
+
+
