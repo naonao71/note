@@ -151,6 +151,7 @@ Get-AzRoleDefinition 'user access administrator'
   - 新しいユーザー「az104-02-aaduser1」を作成します。
   - タスク2で作成したロールをこのユーザーに割り当てます。
   - 「az104-02-aaduser1」でサインインし、ロールのActionsで許可された操作が実行できることを確認します。
+
 **補足情報**
 -
 
