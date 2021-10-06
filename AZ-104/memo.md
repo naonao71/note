@@ -316,13 +316,43 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 - 備考
   - vm1とvm2の通信（推移的な接続）は不可能です。
 
+## モジュール 06 – ネットワーク トラフィック管理を管理する
 
+[仮想ネットワーク トラフィックのルーティング](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-networks-udr-overview)
 
+[仮想ネットワーク サービス エンドポイント](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview)
 
+[Azure 負荷分散を理解する](https://docs.microsoft.com/ja-jp/azure/architecture/guide/technology-choices/load-balancing-overview)
 
+[Azure Load Balancer の SKU](https://docs.microsoft.com/ja-jp/azure/load-balancer/skus)
 
+[リージョン間ロード バランサー (プレビュー)](https://docs.microsoft.com/ja-jp/azure/load-balancer/cross-region-overview)
 
+[Load Balancer と Application Gateway の通信の違い](https://docs.microsoft.com/ja-jp/archive/blogs/jpaztech/lb_appgw_traffic_different)
 
+[Azure Application Gateway のセッション アフィニティに関する問題をトラブルシューティングする](https://docs.microsoft.com/ja-jp/azure/application-gateway/how-to-troubleshoot-application-gateway-session-affinity-issues)
 
+[Application Gateway の価格](https://azure.microsoft.com/ja-jp/pricing/details/application-gateway/)
 
+## モジュール 07 – Azure Storage を管理する
+
+[ストレージ アカウントの概要](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview)
+
+[Azure ストレージ アカウントを別のリージョンに移動する](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-move?tabs=azure-portal)
+
+[冗長構成の変更](https://docs.microsoft.com/ja-jp/azure/storage/common/redundancy-migration?tabs=portal)
+
+[Azure Blob Storage の価格](https://azure.microsoft.com/ja-jp/pricing/details/storage/blobs/)
+
+[ブロック BLOB、追加 BLOB、およびページ BLOB について](https://docs.microsoft.com/ja-jp/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs)
+
+[Azure ファイル共有に対する AD DS 認証を有効にする](https://docs.microsoft.com/ja-jp/azure/storage/files/storage-files-identity-ad-ds-enable?WT.mc_id=Portal-Microsoft_Azure_FileStorage)
+
+[Azure Files に対する Azure Active Directory Domain Services 認証を有効にする](https://docs.microsoft.com/ja-jp/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable?tabs=azure-portal)
+
+[AzCopy を使ってみる](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-use-azcopy-v10)
+
+[AzCopy を使用して Azure BLOB ストレージにファイルをアップロードする](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-use-azcopy-blobs-upload?toc=/azure/storage/blobs/toc.json)
+
+[AzCopy と Azure Active Directory (Azure AD) を使用して BLOB へのアクセスを承認する](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-use-azcopy-authorize-azure-active-directory)
 
