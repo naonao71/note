@@ -663,6 +663,12 @@ SQL Database のファイアウォールは、利用する接続を追記する�
 - ランダム化（Randomized）
   - 予測不可能な方法でデータを暗号化する方法を使用します。
 
+**クエリに関して**
+- Deterministicの場合は、当該列の等値比較のみ可能
+- Randomizedの場合は、当該列によるクエリ不可
+
+[Always Encrypted](https://docs.microsoft.com/ja-jp/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15#feature-details)
+
 [Always Encrypted のキー管理の概要](https://docs.microsoft.com/ja-jp/sql/relational-databases/security/encryption/overview-of-key-management-for-always-encrypted?view=sql-server-ver15)
 
 **ラボ情報**
