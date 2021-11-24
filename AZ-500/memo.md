@@ -494,7 +494,7 @@ Windows Server 2012 R2 以前は、Microsoft Defender AV は利用できませ�
 **EDRに関して**
 
 **Linux**</BR>
-Linux は AV と同じ MDE のモジュールの中で EDR 機能が担われています。
+Linux は AV と同じ MDE のモジュールの中で EDR 機能が含まれています。
 
 **Windows Server 2019 / 2022**</BR>
 OS組み込みのセンサーが使われます。Defender for Cloud からの自動オンボードの場合、このセンサーの有効化が自動的に行われます。
