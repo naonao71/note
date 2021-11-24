@@ -464,8 +464,8 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 **OS の種類ごとのアンチマルウェアと EDR のオプションに関して**
 
-| |Linux|Windows Server |Windows Server |Windows Server |Windows Server |Windows Server| |2022/2019|2016|2012 R2|2012|2008 R2|
-|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+| |Linux|Windows Server 2022/2019|Windows Server 2016|Windows Server 2012 R2|Windows Server 2012|Windows Server 2008 R2|
+|:----|:----|:----|:----|:----|:----|:----|
 |AV|MDEモジュール|Microsoft Defender AV|Microsoft Defender AV|Microsoft Antimalware|Microsoft Antimalware|Microsoft Antimalware|
 |AV|Microsoft Defender|OS 組み込みのため無料で利用可能|OS 組み込みのため無料で利用可能|Azure 上の無料サービス|Azure 上の無料サービス|Azure 上の無料サービス|
 | |for Cloud で利用可能|
@@ -473,6 +473,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 |EDR|MDEモジュール|OS組み込みのMDEセンサー|LogAnalyticsエージェント|LogAnalyticsエージェント|非対応|LogAnalyticsエージェント|
 |EDR|Microsoft Defender|Microsoft Defender|Microsoft Defender|Microsoft Defender|-|Microsoft Defender|
 | |for Cloud で利用可能|for Cloud で利用可能|for Cloud で利用可能|for Cloud で利用可能| |for Cloud で利用可能|
+
 
 製品としては以下が登場する。
 - Microsoft Defender for Cloud (Defender for Cloud)
