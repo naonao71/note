@@ -462,6 +462,53 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 
 [Microsoft Defender for Endpoint Plan 1 の概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/defender-endpoint-plan-1?view=o365-worldwide)
 
+**OS の種類ごとのアンチマルウェアと EDR のオプションに関して**
+
+| |Linux|Windows Server |Windows Server |Windows Server |Windows Server |Windows Server| |2022/2019|2016|2012 R2|2012|2008 R2|
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+|AV|MDEモジュール|Microsoft Defender AV|Microsoft Defender AV|Microsoft Antimalware|Microsoft Antimalware|Microsoft Antimalware|
+|AV|Microsoft Defender|OS 組み込みのため無料で利用可能|OS 組み込みのため無料で利用可能|Azure 上の無料サービス|Azure 上の無料サービス|Azure 上の無料サービス|
+| |for Cloud で利用可能|
+|EDR|MDE|MDE|MDE|MDE| |MDE|
+|EDR|MDEモジュール|OS組み込みのMDEセンサー|LogAnalyticsエージェント|LogAnalyticsエージェント|非対応|LogAnalyticsエージェント|
+|EDR|Microsoft Defender|Microsoft Defender|Microsoft Defender|Microsoft Defender|-|Microsoft Defender|
+| |for Cloud で利用可能|for Cloud で利用可能|for Cloud で利用可能|for Cloud で利用可能| |for Cloud で利用可能|
+
+製品としては以下が登場する。
+- Microsoft Defender for Cloud (Defender for Cloud)
+- Microsoft Defender for Endpoint (MDE)
+- Microsoft Defender AV
+- Microsoft Antimalware
+
+**マルウェアに関して**
+
+**Linux**
+Linux のアンチマルウェアは、MDE の中で EDR と合わせて提供されます。Defender for Cloud から MDE を自動オンボードする場合、AV 部分は最初無効化されています。そのため、[構成プロファイル](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/linux-preferences?view=o365-worldwide#recommended-configuration-profile)を変更するなどして有効化をしておく必要があります。
+
+**Windows Server 2016 / 2019 / 2022**
+Windows Server 2016 以降は、OS 組み込みの Microsoft Defender AV を利用することができます。アラートの管理には、MDE や Defender for Cloud を利用します。
+
+そのため基本的には Azure の拡張機能である Microsoft Antimalware を利用する必要はありませんが、スキャンのタイミングの設定などを Azure Portal から行いたい場合などは、Microsoft Antimalware 拡張機能を有効化することもできます。
+
+**Windows Server 2008 R2 / 2012 / 2012 R2**
+Windows Server 2012 R2 以前は、Microsoft Defender AV は利用できません。しかし、Azure 上の仮想マシンであれば、Microsoft Defender AV 相当のアンチマルウェア機能を、仮想マシン拡張機能として利用することができます。これが、Microsoft Antimalware です。無料ですぐに利用を開始でき、拡張機能として構成をしていくことも可能です。また、Microsoft Defender AV と同じく、アラートの管理には、MDE や Defender for Cloud を利用します。
+
+**EDRに関して**
+
+**Linux**
+Linux は AV と同じ MDE のモジュールの中で EDR 機能が担われています。
+
+**Windows Server 2019 / 2022**
+OS組み込みのセンサーが使われます。Defender for Cloud からの自動オンボードの場合、このセンサーの有効化が自動的に行われます。
+
+**Windows Server 2008 R2 / 2012 R2 / 2016**
+Log Analytics エージェントがセンサーの役割を果たします。そのため機能が限定されており、自動調査と対処などが利用できません。
+
+> 今後 Windows Server 2012 R2 と 2016 向けの[新しいモジュール](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/defending-windows-server-2012-r2-and-2016/ba-p/2783292) が提供される予定です。これにより、古いバージョンの Windows Server についてもより高度な保護を利用できるようになっていきます。この新しいモジュールのインストールなども今後 Defender for Cloud 側にも組み込まれていく予定です。
+
+**Windows Server 2012**
+MDE非対応
+
 ***
 ### 1.2.4. コンテナーセキュリティ
 
