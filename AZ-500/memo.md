@@ -469,11 +469,12 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 |AV|MDEモジュール|Microsoft Defender AV|Microsoft Defender AV|Microsoft Antimalware|Microsoft Antimalware|Microsoft Antimalware|
 |AV|Microsoft Defender for Cloud で利用可能|OS 組み込みのため無料で利用可能|OS 組み込みのため無料で利用可能|Azure 上の無料サービス|Azure 上の無料サービス|Azure 上の無料サービス|
 |EDR|MDE|MDE|MDE|MDE|非対応|MDE|
-|EDR|MDEモジュール|OS組み込みのMDEセンサー|LogAnalyticsエージェント|LogAnalyticsエージェント|非対応|LogAnalyticsエージェント|
+|EDR|MDEモジュール|OS組み込みのMDEセンサー|MMA|MMA|非対応|MMA|
 |EDR|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|非対応|Microsoft Defender for Cloud で利用可能|
 
 製品としては以下が登場する。
 - Microsoft Defender for Cloud (Defender for Cloud)
+- Microsoft Monitoring Agent (MMA) "旧 Log Analytics エージェント"
 - Microsoft Defender for Endpoint (MDE)
 - Microsoft Defender AV
 - Microsoft Antimalware
