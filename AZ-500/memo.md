@@ -589,6 +589,17 @@ MSAL(Microsoft Authentication Library：Microsoft 認証ライブラリ）を取
 
 [Azure リソースのマネージド ID と Azure 仮想マシンの連携](https://docs.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/how-managed-identities-work-vm)
 
+**サービスプリンシパルとマネージドIDの違い**
+
+| |サービスプリンシパル|マネージドID|
+|:----|:----|:----|
+|IDの管理|AAD|AAD|
+|登録・運用|複雑|容易|
+|オンプレミスアプリケーションまたはサービスのサポート|サポート|×|
+|ポイント|オンプレミスアプリケーションを使用するときに利用|Azure内でクローズする認証はこちらを利用|
+
+結論から言うと、Azure内で認証を使用する場合はマネージドIDを使用する。しかし、オンプレミスアプリケーションは未サポートなので、その場合はサービスプリンシパルを使用する。
+
 [JSON Web Tokens - jwt.io](https://jwt.io/)
 
 [Azure App Service に対する TLS 相互認証の構成](https://docs.microsoft.com/ja-jp/azure/app-service/app-service-web-configure-tls-mutual-auth)
