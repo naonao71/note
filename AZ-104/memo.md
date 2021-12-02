@@ -483,8 +483,36 @@ vnet2(米国西部): vm2(10.52.0.4)</BR>
 
 [Docker Hub](https://hub.docker.com/)
 
+[Azure Kubernetes Services (AKS) における Kubernetes の中心概念](https://docs.microsoft.com/ja-jp/azure/aks/concepts-clusters-workloads)
+
+**コントロールプレーン**
+
+|コンポーネント|説明|
+|:----|:----|
+|kube-apiserver|API サーバーは、基になる Kubernetes API が公開される方法となっています。 このコンポーネントは、kubectl や Kubernetes ダッシュボードなど、管理ツールに対する操作を提供します。|
+|etcd|お使いの Kubernetes クラスターと構成の状態を維持するために、高可用性を備えた etcd が Kubernetes 内のキー値ストアとなります。|
+|kube-scheduler|スケジューラでは、アプリケーションを作成またはスケーリングするときに、どのノードがワークロードを実行して開始できるかを判断します。|
+|kube-controller-manager|コントローラー マネージャーでは、ポッドのレプリケートやノード調整の処理などのアクションを実行する、より小規模な多数のコントローラーを監視します。|
+
+**ワーカーノード**
+
+|コンポーネント|説明|
+|:----|:----|
+|kubelet|コントロール プレーンからのオーケストレーション要求と、要求されたコンテナーの実行のスケジュール設定を処理する Kubernetes エージェントです。|
+|kube-proxy|各ノード上で仮想ネットワークを処理します。 プロキシはネットワーク トラフィックをルーティングして、サービスとポッドの IP アドレスを管理します。|
+|コンテナー ランタイム|コンテナー化されたアプリケーションが仮想ネットワークやストレージなどの追加リソースを実行して操作できるようにします。 Linux ノード プール用に Kubernetes バージョン 1.19 以降を使用する AKS クラスターでは、コンテナー ランタイムとして containerd が使用されます。 Windows ノード プール用の Kubernetes バージョン 1.20 以降では、コンテナー ランタイム用に containerd をプレビューとして使用できますが、既定のコンテナー ランタイムは引き続き Docker です。 ノード プール用に以前のバージョンの Kubernetes を使用する AKS クラスターでは、コンテナー ランタイムとして Docker が使用されます。|
+
+[Azure Kubernetes Service (AKS) でのアプリケーションに対するネットワークの概念](https://docs.microsoft.com/ja-jp/azure/aks/concepts-network)
+
+**Azure 仮想ネットワーク**
+
+AKS では、次の 2 つのネットワーク モデルのいずれかを使用するクラスターをデプロイできます。
+- Kubenet ネットワーク
+  - Kubenet ネットワークで構成すると、ノードではVNETのサブネットからIPアドレスを受け取り、ポッドではノードに割り当てられているサブネットとは論理的に異なるアドレス空間からIPアドレスを受け取ります。その後、ポッドではNATが構成され、トラフィックの送信元はノードのプライマリアドレスになります。
+- Azure Container Networking Interface (CNI) ネットワーク
+  - Azure CNIを使用すると、すべてのポッドでVNETのサブネットからIPアドレスを取得します。よって、ポッドには直接アクセス可能になります。この場合、ネットワーク空間全体で一意にする必要あります
+
 **補足情報**
--
 
 [Azure Container Instances](https://github.com/naonao71/note/blob/main/AZ-104/mod09-02-container.md)
 
