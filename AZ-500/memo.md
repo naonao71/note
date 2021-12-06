@@ -468,8 +468,8 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 |:----|:----|:----|:----|:----|:----|:----|
 |AVモジュール|MDEモジュール|Microsoft Defender AV|Microsoft Defender AV|Microsoft Antimalware|Microsoft Antimalware|Microsoft Antimalware|
 |AV提供方法|Microsoft Defender for Cloud で利用可能|OS 組み込みのため無料で利用可能|OS 組み込みのため無料で利用可能|Azure 上の無料サービス|Azure 上の無料サービス|Azure 上の無料サービス|
-|EDRサーバー|MDE|MDE|**MDE** *1|**MDE** *1|非対応|MDE|
-|EDRエージェント|MDEモジュール|OS組み込みのMDEセンサー|MMA|MMA|非対応|MMA|
+|EDRサーバー|MDE|MDE|MDE|MDE|非対応|MDE|
+|EDRエージェント|MDEモジュール|OS組み込みのMDEセンサー|**MMA** *1|**MMA** *1|非対応|MMA|
 |EDR連携|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|非対応|Microsoft Defender for Cloud で利用可能|
 
 > *1  新しいMDEモジュールが提供予定
