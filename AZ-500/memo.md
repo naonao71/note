@@ -182,6 +182,8 @@ Azure AD Connect を実行するためのこれら 3 つのアカウントに加
 
 [Azure AD Connect クラウド同期の前提条件](https://docs.microsoft.com/ja-jp/azure/active-directory/cloud-sync/how-to-prerequisites)
 
+[Azure AD Connect の通信要件](https://docs.microsoft.com/ja-jp/azure/active-directory/hybrid/reference-connect-ports)
+
 **認証オプション**
 - パスワードハッシュ同期
 - パススルー認証
