@@ -794,7 +794,7 @@ $ces += New-SqlColumnEncryptionSettings -ColumnName "dbo.Patients.SSN" -Encrypti
 $ces += New-SqlColumnEncryptionSettings -ColumnName "dbo.Patients.BirthDate" -EncryptionType "Randomized" -EncryptionKey "CEK1"
 Set-SqlColumnEncryption -InputObject $database -ColumnEncryptionSettings $ces -LogFileDirectory .
 ```
-すべてのコマンドが実行できたら、SQLデータベースの medical>Security>Always Encypted Kes>Column Master Keys に **CMK1** と、medical>Security>Always Encypted Kes>Column Encryption Keys に **CEK1** が作成されていることを確認する。
+すべてのコマンドが実行できたら、SQLデータベースの medical>Security>Always Encypted Keys>Column Master Keys に **CMK1** と、medical>Security>Always Encypted Keys>Column Encryption Keys に **CEK1** が作成されていることを確認する。
 
 ***
 ## 1.4. モジュール04
