@@ -732,21 +732,11 @@ SQL Database のファイアウォールは、利用する接続を追記する�
 
 [Always Encrypted のキー管理の概要](https://docs.microsoft.com/ja-jp/sql/relational-databases/security/encryption/overview-of-key-management-for-always-encrypted?view=sql-server-ver15)
 
-**ラボ情報**
-- PDT update suggestionsフォルダに入っている「az-500-10_azuredeploy.json」ファイルを使用する。
-
-***
-## 1.4. モジュール04
-
-### 1.4.1. Azure Monitor
-
-[Kusto の概要](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/concepts/)
-
-[Log Analytics Demo Site](https://aka.ms/lademo)
-
 ***
 
 **Lab10 の補足**
+
+- PDT update suggestionsフォルダに入っている「az-500-10_azuredeploy.json」ファイルを使用する。
 
 演習3 の タスク5(12-19)を PowerShell で行う方法
 
@@ -805,6 +795,15 @@ $ces += New-SqlColumnEncryptionSettings -ColumnName "dbo.Patients.BirthDate" -En
 Set-SqlColumnEncryption -InputObject $database -ColumnEncryptionSettings $ces -LogFileDirectory .
 ```
 すべてのコマンドが実行できたら、SQLデータベースの medical>Security>Always Encypted Kes>Column Master Keys に **CMK1** と、medical>Security>Always Encypted Kes>Column Encryption Keys に **CEK1** が作成されていることを確認する。
+
+***
+## 1.4. モジュール04
+
+### 1.4.1. Azure Monitor
+
+[Kusto の概要](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/concepts/)
+
+[Log Analytics Demo Site](https://aka.ms/lademo)
 
 ***
 ### 1.4.2. Azure Security Center
