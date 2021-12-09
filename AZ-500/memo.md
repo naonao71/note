@@ -745,6 +745,68 @@ SQL Database のファイアウォールは、利用する接続を追記する�
 [Log Analytics Demo Site](https://aka.ms/lademo)
 
 ***
+
+**Lab10 の補足**
+
+演習3 の タスク5(12-19)を PowerShell で行う方法
+
+**事前準備**
+
+- クラウドIDを作成する（admin@xxx.onmicrosoft.com）
+- 作成したクラウドIDにライセンス（P2ライセンス）を付与する
+- 作成したクラウドIDに「グローバル管理者」のロールを割り当てる
+- KeyVault のアクセスポリシーで作成したクラウドIDに対して、すべての権限を付与する
+- KeyVault のキーで「CMK1」を既定の設定で作成する（キー識別子をコピーしておく）
+- SQL Database のファイヤーウォール設定にて、ローカルコンピューターのIPを登録する
+
+**次のコマンドをローカルコンピューターの PowerShell から実行する**
+
+> PowerShell 7.x では SQL Server モジュールが正常に動作しない場合があるので、デフォルトでインストールされている PowerShell 5.x を使用する。もしくは、Windows ストアから Windows ターミナルをダウンロードして使用する。下記コマンドは Windows ターミナルにて動作確認済み。
+
+```powershell
+# 管理者として PowerShell を起動する。PowerShell モジュールをインストールする。
+
+Install-Module az
+Install-Module SqlServer
+
+# Azure を PowerShell で操作できるようにする。作成したクラウドIDを使用する。
+Import-Module Az
+Connect-AzAccount
+
+# Connect to your database (Azure SQL database).
+Import-Module "SqlServer"
+$serverName = "<servername>.database.windows.net"
+$databaseName = "medical"
+# customize the string to include current server name and username/password. This is the connection string you wwere told to record.
+# $connStr は 接続文字列の「ADO.NET」に記載されている情報と同じ
+$connStr = "Server=tcp:<server name>.database.windows.net,1433;Initial Catalog=medical;Persist Security Info=False;User ID=Student;Password=Pa55w.rd1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+$database = Get-SqlDatabase -ConnectionString $connStr
+
+# Create a SqlColumnMasterKeySettings object for your column master key --This URL can be found by editing the key and then current version
+# 下記コマンドがうまく動かないときは、New-SqlAzureKeyVaultColumnMasterKeySettings コマンドが有効か確認する。PowerShell のバージョンによってはこのコマンドが無効の可能性がある。Cloud Shell ではこのコマンドが無効であることは確認済み。KeyURL の情報は、事前に作成した「CMK1」の **キー識別子** となる。
+$cmkSettings = New-SqlAzureKeyVaultColumnMasterKeySettings -KeyURL "https://<key vault name>.vault.azure.net/keys/<plain text key name>/<key version>"
+
+# Create column master key metadata in the database.
+$cmkName = "CMK1"
+New-SqlColumnMasterKey -Name $cmkName -InputObject $database -ColumnMasterKeySettings $cmkSettings
+
+# Authenticate to Azure
+# ここで使用するアカウントは事前に作成した「クラウドID」を使用する。
+Add-SqlAzureAuthenticationContext -Interactive
+
+# Generate a column encryption key, encrypt it with the column master key and create column encryption key metadata in the database. 
+$cekName = "CEK1"
+New-SqlColumnEncryptionKey -Name $cekName -InputObject $database -ColumnMasterKey $cmkName
+
+# Encrypt the selected columns (or re-encrypt, if they are already encrypted using keys/encrypt types, different than the specified keys/types.
+$ces = @()
+$ces += New-SqlColumnEncryptionSettings -ColumnName "dbo.Patients.SSN" -EncryptionType "Deterministic" -EncryptionKey "CEK1"
+$ces += New-SqlColumnEncryptionSettings -ColumnName "dbo.Patients.BirthDate" -EncryptionType "Randomized" -EncryptionKey "CEK1"
+Set-SqlColumnEncryption -InputObject $database -ColumnEncryptionSettings $ces -LogFileDirectory .
+```
+すべてのコマンドが実行できたら、SQLデータベースの medical>Security>Always Encypted Kes>Column Master Keys に **CMK1** と、medical>Security>Always Encypted Kes>Column Encryption Keys に **CEK1** が作成されていることを確認する。
+
+***
 ### 1.4.2. Azure Security Center
 
 [MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
