@@ -738,7 +738,7 @@ SQL Database のファイアウォールは、利用する接続を追記する�
 
 - PDT update suggestionsフォルダに入っている「az-500-10_azuredeploy.json」ファイルを使用する。
 
-演習3 の タスク5(12-19)を PowerShell で行う方法
+**演習3 の タスク5(12-19)の Always Encrypted を PowerShell で行う方法**
 
 **事前準備**
 
