@@ -751,15 +751,15 @@ SQL Database のファイアウォールは、利用する接続を追記する�
 
 **次のコマンドをローカルコンピューターの PowerShell から実行する**
 
-> PowerShell 7.x では SQL Server モジュールが正常に動作しない場合があるので、デフォルトでインストールされている PowerShell 5.x を使用する。もしくは、Windows ストアから Windows ターミナルをダウンロードして使用する。下記コマンドは Windows ターミナルにて動作確認済み。
+> Cloud Shell や PowerShell 7.x では SQL Server モジュールが正常に動作しない場合（モジュールは存在しているが、タブキーで候補が出ない）があるので、デフォルトでインストールされている PowerShell 5.x を使用する。もしくは、Windows ストアから Windows ターミナルをダウンロードして使用する。下記コマンドは Windows ターミナルにて動作確認済み。
 
 ```powershell
-# 管理者として PowerShell を起動する。PowerShell モジュールをインストールする。
+# 管理者として PowerShell を起動する。必要に応じてPowerShell モジュールをインストールする。
 
 Install-Module az
 Install-Module SqlServer
 
-# Azure を PowerShell で操作できるようにする。作成したクラウドIDを使用する。
+# Azure を PowerShell で操作できるようにする。作成したクラウドIDを使用する。key VaultをPowerShellから作成する場合は必要になるが今回はGUIで作成するので厳密にはこの作業は必要なし。
 Import-Module Az
 Connect-AzAccount
 
