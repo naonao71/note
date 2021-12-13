@@ -41,20 +41,5 @@
 -  モジュール04
    -   [演習 1 - Kusto クエリ言語 (KQL) を使用して Azure Sentinel のクエリを作成する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_04_Lab1_Ex1_KQL.md)
 -  モジュール05
-   -  
+   -  [演習 1 - Azure Sentinel 環境を構成する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_05_Lab1_Ex1_Deploy_Sentinel.md)
 
-
-
-
-**AZ-500 タイムスケジュール**
-
-| |Day1|Day2|Day3|Day4|
-|:----|:----|:----|:----|:----|
-|午前|環境構築</BR>モジュール1（Lab01）| 前日の振り返り</BR>モジュール1（Lab4,5）|前日の振り返り</BR>モジュール3|前日の振り返り</BR>モジュール3（Lab11,12）|
-|午後|モジュール1|モジュール2（Lab7,8）|モジュール3（Lab10）|モジュール4 （Lab13,14,15）|
-|オプションラボ|2,3|6,9| | |
-
-> - 進行状況によってはこのスケジュール通りに進まないことがあります。 
-> - すべてのラボを講義中に行わないことがあります。その場合は、別途ご自身の都合がよい時間に行ってください。
-***
-**コンテンツ**
