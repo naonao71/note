@@ -54,8 +54,9 @@
   - [演習 4 - 検出モデリングを理解する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex4_Attacks.md)
   - [演習 5 - 攻撃の実施](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex5_Perform_Attacks.md)
   - [演習 6 - 検出を作成する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex6_Detections.md)
-  - [演習7 - インシデントを調査する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex7_Investigate.md)
+  - [演習 7 - インシデントを調査する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex7_Investigate.md)
   - [演習 8 - ワークブックの作成](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex8_Workbooks.md)
 - モジュール08
-- 
+  - [演習 1 - Microsoft Sentinel で脅威ハンティングを実行する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_08_Lab1_Ex1_Hunting.md)
+  - [演習 2 - Microsoft Sentinel でノートブックを使用した脅威ハンティング](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_08_Lab1_Ex2_Notebooks.md)
  
