@@ -2,9 +2,7 @@
 
 **リンク一覧およびメモ**
 
-[AZ-500 ラボコンテンツ](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)
-
-- ラボファイルをローカルにダウンロードする
+SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-200T00A-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)）
 
 [Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
@@ -30,6 +28,7 @@
 ***
 
 **ラボのリンク**
+
 - モジュール01
   - [演習 1 - Microsoft 365 Defender の確認](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_01_Lab1_Ex1_Explore_M365_Defender.md)
 - モジュール02
