@@ -21,6 +21,10 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 - LODS を起動すると、Promo Code を入手できる
 
+[SC-200補足資料Ver1.0](https://github.com/naonao71/note/blob/main/SC-200/SC-200%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99Ver1.0.pdf)
+
+- ローカルにダウンロードする
+
 [ESI Security Courses 配布用](https://github.com/naonao71/note/blob/main/AZ-500/ESI%20Security%20Courses%20%E9%85%8D%E5%B8%83%E7%94%A8.pdf)
 
 - Microsoft が提供しているコース内容概要マップ
