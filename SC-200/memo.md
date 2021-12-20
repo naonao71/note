@@ -63,3 +63,11 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
   - [演習 1 - Microsoft Sentinel で脅威ハンティングを実行する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_08_Lab1_Ex1_Hunting.md)
   - [演習 2 - Microsoft Sentinel でノートブックを使用した脅威ハンティング](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_08_Lab1_Ex2_Notebooks.md)
  
+***
+
+**研修の準備**
+
+- [Skillpipe （研修テキスト）の入手](https://github.com/naonao71/note/blob/main/prep/skillpipe.md)
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+- [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
