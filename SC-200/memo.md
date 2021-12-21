@@ -75,11 +75,34 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 ***
 
+- (モジュール01)[# モジュール01]
+  - (Microsoft 365 による脅威保護の紹介)[## Microsoft 365 による脅威保護の紹介]
+  - (Microsoft 365 Defender を使用してインシデントを軽減する)[## Microsoft 365 Defender を使用してインシデントを軽減する]
+  - Microsoft Defender for 365 を使用してリスクを修復する
+  - Microsoft Defender for Identity
+  - Azure AD Identity Protection
+  - Microsoft Defender for Cloud Apps
+  - データ損失防止アラートへの対応
+- モジュール02
+  - Microsoft Defender for Endpoint を使用して脅威から保護する
+  - Microsoft Defender for Endpoint の環境をデプロイする
+  - Windows 10 のセキュリティ強化の実施
+  - デバイス調査の実行
+  - デバイス上でのアクションの実行
+  - 証拠とエンティティ調査の実行
+  - 自動化を構成および管理する
+  - アラートと検出の設定
+  - 脅威と脆弱性の管理を活用する
+- モジュール03
+  - Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する
+  - Microsoft Defender for Cloud をのクラウドワークロード保護について説明する
+  - Azure 資産を Microsoft Defender for Cloud に接続する
+  - Azure 以外の資産を Microsoft Defender for Cloud に接続する
+  - Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
+- モジュール04
 
 
-
-
-
+***
 
 # モジュール01
 ## Microsoft 365 による脅威保護の紹介
