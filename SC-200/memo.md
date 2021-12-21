@@ -453,6 +453,102 @@ Microsoft Defender for Endpoint テーブル
 
 # モジュール06
 
+## データコネクタを使用して Microsoft Sentinel にデータを接続する
+
+[無料データ ソース](https://docs.microsoft.com/ja-jp/azure/sentinel/billing#free-data-sources)
+
+[CEF および CommonSecurityLog フィールドのマッピング](https://docs.microsoft.com/ja-jp/azure/sentinel/cef-name-mapping)
+
+[Syslog を使用して Linux ベースのソースからデータを収集する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-syslog)
+
+[Advanced SIEM Information Model (ASIM) パーサー](https://docs.microsoft.com/ja-jp/azure/sentinel/normalization-about-parsers)
+
+[データの種類別のリテンション期間](https://docs.microsoft.com/ja-jp/azure/azure-monitor/logs/manage-cost-storage#retention-by-data-type)
+
+## Microsoft サービスをMicrosoft Sentinel に接続する
+
+[OfficeActivity](https://docs.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/officeactivity)
+
+[Microsoft 365 のための Azure Sentinel - Office 365 や セキュリティサービスからどのログを収集していくか？](https://qiita.com/YoshiakiOi/items/8b4e6cbc334bd24ed469)
+
+[Office 365 の監査ログを Azure Sentinel に格納する](https://qiita.com/YoshiakiOi/items/8fde7595042f0f281de8)
+
+[Azure Active Directory の監査ログ](https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-audit-logs)
+
+[Azure Active Directory のサインイン ログ](https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/concept-sign-ins)
+
+[Azure AD にデータが保存される期間](https://docs.microsoft.com/ja-jp/azure/active-directory/reports-monitoring/reference-reports-data-retention#how-long-does-azure-ad-store-the-data)
+
+[Azure Active Directory (Azure AD) データを Microsoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-azure-active-directory)
+
+## Microsoft Defender を Microsoft Sentinel に接続する
+
+## Windows ホストを Microsoft Sentinel に接続する
+
+## Microsoft Sentinel に Common Event Format のログを接続する
+
+[CommonSecurityLog](https://docs.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/commonsecuritylog)
+
+[Log Analytics エージェントの概要](https://docs.microsoft.com/ja-jp/azure/azure-monitor/agents/log-analytics-agent)
+
+[ログ フォワーダーをデプロイして Syslog および CEF ログを Microsoft Sentinel に取り込む](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-log-forwarder?tabs=rsyslog)
+
+## Microsoft Sentinel に Syslog データソースを接続する
+
+[Syslog を使用して Linux ベースのソースからデータを収集する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-syslog)
+
+[Log Analytics エージェントを使用して Syslog データ ソースを収集する](https://docs.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-syslog)
+
+syslogにおけるシステムログには**「Facility」と「Severity」**という考え方があります。Facilityとは、正確に言えば「ログの種別」のことであり、分かりやすくいえばメッセージの「出力元」のことです。ファシリティには以下の種類があり、ファシリティを使用することでメッセージの出力元に応じてログの出力先を制御できます。
+
+|Facility|Facility Code|説明|
+|:----|:----|:----|
+|kern|0|カーネルメッセージ|
+|user|1|ユーザーレベルメッセージ|
+|mail|2|メールシステム|
+|daemon|3|システムデーモン|
+|auth|4|セキュリティ/認証メッセージ(最近のシステムでは、authprivが使用される)|
+|syslog|5|syslogdによる内部メッセージ|
+|lpr|6|Line Printerサブシステム|
+|news|7|newsサブシステム|
+|uucp|8|UUCPサブシステム|
+|cron|9|cronデーモン|
+|authpriv|10|セキュリティ/認証メッセージ(プライベート)|
+|ftp|11|ftpデーモン|
+|local0~local7|16~23|ローカル用に予約|
+
+Severityとは、メッセージの優先度を表します。Severityはemergが最も高く、debugが最も低いことを意味します。指定したSeverityよりもレベルが高いものが全て記憶されるので、例えばcritを指定した場合、crit、alert、emergレベルのログが記録されます。特定のSeverityを指定したい場合、Severityの前に = をつけます。noneは例外指定したファシリティのログを除外する役割を持ちます。
+
+|Severity|説明|
+|:----|:----|
+|emerg|emergency:パニックの状態でシステムは使用不可|
+|alert|alert:緊急に対処が必要|
+|crit|critical:緊急に対処が必要。alertより緊急度は低い|
+|err|error:エラー発生|
+|warning|warning:警告。対処しないとエラーが発生する可能性がある|
+|notice|notice:通常では無いが、エラーでも無い|
+|info|information:通常の稼働の情報|
+|debug|debug:デバッグ情報|
+|none|none:ログメッセージを記録しない|
+
+## 脅威インジケーターを Microsoft Sentinel に接続する
+
+[Microsoft Sentinel の脅威インテリジェンスについて](https://docs.microsoft.com/ja-jp/azure/sentinel/understand-threat-intelligence)
+
+**脅威インテリジェンス（TI）共有規格**
+- STIX(Structured Threat Information eXpression)
+- TAXII(Trusted Automated eXchange of Indicator Information)
+
+STIX と TAXII は、サイバー攻撃の予防と対策を強化するために考案された規格です。STIX は脅威インテリジェンスの内容を記述し、TAXII はこの情報をどのように伝達するかを規定します。従来の共有方法と違い、STIX と TAXII は機械による読み込みが可能なため、簡単に自動化できます。
+
+**TIP ソリューション例**
+MISP、Anomali ThreatStream、ThreatConnect、EclecticIQ Platform、ThreatQ Threat Intelligence Platform、Palo Alto Networks の MineMeld など
+
+[Microsoft Azure Sentinel を STIX、TAXII 脅威インテリジェンス フィードに接続する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-threat-intelligence-taxii)
+
+[脅威インテリジェンス プラットフォームを Microsoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-threat-intelligence-tip)
+
+
 # モジュール07
 
 # モジュール08
