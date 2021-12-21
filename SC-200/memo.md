@@ -97,6 +97,7 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 ## Microsoft Defender for Identity
 
+[権限昇格攻撃と防御に関する解説](https://bs-square.jp/blog/index.php/2021/04/06/privilege-escalation-attack-defense-explained/)
 ## Azure AD Identity Protection
 
 [リスクとは](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-risks)
