@@ -40,7 +40,7 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
   - [演習 1 - Microsoft Defender for Endpoint のデプロイ](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_02_Lab1_Ex1_Deploy_Defender_Endpoint.md)
   - [演習 2 - Microsoft Defender for Endpoint を使用した攻撃の軽減](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_02_Lab1_Ex2_Mitigate_Attacks.md)
 - モジュール03
-  - [演習 1 - Microsoft Defender for Endpoint の有効化](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_03_Lab1_Ex1_Enable_Defender.md)
+  - [演習 1 - Microsoft Defender for Cloud の有効化](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_03_Lab1_Ex1_Enable_Defender.md)
   - [演習 2 - Microsoft Defender for Cloud を使用して脅威を軽減する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_03_Lab1_Ex2_Azure_Defender.md)
 - モジュール04
   - [演習 1 - Kusto クエリ言語 (KQL) を使用して Azure Sentinel のクエリを作成する](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_04_Lab1_Ex1_KQL.md)
