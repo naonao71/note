@@ -561,12 +561,14 @@ Severityとは、メッセージの優先度を表します。Severityはemerg�
 [Microsoft Sentinel の脅威インテリジェンスについて](https://docs.microsoft.com/ja-jp/azure/sentinel/understand-threat-intelligence)
 
 **脅威インテリジェンス（TI）共有規格**
+
 - STIX(Structured Threat Information eXpression)
 - TAXII(Trusted Automated eXchange of Indicator Information)
 
 STIX と TAXII は、サイバー攻撃の予防と対策を強化するために考案された規格です。STIX は脅威インテリジェンスの内容を記述し、TAXII はこの情報をどのように伝達するかを規定します。従来の共有方法と違い、STIX と TAXII は機械による読み込みが可能なため、簡単に自動化できます。
 
 **TIP ソリューション例**
+
 MISP、Anomali ThreatStream、ThreatConnect、EclecticIQ Platform、ThreatQ Threat Intelligence Platform、Palo Alto Networks の MineMeld など
 
 [Microsoft Azure Sentinel を STIX、TAXII 脅威インテリジェンス フィードに接続する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-threat-intelligence-taxii)
