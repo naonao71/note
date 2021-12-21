@@ -418,7 +418,7 @@ MDE非対応
 
 [Microsoft Sentinel のアクセス許可](https://docs.microsoft.com/ja-jp/azure/sentinel/roles)
 
-|Role|プレイブックを作成して実行する|分析ルールとその他の Microsoft Azure Sentinel リソースを作成および編集する *|インシデントを管理する (無視、割り当てなど)|データ、インシデント、ブックなどのMicrosoft Azure Sentinel リソースを表示する|
+|Role|プレイブックを作成して実行する|分析ルールとその他の Microsoft Sentinel リソースを作成および編集する *|インシデントを管理する (無視、割り当てなど)|データ、インシデント、ブックなどのMicrosoft Sentinel リソースを表示する|
 |:----|:----|:----|:----|:----|
 |Microsoft Sentinel 閲覧者|--|--|--|✓|
 |Microsoft Sentinel レスポンダー|--|--|✓|✓|
