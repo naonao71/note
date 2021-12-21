@@ -86,11 +86,13 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 ## Microsoft 365 Defender を使用してインシデントを軽減する
 
 [MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
+
 [KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
 
 ## Microsoft Defender for 365 を使用してリスクを修復する
 
 [Microsoft Defender for Office 365セキュリティの概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/overview?view=o365-worldwide)
+
 [Office365のAIRの全体的な流れ](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
 
 ## Microsoft Defender for Identity
@@ -129,7 +131,9 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 |myapp.com|myapp.com.mcas.ms|
 
 [Azure Information Protection とは](https://docs.microsoft.com/ja-jp/azure/information-protection/what-is-information-protection)
+
 [Microsoft 365 の Microsoft Information Protection](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/information-protection?view=o365-worldwide)
+
 [Windows 情報保護 (WIP) を使用した企業データの保護](https://docs.microsoft.com/ja-jp/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 
 **Microsoft Information Protection** は、以下の４つのソリューションの総称です。それぞれが組み合わさって動作します。
