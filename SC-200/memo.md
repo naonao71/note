@@ -117,7 +117,29 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 |[アクセスのブロック]|複数のリスク要因に応じて、特定のアプリとユーザーのアクセスを細かくブロックできます。 たとえば、デバイス管理の形式としてクライアント証明書を使用している場合に、ブロックできます。|
 |カスタム アクティビティをブロックする|Microsoft Teams や Slack といったアプリで機密性の高いコンテンツを含むメッセージを送信する場合のように、アプリによってはリスクを伴う固有のシナリオがあります。 このようなシナリオでは、メッセージで機密性の高いコンテンツをスキャンし、リアルタイムでブロックできます。|
 
+**セッション制御の仕組み**
 
+アプリの条件付きアクセス制御でセッション ポリシーを作成すると、アプリに直接ではなく、リバース プロキシ経由でユーザーをリダイレクトすることで、ユーザー セッションを制御できます。 その後、ユーザーの要求と応答は、アプリと直接ではなく、Cloud App Security を通して行われます。
+
+セッションがプロキシによって保護されていると、関連するすべての URL と Cookie が Cloud App Security によって置き換えられます。 たとえば、ドメインが myapp.com で終わるリンクが含まれるページがアプリから返される場合、次のように、リンクのドメインには *.mcas.ms のようなサフィックスが付けられます。
+
+|アプリの URL|置き換えられた URL|
+|:----|:----|
+|myapp.com|myapp.com.mcas.ms|
+
+[Azure Information Protection とは](https://docs.microsoft.com/ja-jp/azure/information-protection/what-is-information-protection)
+[Microsoft 365 の Microsoft Information Protection](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/information-protection?view=o365-worldwide)
+[Windows 情報保護 (WIP) を使用した企業データの保護](https://docs.microsoft.com/ja-jp/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
+
+**Microsoft Information Protection** は、以下の４つのソリューションの総称です。それぞれが組み合わさって動作します。
+- Azure Information Protection (AIP)
+- Microsoft 365 Information Protection(MIP)
+- Microsoft Cloud App Security (MCAS)
+- Windows 情報保護
+
+[秘密度ラベルの詳細](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)
+
+## データ損失防止アラートへの対応
 
 # モジュール02
 
