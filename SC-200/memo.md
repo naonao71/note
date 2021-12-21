@@ -102,6 +102,7 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 ## Microsoft Defender for Cloud Apps
 
 [Microsoft Defender for Cloud Apps のドキュメント](https://docs.microsoft.com/ja-jp/defender-cloud-apps/)
+
 [Microsoft Defender for Cloud Apps のアプリの条件付きアクセス制御を使用してアプリを保護する](https://docs.microsoft.com/ja-jp/defender-cloud-apps/proxy-intro-aad)
 
  アクセス ポリシーとセッション ポリシーを使用すると、次のことができます。
