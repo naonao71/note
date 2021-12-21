@@ -149,6 +149,23 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 # モジュール02
 
+## Microsoft Defender for Endpoint を使用して脅威から保護する
+
+## Microsoft Defender for Endpoint の環境をデプロイする
+
+[基本的なアクセス許可を使用してポータルにアクセスする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/basic-permissions?view=o365-worldwide)
+
+MDEには、フルアクセスと読み取り専用アクセス権があります。それぞれできることは以下の通り。
+
+|MDE Role|AAD Role|説明|
+|:----|:----|:----|
+|フルアクセス|・グローバル管理者|・ログイン、すべてのシステム情報の表示、アラートの解決、詳細な分析のためのファイルの送信、オンボーディング パッケージのダウンロードを行うことができます。|
+| |・セキュリティ管理者|
+|読み取り専用アクセス|・セキュリティ閲覧者|・読み取り専用アクセス権を持つユーザーは、ログイン、すべての通知、および関連情報を表示できます。|
+| | |・アラートの状態を変更したり、詳細な分析のためにファイルを送信したり、状態の変更操作を実行したりできない。|
+
+[Linux 用 Microsoft Defender for Endpoint を手動で展開する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/linux-install-manually?view=o365-worldwide#ubuntu-and-debian-systems)
+
 **OS の種類ごとのアンチマルウェアと EDR のオプションに関して**
 
 | |Linux|Windows Server 2022/2019|Windows Server 2016|Windows Server 2012 R2|Windows Server 2012|Windows Server 2008 R2|
@@ -196,6 +213,107 @@ Microsoft Monitoring Agent (MMA)がセンサーの役割を果たします。そ
 
 **Windows Server 2012**</BR>
 MDE非対応
+
+[役割ベースのアクセス制御を使用してポータル アクセスを管理する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/rbac?view=o365-worldwide)
+
+大規模な企業のセキュリティチームでは、通常、階層ベースのセキュリティモデルを採用して、セキュリティポータルへのアクセス権の割り当てを行います。一般的な階層では3階層あります。
+
+|レイヤー|役割|説明|
+|:----|:----|:----|
+|レイヤー1|ローカルセキュリティ運用チーム|ローカルに含まれるアラートをトリアージして調査し、アクティブな修復が必要な場合は、レイヤー2へエスカレーションする|
+|レイヤー2|地域のセキュリティ運用チーム|地域すべてのデバイスを表示して、修復アクションを実行する|
+|レイヤー3|グローバルセキュリティ運用チーム|セキュリティ専門家を入れ、ポータルからすべてのアクションを表示して実行する権限を持つ|
+
+[ライブ応答を使用してデバイス上のエンティティを調査する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/live-response?view=o365-worldwide)
+
+**基本コマンド一覧**
+
+|コマンド|説明|Windowsおよび Windows サーバー|macOS|Linux|
+|:----|:----|:----|:----|:----|
+|cd|現在のディレクトリを変更します。|Y|Y|Y|
+|cls|コンソール画面をクリアします。|Y|Y|Y|
+|connect|デバイスへのライブ応答セッションを開始します。|Y|Y|Y|
+|connections|すべてのアクティブな接続を表示します。|Y|N|N|
+|dir|ディレクトリ内のファイルとサブディレクトリの一覧を表示します。|Y|Y|Y|
+|drivers|デバイスにインストールされているすべてのドライバーを表示します。|Y|N|N|
+|fg <command ID>|指定したジョブをフォアグラウンドのフォアグラウンドに配置し、現在のジョブに設定します。 メモ: fg は、PID ではなく、ジョブから使用できる 'コマンド ID' を取得します。|Y|Y|Y|
+|fileinfo|ファイルに関する情報を取得します。|Y|Y|Y|
+|findfile|デバイス上の特定の名前でファイルを検索します。|Y|Y|Y|
+|getfile <file_path>|ファイルをダウンロードします。|Y|Y|Y|
+|help|ライブ応答コマンドのヘルプ情報を提供します。|Y|Y|Y|
+|jobs|現在実行中のジョブ、その ID、状態を表示します。|Y|Y|Y|
+|persistence|デバイス上のすべての既知の永続化メソッドを表示します。|Y|N|N|
+|processes|デバイスで実行しているすべてのプロセスを表示します。|Y|Y|Y|
+|registry|レジストリ値を表示します。|Y|N|N|
+|scheduledtasks|デバイス上のすべてのスケジュールされたタスクを表示します。|Y|N|N|
+|services|デバイス上のすべてのサービスを表示します。|Y|N|N|
+|trace|ターミナルのログ モードをデバッグに設定します。|Y|Y|Y|
+
+**高度なコマンド一覧**
+
+|コマンド|説明|Windowsおよび Windows サーバー|macOS|Linux|
+|:----|:----|:----|:----|:----|
+|analyze|さまざまな解析エンジンを使用してエンティティを分析し、判定に達します。|Y|N|N|
+|collect|コンピューターからフォレンジック パッケージを収集する|N|Y|Y|
+|isolate|Defender for Endpoint サービスへの接続を維持しながら、ネットワークからデバイスを切断します|N|Y|N|
+|release|ネットワーク分離からデバイスを解放する|N|Y|N|
+|run|デバイス上のライブラリからPowerShell スクリプトを実行します。|Y|Y|Y|
+|library|ライブ応答ライブラリにアップロードされたファイルを一覧表示します。|Y|Y|Y|
+|putfile|ライブラリからデバイスにファイルを置く。ファイルは作業フォルダーに保存され、デバイスが既定で再起動すると削除されます。|Y|Y|Y|
+|remediate|デバイス上のエンティティを修復します。 修復アクションは、エンティティの種類によって異なります|
+|: ファイル|
+|: プロセスの削除|
+|: 停止、イメージ ファイルのサービス削除: 停止、イメージ ファイルのレジストリ エントリ削除: スケジュールされたタスクの削除|
+|: スタートアップ フォルダー項目の削除|
+|: ファイルの削除注意: このコマンドには前提条件のコマンドがあります。 -auto コマンドを修復と組み合わせて使用して、前提条件のコマンドを自動的に実行できます。|Y|Y|Y|
+|scan|Defender for Endpoint サービスへの接続を維持しながら、ネットワークからデバイスを切断する|N|Y|Y|
+|undo|修復されたエンティティを復元します。|Y|Y|Y|
+
+[デバイス グループの作成と管理](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/machine-groups?view=o365-worldwide)
+
+## Windows 10 のセキュリティ強化の実施
+
+[攻撃面の減少ルール](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide)
+
+[クラウド保護を有効にする必要Microsoft Defender ウイルス対策](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/why-cloud-protection-should-be-on-mdav?view=o365-worldwide)
+
+[攻撃面の減少ルールを有効にする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction?view=o365-worldwide)
+
+## デバイス調査の実行
+
+[フィードバック ループのブロック](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/feedback-loop-blocking?view=o365-worldwide)
+
+## デバイス上でのアクションの実行
+
+[自動調査の概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/automated-investigations?view=o365-worldwide)
+
+自動修復のレベルには以下がある。
+
+|設定|説明|
+|:----|:----|
+|自動応答なし|デバイスは調査されません。|
+|すべてのフォルダーを半承認|デバイスは、検出システムからアラートを受信したときに自動的に調査されますが、修復処理を実行するには承認が必要です。|
+|一時フォルダー以外への半承認|デバイスは、検出システムからアラートを受信したときに自動的に調査され、一時およびダウンロード ディレクトリ内で自動的に修復されます。他のすべての修復処理には承認が必要です。|
+|コアフォルダーへの半承認|デバイスは、検出システムからアラートを受信したときに自動的に調査され、コア システム ディレクトリ内で特定されたものを除いて修復されます。コア システム ディレクトリに対する脅威の修復処理には承認が必要です。|
+|**完全 - 自動的な脅威の修正（推奨）**|デバイスは、ユーザーによる操作を必要とせずに、MDE によって自動的に調査および修復されます。|
+
+[ライブ応答を使用してデバイス上のエンティティを調査する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/live-response?view=o365-worldwide)
+
+## 証拠とエンティティ調査の実行
+
+## 自動化を構成および管理する
+
+[Microsoft Defender ウイルス対策でクラウド保護をオンにする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-cloud-protection-microsoft-defender-antivirus?view=o365-worldwide)
+
+## アラートと検出の設定
+
+[Defender for Endpoint で高度な機能を構成する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/advanced-features?view=o365-worldwide)
+
+[ネットワークを保護とは](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/network-protection?view=o365-worldwide)
+
+[ネットワーク保護の有効化](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-network-protection?view=o365-worldwide)
+
+## 脅威と脆弱性の管理を活用する
 
 # モジュール03
 
