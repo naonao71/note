@@ -551,5 +551,29 @@ MISP、Anomali ThreatStream、ThreatConnect、EclecticIQ Platform、ThreatQ Thre
 
 # モジュール07
 
+## Microsoft Sentinel の分析を使用した脅威検出
+
+[Microsoft Sentinel でエンティティを使用してデータを分類および分析する](https://docs.microsoft.com/ja-jp/azure/sentinel/entities)
+
+[オートメーション ルールにより Microsoft Sentinel でのインシデント処理を自動化する](https://docs.microsoft.com/ja-jp/azure/sentinel/automate-incident-handling-with-automation-rules)
+
+## Microsoft Sentinel プレイブックを使用した脅威対処
+
+[Microsoft Sentinel によるハンティング中にデータを追跡する](https://docs.microsoft.com/ja-jp/azure/sentinel/bookmarks)
+
+## Microsoft Sentinel でのエンティティの行動分析の使用
+
+## Microsoft Sentinel でのデータクエリ、視覚化、監視
+
 # モジュール08
+
+## Microsoft Sentinel における脅威ハンティングの概念
+
+## Microsoft Sentinel を使用した脅威ハンティング
+
+[Microsoft Sentinel でハンティング ライブストリームを使用して脅威を検出する](https://docs.microsoft.com/ja-jp/azure/sentinel/livestream)
+
+## Microsoft Sentinel でノートブックを使用して脅威をハンティングする
+
+[Jupyter のノートブックを使用してセキュリティの脅威を検出する](https://docs.microsoft.com/ja-jp/azure/sentinel/notebooks)
 
