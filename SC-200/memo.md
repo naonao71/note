@@ -75,55 +75,56 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 ***
 
-- モジュール01
-  - Microsoft 365 による脅威保護の紹介
-  - Microsoft 365 Defender を使用してインシデントを軽減する
-  - Microsoft Defender for 365 を使用してリスクを修復する
-  - Microsoft Defender for Identity
-  - Azure AD Identity Protection
-  - Microsoft Defender for Cloud Apps
-  - データ損失防止アラートへの対応
-- モジュール02
-  - Microsoft Defender for Endpoint を使用して脅威から保護する
-  - Microsoft Defender for Endpoint の環境をデプロイする
-  - Windows 10 のセキュリティ強化の実施
-  - デバイス調査の実行
-  - デバイス上でのアクションの実行
-  - 証拠とエンティティ調査の実行
-  - 自動化を構成および管理する
-  - アラートと検出の設定
-  - 脅威と脆弱性の管理を活用する
-- モジュール03
-  - Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する
-  - Microsoft Defender for Cloud をのクラウドワークロード保護について説明する
-  - Azure 資産を Microsoft Defender for Cloud に接続する
-  - Azure 以外の資産を Microsoft Defender for Cloud に接続する
-  - Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
-- モジュール04
-- モジュール05
-  - Microsoft Sentinel の概要
-  - Microsoft Sentinel ワークスペースの作成と管理
-  - Microsoft Sentinel のログのクエリを実行する
-  - Microsoft Sentinel でウォッチリストを使用する
-  - Microsoft Sentinel の脅威インテリジェンスを利用する
-- モジュール06
-  - データコネクタを使用して Microsoft Sentinel にデータを接続する
-  - Microsoft サービスをMicrosoft Sentinel に接続する
-  - Microsoft Defender を Microsoft Sentinel に接続する
-  - Windows ホストを Microsoft Sentinel に接続する
-  - Microsoft Sentinel に Common Event Format のログを接続する
-  - Microsoft Sentinel に Syslog データソースを接続する
-  - 脅威インジケーターを Microsoft Sentinel に接続する
-- モジュール07
-  - Microsoft Sentinel の分析を使用した脅威検出
-  - Microsoft Sentinel プレイブックを使用した脅威対処
-  - Microsoft Sentinel でのエンティティの行動分析の使用
-  - Microsoft Sentinel でのデータクエリ、視覚化、監視
-- モジュール08
-  - Microsoft Sentinel における脅威ハンティングの概念
-  - Microsoft Sentinel を使用した脅威ハンティング
-  - Microsoft Sentinel でノートブックを使用して脅威をハンティングする
 
+
+- [1. モジュール01](#1-モジュール01)
+  - [1.1. Microsoft 365 による脅威保護の紹介](#11-microsoft-365-による脅威保護の紹介)
+  - [1.2. Microsoft 365 Defender を使用してインシデントを軽減する](#12-microsoft-365-defender-を使用してインシデントを軽減する)
+  - [1.3. Microsoft Defender for 365 を使用してリスクを修復する](#13-microsoft-defender-for-365-を使用してリスクを修復する)
+  - [1.4. Microsoft Defender for Identity](#14-microsoft-defender-for-identity)
+  - [1.5. Azure AD Identity Protection](#15-azure-ad-identity-protection)
+  - [1.6. Microsoft Defender for Cloud Apps](#16-microsoft-defender-for-cloud-apps)
+  - [1.7. データ損失防止アラートへの対応](#17-データ損失防止アラートへの対応)
+- [2. モジュール02](#2-モジュール02)
+  - [2.1. Microsoft Defender for Endpoint を使用して脅威から保護する](#21-microsoft-defender-for-endpoint-を使用して脅威から保護する)
+  - [2.2. Microsoft Defender for Endpoint の環境をデプロイする](#22-microsoft-defender-for-endpoint-の環境をデプロイする)
+  - [2.3. Windows 10 のセキュリティ強化の実施](#23-windows-10-のセキュリティ強化の実施)
+  - [2.4. デバイス調査の実行](#24-デバイス調査の実行)
+  - [2.5. デバイス上でのアクションの実行](#25-デバイス上でのアクションの実行)
+  - [2.6. 証拠とエンティティ調査の実行](#26-証拠とエンティティ調査の実行)
+  - [2.7. 自動化を構成および管理する](#27-自動化を構成および管理する)
+  - [2.8. アラートと検出の設定](#28-アラートと検出の設定)
+  - [2.9. 脅威と脆弱性の管理を活用する](#29-脅威と脆弱性の管理を活用する)
+- [3. モジュール03](#3-モジュール03)
+  - [3.1. Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する](#31-microsoft-defender-for-cloud-を使用してクラウドワークロード保護を計画する)
+  - [3.2. Microsoft Defender for Cloud をのクラウドワークロード保護について説明する](#32-microsoft-defender-for-cloud-をのクラウドワークロード保護について説明する)
+  - [3.3. Azure 資産を Microsoft Defender for Cloud に接続する](#33-azure-資産を-microsoft-defender-for-cloud-に接続する)
+  - [3.4. Azure 以外の資産を Microsoft Defender for Cloud に接続する](#34-azure-以外の資産を-microsoft-defender-for-cloud-に接続する)
+  - [3.5. Microsoft Defender for Cloud を使用してセキュリティアラートを修復する](#35-microsoft-defender-for-cloud-を使用してセキュリティアラートを修復する)
+- [4. モジュール04](#4-モジュール04)
+- [5. モジュール05](#5-モジュール05)
+  - [5.1. Microsoft Sentinel の概要](#51-microsoft-sentinel-の概要)
+  - [5.2. Microsoft Sentinel ワークスペースの作成と管理](#52-microsoft-sentinel-ワークスペースの作成と管理)
+  - [5.3. Microsoft Sentinel のログのクエリを実行する](#53-microsoft-sentinel-のログのクエリを実行する)
+  - [5.4. Microsoft Sentinel でウォッチリストを使用する](#54-microsoft-sentinel-でウォッチリストを使用する)
+  - [5.5. Microsoft Sentinel の脅威インテリジェンスを利用する](#55-microsoft-sentinel-の脅威インテリジェンスを利用する)
+- [6. モジュール06](#6-モジュール06)
+  - [6.1. データコネクタを使用して Microsoft Sentinel にデータを接続する](#61-データコネクタを使用して-microsoft-sentinel-にデータを接続する)
+  - [6.2. Microsoft サービスをMicrosoft Sentinel に接続する](#62-microsoft-サービスをmicrosoft-sentinel-に接続する)
+  - [6.3. Microsoft Defender を Microsoft Sentinel に接続する](#63-microsoft-defender-を-microsoft-sentinel-に接続する)
+  - [6.4. Windows ホストを Microsoft Sentinel に接続する](#64-windows-ホストを-microsoft-sentinel-に接続する)
+  - [6.5. Microsoft Sentinel に Common Event Format のログを接続する](#65-microsoft-sentinel-に-common-event-format-のログを接続する)
+  - [6.6. Microsoft Sentinel に Syslog データソースを接続する](#66-microsoft-sentinel-に-syslog-データソースを接続する)
+  - [6.7. 脅威インジケーターを Microsoft Sentinel に接続する](#67-脅威インジケーターを-microsoft-sentinel-に接続する)
+- [7. モジュール07](#7-モジュール07)
+  - [7.1. Microsoft Sentinel の分析を使用した脅威検出](#71-microsoft-sentinel-の分析を使用した脅威検出)
+  - [7.2. Microsoft Sentinel プレイブックを使用した脅威対処](#72-microsoft-sentinel-プレイブックを使用した脅威対処)
+  - [7.3. Microsoft Sentinel でのエンティティの行動分析の使用](#73-microsoft-sentinel-でのエンティティの行動分析の使用)
+  - [7.4. Microsoft Sentinel でのデータクエリ、視覚化、監視](#74-microsoft-sentinel-でのデータクエリ視覚化監視)
+- [8. モジュール08](#8-モジュール08)
+  - [8.1. Microsoft Sentinel における脅威ハンティングの概念](#81-microsoft-sentinel-における脅威ハンティングの概念)
+  - [8.2. Microsoft Sentinel を使用した脅威ハンティング](#82-microsoft-sentinel-を使用した脅威ハンティング)
+  - [8.3. Microsoft Sentinel でノートブックを使用して脅威をハンティングする](#83-microsoft-sentinel-でノートブックを使用して脅威をハンティングする)
 
 
 ***
