@@ -311,6 +311,19 @@ MDE非対応
 
 # モジュール03
 
+## Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する
+
+## Microsoft Defender for Cloud をのクラウドワークロード保護について説明する
+
+## Azure 資産を Microsoft Defender for Cloud に接続する
+
+[Windows 用の Log Analytics 仮想マシン拡張機能](https://docs.microsoft.com/ja-jp/azure/virtual-machines/extensions/oms-windows?azure-portal=true)
+
+[Azure Arc 対応サーバー](https://docs.microsoft.com/ja-jp/azure/azure-arc/servers/overview)
+
+## Azure 以外の資産を Microsoft Defender for Cloud に接続する
+
+## Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
 # モジュール04
 
 # モジュール05
