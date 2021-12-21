@@ -349,7 +349,107 @@ MDE非対応
 ## Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
 # モジュール04
 
+[KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
+
+[Windows Event ID 4624](https://www.manageengine.com/products/active-directory-audit/kb/windows-security-log-event-id-4624.html)
+
+[監視するイベント](https://docs.microsoft.com/ja-jp/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
+
+[Kusto クエリのサンプル](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/samples?pivots=azuremonitor)
+
+[order 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/orderoperator)
+
+[project-away 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/projectawayoperator)
+
+[project-rename 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/projectrenameoperator)
+
+[project-reorder 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/projectreorderoperator)
+
+[arg_max() (集計関数)](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/arg-max-aggfunction)
+
+[union 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/unionoperator?pivots=azuremonitor)
+
+[join 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/joinoperator?pivots=azuremonitor)
+
+[extract()](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/extractfunction)
+
+[parse 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/parseoperator)
+
+[mv-expand 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/mvexpandoperator)
+
+[strcat()](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/strcatfunction)
+
 # モジュール05
+
+## Microsoft Sentinel の概要
+
+[ログのリテンション期間（保持期間）](https://cloudsteady.jp/post/41235/)
+
+[Azure Sentinel の価格](https://azure.microsoft.com/ja-jp/pricing/details/azure-sentinel/#purchase-options)
+
+## Microsoft Sentinel ワークスペースの作成と管理
+
+[Azure Lighthouse とは](https://docs.microsoft.com/ja-jp/azure/lighthouse/overview)
+
+[Microsoft Sentinel のアクセス許可](https://docs.microsoft.com/ja-jp/azure/sentinel/roles)
+
+|Role|プレイブックを作成して実行する|分析ルールとその他の Microsoft Azure Sentinel リソースを作成および編集する *|インシデントを管理する (無視、割り当てなど)|データ、インシデント、ブックなどのMicrosoft Azure Sentinel リソースを表示する|
+|:----|:----|:----|:----|:----|
+|Microsoft Sentinel 閲覧者|--|--|--|✓|
+|Microsoft Sentinel レスポンダー|--|--|✓|✓|
+|Microsoft Sentinel 共同作成者|--|✓|✓|✓|
+|Azure Sentinel 共同作成者 + ロジック アプリの共同作成者|✓|✓|✓|✓|
+
+[エンタープライズ シナリオにおける Azure Lighthouse](https://docs.microsoft.com/ja-jp/azure/lighthouse/concepts/enterprise)
+
+## Microsoft Sentinel のログのクエリを実行する
+
+アラートとインシデントを管理する主なテーブルは、SecurityAlert と SecurityIncident です。
+
+|テーブル|説明|
+|:----|:----|
+|SecurityAlert|Sentinel の分析規則から生成されたアラートを含みます。 また、Sentinel データ コネクタから直接作成されたアラートを含むこともあります|
+|SecurityIncident|アラートによりインシデントが生成される可能性があります。 インシデントはアラートに関連しています。|
+|ThreatIntelligenceIndictor|ファイル ハッシュ、IP アドレス、ドメインなどユーザーが作成した、またはデータ コネクタに取り込まれたインジケーターを含みます|
+|Watchlist|Azure Sentinel ウォッチリストはインポートされたデータを含みます。|
+
+Sentinel からデータ コネクタのデータを取り込む場合に最もよく使用されるテーブルを次の表に示します。
+
+|テーブル|説明|
+|:----|:----|
+|AzureActivity|Azure アクティビティ ログにより、Azure で発生したサブスクリプションレベルまたは管理グループレベルのイベントを把握できます。|
+|AzureDiagnostics|Azure 診断モードを使用する Azure サービスのリソース ログを保存します。リソース ログにAzure リソースの内部操作に関して記述されています。|
+|AuditLogs|Azure Active Directory の監査ログ。ユーザーとグループの管理、マネージド アプリケーション、ディレクトリ アクティビティに関するシステム アクティビティ情報。|
+|CommonSecurityLog|Common Event Format (CEF) を使用した Syslog メッセージ。|
+|McasShadowItReporting|Microsoft Cloud App Security のログ|
+|OfficeActivity|Azure Sentinel によって収集された Office 365 テナントの監査ログ。Exchange、SharePoint、および Teams のログを含みます。|
+|SecurityEvent|Azure Security Center または Azure Sentinel によって Windows マシンから収集されたセキュリティ イベント|
+|SigninLogs|Azure Activity Directory のサインイン ログ|
+|Syslog|Log Analytics エージェントを使用した Linux コンピューター上の Syslog イベント。|
+|イベント|Windows ホストから収集された Sysmon イベント。|
+|WindowsFirewall|Windows ファイアウォール イベント|
+
+Microsoft Defender for Endpoint テーブル
+
+|テーブル|説明|
+|:----|:----|
+|DeviceEvents|その他のデバイス イベント テーブルには、Microsoft Defender Antivirus や悪用に対する保護などのセキュリティ制御によってトリガーされるイベントを含む、さまざまなイベントの種類に関する情報が含まれています。|
+|DeviceFileEvents|このテーブルには、ファイルの作成、変更、およびその他のファイル システム イベントに関する情報が含まれています。|
+|DeviceImageLoadEvents|このテーブルには、DLL の読み込みイベントに関する情報が含まれています。|
+|DeviceInfo|このテーブルには、OS バージョン、アクティブ ユーザー、コンピューター名など、組織内のデバイスに関する情報が含まれています。|
+|DeviceLogonEvents|このテーブルには、ユーザーのログオンおよびその他の認証イベントに関する情報が含まれています。|
+|DeviceNetworkEvents|このテーブルには、ネットワーク接続と関連イベントに関する情報が含まれています。|
+|DeviceNetworkInfo|このテーブルには、ネットワーク アダプター、IP および MAC アドレス、接続されているネットワークまたはドメインなど、デバイスのネットワーク構成に関する情報が含まれています。|
+|DeviceProcessEvents|このテーブルには、プロセスの作成と関連イベントに関する情報が含まれています。|
+|DeviceRegistryEvents|このテーブルには、レジストリ エントリの作成と変更に関する情報が含まれています。|
+
+## Microsoft Sentinel でウォッチリストを使用する
+
+[Microsoft Sentinel ウォッチリストを使用する](https://docs.microsoft.com/ja-jp/azure/sentinel/watchlists)
+
+[Microsoft Sentinel 組み込みウォッチリストのテンプレートのスキーマ](https://docs.microsoft.com/ja-jp/azure/sentinel/watchlist-schemas)
+
+## Microsoft Sentinel の脅威インテリジェンスを利用する
 
 # モジュール06
 
