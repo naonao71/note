@@ -1,4 +1,5 @@
-# 1. **SC-200**
+**SC-200**
+*
 
 **リンク一覧およびメモ**
 
@@ -71,3 +72,64 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
 - [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
+
+***
+
+
+
+
+
+
+
+# モジュール01
+## Microsoft 365 による脅威保護の紹介
+## Microsoft 365 Defender を使用してインシデントを軽減する
+
+[MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
+[KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
+
+## Microsoft Defender for 365 を使用してリスクを修復する
+
+[Microsoft Defender for Office 365セキュリティの概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/overview?view=o365-worldwide)
+[Office365のAIRの全体的な流れ](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
+
+## Microsoft Defender for Identity
+
+## Azure AD Identity Protection
+
+[リスクとは](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-risks)
+
+## Microsoft Defender for Cloud Apps
+
+[Microsoft Defender for Cloud Apps のドキュメント](https://docs.microsoft.com/ja-jp/defender-cloud-apps/)
+[Microsoft Defender for Cloud Apps のアプリの条件付きアクセス制御を使用してアプリを保護する](https://docs.microsoft.com/ja-jp/defender-cloud-apps/proxy-intro-aad)
+
+ アクセス ポリシーとセッション ポリシーを使用すると、次のことができます。
+
+|内容|説明|
+|:----|:----|
+|データ窃盗を防ぐ|たとえばアンマネージド デバイスなどで、機密性の高いドキュメントのダウンロード、切り取り、コピー、および印刷をブロックできます。|
+|認証コンテキストを要求する|セッションで機密性の高いアクションが発生したときに、Azure AD の条件付きアクセス ポリシーを再評価できます。 たとえば、機密性の高いファイルのダウンロード時に多要素認証を要求します。|
+|ダウンロードを保護する|機密性の高いドキュメントのダウンロードをブロックするのではなく、ドキュメントにラベルを付け、Azure Information Protection で保護されるように要求することができます。 このアクションにより、危険を及ぼす可能性のあるセッションにおいて確実にドキュメントが保護され、ユーザー アクセスが制限されます。|
+|ラベルのないファイルのアップロードを禁止する|機密性の高いファイルがアップロード、配布、および他のユーザーに使用される前に、ファイルに適切なラベルと保護が設定されるようにすることが重要です。 機密性の高い内容が含まれるラベルのないファイルが、その内容をユーザーが分類するまで、アップロードされないようにすることができます。|
+|マルウェアの可能性をブロックする|悪意のある可能性のあるファイルのアップロードをブロックすることで、環境をマルウェアから保護することができます。 アップロードまたはダウンロードされるファイルを、Microsoft 脅威インテリジェンスに対してスキャンし、すぐにブロックすることができます。|
+|ユーザー セッションのコンプライアンスを監視する|リスクの高いユーザーをアプリへのサインイン時に監視し、そのアクションをセッション内からログに記録します。 ユーザーの動作を調査して分析し、将来どこで、どのような条件においてセッション ポリシーを適用する必要があるかを理解することができます。|
+|[アクセスのブロック]|複数のリスク要因に応じて、特定のアプリとユーザーのアクセスを細かくブロックできます。 たとえば、デバイス管理の形式としてクライアント証明書を使用している場合に、ブロックできます。|
+|カスタム アクティビティをブロックする|Microsoft Teams や Slack といったアプリで機密性の高いコンテンツを含むメッセージを送信する場合のように、アプリによってはリスクを伴う固有のシナリオがあります。 このようなシナリオでは、メッセージで機密性の高いコンテンツをスキャンし、リアルタイムでブロックできます。|
+
+
+
+# モジュール02
+
+# モジュール03
+
+# モジュール04
+
+# モジュール05
+
+# モジュール06
+
+# モジュール07
+
+# モジュール08
+
