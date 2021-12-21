@@ -75,10 +75,10 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 ***
 
-- (モジュール01)[#モジュール01]
-  - (Microsoft 365 による脅威保護の紹介)[##Microsoft 365 による脅威保護の紹介]
-  - (Microsoft 365 Defender を使用してインシデントを軽減する)[##Microsoft 365 Defender を使用してインシデントを軽減する]
-  - (Microsoft Defender for 365 を使用してリスクを修復する)[##Microsoft Defender for 365 を使用してリスクを修復する]
+- (モジュール01)[# モジュール01]
+  - (Microsoft 365 による脅威保護の紹介)[## Microsoft 365 による脅威保護の紹介]
+  - (Microsoft 365 Defender を使用してインシデントを軽減する)[## Microsoft 365 Defender を使用してインシデントを軽減する]
+  - (Microsoft Defender for 365 を使用してリスクを修復する)[## Microsoft Defender for 365 を使用してリスクを修復する]
   - Microsoft Defender for Identity
   - Azure AD Identity Protection
   - Microsoft Defender for Cloud Apps
@@ -104,28 +104,28 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 ***
 
-# 1. モジュール01
-## 1.1. Microsoft 365 による脅威保護の紹介
-## 1.2. Microsoft 365 Defender を使用してインシデントを軽減する
+# モジュール01
+## Microsoft 365 による脅威保護の紹介
+## Microsoft 365 Defender を使用してインシデントを軽減する
 
 [MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
 
 [KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
 
-## 1.3. Microsoft Defender for 365 を使用してリスクを修復する
+## Microsoft Defender for 365 を使用してリスクを修復する
 
 [Microsoft Defender for Office 365セキュリティの概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/overview?view=o365-worldwide)
 
 [Office365のAIRの全体的な流れ](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
 
-## 1.4. Microsoft Defender for Identity
+## Microsoft Defender for Identity
 
 [権限昇格攻撃と防御に関する解説](https://bs-square.jp/blog/index.php/2021/04/06/privilege-escalation-attack-defense-explained/)
-## 1.5. Azure AD Identity Protection
+## Azure AD Identity Protection
 
 [リスクとは](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-risks)
 
-## 1.6. Microsoft Defender for Cloud Apps
+## Microsoft Defender for Cloud Apps
 
 [Microsoft Defender for Cloud Apps のドキュメント](https://docs.microsoft.com/ja-jp/defender-cloud-apps/)
 
@@ -168,13 +168,13 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 [秘密度ラベルの詳細](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)
 
-## 1.7. データ損失防止アラートへの対応
+## データ損失防止アラートへの対応
 
-# 2. モジュール02
+# モジュール02
 
-## 2.1. Microsoft Defender for Endpoint を使用して脅威から保護する
+## Microsoft Defender for Endpoint を使用して脅威から保護する
 
-## 2.2. Microsoft Defender for Endpoint の環境をデプロイする
+## Microsoft Defender for Endpoint の環境をデプロイする
 
 [基本的なアクセス許可を使用してポータルにアクセスする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/basic-permissions?view=o365-worldwide)
 
@@ -288,7 +288,7 @@ MDE非対応
 
 [デバイス グループの作成と管理](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/machine-groups?view=o365-worldwide)
 
-## 2.3. Windows 10 のセキュリティ強化の実施
+## Windows 10 のセキュリティ強化の実施
 
 [攻撃面の減少ルール](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide)
 
@@ -296,11 +296,11 @@ MDE非対応
 
 [攻撃面の減少ルールを有効にする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction?view=o365-worldwide)
 
-## 2.4. デバイス調査の実行
+## デバイス調査の実行
 
 [フィードバック ループのブロック](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/feedback-loop-blocking?view=o365-worldwide)
 
-## 2.5. デバイス上でのアクションの実行
+## デバイス上でのアクションの実行
 
 [自動調査の概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/automated-investigations?view=o365-worldwide)
 
@@ -316,13 +316,13 @@ MDE非対応
 
 [ライブ応答を使用してデバイス上のエンティティを調査する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/live-response?view=o365-worldwide)
 
-## 2.6. 証拠とエンティティ調査の実行
+## 証拠とエンティティ調査の実行
 
-## 2.7. 自動化を構成および管理する
+## 自動化を構成および管理する
 
 [Microsoft Defender ウイルス対策でクラウド保護をオンにする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-cloud-protection-microsoft-defender-antivirus?view=o365-worldwide)
 
-## 2.8. アラートと検出の設定
+## アラートと検出の設定
 
 [Defender for Endpoint で高度な機能を構成する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/advanced-features?view=o365-worldwide)
 
@@ -330,30 +330,30 @@ MDE非対応
 
 [ネットワーク保護の有効化](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-network-protection?view=o365-worldwide)
 
-## 2.9. 脅威と脆弱性の管理を活用する
+## 脅威と脆弱性の管理を活用する
 
-# 3. モジュール03
+# モジュール03
 
-## 3.1. Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する
+## Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する
 
-## 3.2. Microsoft Defender for Cloud をのクラウドワークロード保護について説明する
+## Microsoft Defender for Cloud をのクラウドワークロード保護について説明する
 
-## 3.3. Azure 資産を Microsoft Defender for Cloud に接続する
+## Azure 資産を Microsoft Defender for Cloud に接続する
 
 [Windows 用の Log Analytics 仮想マシン拡張機能](https://docs.microsoft.com/ja-jp/azure/virtual-machines/extensions/oms-windows?azure-portal=true)
 
 [Azure Arc 対応サーバー](https://docs.microsoft.com/ja-jp/azure/azure-arc/servers/overview)
 
-## 3.4. Azure 以外の資産を Microsoft Defender for Cloud に接続する
+## Azure 以外の資産を Microsoft Defender for Cloud に接続する
 
-## 3.5. Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
-# 4. モジュール04
+## Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
+# モジュール04
 
-# 5. モジュール05
+# モジュール05
 
-# 6. モジュール06
+# モジュール06
 
-# 7. モジュール07
+# モジュール07
 
-# 8. モジュール08
+# モジュール08
 
