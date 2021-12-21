@@ -75,10 +75,10 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 ***
 
-- (モジュール01)[# モジュール01]
-  - (Microsoft 365 による脅威保護の紹介)[## Microsoft 365 による脅威保護の紹介]
-  - (Microsoft 365 Defender を使用してインシデントを軽減する)[## Microsoft 365 Defender を使用してインシデントを軽減する]
-  - (Microsoft Defender for 365 を使用してリスクを修復する)[## Microsoft Defender for 365 を使用してリスクを修復する]
+- モジュール01
+  - Microsoft 365 による脅威保護の紹介
+  - Microsoft 365 Defender を使用してインシデントを軽減する
+  - Microsoft Defender for 365 を使用してリスクを修復する
   - Microsoft Defender for Identity
   - Azure AD Identity Protection
   - Microsoft Defender for Cloud Apps
@@ -100,32 +100,56 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
   - Azure 以外の資産を Microsoft Defender for Cloud に接続する
   - Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
 - モジュール04
+- モジュール05
+  - Microsoft Sentinel の概要
+  - Microsoft Sentinel ワークスペースの作成と管理
+  - Microsoft Sentinel のログのクエリを実行する
+  - Microsoft Sentinel でウォッチリストを使用する
+  - Microsoft Sentinel の脅威インテリジェンスを利用する
+- モジュール06
+  - データコネクタを使用して Microsoft Sentinel にデータを接続する
+  - Microsoft サービスをMicrosoft Sentinel に接続する
+  - Microsoft Defender を Microsoft Sentinel に接続する
+  - Windows ホストを Microsoft Sentinel に接続する
+  - Microsoft Sentinel に Common Event Format のログを接続する
+  - Microsoft Sentinel に Syslog データソースを接続する
+  - 脅威インジケーターを Microsoft Sentinel に接続する
+- モジュール07
+  - Microsoft Sentinel の分析を使用した脅威検出
+  - Microsoft Sentinel プレイブックを使用した脅威対処
+  - Microsoft Sentinel でのエンティティの行動分析の使用
+  - Microsoft Sentinel でのデータクエリ、視覚化、監視
+- モジュール08
+  - Microsoft Sentinel における脅威ハンティングの概念
+  - Microsoft Sentinel を使用した脅威ハンティング
+  - Microsoft Sentinel でノートブックを使用して脅威をハンティングする
+
 
 
 ***
 
-# モジュール01
-## Microsoft 365 による脅威保護の紹介
-## Microsoft 365 Defender を使用してインシデントを軽減する
+# 1. モジュール01
+## 1.1. Microsoft 365 による脅威保護の紹介
+## 1.2. Microsoft 365 Defender を使用してインシデントを軽減する
 
 [MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
 
 [KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
 
-## Microsoft Defender for 365 を使用してリスクを修復する
+## 1.3. Microsoft Defender for 365 を使用してリスクを修復する
 
 [Microsoft Defender for Office 365セキュリティの概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/overview?view=o365-worldwide)
 
 [Office365のAIRの全体的な流れ](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
 
-## Microsoft Defender for Identity
+## 1.4. Microsoft Defender for Identity
 
 [権限昇格攻撃と防御に関する解説](https://bs-square.jp/blog/index.php/2021/04/06/privilege-escalation-attack-defense-explained/)
-## Azure AD Identity Protection
+## 1.5. Azure AD Identity Protection
 
 [リスクとは](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-risks)
 
-## Microsoft Defender for Cloud Apps
+## 1.6. Microsoft Defender for Cloud Apps
 
 [Microsoft Defender for Cloud Apps のドキュメント](https://docs.microsoft.com/ja-jp/defender-cloud-apps/)
 
@@ -168,13 +192,13 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 [秘密度ラベルの詳細](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)
 
-## データ損失防止アラートへの対応
+## 1.7. データ損失防止アラートへの対応
 
-# モジュール02
+# 2. モジュール02
 
-## Microsoft Defender for Endpoint を使用して脅威から保護する
+## 2.1. Microsoft Defender for Endpoint を使用して脅威から保護する
 
-## Microsoft Defender for Endpoint の環境をデプロイする
+## 2.2. Microsoft Defender for Endpoint の環境をデプロイする
 
 [基本的なアクセス許可を使用してポータルにアクセスする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/basic-permissions?view=o365-worldwide)
 
@@ -288,7 +312,7 @@ MDE非対応
 
 [デバイス グループの作成と管理](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/machine-groups?view=o365-worldwide)
 
-## Windows 10 のセキュリティ強化の実施
+## 2.3. Windows 10 のセキュリティ強化の実施
 
 [攻撃面の減少ルール](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide)
 
@@ -296,11 +320,11 @@ MDE非対応
 
 [攻撃面の減少ルールを有効にする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction?view=o365-worldwide)
 
-## デバイス調査の実行
+## 2.4. デバイス調査の実行
 
 [フィードバック ループのブロック](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/feedback-loop-blocking?view=o365-worldwide)
 
-## デバイス上でのアクションの実行
+## 2.5. デバイス上でのアクションの実行
 
 [自動調査の概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/automated-investigations?view=o365-worldwide)
 
@@ -316,13 +340,13 @@ MDE非対応
 
 [ライブ応答を使用してデバイス上のエンティティを調査する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/live-response?view=o365-worldwide)
 
-## 証拠とエンティティ調査の実行
+## 2.6. 証拠とエンティティ調査の実行
 
-## 自動化を構成および管理する
+## 2.7. 自動化を構成および管理する
 
 [Microsoft Defender ウイルス対策でクラウド保護をオンにする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-cloud-protection-microsoft-defender-antivirus?view=o365-worldwide)
 
-## アラートと検出の設定
+## 2.8. アラートと検出の設定
 
 [Defender for Endpoint で高度な機能を構成する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/advanced-features?view=o365-worldwide)
 
@@ -330,24 +354,24 @@ MDE非対応
 
 [ネットワーク保護の有効化](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-network-protection?view=o365-worldwide)
 
-## 脅威と脆弱性の管理を活用する
+## 2.9. 脅威と脆弱性の管理を活用する
 
-# モジュール03
+# 3. モジュール03
 
-## Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する
+## 3.1. Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する
 
-## Microsoft Defender for Cloud をのクラウドワークロード保護について説明する
+## 3.2. Microsoft Defender for Cloud をのクラウドワークロード保護について説明する
 
-## Azure 資産を Microsoft Defender for Cloud に接続する
+## 3.3. Azure 資産を Microsoft Defender for Cloud に接続する
 
 [Windows 用の Log Analytics 仮想マシン拡張機能](https://docs.microsoft.com/ja-jp/azure/virtual-machines/extensions/oms-windows?azure-portal=true)
 
 [Azure Arc 対応サーバー](https://docs.microsoft.com/ja-jp/azure/azure-arc/servers/overview)
 
-## Azure 以外の資産を Microsoft Defender for Cloud に接続する
+## 3.4. Azure 以外の資産を Microsoft Defender for Cloud に接続する
 
-## Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
-# モジュール04
+## 3.5. Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
+# 4. モジュール04
 
 [KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
 
@@ -379,15 +403,15 @@ MDE非対応
 
 [strcat()](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/strcatfunction)
 
-# モジュール05
+# 5. モジュール05
 
-## Microsoft Sentinel の概要
+## 5.1. Microsoft Sentinel の概要
 
 [ログのリテンション期間（保持期間）](https://cloudsteady.jp/post/41235/)
 
 [Azure Sentinel の価格](https://azure.microsoft.com/ja-jp/pricing/details/azure-sentinel/#purchase-options)
 
-## Microsoft Sentinel ワークスペースの作成と管理
+## 5.2. Microsoft Sentinel ワークスペースの作成と管理
 
 [Azure Lighthouse とは](https://docs.microsoft.com/ja-jp/azure/lighthouse/overview)
 
@@ -402,7 +426,7 @@ MDE非対応
 
 [エンタープライズ シナリオにおける Azure Lighthouse](https://docs.microsoft.com/ja-jp/azure/lighthouse/concepts/enterprise)
 
-## Microsoft Sentinel のログのクエリを実行する
+## 5.3. Microsoft Sentinel のログのクエリを実行する
 
 アラートとインシデントを管理する主なテーブルは、SecurityAlert と SecurityIncident です。
 
@@ -443,17 +467,17 @@ Microsoft Defender for Endpoint テーブル
 |DeviceProcessEvents|このテーブルには、プロセスの作成と関連イベントに関する情報が含まれています。|
 |DeviceRegistryEvents|このテーブルには、レジストリ エントリの作成と変更に関する情報が含まれています。|
 
-## Microsoft Sentinel でウォッチリストを使用する
+## 5.4. Microsoft Sentinel でウォッチリストを使用する
 
 [Microsoft Sentinel ウォッチリストを使用する](https://docs.microsoft.com/ja-jp/azure/sentinel/watchlists)
 
 [Microsoft Sentinel 組み込みウォッチリストのテンプレートのスキーマ](https://docs.microsoft.com/ja-jp/azure/sentinel/watchlist-schemas)
 
-## Microsoft Sentinel の脅威インテリジェンスを利用する
+## 5.5. Microsoft Sentinel の脅威インテリジェンスを利用する
 
-# モジュール06
+# 6. モジュール06
 
-## データコネクタを使用して Microsoft Sentinel にデータを接続する
+## 6.1. データコネクタを使用して Microsoft Sentinel にデータを接続する
 
 [無料データ ソース](https://docs.microsoft.com/ja-jp/azure/sentinel/billing#free-data-sources)
 
@@ -465,7 +489,7 @@ Microsoft Defender for Endpoint テーブル
 
 [データの種類別のリテンション期間](https://docs.microsoft.com/ja-jp/azure/azure-monitor/logs/manage-cost-storage#retention-by-data-type)
 
-## Microsoft サービスをMicrosoft Sentinel に接続する
+## 6.2. Microsoft サービスをMicrosoft Sentinel に接続する
 
 [OfficeActivity](https://docs.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/officeactivity)
 
@@ -481,11 +505,11 @@ Microsoft Defender for Endpoint テーブル
 
 [Azure Active Directory (Azure AD) データを Microsoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-azure-active-directory)
 
-## Microsoft Defender を Microsoft Sentinel に接続する
+## 6.3. Microsoft Defender を Microsoft Sentinel に接続する
 
-## Windows ホストを Microsoft Sentinel に接続する
+## 6.4. Windows ホストを Microsoft Sentinel に接続する
 
-## Microsoft Sentinel に Common Event Format のログを接続する
+## 6.5. Microsoft Sentinel に Common Event Format のログを接続する
 
 [CommonSecurityLog](https://docs.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/commonsecuritylog)
 
@@ -493,7 +517,7 @@ Microsoft Defender for Endpoint テーブル
 
 [ログ フォワーダーをデプロイして Syslog および CEF ログを Microsoft Sentinel に取り込む](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-log-forwarder?tabs=rsyslog)
 
-## Microsoft Sentinel に Syslog データソースを接続する
+## 6.6. Microsoft Sentinel に Syslog データソースを接続する
 
 [Syslog を使用して Linux ベースのソースからデータを収集する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-syslog)
 
@@ -531,7 +555,7 @@ Severityとは、メッセージの優先度を表します。Severityはemerg�
 |debug|debug:デバッグ情報|
 |none|none:ログメッセージを記録しない|
 
-## 脅威インジケーターを Microsoft Sentinel に接続する
+## 6.7. 脅威インジケーターを Microsoft Sentinel に接続する
 
 [Microsoft Sentinel の脅威インテリジェンスについて](https://docs.microsoft.com/ja-jp/azure/sentinel/understand-threat-intelligence)
 
@@ -549,31 +573,31 @@ MISP、Anomali ThreatStream、ThreatConnect、EclecticIQ Platform、ThreatQ Thre
 [脅威インテリジェンス プラットフォームを Microsoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-threat-intelligence-tip)
 
 
-# モジュール07
+# 7. モジュール07
 
-## Microsoft Sentinel の分析を使用した脅威検出
+## 7.1. Microsoft Sentinel の分析を使用した脅威検出
 
 [Microsoft Sentinel でエンティティを使用してデータを分類および分析する](https://docs.microsoft.com/ja-jp/azure/sentinel/entities)
 
 [オートメーション ルールにより Microsoft Sentinel でのインシデント処理を自動化する](https://docs.microsoft.com/ja-jp/azure/sentinel/automate-incident-handling-with-automation-rules)
 
-## Microsoft Sentinel プレイブックを使用した脅威対処
+## 7.2. Microsoft Sentinel プレイブックを使用した脅威対処
 
 [Microsoft Sentinel によるハンティング中にデータを追跡する](https://docs.microsoft.com/ja-jp/azure/sentinel/bookmarks)
 
-## Microsoft Sentinel でのエンティティの行動分析の使用
+## 7.3. Microsoft Sentinel でのエンティティの行動分析の使用
 
-## Microsoft Sentinel でのデータクエリ、視覚化、監視
+## 7.4. Microsoft Sentinel でのデータクエリ、視覚化、監視
 
-# モジュール08
+# 8. モジュール08
 
-## Microsoft Sentinel における脅威ハンティングの概念
+## 8.1. Microsoft Sentinel における脅威ハンティングの概念
 
-## Microsoft Sentinel を使用した脅威ハンティング
+## 8.2. Microsoft Sentinel を使用した脅威ハンティング
 
 [Microsoft Sentinel でハンティング ライブストリームを使用して脅威を検出する](https://docs.microsoft.com/ja-jp/azure/sentinel/livestream)
 
-## Microsoft Sentinel でノートブックを使用して脅威をハンティングする
+## 8.3. Microsoft Sentinel でノートブックを使用して脅威をハンティングする
 
 [Jupyter のノートブックを使用してセキュリティの脅威を検出する](https://docs.microsoft.com/ja-jp/azure/sentinel/notebooks)
 
