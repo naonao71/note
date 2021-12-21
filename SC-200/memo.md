@@ -135,7 +135,7 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 **Microsoft Information Protection** は、以下の４つのソリューションの総称です。それぞれが組み合わさって動作します。
 - Azure Information Protection (AIP)
 - Microsoft 365 Information Protection(MIP)
-- Microsoft Cloud App Security (MCAS)
+- Microsoft Defender for Cloud Apps
 - Windows 情報保護
 
 [秘密度ラベルの詳細](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)
