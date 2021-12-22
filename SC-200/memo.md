@@ -321,6 +321,25 @@ MDE非対応
 
 [攻撃面の減少ルールを有効にする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction?view=o365-worldwide)
 
+Windows には攻撃面の減少ルールが用意されているので、このルールを構成することでセキュリティ侵害リスクを削減できます。
+
+ASR は以下のツールから設定可能です。
+- Microsoft Intune
+- モバイル デバイス管理 (MDM)
+- Microsoft Endpoint Configuration Manager
+- グループ ポリシー
+- PowerShell
+
+各 ASR ルールには、次の 4 つの設定のいずれかを含む。
+- 構成されていません
+  - ASR ルールを無効にする
+- ブロック
+  - ASR ルールを有効にする
+- 監査
+  - ASR ルールが有効な場合に組織に与える影響を評価する
+-	警告
+  - ASR ルールを有効にするが、エンド ユーザーがブロックをバイパスできる
+
 ## 2.4. デバイス調査の実行
 
 [フィードバック ループのブロック](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/feedback-loop-blocking?view=o365-worldwide)
