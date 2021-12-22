@@ -451,7 +451,7 @@ Sentinel からデータ コネクタのデータを取り込む場合に最も�
 |SecurityEvent|Microsoft Defender for Cloud または Microsoft Sentinel によって Windows マシンから収集されたセキュリティ イベント|
 |SigninLogs|Azure Activity Directory のサインイン ログ|
 |Syslog|Log Analytics エージェントを使用した Linux コンピューター上の Syslog イベント。|
-|イベント|Windows ホストから収集された Sysmon イベント。|
+|Event|Windows ホストから収集された Sysmon イベント。|
 |WindowsFirewall|Windows ファイアウォール イベント|
 
 Microsoft Defender for Endpoint テーブル
