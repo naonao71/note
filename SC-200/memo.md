@@ -436,7 +436,7 @@ MDE非対応
 |SecurityAlert|Sentinel の分析規則から生成されたアラートを含みます。 また、Sentinel データ コネクタから直接作成されたアラートを含むこともあります|
 |SecurityIncident|アラートによりインシデントが生成される可能性があります。 インシデントはアラートに関連しています。|
 |ThreatIntelligenceIndictor|ファイル ハッシュ、IP アドレス、ドメインなどユーザーが作成した、またはデータ コネクタに取り込まれたインジケーターを含みます|
-|Watchlist|Azure Sentinel ウォッチリストはインポートされたデータを含みます。|
+|Watchlist|Microsoft Sentinel ウォッチリストはインポートされたデータを含みます。|
 
 Sentinel からデータ コネクタのデータを取り込む場合に最もよく使用されるテーブルを次の表に示します。
 
@@ -447,8 +447,8 @@ Sentinel からデータ コネクタのデータを取り込む場合に最も�
 |AuditLogs|Azure Active Directory の監査ログ。ユーザーとグループの管理、マネージド アプリケーション、ディレクトリ アクティビティに関するシステム アクティビティ情報。|
 |CommonSecurityLog|Common Event Format (CEF) を使用した Syslog メッセージ。|
 |McasShadowItReporting|Microsoft Cloud App Security のログ|
-|OfficeActivity|Azure Sentinel によって収集された Office 365 テナントの監査ログ。Exchange、SharePoint、および Teams のログを含みます。|
-|SecurityEvent|Azure Security Center または Azure Sentinel によって Windows マシンから収集されたセキュリティ イベント|
+|OfficeActivity|Microsoft Sentinel によって収集された Office 365 テナントの監査ログ。Exchange、SharePoint、および Teams のログを含みます。|
+|SecurityEvent|Microsoft Defender for Cloud または Microsoft Sentinel によって Windows マシンから収集されたセキュリティ イベント|
 |SigninLogs|Azure Activity Directory のサインイン ログ|
 |Syslog|Log Analytics エージェントを使用した Linux コンピューター上の Syslog イベント。|
 |イベント|Windows ホストから収集された Sysmon イベント。|
