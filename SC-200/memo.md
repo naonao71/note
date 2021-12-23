@@ -544,7 +544,7 @@ Microsoft Defender for Endpoint テーブル
 
 [Log Analytics エージェントを使用して Syslog データ ソースを収集する](https://docs.microsoft.com/ja-jp/azure/azure-monitor/agents/data-sources-syslog)
 
-syslogにおけるシステムログには**「Facility」と「Severity」**という考え方があります。Facilityとは、正確に言えば「ログの種別」のことであり、分かりやすくいえばメッセージの「出力元」のことです。ファシリティには以下の種類があり、ファシリティを使用することでメッセージの出力元に応じてログの出力先を制御できます。
+syslogにおけるシステムログには **「Facility」と「Severity」**という考え方があります。Facilityとは、正確に言えば「ログの種別」のことであり、分かりやすくいえばメッセージの「出力元」のことです。ファシリティには以下の種類があり、ファシリティを使用することでメッセージの出力元に応じてログの出力先を制御できます。
 
 |Facility|Facility Code|説明|
 |:----|:----|:----|
