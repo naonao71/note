@@ -323,7 +323,7 @@ MDE非対応
 
 Windows には攻撃面の減少ルールが用意されているので、このルールを構成することでセキュリティ侵害リスクを削減できます。
 
-ASR は以下のツールから設定可能です。
+ASR(Attack surface reduction) は以下のツールから設定可能です。
 - Microsoft Intune
 - モバイル デバイス管理 (MDM)
 - Microsoft Endpoint Configuration Manager
