@@ -321,7 +321,7 @@ MDE非対応
 
 [攻撃面の減少ルールを有効にする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction?view=o365-worldwide)
 
-Windows には攻撃面の減少ルールが用意されているので、このルールを構成することでセキュリティ侵害リスクを削減できます。
+Windows には攻撃面の減少(Attack surface reduction)ルールが用意されているので、このルールを構成することでセキュリティ侵害リスクを削減できます。
 
 ASR(Attack surface reduction) は以下のツールから設定可能です。
 - Microsoft Intune
