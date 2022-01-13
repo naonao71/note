@@ -447,7 +447,7 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 
 [ログのリテンション期間（保持期間）](https://cloudsteady.jp/post/41235/)
 
-[Azure Sentinel の価格](https://azure.microsoft.com/ja-jp/pricing/details/azure-sentinel/#purchase-options)
+[Microsoft Sentinel の価格](https://azure.microsoft.com/ja-jp/pricing/details/azure-sentinel/#purchase-options)
 
 ## 5.2. Microsoft Sentinel ワークスペースの作成と管理
 
