@@ -455,16 +455,16 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 
 [Microsoft Sentinel のアクセス許可](https://docs.microsoft.com/ja-jp/azure/sentinel/roles)
 
-Microsoft Azure Sentinel のすべての組み込みロールでは、Microsoft Azure Sentinel ワークスペース内のデータに対して読み取りアクセス権が付与されます。
+Microsoft Sentinel のすべての組み込みロールでは、Microsoft Sentinel ワークスペース内のデータに対して読み取りアクセス権が付与されます。
 
 - 閲覧者</BR>
-データ、インシデント、ブック、その他の Azure Sentinel リソースをレビューできます
+データ、インシデント、ブック、その他の Microsoft Sentinel リソースをレビューできます
 
 - レスポンダー</BR>
 閲覧者ロールのすべてのアクセス許可があります。さらに、インシデントを割り当てたり、終了したりして、インシデントを管理できます
 
 - 共同作成者</BR>
-閲覧者ロールとレスポンダーロールのすべてのアクセスが許可されています。また、ブック、分析ルール、その他の Azure Sentinel リソースを作成および編集することもできます。お客様のテナントに Azure Sentinel をデプロイするには、Azure Sentinel ワークスペースがデプロイされているサブスクリプションへの共同作成者としてのアクセス許可が必要です。
+閲覧者ロールとレスポンダーロールのすべてのアクセスが許可されています。また、ブック、分析ルール、その他の Microsoft Sentinel リソースを作成および編集することもできます。お客様のテナントに Microsoft Sentinel をデプロイするには、Azure Sentinel ワークスペースがデプロイされているサブスクリプションへの共同作成者としてのアクセス許可が必要です。
 
 - Automation 共同作成者</BR>
 プレイブックに自動化ルールを追加することを **Microsoft Sentinel に許可**します。 これはユーザー アカウント用ではありません。
