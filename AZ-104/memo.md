@@ -60,8 +60,8 @@ AZ-104
 
 **MS Learn コンテンツ**
 
-[Azure Active Directory を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
-[ユーザー アカウントとグループ アカウントを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-user-group-accounts/?wt.mc_id=esi_m2l_content_wwl)
+- [Azure Active Directory を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
+- [ユーザー アカウントとグループ アカウントを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-user-group-accounts/?wt.mc_id=esi_m2l_content_wwl)
 
 ***
 
