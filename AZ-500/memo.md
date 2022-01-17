@@ -8,7 +8,8 @@
 
 [Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
-- トレーニングで使用するテキスト
+- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
+- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/neqjf5m83e37x4?wt.mc_id=esi_m2l_content_wwl)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
@@ -162,7 +163,7 @@ Get-AzureADUser -SearchString user01 | fl *
 [Azure Active Directory でパスワードレス認証のデプロイを計画する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-authentication-passwordless-deployment)
 
 ***
-### 1.1.2. ハイブリッド ID
+### 1.1.2. [ハイブリッド ID](https://docs.microsoft.com/ja-jp/learn/modules/hybrid-identity/?wt.mc_id=esi_m2l_content_wwl)
 
 **Azure AD Connect**
 -
@@ -200,7 +201,7 @@ Azure AD Connect を実行するためのこれら 3 つのアカウントに加
 [NIST SP800-207 「ゼロトラスト・アーキテクチャ」の解説と日本語訳](https://www.pwc.com/jp/ja/knowledge/column/awareness-cyber-security/zero-trust-architecture-jp.html)
 
 ***
-### 1.1.3. Azure AD Identity Protection
+### 1.1.3. [Azure AD Identity Protection](https://docs.microsoft.com/ja-jp/learn/modules/azure-ad-identity-protection/?wt.mc_id=esi_m2l_content_wwl)
 
 [Azure AD Identity Protection のリスク](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-risks)
 
@@ -283,7 +284,7 @@ Azure AD Connect を実行するためのこれら 3 つのアカウントに加
 [Azure AD アクセス レビューとは](https://docs.microsoft.com/ja-jp/azure/active-directory/governance/access-reviews-overview)
 
 ***
-### 1.1.4. Azure AD Pricileged Identity Management
+### 1.1.4. [Azure AD Pricileged Identity Management](https://docs.microsoft.com/ja-jp/learn/modules/azure-ad-privileged-identity-management/?wt.mc_id=esi_m2l_content_wwl)
 
 **ゼロトラストの指導原則**
 - 明示的に確認（常に認証と承認）
@@ -329,7 +330,7 @@ MFAを要求する設定は以下の通り
 > - 条件付きアクセスで多要素認証を要求する場合は、追加のクラウドベースのMFA設定で無効状態でもMFA認証を要求される（MFA設定画面に遷移する）。
 
 ***
-### 1.1.5. エンタープライズ ガバナンス
+### 1.1.5. [エンタープライズ ガバナンス](https://docs.microsoft.com/ja-jp/learn/modules/enterprise-governance/?wt.mc_id=esi_m2l_content_wwl)
 
 **Azure ポリシー**
 Azureポリシーを使用して、あるべき姿を強制する（コンプライアンス）ことができる。そのポリシーをまとめたものがイニシアティブとなる。
