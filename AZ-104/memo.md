@@ -8,6 +8,7 @@
 
 [Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
+- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
 - [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/xe42fkkpzr6roe?wt.mc_id=esi_m2l_content_wwl)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
