@@ -2,7 +2,7 @@
 
 **リンク一覧およびメモ**
 
-[AZ-500 ラボコンテンツ](https://microsoftlearning.github.io/AZ-500JA-AzureSecurityTechnologies/){:target="_blank"}
+[AZ-500 ラボコンテンツ](https://microsoftlearning.github.io/AZ-500JA-AzureSecurityTechnologies/)
 
 - ラボファイルをローカルにダウンロードする
 
@@ -66,7 +66,7 @@
   - [1.4. モジュール04](#14-モジュール04)
     - [1.4.1. Azure Monitor](#141-azure-monitor)
     - [1.4.2. Azure Security Center](#142-azure-security-center)
-    - [1.4.3. Azure Sentinel](#143-azure-sentinel)
+    - [1.4.3. Microsoft Sentinel](#143-microsoft-sentinel)
 
 ## 1.1. モジュール01
 
@@ -387,7 +387,7 @@ Remove-AzResourceGroup -Name hub-spoke
 ![image](https://github.com/naonao71/note/blob/main/AZ-500/media/hub-spoke.jpg)
 
 ***
-### 1.2.1. 境界セキュリティ
+### 1.2.1. [境界セキュリティ](https://docs.microsoft.com/ja-jp/learn/modules/perimeter-security/?wt.mc_id=esi_m2l_content_wwl)
 
 [Local Administrator Password Solution (LAPS) 導入ガイド (日本語版)](https://msrc-blog.microsoft.com/2020/08/26/20200827_laps/)
 
@@ -424,7 +424,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
   - すべてのイベントは Azure Monitor と統合されます。そのため、ログをストレージ アカウントにアーカイブしたり、イベントを Event Hub にストリーム配信したり、それらを Azure Monitor ログに送信したりできます。
 
 ***
-### 1.2.2. ネットワークセキュリティ
+### 1.2.2. [ネットワークセキュリティ](https://docs.microsoft.com/ja-jp/learn/modules/network-security/?wt.mc_id=esi_m2l_content_wwl)
 
 [仮想ネットワーク サービス エンドポイント](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview)
 
@@ -443,7 +443,7 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 [ExpressRoute Direct について](https://docs.microsoft.com/ja-jp/azure/expressroute/expressroute-erdirect-about#workflow)
 
 ***
-### 1.2.3. ホストセキュリティ
+### 1.2.3. [ホストセキュリティ](https://docs.microsoft.com/ja-jp/learn/modules/host-security/?wt.mc_id=esi_m2l_content_wwl)
 
 [Windows Autopilot の概要](https://docs.microsoft.com/ja-jp/mem/autopilot/windows-autopilot)
 
@@ -518,7 +518,7 @@ Microsoft Monitoring Agent (MMA)がセンサーの役割を果たします。そ
 MDE非対応
 
 ***
-### 1.2.4. コンテナーセキュリティ
+### 1.2.4. [コンテナーセキュリティ](https://docs.microsoft.com/ja-jp/learn/modules/enable-containers-security/?wt.mc_id=esi_m2l_content_wwl)
 
 **コンテナーを使用するにあたってのセキュリティ考慮事項**
 - パブリックに公開されているコンテナーイメージはセキュリティを保証しない。よって、**プライベートレジストリを使用することでセキュリティを高める**
@@ -542,7 +542,7 @@ MDE非対応
 ***
 ## 1.3. モジュール03
 
-### 1.3.1. Azure Key Vault
+### 1.3.1. [Azure Key Vault](https://docs.microsoft.com/ja-jp/learn/modules/azure-key-vault/?wt.mc_id=esi_m2l_content_wwl)
 
 Azure keyコンテナー（Azure Key Vault）は、クラウドアプリケーションやサービスが使用する暗号化キーやシークレットの保護に役立ちます。シークレットとは、暗号化処理や認証に使用する機密性の高い情報のことで、具体的にはトークン、パスワード、証明書、API キーなどを指します。
 
@@ -563,7 +563,7 @@ Azure keyコンテナー（Azure Key Vault）では
 [Azure Key Vault のバックアップ](https://docs.microsoft.com/ja-jp/azure/key-vault/general/backup?tabs=azure-cli)
 
 ***
-### 1.3.2. アプリケーションのセキュリティ
+### 1.3.2. [アプリケーションのセキュリティ](https://docs.microsoft.com/ja-jp/learn/modules/application-security/?wt.mc_id=esi_m2l_content_wwl)
 
 AzureADとの連携シナリオ
 - アプリのユーザー認証/認可に Azure AD を利用したい
@@ -615,7 +615,7 @@ MSAL(Microsoft Authentication Library：Microsoft 認証ライブラリ）を取
 [Azure App Service に対する TLS 相互認証の構成](https://docs.microsoft.com/ja-jp/azure/app-service/app-service-web-configure-tls-mutual-auth)
 
 ***
-### 1.3.3. ストレージ セキュリティ
+### 1.3.3. [ストレージ セキュリティ](https://docs.microsoft.com/ja-jp/learn/modules/storage-security/?wt.mc_id=esi_m2l_content_wwl)
 
 **ストレージサービスの種類：**
 - Azureコンテナー（BLOBストレージ-バイナリラージオブジェクト）
@@ -654,7 +654,7 @@ SAS の種類
 [Azure Active Directory を使用して BLOB へのアクセスを認可する](https://docs.microsoft.com/ja-jp/azure/storage/blobs/authorize-access-azure-active-directory)
 
 ***
-### 1.3.4. データベース セキュリティ
+### 1.3.4. [データベース セキュリティ](https://docs.microsoft.com/ja-jp/learn/modules/sql-database-security/?wt.mc_id=esi_m2l_content_wwl)
 
 [Azure SQL Database と SQL Managed Instance のセキュリティ機能の概要](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/security-overview)
 
@@ -804,14 +804,14 @@ Set-SqlColumnEncryption -InputObject $database -ColumnEncryptionSettings $ces -L
 ***
 ## 1.4. モジュール04
 
-### 1.4.1. Azure Monitor
+### 1.4.1. [Azure Monitor](https://docs.microsoft.com/ja-jp/learn/modules/azure-monitor/?wt.mc_id=esi_m2l_content_wwl)
 
 [Kusto の概要](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/concepts/)
 
 [Log Analytics Demo Site](https://aka.ms/lademo)
 
 ***
-### 1.4.2. Azure Security Center
+### 1.4.2. [Azure Security Center](https://docs.microsoft.com/ja-jp/learn/modules/azure-security-center/?wt.mc_id=esi_m2l_content_wwl)
 
 [MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
 
@@ -836,11 +836,11 @@ Set-SqlColumnEncryption -InputObject $database -ColumnEncryptionSettings $ces -L
 [Azure Security Center のファイルの整合性の監視](https://docs.microsoft.com/ja-jp/azure/security-center/security-center-file-integrity-monitoring)
 
 ***
-### 1.4.3. Azure Sentinel
+### 1.4.3. [Microsoft Sentinel](https://docs.microsoft.com/ja-jp/learn/modules/azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
-[Azure Sentinel のドキュメント](https://docs.microsoft.com/ja-jp/azure/sentinel/)
+[Microsoft Sentinel のドキュメント](https://docs.microsoft.com/ja-jp/azure/sentinel/)
 
-[Azure Sentinel データ コネクタ](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-data-sources)
+[Microsoft Sentinel データ コネクタ](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-data-sources)
 
-[Find your Azure Sentinel data connector](https://docs.microsoft.com/en-us/azure/sentinel/data-connectors-reference)
+[Find your Microsoft Sentinel data connector](https://docs.microsoft.com/en-us/azure/sentinel/data-connectors-reference)
 
