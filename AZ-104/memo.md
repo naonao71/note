@@ -118,9 +118,9 @@ AZ-104
 
 **MS Learn コンテンツ**
 
-[サブスクリプションを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-subscriptions/?wt.mc_id=esi_m2l_content_wwl)
-[Azure Policy を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-policy/?wt.mc_id=esi_m2l_content_wwl)
-[ロールベースのアクセス制御の構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-role-based-access-control/?wt.mc_id=esi_m2l_content_wwl)
+- [サブスクリプションを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-subscriptions/?wt.mc_id=esi_m2l_content_wwl)
+- [Azure Policy を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-policy/?wt.mc_id=esi_m2l_content_wwl)
+- [ロールベースのアクセス制御の構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-role-based-access-control/?wt.mc_id=esi_m2l_content_wwl)
 
 ***
 
@@ -177,6 +177,14 @@ Get-AzRoleDefinition 'user access administrator'
 [RBAC](https://github.com/naonao71/note/blob/main/AZ-104/mod02-03-rbac.md)
 
 ## 1.3. モジュール 03 – Azure リソースを管理する
+
+**MS Learn コンテンツ**
+
+- [ツールを使用して Azure リソースを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-resources-tools/?wt.mc_id=esi_m2l_content_wwl)
+- [Azure Resource Manager を使用する](https://docs.microsoft.com/ja-jp/learn/modules/use-azure-resource-manager/?wt.mc_id=esi_m2l_content_wwl)
+- [Azure Resource Manager テンプレートを使用してリソースを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-resources-arm-templates/?wt.mc_id=esi_m2l_content_wwl)
+
+***
 
 [ARM テンプレートとは](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/templates/overview)
 
@@ -258,6 +266,15 @@ Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
 [ARMテンプレート](https://github.com/naonao71/note/blob/main/AZ-104/mod03-04-template.md)
 
 ## 1.4. モジュール 04 – 仮想ネットワークを管理する
+
+**MS Learn コンテンツ**
+
+- [仮想ネットワークを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-virtual-networks/?wt.mc_id=esi_m2l_content_wwl)
+- [ネットワーク セキュリティ グループを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-network-security-groups/?wt.mc_id=esi_m2l_content_wwl)
+- [Azure Firewall を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-firewall/?wt.mc_id=esi_m2l_content_wwl)
+- [Azure DNS を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-dns/?wt.mc_id=esi_m2l_content_wwl)
+
+***
 
 - サブネットを作成すると各サブネットには5つの予約されたアドレス作成されます。
   - x.x.x.0: ネットワーク アドレス
