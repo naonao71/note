@@ -627,10 +627,10 @@ AKS では、次の 2 つのネットワーク モデルのいずれかを使用
 
 **MS Learn コンテンツ**
 
-[Azure Monitor を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-monitor/?wt.mc_id=esi_m2l_content_wwl)
-[Azure アラートを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-alerts/?wt.mc_id=esi_m2l_content_wwl)
-[Log Analytics の構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-log-analytics/?wt.mc_id=esi_m2l_content_wwl)
-[Network Watcher を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-network-watcher/?wt.mc_id=esi_m2l_content_wwl)
+- [Azure Monitor を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-monitor/?wt.mc_id=esi_m2l_content_wwl)
+- [Azure アラートを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-alerts/?wt.mc_id=esi_m2l_content_wwl)
+- [Log Analytics の構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-log-analytics/?wt.mc_id=esi_m2l_content_wwl)
+- [Network Watcher を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-network-watcher/?wt.mc_id=esi_m2l_content_wwl)
 
 ***
 
