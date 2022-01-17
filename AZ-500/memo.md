@@ -69,7 +69,7 @@
 
 ## 1.1. モジュール01
 
-### 1.1.1. Azure Active Diarectory
+### 1.1.1. [Azure Active Diarectory](https://docs.microsoft.com/ja-jp/learn/modules/azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
 
 [Azure AD の組み込みロール](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/permissions-reference)
 
