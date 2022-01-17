@@ -8,7 +8,7 @@
 
 [Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
-- トレーニングで使用するテキスト
+- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/xe42fkkpzr6roe?wt.mc_id=esi_m2l_content_wwl)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
@@ -57,6 +57,13 @@ AZ-104
   - [1.11. モジュール 11 - 監視を管理する](#111-モジュール-11---監視を管理する)
 
 ## 1.1. モジュール 01 - ID を管理する
+
+**MS Learn コンテンツ**
+
+[Azure Active Directory を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
+[ユーザー アカウントとグループ アカウントを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-user-group-accounts/?wt.mc_id=esi_m2l_content_wwl)
+
+***
 
 [Azure Active Directory の価格](https://azure.microsoft.com/ja-jp/pricing/details/active-directory/)
 
@@ -108,6 +115,14 @@ AZ-104
 [ユーザーの種類](https://github.com/naonao71/note/blob/main/AZ-104/mod01-02-user.md)
 
 ## 1.2. モジュール 02 – ガバナンスとコンプライアンスを管理する
+
+**MS Learn コンテンツ**
+
+[サブスクリプションを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-subscriptions/?wt.mc_id=esi_m2l_content_wwl)
+[Azure Policy を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-policy/?wt.mc_id=esi_m2l_content_wwl)
+[ロールベースのアクセス制御の構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-role-based-access-control/?wt.mc_id=esi_m2l_content_wwl)
+
+***
 
 [Azure でのデータ所在地](https://azure.microsoft.com/ja-jp/global-infrastructure/data-residency/)
 
