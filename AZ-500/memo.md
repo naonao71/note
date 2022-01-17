@@ -2,7 +2,7 @@
 
 **リンク一覧およびメモ**
 
-[AZ-500 ラボコンテンツ](https://microsoftlearning.github.io/AZ-500JA-AzureSecurityTechnologies/) {:target="_blank"}
+[AZ-500 ラボコンテンツ](https://microsoftlearning.github.io/AZ-500JA-AzureSecurityTechnologies/){:target="_blank"}
 
 - ラボファイルをローカルにダウンロードする
 
