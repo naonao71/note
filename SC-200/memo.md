@@ -7,7 +7,8 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 [Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
-- トレーニングで使用するテキスト
+- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
+- [トレーニングで使用するテキス](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/zwm5c4dezn0k1n?wt.mc_id=esi_m2l_content_wwl)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
@@ -84,6 +85,7 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
   - [1.5. Azure AD Identity Protection](#15-azure-ad-identity-protection)
   - [1.6. Microsoft Defender for Cloud Apps](#16-microsoft-defender-for-cloud-apps)
   - [1.7. データ損失防止アラートへの対応](#17-データ損失防止アラートへの対応)
+  - [1.8 Microsoft 365 で insider リスクを管理する](#18-microsoft-365-で-insider-リスクを管理する)
 - [2. モジュール02](#2-モジュール02)
   - [2.1. Microsoft Defender for Endpoint を使用して脅威から保護する](#21-microsoft-defender-for-endpoint-を使用して脅威から保護する)
   - [2.2. Microsoft Defender for Endpoint の環境をデプロイする](#22-microsoft-defender-for-endpoint-の環境をデプロイする)
@@ -129,27 +131,27 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 ***
 
 # 1. モジュール01
-## 1.1. Microsoft 365 による脅威保護の紹介
-## 1.2. Microsoft 365 Defender を使用してインシデントを軽減する
+## 1.1. [Microsoft 365 による脅威保護の紹介](https://docs.microsoft.com/ja-jp/learn/modules/m365-security-threat-define/)
+## 1.2. [Microsoft 365 Defender を使用してインシデントを軽減する](https://docs.microsoft.com/ja-jp/learn/modules/mitigate-incidents-microsoft-365-defender/)
 
 [MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
 
 [KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
 
-## 1.3. Microsoft Defender for 365 を使用してリスクを修復する
+## 1.3. [Microsoft Defender for 365 を使用してリスクを修復する](https://docs.microsoft.com/ja-jp/learn/modules/mitigate-incidents-microsoft-365-defender/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Defender for Office 365セキュリティの概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/overview?view=o365-worldwide)
 
 [Office365のAIRの全体的な流れ](https://docs.microsoft.com/ja-jp/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
 
-## 1.4. Microsoft Defender for Identity
+## 1.4. [Microsoft Defender for Identity](https://docs.microsoft.com/ja-jp/learn/modules/m365-threat-safeguard/?wt.mc_id=esi_m2l_content_wwl)
 
 [権限昇格攻撃と防御に関する解説](https://bs-square.jp/blog/index.php/2021/04/06/privilege-escalation-attack-defense-explained/)
-## 1.5. Azure AD Identity Protection
+## 1.5. [Azure AD Identity Protection](https://docs.microsoft.com/ja-jp/learn/modules/protect-identities-with-aad-idp/?wt.mc_id=esi_m2l_content_wwl)
 
 [リスクとは](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-risks)
 
-## 1.6. Microsoft Defender for Cloud Apps
+## 1.6. [Microsoft Defender for Cloud Apps](https://docs.microsoft.com/ja-jp/learn/modules/microsoft-cloud-app-security/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Defender for Cloud Apps のドキュメント](https://docs.microsoft.com/ja-jp/defender-cloud-apps/)
 
@@ -192,7 +194,7 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 [秘密度ラベルの詳細](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)
 
-## 1.7. データ損失防止アラートへの対応
+## 1.7. [データ損失防止アラートへの対応](https://docs.microsoft.com/ja-jp/learn/modules/respond-to-data-loss-prevention-alerts-microsoft-365/?wt.mc_id=esi_m2l_content_wwl)
 
 DLP のファイル ポリシー アラートに対処する場合でも、アラートの一覧にはさまざまな種類のアラートが表示されます。 DLP 以外のこれらのアラートからもセキュリティ インシデントに関する分析情報が得られる可能性があるため、さまざまなアラートの種類を理解しておくことが重要です。
 
@@ -210,6 +212,8 @@ DLP のファイル ポリシー アラートに対処する場合でも、ア�
 |新たに発見されたサービス|このアラートはシャドウ ITについてのアラートです。Cloud Discovery が新たなアプリを検出しました。|アプリカタログに基づいてサービスのリスクを評価してください。|
 |疑わしいアクティビティ|このアラートにより、組織内の予期されるアクティビティまたはユーザーとは一致しない異常なアクティビティが検出されたことが通知されます。|動作を調査してユーザー本人に確認します。この種のアラートは、環境について詳しく学び、これらのアラートを基に新しいポリシーを作成するのに最適な場所です。例えば、接続されているアプリのいずれかへあるユーザーが突如として大量のデータをアップロードしている場合、こうした異常な動作を統制するためのルールを設定することができます。|
 |パーソナルアカウントの使用|このアラートにより、接続されているアプリのリソースに新しい個人用アカウントがアクセスできることが通知されます。|外部アカウントでのユーザーのコラボを削除します。|
+
+## 1.8 [Microsoft 365 で insider リスクを管理する](https://docs.microsoft.com/ja-jp/learn/modules/m365-compliance-insider-manage-insider-risk/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft 365 のインサイダー リスク管理について](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/insider-risk-management?view=o365-worldwide)
 # 2. モジュール02
