@@ -124,9 +124,10 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
   - [6.7. 脅威インジケーターを Microsoft Sentinel に接続する](#67-脅威インジケーターを-microsoft-sentinel-に接続する)
 - [7. モジュール07](#7-モジュール07)
   - [7.1. Microsoft Sentinel の分析を使用した脅威検出](#71-microsoft-sentinel-の分析を使用した脅威検出)
-  - [7.2. Microsoft Sentinel プレイブックを使用した脅威対処](#72-microsoft-sentinel-プレイブックを使用した脅威対処)
-  - [7.3. Microsoft Sentinel でのエンティティの行動分析の使用](#73-microsoft-sentinel-でのエンティティの行動分析の使用)
-  - [7.4. Microsoft Sentinel でのデータクエリ、視覚化、監視](#74-microsoft-sentinel-でのデータクエリ視覚化監視)
+  - [7.2. Microsoft Sentinel でのセキュリティ インシデント管理](#72-microsoft-sentinel-でのセキュリティ-インシデント管理)
+  - [7.3. Microsoft Sentinel プレイブックを使用した脅威対処](#73-microsoft-sentinel-プレイブックを使用した脅威対処)
+  - [7.4. Microsoft Sentinel でのエンティティの行動分析の使用](#74-microsoft-sentinel-でのエンティティの行動分析の使用)
+  - [7.5. Microsoft Sentinel でのデータクエリ、視覚化、監視](#75-microsoft-sentinel-でのデータクエリ視覚化監視)
 - [8. モジュール08](#8-モジュール08)
   - [8.1. Microsoft Sentinel における脅威ハンティングの概念](#81-microsoft-sentinel-における脅威ハンティングの概念)
   - [8.2. Microsoft Sentinel を使用した脅威ハンティング](#82-microsoft-sentinel-を使用した脅威ハンティング)
@@ -672,29 +673,30 @@ MISP、Anomali ThreatStream、ThreatConnect、EclecticIQ Platform、ThreatQ Thre
 
 # 7. モジュール07
 
-## 7.1. Microsoft Sentinel の分析を使用した脅威検出
+## 7.1. [Microsoft Sentinel の分析を使用した脅威検出](https://docs.microsoft.com/ja-jp/learn/modules/analyze-data-in-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Sentinel でエンティティを使用してデータを分類および分析する](https://docs.microsoft.com/ja-jp/azure/sentinel/entities)
 
 [オートメーション ルールにより Microsoft Sentinel でのインシデント処理を自動化する](https://docs.microsoft.com/ja-jp/azure/sentinel/automate-incident-handling-with-automation-rules)
 
-## 7.2. Microsoft Sentinel プレイブックを使用した脅威対処
+## 7.2. [Microsoft Sentinel でのセキュリティ インシデント管理](https://docs.microsoft.com/ja-jp/learn/modules/incident-management-sentinel/?wt.mc_id=esi_m2l_content_wwl)
+## 7.3. [Microsoft Sentinel プレイブックを使用した脅威対処](https://docs.microsoft.com/ja-jp/learn/modules/threat-response-sentinel-playbooks/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Sentinel によるハンティング中にデータを追跡する](https://docs.microsoft.com/ja-jp/azure/sentinel/bookmarks)
 
-## 7.3. Microsoft Sentinel でのエンティティの行動分析の使用
+## 7.4. [Microsoft Sentinel でのエンティティの行動分析の使用](https://docs.microsoft.com/ja-jp/learn/modules/use-entity-behavior-analytics-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
-## 7.4. Microsoft Sentinel でのデータクエリ、視覚化、監視
+## 7.5. [Microsoft Sentinel でのデータクエリ、視覚化、監視](https://docs.microsoft.com/ja-jp/learn/modules/query-data-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 # 8. モジュール08
 
-## 8.1. Microsoft Sentinel における脅威ハンティングの概念
+## 8.1. [Microsoft Sentinel における脅威ハンティングの概念](https://docs.microsoft.com/ja-jp/learn/modules/what-is-threat-hunting-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
-## 8.2. Microsoft Sentinel を使用した脅威ハンティング
+## 8.2. [Microsoft Sentinel を使用した脅威ハンティング](https://docs.microsoft.com/ja-jp/learn/modules/hunt-threats-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Sentinel でハンティング ライブストリームを使用して脅威を検出する](https://docs.microsoft.com/ja-jp/azure/sentinel/livestream)
 
-## 8.3. Microsoft Sentinel でノートブックを使用して脅威をハンティングする
+## 8.3. [Microsoft Sentinel でノートブックを使用して脅威をハンティングする](https://docs.microsoft.com/ja-jp/learn/modules/perform-threat-hunting-sentinel-with-notebooks/?wt.mc_id=esi_m2l_content_wwl)
 
 [Jupyter のノートブックを使用してセキュリティの脅威を検出する](https://docs.microsoft.com/ja-jp/azure/sentinel/notebooks)
 
