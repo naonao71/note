@@ -85,17 +85,18 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
   - [1.5. Azure AD Identity Protection](#15-azure-ad-identity-protection)
   - [1.6. Microsoft Defender for Cloud Apps](#16-microsoft-defender-for-cloud-apps)
   - [1.7. データ損失防止アラートへの対応](#17-データ損失防止アラートへの対応)
-  - [1.8 Microsoft 365 で insider リスクを管理する](#18-microsoft-365-で-insider-リスクを管理する)
+  - [1.8. 1.8 Microsoft 365 で insider リスクを管理する](#18-18-microsoft-365-で-insider-リスクを管理する)
 - [2. モジュール02](#2-モジュール02)
   - [2.1. Microsoft Defender for Endpoint を使用して脅威から保護する](#21-microsoft-defender-for-endpoint-を使用して脅威から保護する)
   - [2.2. Microsoft Defender for Endpoint の環境をデプロイする](#22-microsoft-defender-for-endpoint-の環境をデプロイする)
   - [2.3. Windows 10 のセキュリティ強化の実施](#23-windows-10-のセキュリティ強化の実施)
-  - [2.4. デバイス調査の実行](#24-デバイス調査の実行)
-  - [2.5. デバイス上でのアクションの実行](#25-デバイス上でのアクションの実行)
-  - [2.6. 証拠とエンティティ調査の実行](#26-証拠とエンティティ調査の実行)
-  - [2.7. 自動化を構成および管理する](#27-自動化を構成および管理する)
-  - [2.8. アラートと検出の設定](#28-アラートと検出の設定)
-  - [2.9. 脅威と脆弱性の管理を活用する](#29-脅威と脆弱性の管理を活用する)
+  - [2.4. Microsoft Defender for Endpoint でアラートとインシデントを管理する](#24-microsoft-defender-for-endpoint-でアラートとインシデントを管理する)
+  - [2.5. デバイス調査の実行](#25-デバイス調査の実行)
+  - [2.6. デバイス上でのアクションの実行](#26-デバイス上でのアクションの実行)
+  - [2.7. 証拠とエンティティ調査の実行](#27-証拠とエンティティ調査の実行)
+  - [2.8. 自動化を構成および管理する](#28-自動化を構成および管理する)
+  - [2.9. アラートと検出の設定](#29-アラートと検出の設定)
+  - [2.10. 脅威と脆弱性の管理を活用する](#210-脅威と脆弱性の管理を活用する)
 - [3. モジュール03](#3-モジュール03)
   - [3.1. Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する](#31-microsoft-defender-for-cloud-を使用してクラウドワークロード保護を計画する)
   - [3.2. Microsoft Defender for Cloud をのクラウドワークロード保護について説明する](#32-microsoft-defender-for-cloud-をのクラウドワークロード保護について説明する)
@@ -213,14 +214,14 @@ DLP のファイル ポリシー アラートに対処する場合でも、ア�
 |疑わしいアクティビティ|このアラートにより、組織内の予期されるアクティビティまたはユーザーとは一致しない異常なアクティビティが検出されたことが通知されます。|動作を調査してユーザー本人に確認します。この種のアラートは、環境について詳しく学び、これらのアラートを基に新しいポリシーを作成するのに最適な場所です。例えば、接続されているアプリのいずれかへあるユーザーが突如として大量のデータをアップロードしている場合、こうした異常な動作を統制するためのルールを設定することができます。|
 |パーソナルアカウントの使用|このアラートにより、接続されているアプリのリソースに新しい個人用アカウントがアクセスできることが通知されます。|外部アカウントでのユーザーのコラボを削除します。|
 
-## 1.8 [Microsoft 365 で insider リスクを管理する](https://docs.microsoft.com/ja-jp/learn/modules/m365-compliance-insider-manage-insider-risk/?wt.mc_id=esi_m2l_content_wwl)
+## 1.8. 1.8 [Microsoft 365 で insider リスクを管理する](https://docs.microsoft.com/ja-jp/learn/modules/m365-compliance-insider-manage-insider-risk/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft 365 のインサイダー リスク管理について](https://docs.microsoft.com/ja-jp/microsoft-365/compliance/insider-risk-management?view=o365-worldwide)
 # 2. モジュール02
 
-## 2.1. Microsoft Defender for Endpoint を使用して脅威から保護する
+## 2.1. [Microsoft Defender for Endpoint を使用して脅威から保護する](https://docs.microsoft.com/ja-jp/learn/modules/m365-security-threat-protect/?wt.mc_id=esi_m2l_content_wwl)
 
-## 2.2. Microsoft Defender for Endpoint の環境をデプロイする
+## 2.2. [Microsoft Defender for Endpoint の環境をデプロイする](https://docs.microsoft.com/ja-jp/learn/modules/deploy-microsoft-defender-for-endpoints-environment/?wt.mc_id=esi_m2l_content_wwl)
 
 [基本的なアクセス許可を使用してポータルにアクセスする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/basic-permissions?view=o365-worldwide)
 
@@ -334,7 +335,7 @@ MDE非対応
 
 [デバイス グループの作成と管理](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/machine-groups?view=o365-worldwide)
 
-## 2.3. Windows 10 のセキュリティ強化の実施
+## 2.3. [Windows 10 のセキュリティ強化の実施](https://docs.microsoft.com/ja-jp/learn/modules/implement-windows-10-security-enhancements-with-microsoft-defender-for-endpoint/?wt.mc_id=esi_m2l_content_wwl)
 
 [攻撃面の減少ルール](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide)
 
@@ -361,12 +362,25 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 - 警告
   - ASR ルールを有効にするが、エンド ユーザーがブロックをバイパスできる
 
+## 2.4. [Microsoft Defender for Endpoint でアラートとインシデントを管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-alerts-incidents-microsoft-defender-for-endpoints/?wt.mc_id=esi_m2l_content_wwl)
 
-## 2.4. デバイス調査の実行
+**用語説明**
+
+|用語|説明|
+|:----|:----|
+|デバイス|各エンドポイントのこと|
+|証拠|アカウント、プロセス、ネットワーク情報などのDefender for Endpointが収集した成果物に関する情報のこと|
+|アラート|検出ルールに合致したアクティビティが見つかった場合に、アラートが作成されます|
+|インシデント|生成されたアラートに基づいて、インシデントにグループ化されま|
+|調査|Defender for Endpoint では自動調査が実行されます|
+|インシデントグラフ|関連するサイバーセキュリティの脅威を視覚化したもの|
+
+
+## 2.5. デバイス調査の実行
 
 [フィードバック ループのブロック](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/feedback-loop-blocking?view=o365-worldwide)
 
-## 2.5. デバイス上でのアクションの実行
+## 2.6. デバイス上でのアクションの実行
 
 [自動調査の概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/automated-investigations?view=o365-worldwide)
 
@@ -382,13 +396,13 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 
 [ライブ応答を使用してデバイス上のエンティティを調査する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/live-response?view=o365-worldwide)
 
-## 2.6. 証拠とエンティティ調査の実行
+## 2.7. 証拠とエンティティ調査の実行
 
-## 2.7. 自動化を構成および管理する
+## 2.8. 自動化を構成および管理する
 
 [Microsoft Defender ウイルス対策でクラウド保護をオンにする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-cloud-protection-microsoft-defender-antivirus?view=o365-worldwide)
 
-## 2.8. アラートと検出の設定
+## 2.9. アラートと検出の設定
 
 [Defender for Endpoint で高度な機能を構成する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/advanced-features?view=o365-worldwide)
 
@@ -396,7 +410,7 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 
 [ネットワーク保護の有効化](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-network-protection?view=o365-worldwide)
 
-## 2.9. 脅威と脆弱性の管理を活用する
+## 2.10. 脅威と脆弱性の管理を活用する
 
 # 3. モジュール03
 
