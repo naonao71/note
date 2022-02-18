@@ -245,7 +245,7 @@ MDEには、フルアクセスと読み取り専用アクセス権がありま�
 |EDRエージェント|MDEモジュール|OS組み込みのMDEセンサー|**MMA** *1|**MMA** *1|非対応|MMA|
 |EDR連携|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|非対応|Microsoft Defender for Cloud で利用可能|
 
-> *1  新しいMDEモジュールが提供予定
+> *1  新しいMDEモジュールがプレビュー版で提供中
 
 製品としては以下が登場する。
 - Microsoft Defender for Cloud (Defender for Cloud)
@@ -375,12 +375,12 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 |調査|Defender for Endpoint では自動調査が実行されます|
 |インシデントグラフ|関連するサイバーセキュリティの脅威を視覚化したもの|
 
-
-## 2.5. デバイス調査の実行
+[MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
+## 2.5. [デバイス調査の実行](https://docs.microsoft.com/ja-jp/learn/modules/perform-device-investigations-microsoft-defender-for-endpoints/?wt.mc_id=esi_m2l_content_wwl)
 
 [フィードバック ループのブロック](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/feedback-loop-blocking?view=o365-worldwide)
 
-## 2.6. デバイス上でのアクションの実行
+## 2.6. [デバイス上でのアクションの実行](https://docs.microsoft.com/ja-jp/learn/modules/perform-actions-device-microsoft-defender-for-endpoint/?wt.mc_id=esi_m2l_content_wwl)
 
 [自動調査の概要](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/automated-investigations?view=o365-worldwide)
 
@@ -396,13 +396,13 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 
 [ライブ応答を使用してデバイス上のエンティティを調査する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/live-response?view=o365-worldwide)
 
-## 2.7. 証拠とエンティティ調査の実行
+## 2.7. [証拠とエンティティ調査の実行](https://docs.microsoft.com/ja-jp/learn/modules/perform-evidence-entities-investigations-microsoft-defender-for-endpoint/?wt.mc_id=esi_m2l_content_wwl)
 
-## 2.8. 自動化を構成および管理する
+## 2.8. [自動化を構成および管理する](https://docs.microsoft.com/ja-jp/learn/modules/configure-manage-automation-microsoft-defender-for-endpoint/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Defender ウイルス対策でクラウド保護をオンにする](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-cloud-protection-microsoft-defender-antivirus?view=o365-worldwide)
 
-## 2.9. アラートと検出の設定
+## 2.9. [アラートと検出の設定](https://docs.microsoft.com/ja-jp/learn/modules/configure-settings-for-alerts-detections-microsoft-defender-for-endpoint/?wt.mc_id=esi_m2l_content_wwl)
 
 [Defender for Endpoint で高度な機能を構成する](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/advanced-features?view=o365-worldwide)
 
@@ -410,7 +410,7 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 
 [ネットワーク保護の有効化](https://docs.microsoft.com/ja-jp/microsoft-365/security/defender-endpoint/enable-network-protection?view=o365-worldwide)
 
-## 2.10. 脅威と脆弱性の管理を活用する
+## 2.10. [脅威と脆弱性の管理を活用する](https://docs.microsoft.com/ja-jp/learn/modules/use-threat-vulnerability-management-microsoft-defender-for-endpoint/2-understand-threat-vulnerability-management)
 
 # 3. モジュール03
 
