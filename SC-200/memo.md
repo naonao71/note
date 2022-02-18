@@ -562,7 +562,7 @@ Microsoft Defender for Endpoint テーブル
 |DeviceProcessEvents|このテーブルには、プロセスの作成と関連イベントに関する情報が含まれています。|
 |DeviceRegistryEvents|このテーブルには、レジストリ エントリの作成と変更に関する情報が含まれています。|
 
-## 5.4. M[icrosoft Sentinel でウォッチリストを使用する](https://docs.microsoft.com/ja-jp/learn/modules/use-watchlists-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
+## 5.4. [Microsoft Sentinel でウォッチリストを使用する](https://docs.microsoft.com/ja-jp/learn/modules/use-watchlists-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Sentinel ウォッチリストを使用する](https://docs.microsoft.com/ja-jp/azure/sentinel/watchlists)
 
