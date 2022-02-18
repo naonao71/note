@@ -53,7 +53,7 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
   - [ラボ 13 - セルフサービス パスワード リセットを構成してデプロイする](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_13_ConfigureAndDeploySelfServicePasswordReset.md)
   - [ラボ 14 - セキュリティの既定値群を使用する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_14_WorkingWithSecurityDefaults.md)
   - [ラボ 15 - 条件付きアクセス ポリシーの実装とテストを行う](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_15_ImplementAndTestAConditionalAccessPolicy.md)
-  - [ラボ16 - 認証セッション制御を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_16_ConfigureAuthenticationSessionControls.md)
+  - [ラボ 16 - 認証セッション制御を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_16_ConfigureAuthenticationSessionControls.md)
   - [ラボ 17 - Azure AD スマート ロックアウトの値を管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_17_ManageAzureADSmartLockoutValues.md)
   - [ラボ 18 - サインインとユーザー リスク ポリシーを有効にする](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_18_EnableSignRiskPolicy.md)
   - [ラボ 19 - Azure AD Multi-Factor Authentication 登録ポリシーを構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_19_ConfigureAAD_MultiFactorAuthRegPolicy.md)
@@ -70,7 +70,7 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
   - [ラボ 28: Azure AD ロール用に Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_28_ConfigurePrivilegedIdentityManagementForAADRoles.md)
   - [ラボ 29: Privileged Identity Management で Azure AD ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_29_AssignAADRolesInPrivilegedIdentityManagement.md)
   - [ラボ 30: Privileged Identity Management で Azure リソース ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_30_AssignAzureResourceRolesInPrivilegedIdentityManagement.md)
-  - [ラボ 31: Azure Active Directory (Azure AD) から Azure Sentinel へデータを接続する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_31_ConnectDataFromAADToAzureSentinel.md)
+  - [ラボ 31: Azure Active Directory (Azure AD) から Microsoft Sentinel へデータを接続する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_31_ConnectDataFromAADToAzureSentinel.md)
 
 **研修の準備**
 
