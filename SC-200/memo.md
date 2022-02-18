@@ -104,6 +104,10 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
   - [3.4. Azure 以外の資産を Microsoft Defender for Cloud に接続する](#34-azure-以外の資産を-microsoft-defender-for-cloud-に接続する)
   - [3.5. Microsoft Defender for Cloud を使用してセキュリティアラートを修復する](#35-microsoft-defender-for-cloud-を使用してセキュリティアラートを修復する)
 - [4. モジュール04](#4-モジュール04)
+  - [4.1. Microsoft Sentinel の KQL ステートメントの構築](#41-microsoft-sentinel-の-kql-ステートメントの構築)
+  - [4.2. KQL を使用してクエリ結果を分析する](#42-kql-を使用してクエリ結果を分析する)
+  - [4.3. KQL を使用して複数のテーブル用のステートメントを作成する](#43-kql-を使用して複数のテーブル用のステートメントを作成する)
+  - [4.4. Kusto クエリ言語を使用して Microsoft Sentinel でデータを操作する](#44-kusto-クエリ言語を使用して-microsoft-sentinel-でデータを操作する)
 - [5. モジュール05](#5-モジュール05)
   - [5.1. Microsoft Sentinel の概要](#51-microsoft-sentinel-の概要)
   - [5.2. Microsoft Sentinel ワークスペースの作成と管理](#52-microsoft-sentinel-ワークスペースの作成と管理)
@@ -414,20 +418,21 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 
 # 3. モジュール03
 
-## 3.1. Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する
+## 3.1. [Microsoft Defender for Cloud を使用してクラウドワークロード保護を計画する](https://docs.microsoft.com/ja-jp/learn/modules/what-is-azure-defender/?wt.mc_id=esi_m2l_content_wwl)
 
-## 3.2. Microsoft Defender for Cloud をのクラウドワークロード保護について説明する
+## 3.2. [Microsoft Defender for Cloud をのクラウドワークロード保護について説明する](https://docs.microsoft.com/ja-jp/learn/modules/understand-azure-defender-cloud-workload-protection/?wt.mc_id=esi_m2l_content_wwl)
 
-## 3.3. Azure 資産を Microsoft Defender for Cloud に接続する
+## 3.3. [Azure 資産を Microsoft Defender for Cloud に接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-azure-assets-to-azure-defender/?wt.mc_id=esi_m2l_content_wwl)
 
 [Windows 用の Log Analytics 仮想マシン拡張機能](https://docs.microsoft.com/ja-jp/azure/virtual-machines/extensions/oms-windows?azure-portal=true)
 
 [Azure Arc 対応サーバー](https://docs.microsoft.com/ja-jp/azure/azure-arc/servers/overview)
 
-## 3.4. Azure 以外の資産を Microsoft Defender for Cloud に接続する
+## 3.4. [Azure 以外の資産を Microsoft Defender for Cloud に接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-non-azure-machines-to-azure-defender/?wt.mc_id=esi_m2l_content_wwl)
 
-## 3.5. Microsoft Defender for Cloud を使用してセキュリティアラートを修復する
+## 3.5. [Microsoft Defender for Cloud を使用してセキュリティアラートを修復する](https://docs.microsoft.com/ja-jp/learn/modules/remediate-azure-defender-security-alerts/?wt.mc_id=esi_m2l_content_wwl)
 # 4. モジュール04
+## 4.1. [Microsoft Sentinel の KQL ステートメントの構築](https://docs.microsoft.com/ja-jp/learn/modules/construct-kusto-query-language-statements/?wt.mc_id=esi_m2l_content_wwl)
 
 [KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
 
@@ -444,12 +449,16 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 [project-rename 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/projectrenameoperator)
 
 [project-reorder 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/projectreorderoperator)
+## 4.2. [KQL を使用してクエリ結果を分析する](https://docs.microsoft.com/ja-jp/learn/modules/analyze-results-kusto-query-language/?wt.mc_id=esi_m2l_content_wwl)
 
 [arg_max() (集計関数)](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/arg-max-aggfunction)
+
+## 4.3. [KQL を使用して複数のテーブル用のステートメントを作成する](https://docs.microsoft.com/ja-jp/learn/modules/build-multi-table-statements-kusto-query-language/?wt.mc_id=esi_m2l_content_wwl)
 
 [union 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/unionoperator?pivots=azuremonitor)
 
 [join 演算子](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/joinoperator?pivots=azuremonitor)
+## 4.4. K[usto クエリ言語を使用して Microsoft Sentinel でデータを操作する](https://docs.microsoft.com/ja-jp/learn/modules/work-with-data-kusto-query-language/?wt.mc_id=esi_m2l_content_wwl)
 
 [extract()](https://docs.microsoft.com/ja-jp/azure/data-explorer/kusto/query/extractfunction)
 
@@ -461,13 +470,13 @@ ASR(Attack surface reduction) は以下のツールから設定可能です。
 
 # 5. モジュール05
 
-## 5.1. Microsoft Sentinel の概要
+## 5.1. [Microsoft Sentinel の概要](https://docs.microsoft.com/ja-jp/learn/modules/intro-to-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [ログのリテンション期間（保持期間）](https://cloudsteady.jp/post/41235/)
 
 [Microsoft Sentinel の価格](https://azure.microsoft.com/ja-jp/pricing/details/azure-sentinel/#purchase-options)
 
-## 5.2. Microsoft Sentinel ワークスペースの作成と管理
+## 5.2. [Microsoft Sentinel ワークスペースの作成と管理](https://docs.microsoft.com/ja-jp/learn/modules/create-manage-azure-sentinel-workspaces/?wt.mc_id=esi_m2l_content_wwl)
 
 [Azure Lighthouse とは](https://docs.microsoft.com/ja-jp/azure/lighthouse/overview)
 
@@ -512,7 +521,7 @@ Microsoft Sentinel のすべての組み込みロールでは、Microsoft Sentin
 
 [エンタープライズ シナリオにおける Azure Lighthouse](https://docs.microsoft.com/ja-jp/azure/lighthouse/concepts/enterprise)
 
-## 5.3. Microsoft Sentinel のログのクエリを実行する
+## 5.3. [Microsoft Sentinel のログのクエリを実行する](https://docs.microsoft.com/ja-jp/learn/modules/query-logs-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 アラートとインシデントを管理する主なテーブルは、SecurityAlert と SecurityIncident です。
 
@@ -553,17 +562,17 @@ Microsoft Defender for Endpoint テーブル
 |DeviceProcessEvents|このテーブルには、プロセスの作成と関連イベントに関する情報が含まれています。|
 |DeviceRegistryEvents|このテーブルには、レジストリ エントリの作成と変更に関する情報が含まれています。|
 
-## 5.4. Microsoft Sentinel でウォッチリストを使用する
+## 5.4. M[icrosoft Sentinel でウォッチリストを使用する](https://docs.microsoft.com/ja-jp/learn/modules/use-watchlists-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Sentinel ウォッチリストを使用する](https://docs.microsoft.com/ja-jp/azure/sentinel/watchlists)
 
 [Microsoft Sentinel 組み込みウォッチリストのテンプレートのスキーマ](https://docs.microsoft.com/ja-jp/azure/sentinel/watchlist-schemas)
 
-## 5.5. Microsoft Sentinel の脅威インテリジェンスを利用する
+## 5.5. [Microsoft Sentinel の脅威インテリジェンスを利用する](https://docs.microsoft.com/ja-jp/learn/modules/utilize-threat-intelligence-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 # 6. モジュール06
 
-## 6.1. データコネクタを使用して Microsoft Sentinel にデータを接続する
+## 6.1. [データコネクタを使用して Microsoft Sentinel にデータを接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-data-to-azure-sentinel-with-data-connectors/?wt.mc_id=esi_m2l_content_wwl)
 
 [無料データ ソース](https://docs.microsoft.com/ja-jp/azure/sentinel/billing#free-data-sources)
 
@@ -575,7 +584,7 @@ Microsoft Defender for Endpoint テーブル
 
 [データの種類別のリテンション期間](https://docs.microsoft.com/ja-jp/azure/azure-monitor/logs/manage-cost-storage#retention-by-data-type)
 
-## 6.2. Microsoft サービスをMicrosoft Sentinel に接続する
+## 6.2. [Microsoft サービスをMicrosoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-microsoft-services-to-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [OfficeActivity](https://docs.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/officeactivity)
 
@@ -591,11 +600,11 @@ Microsoft Defender for Endpoint テーブル
 
 [Azure Active Directory (Azure AD) データを Microsoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-azure-active-directory)
 
-## 6.3. Microsoft Defender を Microsoft Sentinel に接続する
+## 6.3. [Microsoft Defender を Microsoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-microsoft-defender-365-to-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
-## 6.4. Windows ホストを Microsoft Sentinel に接続する
+## 6.4. [Windows ホストを Microsoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-windows-hosts-to-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
-## 6.5. Microsoft Sentinel に Common Event Format のログを接続する
+## 6.5. [Microsoft Sentinel に Common Event Format のログを接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-common-event-format-logs-to-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [CommonSecurityLog](https://docs.microsoft.com/ja-jp/azure/azure-monitor/reference/tables/commonsecuritylog)
 
@@ -603,7 +612,7 @@ Microsoft Defender for Endpoint テーブル
 
 [ログ フォワーダーをデプロイして Syslog および CEF ログを Microsoft Sentinel に取り込む](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-log-forwarder?tabs=rsyslog)
 
-## 6.6. Microsoft Sentinel に Syslog データソースを接続する
+## 6.6. [Microsoft Sentinel に Syslog データソースを接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-syslog-data-sources-to-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [Syslog を使用して Linux ベースのソースからデータを収集する](https://docs.microsoft.com/ja-jp/azure/sentinel/connect-syslog)
 
@@ -641,7 +650,7 @@ Severityとは、メッセージの優先度を表します。Severityはemerg�
 |debug|debug:デバッグ情報|
 |none|none:ログメッセージを記録しない|
 
-## 6.7. 脅威インジケーターを Microsoft Sentinel に接続する
+## 6.7. [脅威インジケーターを Microsoft Sentinel に接続する](https://docs.microsoft.com/ja-jp/learn/modules/connect-threat-indicators-to-azure-sentinel/?wt.mc_id=esi_m2l_content_wwl)
 
 [Microsoft Sentinel の脅威インテリジェンスについて](https://docs.microsoft.com/ja-jp/azure/sentinel/understand-threat-intelligence)
 
