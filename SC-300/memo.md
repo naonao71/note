@@ -72,3 +72,53 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
   - [ラボ 30: Privileged Identity Management で Azure リソース ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_30_AssignAzureResourceRolesInPrivilegedIdentityManagement.md)
   - [ラボ 31: Azure Active Directory (Azure AD) から Azure Sentinel へデータを接続する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_31_ConnectDataFromAADToAzureSentinel.md)
 
+**研修の準備**
+
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+- [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
+
+***
+
+- [1. モジュール01](#1-モジュール01)
+  - [1.1. Azure Active Directory の初期構成を実装する](#11-azure-active-directory-の初期構成を実装する)
+  - [1.2. ID を作成、構成、管理する](#12-id-を作成構成管理する)
+  - [1.3. 外部 ID を実装および管理する](#13-外部-id-を実装および管理する)
+  - [1.4. ハイブリッド ID の実装と管理](#14-ハイブリッド-id-の実装と管理)
+- [2. モジュール02](#2-モジュール02)
+  - [2.1. 多要素認証によるセキュリティで Azure Active Directory ユーザーを保護する](#21-多要素認証によるセキュリティで-azure-active-directory-ユーザーを保護する)
+  - [2.2. ユーザー認証を管理する](#22-ユーザー認証を管理する)
+  - [2.3. 条件付きアクセスの計画、実装、管理を行う](#23-条件付きアクセスの計画実装管理を行う)
+  - [2.4. Azure AD Identity Protection を管理する](#24-azure-ad-identity-protection-を管理する)
+- [3. モジュール03](#3-モジュール03)
+  - [3.1. SSO 用エンタープライズ アプリの統合を計画し、設計する](#31-sso-用エンタープライズ-アプリの統合を計画し設計する)
+  - [3.2. SSO 用エンタープライズ アプリの統合を実装し、監視する](#32-sso-用エンタープライズ-アプリの統合を実装し監視する)
+  - [3.3. アプリの登録を実装する](#33-アプリの登録を実装する)
+- [4. モジュール04](#4-モジュール04)
+  - [4.1. エンタイトルメント管理を計画して実装する](#41-エンタイトルメント管理を計画して実装する)
+  - [4.2. アクセス レビューの計画、実装、管理](#42-アクセス-レビューの計画実装管理)
+  - [4.3. 特権アクセスを計画し、実装する](#43-特権アクセスを計画し実装する)
+  - [4.4. Azure Active Directory を監視および保守する](#44-azure-active-directory-を監視および保守する)
+
+***
+
+# 1. モジュール01
+## 1.1. [Azure Active Directory の初期構成を実装する](https://docs.microsoft.com/ja-jp/learn/modules/implement-initial-configuration-of-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
+## 1.2. [ID を作成、構成、管理する](https://docs.microsoft.com/ja-jp/learn/modules/create-configure-manage-identities/?wt.mc_id=esi_m2l_content_wwl)
+## 1.3. [外部 ID を実装および管理する](https://docs.microsoft.com/ja-jp/learn/modules/implement-manage-external-identities/?wt.mc_id=esi_m2l_content_wwl)
+## 1.4. [ハイブリッド ID の実装と管理](https://docs.microsoft.com/ja-jp/learn/modules/implement-manage-hybrid-identity/?wt.mc_id=esi_m2l_content_wwl)
+# 2. モジュール02
+## 2.1. [多要素認証によるセキュリティで Azure Active Directory ユーザーを保護する](https://docs.microsoft.com/ja-jp/learn/modules/secure-aad-users-with-mfa/?wt.mc_id=esi_m2l_content_wwl)
+## 2.2. [ユーザー認証を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-user-authentication/?wt.mc_id=esi_m2l_content_wwl)
+## 2.3. [条件付きアクセスの計画、実装、管理を行う](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-administer-conditional-access/?wt.mc_id=esi_m2l_content_wwl)
+## 2.4. [Azure AD Identity Protection を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-azure-active-directory-identity-protection/?wt.mc_id=esi_m2l_content_wwl)
+# 3. モジュール03
+## 3.1. [SSO 用エンタープライズ アプリの統合を計画し、設計する](https://docs.microsoft.com/ja-jp/learn/modules/plan-design-integration-of-enterprise-apps-for-sso/?wt.mc_id=esi_m2l_content_wwl)
+## 3.2. [SSO 用エンタープライズ アプリの統合を実装し、監視する](https://docs.microsoft.com/ja-jp/learn/modules/implement-monitor-integration-of-enterprise-apps-for-sso/?wt.mc_id=esi_m2l_content_wwl)
+## 3.3. [アプリの登録を実装する](https://docs.microsoft.com/ja-jp/learn/modules/implement-app-registration/?wt.mc_id=esi_m2l_content_wwl)
+# 4. モジュール04
+## 4.1. [エンタイトルメント管理を計画して実装する](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-entitlement-management/?wt.mc_id=esi_m2l_content_wwl)
+## 4.2. [アクセス レビューの計画、実装、管理](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-manage-access-review/?wt.mc_id=esi_m2l_content_wwl)
+## 4.3. [特権アクセスを計画し、実装する](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-privileged-access/?wt.mc_id=esi_m2l_content_wwl)
+## 4.4. [Azure Active Directory を監視および保守する](https://docs.microsoft.com/ja-jp/learn/modules/monitor-maintain-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
+
