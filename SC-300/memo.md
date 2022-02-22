@@ -83,6 +83,16 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 - [1. モジュール01](#1-モジュール01)
   - [1.1. Azure Active Directory の初期構成を実装する](#11-azure-active-directory-の初期構成を実装する)
 
+**管理ポータル**
+
+[Azure portal](https://portal.azure.com/)
+
+[Azure Active Directory 管理センター](https://aad.portal.azure.com/)
+
+[Microsoft 365 管理センター](https://admin.microsoft.com/)
+
+[Microsoft 365 Defender](https://security.microsoft.com/)
+
 **Break Glass アカウントとは**
 - 不測の事態に影響を受けない緊急用 全体管理者アカウント
   - フェデレーションサービスの障害によるログイン不可
