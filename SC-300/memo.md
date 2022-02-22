@@ -8,7 +8,7 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 [Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
 - 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/zwm5c4dezn0k1n?wt.mc_id=esi_m2l_content_wwl)
+- [トレーニングで用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/neqjf5m3z241wg?wt.mc_id=esi_m2l_content_wwl)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
