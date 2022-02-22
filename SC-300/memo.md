@@ -98,6 +98,26 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 - アカウント利用を定期的に監査
 - アカウントを最低 90 日に一度、利用可能か確かめる
 
+[セキュリティの既定値群とは](https://docs.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+
+[Azure AD Multi-Factor Authentication の機能とライセンス](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-mfa-licensing)
+
+**参照URL**
+
+[従来のサブスクリプション管理者ロール、Azure ロール、および Azure AD ロール](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/rbac-and-directory-admin-roles)
+
+[Azure ロールの定義について](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-definitions)
+
+[Privileged Identity Management のドキュメント](https://docs.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/)
+
+[方法:Azure AD Multi-Factor Authentication 登録ポリシーを構成する](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+
+[条件付きアクセス: 管理者に対して MFA を必須にする](https://docs.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
+
+[条件付きアクセス:レガシ認証をブロックする](https://docs.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+
+[条件付きアクセス:すべてのユーザーに対して MFA を必須にする](https://docs.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+
   - [1.2. ID を作成、構成、管理する](#12-id-を作成構成管理する)
   - [1.3. 外部 ID を実装および管理する](#13-外部-id-を実装および管理する)
   - [1.4. ハイブリッド ID の実装と管理](#14-ハイブリッド-id-の実装と管理)
