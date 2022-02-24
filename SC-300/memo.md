@@ -152,6 +152,14 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 [条件付きアクセス:すべてのユーザーに対して MFA を必須にする](https://docs.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
 
 ## 1.2. [ID を作成、構成、管理する](https://docs.microsoft.com/ja-jp/learn/modules/create-configure-manage-identities/?wt.mc_id=esi_m2l_content_wwl)
+
+[Azure Active Directory の動的グループ メンバーシップ ルール](https://docs.microsoft.com/ja-jp/azure/active-directory/enterprise-users/groups-dynamic-membership)
+
+
+
+
+
+
 ## 1.3. [外部 ID を実装および管理する](https://docs.microsoft.com/ja-jp/learn/modules/implement-manage-external-identities/?wt.mc_id=esi_m2l_content_wwl)
 ## 1.4. [ハイブリッド ID の実装と管理](https://docs.microsoft.com/ja-jp/learn/modules/implement-manage-hybrid-identity/?wt.mc_id=esi_m2l_content_wwl)
 # 2. モジュール02
