@@ -816,9 +816,9 @@ Set-SqlColumnEncryption -InputObject $database -ColumnEncryptionSettings $ces -L
 |階層レベル|説明|収集方法|
 |:----|:----|:----|
 |アプリケーション コード|実際のアプリケーションとコードのパフォーマンスと機能に関するデータ (パフォーマンス トレース、アプリケーション ログ、ユーザー テレメトリを含む)。|インストルメンテーション パッケージをインストールしてApplication Insights を有効化します。|
-|オペレーティング システム (ゲスト)|オペレーティング システムのコンピューティング リソースに関するデータ。|Log Analytics エージェントをインストールして Azure Monitor にクライアント データ ソースを収集すると共に、Dependency Agent をインストールして VM insights をサポートする依存関係を収集します。</BR>Azure 仮想マシンについては、Azure Diagnostics 拡張機能をインストールして、ログとメトリックを Azure Monitor に収集します。</BR>Azure Monitor エージェント (AMA)</BR>下記のレガシエージェントに代わるもの。</BR>Log Analytics エージェント: データを Log Analytics ワークスペースに送信し、VM insights ソリューションと監視ソリューションをサポートします。</BR>Diagnostics 拡張機能: Azure Monitor メトリック (Windows のみ)、Azure Event Hubs、Azure Storage にデータを送信します。Telegraf エージェント: Azure Monitor メトリックにデータを送信します (Linux のみ)。|
-|Azure リソース|各 Azure リソースの運用とパフォーマンスに関するデータ。</BR>**リソースログのこと**|自動的に収集されたメトリックをメトリックス エクスプローラーで確認します。Azure Monitor でログを収集するように診断設定を構成します。各種の監視ソリューションと Insights を利用すれば、特定の種類のリソースをさらに詳しく監視することができます|
-|Azure サブスクリプション|Azure サブスクリプションにおける横断的なリソースサービス (Resource Manager、Service Health など) の正常性と管理に関連するデータ。アクティビティログのこと|ポータルで確認するか、ログ プロファイルを使用して Azure Monitor への収集を構成します。|
+|オペレーティング システム (ゲスト)|オペレーティング システムのコンピューティング リソースに関するデータ。|Log Analytics エージェントをインストールして Azure Monitor にクライアント データ ソースを収集すると共に、Dependency Agent をインストールして VM insights をサポートする依存関係を収集します。</BR>Azure 仮想マシンについては、Azure Diagnostics 拡張機能をインストールして、ログとメトリックを Azure Monitor に収集します。</BR>Azure Monitor エージェント (AMA)</BR>下記のレガシエージェントに代わるもの。</BR>Log Analytics エージェント: </BR>データを Log Analytics ワークスペースに送信し、VM insights ソリューションと監視ソリューションをサポートします。</BR>Diagnostics 拡張機能: Azure Monitor メトリック (Windows のみ)、Azure Event Hubs、Azure Storage にデータを送信します。</BR>Telegraf エージェント: </BR>Azure Monitor メトリックにデータを送信します (Linux のみ)。|
+|Azure リソース|各 Azure リソースの運用とパフォーマンスに関するデータ。</BR>**リソースログのこと**|自動的に収集されたメトリックをメトリックス エクスプローラーで確認します。Azure Monitor でログを収集するように診断設定を構成します。</BR>各種の監視ソリューションと Insights を利用すれば、特定の種類のリソースをさらに詳しく監視することができます|
+|Azure サブスクリプション|Azure サブスクリプションにおける横断的なリソースサービス (Resource Manager、Service Health など) の正常性と管理に関連するデータ。</BR>**アクティビティログのこと**|ポータルで確認するか、ログ プロファイルを使用して Azure Monitor への収集を構成します。|
 |Azure テナント|Azure Active Directory など、テナント レベルの Azure サービスの操作に関するデータ。</BR>**AADログのこと**|AAD データをポータルで確認するか、テナントの診断設定を使用して Azure Monitor への収集を構成します。|
 |カスタム ソース|外部サービスからのデータや、他のコンポーネントまたはデバイスからのデータ。|Data Collector API を使用して任意の REST クライアントからログまたはメトリック データを Azure Monitor に収集します。|
 
