@@ -822,7 +822,7 @@ Set-SqlColumnEncryption -InputObject $database -ColumnEncryptionSettings $ces -L
 |Azure テナント|Azure Active Directory など、テナント レベルの Azure サービスの操作に関するデータ。</BR>**AADログのこと**|AAD データをポータルで確認するか、テナントの診断設定を使用して Azure Monitor への収集を構成します。|
 |カスタム ソース|外部サービスからのデータや、他のコンポーネントまたはデバイスからのデータ。|Data Collector API を使用して任意の REST クライアントからログまたはメトリック データを Azure Monitor に収集します。|
 
-
+> リソースログ、アクティビティログ、Azure Active Directory（AAD）ログを**Azureプラットフォームログ**と呼びます。
 
 
 ***
