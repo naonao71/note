@@ -108,13 +108,10 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 
 **管理ポータル**
 
-[Azure portal](https://portal.azure.com/)
-
-[Azure Active Directory 管理センター](https://aad.portal.azure.com/)
-
-[Microsoft 365 管理センター](https://admin.microsoft.com/)
-
-[Microsoft 365 Defender](https://security.microsoft.com/)
+- [Azure portal](https://portal.azure.com/)
+- [Azure Active Directory 管理センター](https://aad.portal.azure.com/)
+- [Microsoft 365 管理センター](https://admin.microsoft.com/)
+- [Microsoft 365 Defender](https://security.microsoft.com/)
 
 **Break Glass アカウントとは**
 - 不測の事態に影響を受けない緊急用 全体管理者アカウント
