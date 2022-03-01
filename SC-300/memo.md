@@ -183,7 +183,77 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 
 [アクセスをテナントに制限する](https://docs.microsoft.com/ja-jp/azure/active-directory/manage-apps/tenant-restrictions)
 
+[テナント制限について](https://jpazureid.github.io/blog/azure-active-directory/tenant-restriction/)
+
+**参照URL**
+- [Azure Active Directory での統合されたセキュリティ情報の登録の有効化](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-registration-mfa-sspr-combined)
+- [Azure Active Directory で回復性があるアクセス制御管理戦略を作成する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-resilient-controls)
+- [Azure AD認証方法 API の概要](https://docs.microsoft.com/ja-jp/graph/api/resources/authenticationmethods-overview?view=graph-rest-1.0)
+- [Windows Hello for Business](https://docs.microsoft.com/ja-jp/windows/security/identity-protection/hello-for-business/hello-overview)
+- [Azure Active Directory の認証方法 - Microsoft Authenticator アプリ](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-authenticator-app)
+- [Azure Active Directory のパスワードレス認証オプション](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-passwordless)
+- [Azure Active Directory の認証方法 - OATH トークン](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-oath-tokens)
+- [Azure Active Directory を使用して SMS ベース認証用にユーザーを構成して有効にする](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-authentication-sms-signin)
+- [Azure Active Directory の認証方法 - 電話オプション](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-phone-options)
+- [Active Directory Domain Services にオンプレミスの Azure AD パスワード保護を適用する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
+- [オンプレミスの Azure Active Directory パスワード保護を有効にする](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-ban-bad-on-premises-operations)
+- [Step-By-Step: Implementing Azure AD Password Protection On-Premises](https://techcommunity.microsoft.com/t5/itops-talk-blog/step-by-step-implementing-azure-ad-password-protection-on/ba-p/563342)
+
 ## 2.3. [条件付きアクセスの計画、実装、管理を行う](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-administer-conditional-access/?wt.mc_id=esi_m2l_content_wwl)
+
+**条件付きアクセスポリシー(CA)**
+-
+
+**条件付きアクセスの動作**
+- 動作はブラックリスト方式であるため、設計時に要考慮
+  - <span style="color: red; ">明示的にポリシーを設定しない限り、アクセス許可</span>
+  - CAポリシーで設定できるのは
+    - アクセスのブロック
+    - アクセス権の付与
+- [割り当て] と [アクセス制御] の二つの要素でユーザー動作を制御
+  - [割り当て]で「すべてのユーザー」、「すべてのクラウドアプリ」を対象にすると、管理者を締め出してしまう可能性あり（Azure AD Connect の同期用アカウントにも要注意）
+  - 「すべてのユーザー」、「すべてのクラウドアプリ」 に対し、社外からのアクセスをブロックすると、Intune 登録、Graph などがブロックされてしまう
+    - Microsoft Intune Enrollment クラウドアプリを除外してもダメ
+- アクセスポリシーに順序はなく、すべてが評価される
+    - CAポリシーに優先順位という概念はない
+    - すべてのポリシーが評価され、割り当て条件に合致したサインインイベントに対し、制御がすべて適用される
+    - <span style="color: red; ">許可よりもブロックが勝つ</span>
+- [対象外] うまく使って割り当て条件を指定する
+  - <span style="color: red; ">対象外が勝つ</span>（すべてのユーザーが対象でも対象外に設定したユーザーが勝つ）
+- 問題があったら “サインインログ” を確認すると知りたいことはほぼすべてわかる
+  - AADの監視＞サインイン（**条件付きアクセス項目**を参照する）
+
+> **CAのポイント**
+> - CAポリシーに優先順位という概念はない
+> - すべてのポリシーが評価され、割り当て条件に合致したサインインイベントに対し、制御がすべて適用される
+> - 許可よりもブロックが勝つ
+
+
+- [割り当て] ベストプラクティス
+  - すべてを対象にする際には細心の注意を
+  - 対象を除外し、管理者は別ポリシーで保護
+  - 除外には、ディレクトリ ロール を利用する
+  - 不測の事態に備え、Break Glass アカウントを用意
+
+- [アクセス制御] ベストプラクティス
+  - ブロックの代わりに、「要 準拠デバイス」をお奨め
+    - Intune 登録はブロックされない
+
+**Break Glass アカウントとは**
+- 不測の事態に影響を受けない緊急用 全体管理者アカウント
+  - フェデレーションサービスの障害によるログイン不可
+  - MFA 利用不可 - 電話網障害等
+  - 管理者アカウント保持者の退職等
+
+**ベストプラクティス**
+- クラウドアカウント（例: bg@contoso.onmicrosoft.com）を利用
+- 永続管理者（PIMの対象ロールにしない）を利用
+- すべての 条件付きアクセス、MFA 対象から除外
+- 16 文字以上のランダムに生成されたパスワードを利用
+- パスワードは紙に書いて、2つ以上に切ってそれぞれ金庫に保管
+- アカウント利用を定期的に監査
+- アカウントを最低 90 日に一度、利用可能か確かめる
+
 ## 2.4. [Azure AD Identity Protection を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-azure-active-directory-identity-protection/?wt.mc_id=esi_m2l_content_wwl)
 # 3. モジュール03
 ## 3.1. [SSO 用エンタープライズ アプリの統合を計画し、設計する](https://docs.microsoft.com/ja-jp/learn/modules/plan-design-integration-of-enterprise-apps-for-sso/?wt.mc_id=esi_m2l_content_wwl)
