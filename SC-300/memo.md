@@ -168,7 +168,21 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 
 # 2. モジュール02
 ## 2.1. [多要素認証によるセキュリティで Azure Active Directory ユーザーを保護する](https://docs.microsoft.com/ja-jp/learn/modules/secure-aad-users-with-mfa/?wt.mc_id=esi_m2l_content_wwl)
+
+[Azure のネットワーク ポリシー サーバー拡張機能を使用して VPN インフラストラクチャを Azure AD MFA と統合する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-mfa-nps-extension-vpn)
+
+[Azure AD の多要素認証のデプロイを計画する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-mfa-getstarted)
+
 ## 2.2. [ユーザー認証を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-user-authentication/?wt.mc_id=esi_m2l_content_wwl)
+
+[Azure Active Directory パスワード保護を使用して不適切なパスワードを排除する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad)
+
+[Azure Active Directory でのパスワード ポリシーと脆弱なパスワードの組み合わせチェック](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-combined-policy)
+
+[Active Directory Domain Services にオンプレミスの Azure AD パスワード保護を適用する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
+
+[アクセスをテナントに制限する](https://docs.microsoft.com/ja-jp/azure/active-directory/manage-apps/tenant-restrictions)
+
 ## 2.3. [条件付きアクセスの計画、実装、管理を行う](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-administer-conditional-access/?wt.mc_id=esi_m2l_content_wwl)
 ## 2.4. [Azure AD Identity Protection を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-azure-active-directory-identity-protection/?wt.mc_id=esi_m2l_content_wwl)
 # 3. モジュール03
