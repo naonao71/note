@@ -266,6 +266,17 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 - [セキュリティの既定値群を実装する](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/introducing-security-defaults/ba-p/1061414)
 
 ## 2.4. [Azure AD Identity Protection を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-azure-active-directory-identity-protection/?wt.mc_id=esi_m2l_content_wwl)
+
+**参照URL**
+- [Identity Protection とは](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/overview-identity-protection)
+- [Azure Active Directory での統合されたセキュリティ情報の登録の有効化](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-registration-mfa-sspr-combined)
+- [Azure AD で緊急アクセス用管理者アカウントを管理する](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/security-emergency-access)
+- [方法:リスク ポリシーを構成して有効にする](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies)
+- [Azure リソースのマネージド ID とは](https://docs.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview)
+- [リスクを修復してユーザーをブロック解除する](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-remediate-unblock)
+- [Azure Active Directory Identity Protection の通知](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-notifications)
+- [Identity Protection ポリシー](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-policies)
+
 # 3. モジュール03
 ## 3.1. [SSO 用エンタープライズ アプリの統合を計画し、設計する](https://docs.microsoft.com/ja-jp/learn/modules/plan-design-integration-of-enterprise-apps-for-sso/?wt.mc_id=esi_m2l_content_wwl)
 ## 3.2. [SSO 用エンタープライズ アプリの統合を実装し、監視する](https://docs.microsoft.com/ja-jp/learn/modules/implement-monitor-integration-of-enterprise-apps-for-sso/?wt.mc_id=esi_m2l_content_wwl)
