@@ -254,6 +254,17 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 - アカウント利用を定期的に監査
 - アカウントを最低 90 日に一度、利用可能か確かめる
 
+**参照URL**
+- [条件付きアクセスとは](https://www.youtube.com/watch?v=ffMAw2IVO7A)
+- [条件付きアクセスをデプロイする方法](https://www.youtube.com/watch?v=c_izIRNJNuk)
+- [CA ポリシーをエンド ユーザーにロール アウトする方法](https://www.youtube.com/watch?v=0_Fze7Zpyvc)
+- [デバイス コントロールを使用した条件付きアクセス](https://www.youtube.com/watch?v=NcONUf-jeS4)
+- [Azure MFA を使用した条件付きアクセス](https://www.youtube.com/watch?v=Tbc-SU97G-w)
+- [Enterprise Mobility + Security の条件付きアクセス](https://www.youtube.com/watch?v=A7IrxAH87wc)
+- [条件付きアクセスポリシーでの場所の条件の使用](https://docs.microsoft.com/ja-jp/azure/active-directory/conditional-access/location-condition)
+- [コンプライアンス ポリシーを使用して、Intune で管理するデバイスのルールを設定する](https://docs.microsoft.com/ja-jp/mem/intune/protect/device-compliance-get-started)
+- [セキュリティの既定値群を実装する](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/introducing-security-defaults/ba-p/1061414)
+
 ## 2.4. [Azure AD Identity Protection を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-azure-active-directory-identity-protection/?wt.mc_id=esi_m2l_content_wwl)
 # 3. モジュール03
 ## 3.1. [SSO 用エンタープライズ アプリの統合を計画し、設計する](https://docs.microsoft.com/ja-jp/learn/modules/plan-design-integration-of-enterprise-apps-for-sso/?wt.mc_id=esi_m2l_content_wwl)
