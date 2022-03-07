@@ -152,6 +152,26 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 
 [MITRE ATT&CK](https://www.intellilink.co.jp/article/column/attack-mitre-sec01.html)
 
+[Matrix for Enterprise](https://attack.mitre.org/versions/v7/)
+
+ATT&CKでは、戦術(Tactics)として12の戦術を選定しています。攻撃者は「初期アクセス(Initial Access)」から始まり、次の戦術へと移行して最終的には「影響(Impact)」まで行動することがあります。
+
+|戦術|概要|
+|:----|:----|
+|初期アクセス(Initial Access)|攻撃者がネットワークに侵入しようとしている。|
+|実行(Execution)|攻撃者が悪意のあるコードを実行しようとしている。|
+|永続化(Persistence)|攻撃者が不正アクセスする環境を確保しようとしている。|
+|権限昇格(Privilege Escalation)|攻撃者がより高いレベルの権限を取得しようとしている。|
+|防衛回避(Defense Evasion)|攻撃者が検知されないようにしようとしている。|
+|認証情報アクセス(Credential Access)|攻撃者がアカウント名とパスワードを盗もうとしている。|
+|探索(Discovery)|攻撃者がアクセス先の環境を理解しようとしている。|
+|水平展開(Lateral Movement)|攻撃者がアクセス先の環境を移動しようとしている。|
+|収集(Collection)|攻撃者が目標に関心のあるデータを収集しようとしている。|
+|C&C（Command and Control）|攻撃者が侵害されたシステムと通信して制御しようとしている。|
+|持ち出し(Exfiltration)|攻撃者がデータを盗もうとしている。|
+|影響(Impact)|攻撃者がシステムとデータを操作、中断、または破壊しようとしている。|
+
+
 [KQL クイック リファレンス](https://docs.microsoft.com/ja-jp/azure/data-explorer/kql-quick-reference)
 
 ## 1.3. [Microsoft Defender for 365 を使用してリスクを修復する](https://docs.microsoft.com/ja-jp/learn/modules/mitigate-incidents-microsoft-365-defender/?wt.mc_id=esi_m2l_content_wwl)
