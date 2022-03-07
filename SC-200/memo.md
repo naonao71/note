@@ -137,6 +137,16 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 ***
 
 # 1. モジュール01
+
+**管理ポータル**
+
+- [Azure portal](https://portal.azure.com/)
+- [Azure Active Directory 管理センター](https://aad.portal.azure.com/)
+- [Microsoft 365 管理センター](https://admin.microsoft.com/)
+- [Microsoft 365 Defender](https://security.microsoft.com/)
+- [Microsoft 365 コンプライアンス](https://compliance.microsoft.com/)
+- [Microsoft Defender for Cloud Apps](https://portal.cloudappsecurity.com/)
+
 ## 1.1. [Microsoft 365 による脅威保護の紹介](https://docs.microsoft.com/ja-jp/learn/modules/m365-security-threat-define/)
 ## 1.2. [Microsoft 365 Defender を使用してインシデントを軽減する](https://docs.microsoft.com/ja-jp/learn/modules/mitigate-incidents-microsoft-365-defender/)
 
