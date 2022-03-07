@@ -46,7 +46,7 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 - モジュール04
   - [演習 1 - Kusto クエリ言語 (KQL) を使用して Microsoft Sentinel のクエリを作成する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_04_Lab1_Ex1_KQL.md)
 - モジュール05
-  - 演[習 1 - Microsoft Sentinel 環境を構成する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_05_Lab1_Ex1_Deploy_Sentinel.md)
+  - [演習 1 - Microsoft Sentinel 環境を構成する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_05_Lab1_Ex1_Deploy_Sentinel.md)
 - モジュール06
   - [演習 1 - データ コネクタを使用して Microsoft Sentinel にデータを接続する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_06_Lab1_Ex1_Connect_Services.md)
   - [演習 2 - データ コネクタを使用して Windows デバイスを Microsoft Sentinel に接続する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_06_Lab1_Ex2_Connect_Windows.md)
