@@ -5,7 +5,7 @@
 
 SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-200T00A-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)）
 
-[Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
+Skillpipe
 
 - 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
 - [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/zwm5c4dezn0k1n?wt.mc_id=esi_m2l_content_wwl)
@@ -18,6 +18,15 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 [LODS（Learn On Demand LMS)](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
 - トレーニングで使用するラボ環境
+
+ > LODS環境は英語キーボードに設定されています。日本語キーボード設定に変更するにはLODS環境で下記コマンドを実行します。
+
+```powershell
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "LayerDriver JPN" -Value "kbd106.dll"
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardType" -Value 7
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
+Restart-Computer -Force
+```
 
 [トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
 
