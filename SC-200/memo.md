@@ -32,7 +32,7 @@ Restart-Computer -Force
 
 - LODS を起動すると、Promo Code を入手できる
 
-[SC-200補足資料Ver1.1](https://github.com/naonao71/note/blob/main/SC-200/SC-200%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99Ver1.1.pdf)
+[SC-200補足資料Ver1.2](https://github.com/naonao71/note/blob/main/SC-200/SC-200%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99Ver1.2.pdf)
 
 - ローカルにダウンロードする
 
