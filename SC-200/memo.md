@@ -77,7 +77,7 @@ Restart-Computer -Force
 
 **研修の準備**
 
-- [Skillpipe （研修テキスト）の入手](https://github.com/naonao71/note/blob/main/prep/skillpipe.md)
+- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/zwm5c4dezn0k1n?wt.mc_id=esi_m2l_content_wwl)
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
 - [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
