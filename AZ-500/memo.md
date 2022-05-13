@@ -6,7 +6,7 @@
 
 - ラボファイルをローカルにダウンロードする
 
-[Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
+Skillpipe
 
 - 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
 - [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/neqjf5m83e37x4?wt.mc_id=esi_m2l_content_wwl)
@@ -48,7 +48,7 @@
 
 - [1. **AZ-500**](#1-az-500)
   - [1.1. モジュール01](#11-モジュール01)
-    - [1.1.1. Azure Active Diarectory](#111-azure-active-diarectory)
+    - [1.1.1. Azure Active Directory](#111-azure-active-directory)
     - [1.1.2. ハイブリッド ID](#112-ハイブリッド-id)
     - [1.1.3. Azure AD Identity Protection](#113-azure-ad-identity-protection)
     - [1.1.4. Azure AD Pricileged Identity Management](#114-azure-ad-pricileged-identity-management)
@@ -70,7 +70,7 @@
 
 ## 1.1. モジュール01
 
-### 1.1.1. [Azure Active Diarectory](https://docs.microsoft.com/ja-jp/learn/modules/azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
+### 1.1.1. [Azure Active Directory](https://docs.microsoft.com/ja-jp/learn/modules/azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
 
 [Azure AD の組み込みロール](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/permissions-reference)
 
