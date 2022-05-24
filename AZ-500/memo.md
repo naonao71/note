@@ -20,6 +20,15 @@ Skillpipe
 
 - トレーニングで使用するラボ環境
 
+ > LODS環境は英語キーボードに設定されています。日本語キーボード設定に変更するにはLODS環境で下記コマンドを実行します。
+
+```powershell
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "LayerDriver JPN" -Value "kbd106.dll"
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardType" -Value 7
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
+Restart-Computer -Force
+```
+
 [トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
 
 - LODS を起動すると、Promo Code を入手できる
