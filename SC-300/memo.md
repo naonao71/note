@@ -19,6 +19,13 @@ SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300
 
 - トレーニングで使用するラボ環境
 
+```powershell
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "LayerDriver JPN" -Value "kbd106.dll"
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardType" -Value 7
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
+Restart-Computer -Force
+```
+
 [トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
 
 - LODS を起動すると、Promo Code を入手できる
