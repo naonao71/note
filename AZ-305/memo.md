@@ -1,4 +1,4 @@
-**AZ-305**
+**AZ-305 Microsoft Azure Infrastructure Solutions の設計**
 ***
 
 **リンク一覧およびメモ**
