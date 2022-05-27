@@ -1,5 +1,7 @@
 # 1. **AZ-500**
+***
 
+最終更新日 2022/05/27
 **リンク一覧およびメモ**
 
 [AZ-500 ラボコンテンツ](https://microsoftlearning.github.io/AZ-500JA-AzureSecurityTechnologies/)
