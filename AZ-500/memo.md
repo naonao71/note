@@ -490,7 +490,6 @@ DDoS Protection Standard では、次の種類の攻撃を軽減できます。
 |EDRエージェント|MDEモジュール|OS組み込みのMDEセンサー|MDEモジュール|MDEモジュール|非対応|MMA|
 |EDR連携|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|非対応|Microsoft Defender for Cloud で利用可能|
 
-> *1  新しいMDEモジュールが提供予定
 
 製品としては以下が登場する。
 - Microsoft Defender for Cloud (Defender for Cloud)
