@@ -518,7 +518,7 @@ Linux は AV と同じ MDE のモジュールの中で EDR 機能が含まれて
 **Windows Server 2019 / 2022**</BR>
 OS組み込みのセンサーが使われます。Defender for Cloud からの自動オンボードの場合、このセンサーの有効化が自動的に行われます。
 
-**Windows Server 2012 R2 と 2016**
+**Windows Server 2012 R2 と 2016**</BR>
 Windows Server 2012 R2 と 2016 向けの[新しいモジュール](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/defending-windows-server-2012-r2-and-2016/ba-p/2783292) が提供されました。これにより、古いバージョンの Windows Server についてもより高度な保護を利用できるようになっていきます。この新しいモジュールのインストールなども今後 Defender for Cloud 側にも組み込まれていく予定です。
 
 **Windows Server 2008 R2 / 2012 R2 / 2016**</BR>
