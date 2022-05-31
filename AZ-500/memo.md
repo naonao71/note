@@ -538,7 +538,7 @@ OS組み込みのセンサーが使われます。Defender for Cloud からの�
 **Windows Server 2012 R2 と 2016**</BR>
 Windows Server 2012 R2 と 2016 向けの[新しいモジュール](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/defending-windows-server-2012-r2-and-2016/ba-p/2783292) が提供されました。これにより、古いバージョンの Windows Server についてもより高度な保護を利用できるようになっていきます。この新しいモジュールのインストールなども今後 Defender for Cloud 側にも組み込まれていく予定です。
 
-**Windows Server 2008 R2 / 2012 R2 / 2016**</BR>
+**Windows Server 2008 R2**</BR>
 Microsoft Monitoring Agent (MMA)がセンサーの役割を果たします。そのため機能が限定されており、自動調査と対処などが利用できません。
 
 **Windows Server 2012**</BR>
