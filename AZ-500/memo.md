@@ -508,8 +508,24 @@ Windows Server 2016 以降は、OS 組み込みの Microsoft Defender AV を利�
 
 そのため基本的には Azure の拡張機能である Microsoft Antimalware を利用する必要はありませんが、スキャンのタイミングの設定などを Azure Portal から行いたい場合などは、Microsoft Antimalware 拡張機能を有効化することもできます。
 
-**Windows Server 2008 R2 / 2012 / 2012 R2**</BR>
-Windows Server 2012 R2 以前は、Microsoft Defender AV は利用できません。しかし、Azure 上の仮想マシンであれば、Microsoft Defender AV 相当のアンチマルウェア機能を、仮想マシン拡張機能として利用することができます。これが、Microsoft Antimalware です。無料ですぐに利用を開始でき、拡張機能として構成をしていくことも可能です。また、Microsoft Defender AV と同じく、アラートの管理には、MDE や Defender for Cloud を利用します。
+**Windows Server 2012 / 2012 R2**</BR>
+- EDRはMDEで導入（AzureだとDefender for Servers P1/P2で自動展開する）
+- EPPもMDEの展開モジュールに含まれて自動デプロイされる
+  - サービスは「Microsoft Defender ウイルス対策サービス」として起動する
+  - Win2012環境にAzureの"Extention AntiMalware"を入れても、SCEPは導入されないように変更されている
+- Win2012環境で、Windows Defenderの管理を行う場合は、コマンドライン or GPOになる
+  - コマンドラインの場合は、「get-mppreference / set-mpprerference」等を利用する
+  - Windows Defender 導入時に、グループポリシー管理テンプレートも配布されているため、gpedit 経由でローカルグループポリシーを使うことも可能になっている
+
+> - Windows 2012/R2 Server / ～2022/4以前の仕様
+>   - EDRはMDEで導入（AzureだとDefender for Servers P1/P2で自動展開する）
+>   - EPPは別途DL（SCEPのDL先は現在非公開になっているため、要サポート確認だった。Azure VMの場合は、"Extention AntiMalware"拡張を導入することで、SCEPが導入される仕様だった）
+
+現時点(2022/05/31)でこの動きは通常のMDEライセンスからの導入、および Defender for Servers P1ライセンスの動きであり、Defender for Servers P2だけは動きが異なる（旧来のSCEP導入）になる仕様のため、ご注意ください。
+（MDfC Defender for Servers P2だけは自動オンボーディングが古くMMA->MDEの中で旧来の方式から変えられていないそうです）
+
+**Windows Server 2008 R2**</BR>
+Windows Server 2008 以前は、Microsoft Defender AV は利用できません。しかし、Azure 上の仮想マシンであれば、Microsoft Defender AV 相当のアンチマルウェア機能を、仮想マシン拡張機能として利用することができます。これが、Microsoft Antimalware です。無料ですぐに利用を開始でき、拡張機能として構成をしていくことも可能です。また、Microsoft Defender AV と同じく、アラートの管理には、MDE や Defender for Cloud を利用します。
 
 **EDRに関して**
 
