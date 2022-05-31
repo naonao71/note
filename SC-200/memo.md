@@ -286,10 +286,9 @@ MDEには、フルアクセスと読み取り専用アクセス権がありま�
 |AVモジュール|MDEモジュール|Microsoft Defender AV|Microsoft Defender AV|Microsoft Antimalware|Microsoft Antimalware|Microsoft Antimalware|
 |AV提供方法|Microsoft Defender for Cloud で利用可能|OS 組み込みのため無料で利用可能|OS 組み込みのため無料で利用可能|Azure 上の無料サービス|Azure 上の無料サービス|Azure 上の無料サービス|
 |EDRサーバー|MDE|MDE|MDE|MDE|非対応|MDE|
-|EDRエージェント|MDEモジュール|OS組み込みのMDEセンサー|**MMA** *1|**MMA** *1|非対応|MMA|
+|EDRエージェント|MDEモジュール|OS組み込みのMDEセンサー|MDEモジュール|MDEモジュール|非対応|MMA|
 |EDR連携|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|Microsoft Defender for Cloud で利用可能|非対応|Microsoft Defender for Cloud で利用可能|
 
-> *1  新しいMDEモジュールがプレビュー版で提供中
 
 製品としては以下が登場する。
 - Microsoft Defender for Cloud (Defender for Cloud)
@@ -308,8 +307,24 @@ Windows Server 2016 以降は、OS 組み込みの Microsoft Defender AV を利�
 
 そのため基本的には Azure の拡張機能である Microsoft Antimalware を利用する必要はありませんが、スキャンのタイミングの設定などを Azure Portal から行いたい場合などは、Microsoft Antimalware 拡張機能を有効化することもできます。
 
-**Windows Server 2008 R2 / 2012 / 2012 R2**</BR>
-Windows Server 2012 R2 以前は、Microsoft Defender AV は利用できません。しかし、Azure 上の仮想マシンであれば、Microsoft Defender AV 相当のアンチマルウェア機能を、仮想マシン拡張機能として利用することができます。これが、Microsoft Antimalware です。無料ですぐに利用を開始でき、拡張機能として構成をしていくことも可能です。また、Microsoft Defender AV と同じく、アラートの管理には、MDE や Defender for Cloud を利用します。
+**Windows Server 2012 / 2012 R2**</BR>
+- EDRはMDEで導入（AzureだとDefender for Servers P1/P2で自動展開する）
+- EPPもMDEの展開モジュールに含まれて自動デプロイされる
+  - サービスは「Microsoft Defender ウイルス対策サービス」として起動する
+  - Win2012環境にAzureの"Extention AntiMalware"を入れても、SCEPは導入されないように変更されている
+- Win2012環境で、Windows Defenderの管理を行う場合は、コマンドライン or GPOになる
+  - コマンドラインの場合は、「get-mppreference / set-mpprerference」等を利用する
+  - Windows Defender 導入時に、グループポリシー管理テンプレートも配布されているため、gpedit 経由でローカルグループポリシーを使うことも可能になっている
+
+> - Windows 2012/R2 Server / ～2022/4以前の仕様
+>   - EDRはMDEで導入（AzureだとDefender for Servers P1/P2で自動展開する）
+>   - EPPは別途DL（SCEPのDL先は現在非公開になっているため、要サポート確認だった。Azure VMの場合は、"Extention AntiMalware"拡張を導入することで、SCEPが導入される仕様だった）
+
+現時点(2022/05/31)でこの動きは通常のMDEライセンスからの導入、および Defender for Servers P1ライセンスの動きであり、Defender for Servers P2だけは動きが異なる（旧来のSCEP導入）になる仕様のため、ご注意ください。
+（MDfC Defender for Servers P2だけは自動オンボーディングが古くMMA->MDEの中で旧来の方式から変えられていないそうです）
+
+**Windows Server 2008 R2**</BR>
+Windows Server 2008 以前は、Microsoft Defender AV は利用できません。しかし、Azure 上の仮想マシンであれば、Microsoft Defender AV 相当のアンチマルウェア機能を、仮想マシン拡張機能として利用することができます。これが、Microsoft Antimalware です。無料ですぐに利用を開始でき、拡張機能として構成をしていくことも可能です。また、Microsoft Defender AV と同じく、アラートの管理には、MDE や Defender for Cloud を利用します。
 
 **EDRに関して**
 
@@ -319,10 +334,11 @@ Linux は AV と同じ MDE のモジュールの中で EDR 機能が含まれて
 **Windows Server 2019 / 2022**</BR>
 OS組み込みのセンサーが使われます。Defender for Cloud からの自動オンボードの場合、このセンサーの有効化が自動的に行われます。
 
+**Windows Server 2012 R2 と 2016**</BR>
+Windows Server 2012 R2 と 2016 向けの[新しいモジュール](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/defending-windows-server-2012-r2-and-2016/ba-p/2783292) が提供されました。これにより、古いバージョンの Windows Server についてもより高度な保護を利用できるようになっていきます。この新しいモジュールのインストールなども今後 Defender for Cloud 側にも組み込まれていく予定です。
+
 **Windows Server 2008 R2 / 2012 R2 / 2016**</BR>
 Microsoft Monitoring Agent (MMA)がセンサーの役割を果たします。そのため機能が限定されており、自動調査と対処などが利用できません。
-
-> 今後 Windows Server 2012 R2 と 2016 向けの[新しいモジュール](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/defending-windows-server-2012-r2-and-2016/ba-p/2783292) が提供される予定です。これにより、古いバージョンの Windows Server についてもより高度な保護を利用できるようになっていきます。この新しいモジュールのインストールなども今後 Defender for Cloud 側にも組み込まれていく予定です。
 
 **Windows Server 2012**</BR>
 MDE非対応
