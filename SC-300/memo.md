@@ -79,7 +79,6 @@ Restart-Computer -Force
   - [ラボ 28 - Azure AD ロール用に Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_28_ConfigurePrivilegedIdentityManagementForAADRoles.md)
   - [ラボ 29 - Privileged Identity Management で Azure AD ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_29_AssignAADRolesInPrivilegedIdentityManagement.md)
   - [ラボ 30 - Privileged Identity Management で Azure リソース ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_30_AssignAzureResourceRolesInPrivilegedIdentityManagement.md)
-  - [ラボ 31 - Azure Active Directory (Azure AD) から Microsoft Sentinel へデータを接続する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_31_ConnectDataFromAADToAzureSentinel.md)
 
 **研修の準備**
 
