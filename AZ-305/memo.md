@@ -12,7 +12,7 @@ Skillpipe
 - [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/learn/certifications/courses/az-305t00?wt.mc_id=esi_m2l_content_wwl)
 
 [Azure アーキテクチャ アイコン](https://docs.microsoft.com/ja-jp/azure/architecture/icons/)
-  - ラボで使用するのでダウンロードしてください。
+  - ダウンロードしてご利用ください。
 
 [SC-200補足資料Ver1.2](https://github.com/naonao71/note/blob/main/SC-200/SC-200%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99Ver1.2.pdf)
 
