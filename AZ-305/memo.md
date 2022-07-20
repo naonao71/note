@@ -30,6 +30,7 @@ Skillpipe
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/02-ComputeAnswer.md)
 - モジュール03
   - [非リレーショナル ストレージ の ケース スタディを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/03-Nonrelationalstorage.md)
+  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/03-NonrelationalstorageAnswer.md)
 - モジュール04
   - [リレーショナル ストレージ の ケース スタディを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/04-Relationalstorage.md)
 - モジュール05
