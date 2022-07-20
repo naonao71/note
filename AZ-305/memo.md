@@ -45,10 +45,8 @@ Skillpipe
 - モジュール08
   - Azure リソースをログに記録して監視するソリューションを設計する
 - モジュール09
-  - [ネットワーク インフラストラクチャ ソリューションを設計する_Part1](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption1.md)
-  - 検討例
-  - [ネットワーク インフラストラクチャ ソリューションを設計する_Part2](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption2.md)
-  - 検討例
+  - [ネットワーク インフラストラクチャ ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption2.md)
+  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/09-Networkingoption1Answer.md)
 - モジュール10
   - ビジネス継続性ソリューションの設計
 - モジュール11
