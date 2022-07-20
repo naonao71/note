@@ -33,17 +33,22 @@ Skillpipe
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/03-NonrelationalstorageAnswer.md)
 - モジュール04
   - [リレーショナル ストレージ の ケース スタディを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/04-Relationalstorage.md)
+  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/04-RelationalstorageAnswer.md)
 - モジュール05
   - データ統合ソリューションを設計する
 - モジュール06
   - [アプリのアーキテクチャ ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/06-Apparchitecture.md)
+  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/06-ApparchitectureAnswer.md)
 - モジュール07
   - [認証および承認ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/07-Access.md)
+  - 検討例
 - モジュール08
   - Azure リソースをログに記録して監視するソリューションを設計する
 - モジュール09
   - [ネットワーク インフラストラクチャ ソリューションを設計する_Part1](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption1.md)
+  - 検討例
   - [ネットワーク インフラストラクチャ ソリューションを設計する_Part2](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption2.md)
+  - 検討例
 - モジュール10
   - ビジネス継続性ソリューションの設計
 - モジュール11
