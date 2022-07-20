@@ -41,7 +41,7 @@ Skillpipe
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/06-ApparchitectureAnswer.md)
 - モジュール07
   - [認証および承認ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/07-Access.md)
-  - 検討例
+  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/07-AccessAnswer.md)
 - モジュール08
   - Azure リソースをログに記録して監視するソリューションを設計する
 - モジュール09
