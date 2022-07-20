@@ -58,7 +58,8 @@ Skillpipe
 
 
 **参考資料**
-[Azure に移行されたワークロードのセキュリティ保護と管理のためのベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/cloud-adoption-framework/migrate/azure-best-practices/migrate-best-practices-security-management#best-practice-name-resource-groups)
-[リソースの名前付けとタグ付けの意思決定ガイド](https://docs.microsoft.com/ja-jp/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=%2Fazure%2Fazure-resource-manager%2Fmanagement%2Ftoc.json#resource-tagging-patterns)
-[Azure Policy の組み込みのポリシー定義](https://docs.microsoft.com/ja-jp/azure/governance/policy/samples/built-in-policies#general)
+
+- [Azure に移行されたワークロードのセキュリティ保護と管理のためのベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/cloud-adoption-framework/migrate/azure-best-practices/migrate-best-practices-security-management#best-practice-name-resource-groups)
+- [リソースの名前付けとタグ付けの意思決定ガイド](https://docs.microsoft.com/ja-jp/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=%2Fazure%2Fazure-resource-manager%2Fmanagement%2Ftoc.json#resource-tagging-patterns)
+- [Azure Policy の組み込みのポリシー定義](https://docs.microsoft.com/ja-jp/azure/governance/policy/samples/built-in-policies#general)
 
