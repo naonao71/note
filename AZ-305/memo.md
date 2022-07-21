@@ -1,4 +1,4 @@
-**AZ-305 Microsoft Azure Infrastructure Solutions の設計**
+B**AZ-305 Microsoft Azure Infrastructure Solutions の設計**
 ***
 > このコースは、ケース スタディによるディスカッションを念頭に置いて設計されました。このコースは座学のみなので Azure Pass は提供されていません。
 
@@ -55,6 +55,29 @@ Skillpipe
 ***
 
 # モジュール 01: ガバナンス ソリューションを設計する
+
+**Point**
+- Azure階層
+  - 管理グループ＞サブスクリプション＞リソースグループ＞リソース であり、継承される（RBAC、Policy）
+- サブスクリプション
+  - サブスクリプションは課金の境界であり、Azure階層のひとつ
+  - サブスクリプションが組織で1つの場合は、管理グループを使用しなくても同様の管理
+  - 複数のサブスクリプションを使用することで課金の分離が可能
+    - Policy、RBACはそれぞれのサブスクリプションで行う必要あり（管理グループを使用することで継承できる）
+- リソースタグ
+  - サブスクリプション、リソースグループ、リソースに付与できる
+  - 管理グループには付与できない
+  - タグの単位で課金レポートが可能
+
+**タグのカテゴリ例**
+
+| タグの種類 | 使用例 |
+| --- | --- |
+| 機能 | app = catalogsearch1</BR>tier = web</BR>webserver = apache</BR>env = prod, dev, staging |
+| 分類 | confidentiality = private</BR>SLA = 24hours |
+| 会計 | department = finance</BR>program = business-initiative</BR>region = northamerica |
+| パートナーシップ | owner = jsmith</BR>contactalias = catsearchowners</BR>stakeholders = user1;user2;user3 |
+| 目的 | businessprocess = support</BR>businessimpact = moderate</BR>revenueimpact = high |
 
 
 **参考資料**
