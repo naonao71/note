@@ -5,7 +5,7 @@
 
 SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/tree/main/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/tree/master/Instructions/Labs)）
 
-[Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
+Skillpipe
 
 - 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
 - [トレーニングで用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/neqjf5m3z241wg?wt.mc_id=esi_m2l_content_wwl)
