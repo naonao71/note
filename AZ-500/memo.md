@@ -8,6 +8,8 @@
 
 - ラボファイルをローカルにダウンロードする
 
+[AZ-500 ラボコンテンツ(講師修正済み)](https://github.com/naonao71/AZ-500JA-AzureSecurityTechnologies/tree/master/Instructions/Labs)
+
 Skillpipe
 
 - 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
