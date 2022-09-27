@@ -152,7 +152,7 @@ AZ-104
 
 [Azure ロール](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/rbac-and-directory-admin-roles#azure-roles)
 
-**AD Role の確認方法**
+**Azure RBAC Role の確認方法**
 
 ``` powershell
 Get-AzRoleDefinition 'Owner'
