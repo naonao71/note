@@ -1,12 +1,20 @@
 # 1. **AZ-104**
 
+**研修の準備**
+AZ-104のトレーニングコースを始めるにあたり、以下の準備が必要です。
+- マイクロソフトアカウントの作成
+- LDOS環境の作成（トレーニングキーは講師から連絡します）
+- Azure Pass サブスクリプションの取得（LODS環境で取得したPromo Codeを使用します）
+
+トレーニング初日に、講師と一緒に行います。遅れて参加した方はこちらを参考に進めてください。
+
 **リンク一覧およびメモ**
 
 [AZ-104 ラボコンテンツ](https://microsoftlearning.github.io/AZ-104JA-MicrosoftAzureAdministrator/)
 
 [AZ-104 ラボコンテンツ（翻訳修正版）](https://github.com/naonao71/AZ-104JA-MicrosoftAzureAdministrator/tree/master/Instructions/Labs)
 
-[Skillpipe](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
+Skillpipe
 
 - 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
 - [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/xe42fkkpzr6roe?wt.mc_id=esi_m2l_content_wwl)
