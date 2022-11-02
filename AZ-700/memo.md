@@ -5,10 +5,9 @@
  
 AZ-700 ラボトップ（[日本語](https://github.com/MicrosoftLearning/AZ-700JA-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/tree/master/Instructions/Exercises)/[英語](https://github.com/MicrosoftLearning/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/tree/master/Instructions/Exercises)）
 
-Skillpipe
+[トレーニングで用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/kox0iz3xxxy80j?wt.mc_id=esi_m2l_content_wwl)
 
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/kox0iz3xxxy80j?wt.mc_id=esi_m2l_content_wwl)
+- MS Learn にてテキストは公開されいますので、いつでもご利用できます。
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
