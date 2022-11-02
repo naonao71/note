@@ -1,6 +1,7 @@
 # 1. **AZ-104**
 
 **研修の準備**
+
 AZ-104のトレーニングコースを始めるにあたり、以下の準備が必要です。
 - マイクロソフトアカウントの作成
 - LDOS環境の作成（トレーニングキーは講師から連絡します）
@@ -14,10 +15,9 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 
 [AZ-104 ラボコンテンツ（翻訳修正版）](https://github.com/naonao71/AZ-104JA-MicrosoftAzureAdministrator/tree/master/Instructions/Labs)
 
-Skillpipe
+[トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/xe42fkkpzr6roe?wt.mc_id=esi_m2l_content_wwl)
 
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/xe42fkkpzr6roe?wt.mc_id=esi_m2l_content_wwl)
+- MS Learn にてテキストは公開されいますので、いつでもご利用できます。
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
