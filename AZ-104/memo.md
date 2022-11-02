@@ -7,6 +7,8 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 - LDOS環境の作成（トレーニングキーは講師から連絡します）
 - Azure Pass サブスクリプションの取得（LODS環境で取得したPromo Codeを使用します）
 
+ > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+
 トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://github.com/naonao71/note/blob/main/AZ-104/pdf/Opening.pdf)を参考に進めてください。
 
 **リンク一覧およびメモ**
