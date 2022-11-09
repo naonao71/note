@@ -3,10 +3,7 @@
 
 **研修の準備**
 
-
-
 AZ-700のトレーニングコースを始めるにあたり、以下の準備が必要です。
-**研修の準備**
 
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
