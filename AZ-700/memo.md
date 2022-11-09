@@ -92,7 +92,7 @@ Restart-Computer -Force
 
 ***
 
-1. モジュール01
+**モジュール01**
 - [Azure 仮想ネットワークの概要](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-azure-virtual-networks/?wt.mc_id=esi_m2l_content_wwl)
 1. モジュール02
 - [ハイブリッド ネットワークを設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-hybrid-networking/?wt.mc_id=esi_m2l_content_wwl)
