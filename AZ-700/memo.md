@@ -3,10 +3,14 @@
 
 **研修の準備**
 
+
+
 AZ-700のトレーニングコースを始めるにあたり、以下の準備が必要です。
-- マイクロソフトアカウントの作成
-- LDOS環境の作成（トレーニングキーは講師から連絡します）
-- Azure Pass サブスクリプションの取得（LODS環境で取得したPromo Codeを使用します）
+**研修の準備**
+
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+- [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
 
  > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
 
@@ -82,13 +86,6 @@ Restart-Computer -Force
 - モジュール08
   - [Azure Monitor を使用してロード バランサー リソースを監視する](https://github.com/naonao71/AZ-700JA-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/blob/master/Instructions/Exercises/M08-Unit%203%20Monitor%20a%20load%20balancer%20resource%20using%20Azure%20Monitor.md)
 
-
-
-**研修の準備**
-
-- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
-- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
-- [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
 
 ***
 
