@@ -31,10 +31,11 @@ Restart-Computer -Force
 
 - LODS を起動すると、Promo Code を入手できる
 
+<!--
 [ESI Security Courses 配布用](https://github.com/naonao71/note/blob/main/AZ-500/ESI%20Security%20Courses%20%E9%85%8D%E5%B8%83%E7%94%A8.pdf)
 
 - Microsoft が提供しているコース内容概要マップ
-
+-->
 ***
 
 **ラボのリンク（講師翻訳修正済み）**
