@@ -92,25 +92,24 @@ Restart-Computer -Force
 
 ***
 
-- [1. モジュール01](#1-モジュール01)
-  - [1.1. Azure Active Directory の初期構成を実装する](#11-azure-active-directory-の初期構成を実装する)
-  - [1.2. ID を作成、構成、管理する](#12-id-を作成構成管理する)
-  - [1.3. 外部 ID を実装および管理する](#13-外部-id-を実装および管理する)
-  - [1.4. ハイブリッド ID の実装と管理](#14-ハイブリッド-id-の実装と管理)
-- [2. モジュール02](#2-モジュール02)
-  - [2.1. 多要素認証によるセキュリティで Azure Active Directory ユーザーを保護する](#21-多要素認証によるセキュリティで-azure-active-directory-ユーザーを保護する)
-  - [2.2. ユーザー認証を管理する](#22-ユーザー認証を管理する)
-  - [2.3. 条件付きアクセスの計画、実装、管理を行う](#23-条件付きアクセスの計画実装管理を行う)
-  - [2.4. Azure AD Identity Protection を管理する](#24-azure-ad-identity-protection-を管理する)
-- [3. モジュール03](#3-モジュール03)
-  - [3.1. SSO 用エンタープライズ アプリの統合を計画し、設計する](#31-sso-用エンタープライズ-アプリの統合を計画し設計する)
-  - [3.2. SSO 用エンタープライズ アプリの統合を実装し、監視する](#32-sso-用エンタープライズ-アプリの統合を実装し監視する)
-  - [3.3. アプリの登録を実装する](#33-アプリの登録を実装する)
-- [4. モジュール04](#4-モジュール04)
-  - [4.1. エンタイトルメント管理を計画して実装する](#41-エンタイトルメント管理を計画して実装する)
-  - [4.2. アクセス レビューの計画、実装、管理](#42-アクセス-レビューの計画実装管理)
-  - [4.3. 特権アクセスを計画し、実装する](#43-特権アクセスを計画し実装する)
-  - [4.4. Azure Active Directory を監視および保守する](#44-azure-active-directory-を監視および保守する)
+- 1. モジュール01
+  - [Azure 仮想ネットワークの概要](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-azure-virtual-networks/?wt.mc_id=esi_m2l_content_wwl)
+- 2. モジュール02
+  - [ハイブリッド ネットワークを設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-hybrid-networking/?wt.mc_id=esi_m2l_content_wwl)
+- 3. モジュール03
+  - [Azure ExpressRoute を設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-azure-expressroute/?wt.mc_id=esi_m2l_content_wwl)
+- 4. モジュール04
+  - [Azure での非 HTTP(S) トラフィックの負荷分散](https://learn.microsoft.com/ja-jp/training/modules/load-balancing-non-https-traffic-azure/?wt.mc_id=esi_m2l_content_wwl)
+- 5. モジュール05
+  - [Azure での HTTP(S) トラフィックの負荷分散](https://learn.microsoft.com/ja-jp/training/modules/load-balancing-https-traffic-azure/?wt.mc_id=esi_m2l_content_wwl)
+- 6. モジュール06
+  - [ネットワーク セキュリティを設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-security-monitoring/?wt.mc_id=esi_m2l_content_wwl)
+- 7. モジュール07
+  - [Azure サービスへのプライベート アクセスの設計と実装](https://learn.microsoft.com/ja-jp/training/modules/design-implement-private-access-to-azure-services/?wt.mc_id=esi_m2l_content_wwl)
+- 8. モジュール08
+  - [ネットワーク監視を設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-monitoring/?wt.mc_id=esi_m2l_content_wwl)
+
+
 
 ***
 
@@ -118,37 +117,3 @@ Restart-Computer -Force
 ## 1.1. [Azure Active Directory の初期構成を実装する](https://docs.microsoft.com/ja-jp/learn/modules/implement-initial-configuration-of-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
 
 
-**管理ポータル**
-
-- [Azure portal](https://portal.azure.com/)
-- [Azure Active Directory 管理センター](https://aad.portal.azure.com/)
-- [Microsoft 365 管理センター](https://admin.microsoft.com/)
-- [Microsoft 365 Defender](https://security.microsoft.com/)
-
-**Break Glass アカウントとは**
-- 不測の事態に影響を受けない緊急用 全体管理者アカウント
-  - フェデレーションサービスの障害によるログイン不可
-  - MFA 利用不可 - 電話網障害等
-  - 管理者アカウント保持者の退職等
-
-**ベストプラクティス**
-- クラウドアカウント（例: bg@contoso.onmicrosoft.com）を利用
-- 永続管理者（PIMの対象ロールにしない）を利用
-- すべての 条件付きアクセス、MFA 対象から除外
-- 16 文字以上のランダムに生成されたパスワードを利用
-- パスワードは紙に書いて、2つ以上に切ってそれぞれ金庫に保管
-- アカウント利用を定期的に監査
-- アカウントを最低 90 日に一度、利用可能か確かめる
-
-[セキュリティの既定値群とは](https://docs.microsoft.com/ja-jp/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
-
-[Azure AD Multi-Factor Authentication の機能とライセンス](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-mfa-licensing)
-
-**参照URL**
-- [従来のサブスクリプション管理者ロール、Azure ロール、および Azure AD ロール](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/rbac-and-directory-admin-roles)
-- [Azure ロールの定義について](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-definitions)
-- [Privileged Identity Management のドキュメント](https://docs.microsoft.com/ja-jp/azure/active-directory/privileged-identity-management/)
-- [方法:Azure AD Multi-Factor Authentication 登録ポリシーを構成する](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
-- [条件付きアクセス: 管理者に対して MFA を必須にする](https://docs.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
-- [条件付きアクセス:レガシ認証をブロックする](https://docs.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
-- [条件付きアクセス:すべてのユーザーに対して MFA を必須にする](https://docs.microsoft.com/ja-jp/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
