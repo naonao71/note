@@ -1,6 +1,17 @@
 **AZ-700**
 ***
 
+**研修の準備**
+
+AZ-700のトレーニングコースを始めるにあたり、以下の準備が必要です。
+- マイクロソフトアカウントの作成
+- LDOS環境の作成（トレーニングキーは講師から連絡します）
+- Azure Pass サブスクリプションの取得（LODS環境で取得したPromo Codeを使用します）
+
+ > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+
+トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://github.com/naonao71/note/blob/main/AZ-104/pdf/Opening.pdf)を参考に進めてください。
+
 **リンク一覧およびメモ**
  
 AZ-700 ラボトップ（[日本語](https://github.com/MicrosoftLearning/AZ-700JA-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/tree/master/Instructions/Exercises)/[英語](https://github.com/MicrosoftLearning/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/tree/master/Instructions/Exercises)）
