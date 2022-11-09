@@ -96,18 +96,25 @@ Restart-Computer -Force
 
 **モジュール01**
 - [Azure 仮想ネットワークの概要](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-azure-virtual-networks/?wt.mc_id=esi_m2l_content_wwl)</BR>
+
 **モジュール02**
 - [ハイブリッド ネットワークを設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-hybrid-networking/?wt.mc_id=esi_m2l_content_wwl)
+
 **モジュール03**
 - [Azure ExpressRoute を設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-azure-expressroute/?wt.mc_id=esi_m2l_content_wwl)
+
 **モジュール04**
 - [Azure での非 HTTP(S) トラフィックの負荷分散](https://learn.microsoft.com/ja-jp/training/modules/load-balancing-non-https-traffic-azure/?wt.mc_id=esi_m2l_content_wwl)
+
 **モジュール05**
 - [Azure での HTTP(S) トラフィックの負荷分散](https://learn.microsoft.com/ja-jp/training/modules/load-balancing-https-traffic-azure/?wt.mc_id=esi_m2l_content_wwl)
+
 **モジュール06**
 - [ネットワーク セキュリティを設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-security-monitoring/?wt.mc_id=esi_m2l_content_wwl)
+
 **モジュール07**
 - [Azure サービスへのプライベート アクセスの設計と実装](https://learn.microsoft.com/ja-jp/training/modules/design-implement-private-access-to-azure-services/?wt.mc_id=esi_m2l_content_wwl)
+
 **モジュール08**
 - [ネットワーク監視を設計して実装する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-monitoring/?wt.mc_id=esi_m2l_content_wwl)
 
