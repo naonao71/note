@@ -89,7 +89,7 @@ Restart-Computer -Force
 
 ***
 
-**AZ700のテキスト**
+**AZ-700のテキスト**
 
 **モジュール01**
 - [Azure 仮想ネットワークの概要](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-azure-virtual-networks/?wt.mc_id=esi_m2l_content_wwl)</BR>
@@ -119,7 +119,5 @@ Restart-Computer -Force
 
 ***
 
-# 1. モジュール01
-## 1.1. [Azure Active Directory の初期構成を実装する](https://docs.microsoft.com/ja-jp/learn/modules/implement-initial-configuration-of-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
 
 
