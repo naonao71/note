@@ -369,7 +369,7 @@ Azureポリシーの機能には以下の3つの大きな柱があります
 ```powershell
 Get-AzRoleDefinition | ft name
 ```
-AD Role の確認例
+Azure RBAC Role の確認例
 ```powershell
 Get-AzRoleDefinition 'Owner'
 Get-AzRoleDefinition 'contributor'
