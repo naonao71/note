@@ -1,6 +1,6 @@
 # 1. **AZ-500 Microsoft Azure セキュリティ テクノロジ**
 
-最終更新日 2022/05/31
+最終更新日 2022/12/06
 
 **リンク一覧およびメモ**
 
@@ -37,7 +37,7 @@ Restart-Computer -Force
 
 - LODS を起動すると、Promo Code を入手できる
 
-[AZ-500補足資料](https://github.com/naonao71/note/blob/main/AZ-500/AZ-500%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.3.pdf)
+[AZ-500補足資料](https://github.com/naonao71/note/blob/main/AZ-500/AZ-500%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.4.pdf)
 
 - ローカルにダウンロードする
 
