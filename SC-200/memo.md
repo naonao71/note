@@ -599,7 +599,7 @@ Sentinel からデータ コネクタのデータを取り込む場合に最も�
 |AzureDiagnostics|Azure 診断モードを使用する Azure サービスのリソース ログを保存します。リソース ログにAzure リソースの内部操作に関して記述されています。|
 |AuditLogs|Azure Active Directory の監査ログ。ユーザーとグループの管理、マネージド アプリケーション、ディレクトリ アクティビティに関するシステム アクティビティ情報。|
 |CommonSecurityLog|Common Event Format (CEF) を使用した Syslog メッセージ。|
-|McasShadowItReporting|Microsoft Cloud App Security のログ|
+|McasShadowItReporting|Microsoft Defender for Cloud Apps のログ|
 |OfficeActivity|Microsoft Sentinel によって収集された Office 365 テナントの監査ログ。Exchange、SharePoint、および Teams のログを含みます。|
 |SecurityEvent|Microsoft Defender for Cloud または Microsoft Sentinel によって Windows マシンから収集されたセキュリティ イベント|
 |SigninLogs|Azure Activity Directory のサインイン ログ|
