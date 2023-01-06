@@ -82,7 +82,7 @@ Restart-Computer -Force
 - モジュール03
   - [ラボ 20 - アプリのアクセス管理を実装する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_20_ImplementAccessManagementForApps.md)
   - [ラボ 21 - カスタム ロールを作成してアプリ登録を管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_21_CreateANewCustomRoleToGrantAccessToManageAppRegistrations.md)
-  - [ラボ 21:アプリケーションに対してテナント全体の管理者の同意を付与する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_21_GrantTenantWideAdminConsentToAnApplication.md)
+  - [ラボ 21 - アプリケーションに対してテナント全体の管理者の同意を付与する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_21_GrantTenantWideAdminConsentToAnApplication.md)
   - [ラボ 22 - アプリケーションを登録する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_22_RegisterAnApplication.md)
   - [ラボ 23 - アプリケーションに対してテナント全体の管理者の同意を付与する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_23_GrantTenantWideAdminConsentToAnApplication.md)
   - [ラボ 24 - アプリにアプリ ロールを追加してトークンで受け取る](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_24_AddAppRolesToYourAppAndReceiveThemInTheToken.md)
