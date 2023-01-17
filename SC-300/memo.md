@@ -98,13 +98,16 @@ Restart-Computer -Force
 
 - モジュール04
   - [ラボ 25 - Azure AD エンタイトルメント管理でリソースのカタログを作成して管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_25_CreateAndManageACatalogOfResourcesInAADEntitlementManagement.md)
-  - [ラボ 25 - 内部および外部ユーザーのアクセス レビューの作成](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_25_CreatingAccessReviewsForUsers.md)
   - [ラボ 26 - 利用規約と同意レポートを追加する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_26_AddTermsOfUseAcceptanceReporting.md)
-  - [ラボ 26 - Azure AD ロール用に Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_26_ConfigurePrivilegedIdentityManagementForAADRoles.md)
   - [ラボ 27 - Azure AD Identity Governance の設定で外部ユーザーのライフサイクルを管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_27_ManageTheLifecycleOfExternalUsersInAADIdentityGovernanceSettings%20.md)
+  - [ラボ 25 - 内部および外部ユーザーのアクセス レビューの作成](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_25_CreatingAccessReviewsForUsers.md)
+  - [ラボ 26 - Azure AD ロール用に Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_26_ConfigurePrivilegedIdentityManagementForAADRoles.md)
   - [ラボ 27 - Azure AD データ ソースの Microsoft Sentinel Kusto クエリ](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_27_MicrosoftSentinelKustoQueries.md)
-  - [ラボ 28 - Azure AD ロール用に Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_28_ConfigurePrivilegedIdentityManagementForAADRoles.md)
   - [ラボ 28 - ID セキュリティ スコアを使用してセキュリティ態勢を監視および管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_28_MonitorIdentitySecureScore.md)
+
+
+- モジュール04 OLD
+  - [ラボ 28 - Azure AD ロール用に Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_28_ConfigurePrivilegedIdentityManagementForAADRoles.md)
   - [ラボ 29 - Privileged Identity Management で Azure AD ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_29_AssignAADRolesInPrivilegedIdentityManagement.md)
   - [ラボ 30 - Privileged Identity Management で Azure リソース ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_30_AssignAzureResourceRolesInPrivilegedIdentityManagement.md)
 
