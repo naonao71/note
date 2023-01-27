@@ -1,4 +1,4 @@
-B**AZ-305 Microsoft Azure Infrastructure Solutions の設計**
+**AZ-305 Microsoft Azure Infrastructure Solutions の設計**
 ***
 > このコースは、ケース スタディによるディスカッションを念頭に置いて設計されました。このコースは座学のみなので Azure Pass は提供されていません。
 
