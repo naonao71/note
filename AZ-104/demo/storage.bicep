@@ -37,4 +37,3 @@ resource exampleStorage 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   }
   kind: 'StorageV2'
 }
-
