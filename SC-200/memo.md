@@ -5,7 +5,7 @@
 
 **リンク一覧およびメモ**
 
-SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200T00JA-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-200T00A-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)）
+SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200T00A-Microsoft-Security-Operations-Analyst.ja-jp/tree/main/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-200T00A-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)）
 
 Skillpipe
 
