@@ -4,7 +4,7 @@
 
 **リンク一覧およびメモ**
 
-[AZ-500 ラボコンテンツ](https://microsoftlearning.github.io/AZ-500JA-AzureSecurityTechnologies/)
+[AZ-500 ラボコンテンツ](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies.ja-jp/tree/main/Instructions/Labs)
 
 - ラボファイルをローカルにダウンロードする
 
@@ -63,7 +63,9 @@ Restart-Computer -Force
   - [1.1. モジュール01](#11-モジュール01)
     - [1.1.1. Azure Active Directory](#111-azure-active-directory)
     - [1.1.2. ハイブリッド ID](#112-ハイブリッド-id)
+  - [**Azure AD Connect**](#azure-ad-connect)
     - [1.1.3. Azure AD Identity Protection](#113-azure-ad-identity-protection)
+  - [**条件付きアクセスポリシー(CA)**](#条件付きアクセスポリシーca)
     - [1.1.4. Azure AD Pricileged Identity Management](#114-azure-ad-pricileged-identity-management)
     - [1.1.5. エンタープライズ ガバナンス](#115-エンタープライズ-ガバナンス)
   - [1.2. モジュール02](#12-モジュール02)
