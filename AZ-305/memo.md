@@ -47,7 +47,8 @@ SC-305補足資料Ver1.2
   - [リレーショナル ストレージ の ケース スタディを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/04-Relationalstorage.md)
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/04-RelationalstorageAnswer.md)
 - モジュール05
-  - データ統合ソリューションを設計する
+  - [データ統合ソリューションを設計する(オリジナル)](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/05-dataintegration.md)
+  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/05-dataintegrationAnswer.md)
 - モジュール06
   - [アプリのアーキテクチャ ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/06-Apparchitecture.md)
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/06-ApparchitectureAnswer.md)
@@ -55,7 +56,7 @@ SC-305補足資料Ver1.2
   - [認証および承認ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/07-Access.md)
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/07-AccessAnswer.md)
 - モジュール08
-  - [Azure リソースをログに記録して監視するソリューションを設計する](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/08-monitorsolution.md)
+  - [Azure リソースをログに記録して監視するソリューションを設計する(オリジナル)](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/08-monitorsolution.md)
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/08-monitorsolutionAnswer.md)
 - モジュール09
   - [ネットワーク インフラストラクチャ ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption2.md)
