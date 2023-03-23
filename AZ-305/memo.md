@@ -60,7 +60,8 @@ SC-305補足資料Ver1.2
   - [ネットワーク インフラストラクチャ ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption2.md)
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/09-Networkingoption1Answer.md)
 - モジュール10
-  - ビジネス継続性ソリューションの設計
+  - [ビジネス継続性ソリューションの設計(オリジナル)](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/10-bcpsolution.md)
+  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/10-bcpsolutionAnswer.md)
 - モジュール11
   - 移行ソリューションを設計する
 
