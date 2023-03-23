@@ -55,7 +55,8 @@ SC-305補足資料Ver1.2
   - [認証および承認ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/07-Access.md)
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/07-AccessAnswer.md)
 - モジュール08
-  - Azure リソースをログに記録して監視するソリューションを設計する
+  - [Azure リソースをログに記録して監視するソリューションを設計する](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/08-monitorsolution.md)
+  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/08-monitorsolutionAnswer.md)
 - モジュール09
   - [ネットワーク インフラストラクチャ ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption2.md)
   - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/09-Networkingoption1Answer.md)
