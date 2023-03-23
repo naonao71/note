@@ -1,6 +1,6 @@
 **ビジネス継続性ソリューションの設計**
 
-[ソリューション例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/media/10-01.png)
+![ソリューション例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/media/10-01.png)
 
 ### 設計案
 
