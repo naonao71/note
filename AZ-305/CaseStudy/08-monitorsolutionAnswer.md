@@ -1,4 +1,4 @@
-**ネットワーク インフラストラクチャ ソリューションを設計する**
+**リソースをログ記録して監視するソリューションを設計する**
 
 ![ソリューション例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/media/08-01.png)
 
