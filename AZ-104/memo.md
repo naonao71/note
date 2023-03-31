@@ -4,12 +4,11 @@
 
 AZ-104のトレーニングコースを始めるにあたり、以下の準備が必要です。
 - マイクロソフトアカウントの作成
-- LDOS環境の作成（トレーニングキーは講師から連絡します）
-- Azure Pass サブスクリプションの取得（LODS環境で取得したPromo Codeを使用します）
+- LDOS(CloudSlice)環境の作成（トレーニングキーは講師から連絡します）
 
  > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
 
-トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://github.com/naonao71/note/blob/main/AZ-104/pdf/Opening.pdf)を参考に進めてください。
+ > [CloudSliceのTIPSを紹介しています。](https://github.com/naonao71/note/blob/main/AZ-104/pdf/CloudSlice.pdf)
 
 **リンク一覧およびメモ**
 
@@ -38,9 +37,6 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
 Restart-Computer -Force
 ```
-
-[トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
-
 - LODS を起動すると、Promo Code を入手できる
 
 [AZ-104補足資料](https://github.com/naonao71/note/blob/main/AZ-104/pdf/AZ-104%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.4.pdf)
@@ -65,16 +61,27 @@ AZ-104
 
 - [1. **AZ-104**](#1-az-104)
   - [1.1. モジュール 01 - ID を管理する](#11-モジュール-01---id-を管理する)
+  - [**補足情報**](#補足情報)
   - [1.2. モジュール 02 – ガバナンスとコンプライアンスを管理する](#12-モジュール-02--ガバナンスとコンプライアンスを管理する)
+  - [**補足情報**](#補足情報-1)
   - [1.3. モジュール 03 – Azure リソースを管理する](#13-モジュール-03--azure-リソースを管理する)
+  - [**補足情報**](#補足情報-2)
   - [1.4. モジュール 04 – 仮想ネットワークを管理する](#14-モジュール-04--仮想ネットワークを管理する)
+  - [**補足情報**](#補足情報-3)
   - [1.5. モジュール 05 – サイト間の接続性を管理する](#15-モジュール-05--サイト間の接続性を管理する)
+  - [**補足情報**](#補足情報-4)
   - [1.6. モジュール 06 – ネットワーク トラフィック管理を管理する](#16-モジュール-06--ネットワーク-トラフィック管理を管理する)
+  - [**補足情報**](#補足情報-5)
   - [1.7. モジュール 07 – Azure Storage を管理する](#17-モジュール-07--azure-storage-を管理する)
+  - [**補足情報**](#補足情報-6)
   - [1.8. モジュール 08 – Azure Virtual Machines を管理する](#18-モジュール-08--azure-virtual-machines-を管理する)
+  - [**補足情報**](#補足情報-7)
   - [1.9. モジュール 09 - PaaS Compute オプションを管理する](#19-モジュール-09---paas-compute-オプションを管理する)
   - [1.10. モジュール 10 – データ保護を管理する](#110-モジュール-10--データ保護を管理する)
+  - [**補足情報**](#補足情報-8)
   - [1.11. モジュール 11 - 監視を管理する](#111-モジュール-11---監視を管理する)
+  - [**補足情報**](#補足情報-9)
+
 
 ## 1.1. モジュール 01 - ID を管理する
 
