@@ -23,7 +23,7 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
 - トレーニングで使用するマイクロソフトアカウントを作成する。既にアカウントがある方もこのトレーニング用に作成することを推奨。
-- メールアドレスも新規に作成する（既存メールアドレスに紐づけない）。
+- メールアドレスも新規に作成する（既存メールアドレスに紐づけない : xxx@outlook.com）。
 
 [LODS（Learn On Demand LMS)](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
