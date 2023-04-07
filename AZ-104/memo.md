@@ -59,6 +59,35 @@ Restart-Computer -Force
 
 AZ-104
 
+**ラボシミュレーション**
+実機ではなくシミレーターを使用して動作確認を行うことができます（英語画面）
+
+  - モジュール 01 - ID を管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-user-group-accounts/7-simulation-user-groups)
+  - モジュール 02 – ガバナンスとコンプライアンスを管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-policy/9-simulation-policy)
+  - モジュール 03 – Azure リソースを管理する
+  - モジュール 04 – 仮想ネットワークを管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-networks/9-simulation-create-networks)
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-network-security-groups/7-simulation-create-network-groups)
+  - モジュール 05 – サイト間の接続性を管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-vnet-peering/6-simulation-peering)
+  - モジュール 06 – ネットワーク トラフィック管理を管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-network-routing-endpoints/7-simulation-routing)
+  - モジュール 07 – Azure Storage を管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-storage-security/8-simulation-storage)
+  - モジュール 08 – Azure Virtual Machines を管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-machine-availability/11-simulation-machine-scale)
+  - モジュール 09 - PaaS Compute オプションを管理する](#19-モジュール-09---paas-compute-オプションを管理する)
+    - [ラボシミュレーション9a](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-app-services/11-simulation-web-apps)
+    - [ラボシミュレーション9b](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-container-instances/6-simulation-containers)
+    - [ラボシミュレーション9c](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-kubernetes-service/8-simulation-kubernetes)
+  - モジュール 10 – データ保護を管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-machine-backups/11-simulation-machine-backups)
+  - モジュール 11 - 監視を管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-monitor/8-simulation-monitor)
+
+
 - [1. **AZ-104**](#1-az-104)
   - [1.1. モジュール 01 - ID を管理する](#11-モジュール-01---id-を管理する)
   - [**補足情報**](#補足情報)
