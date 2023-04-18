@@ -1,15 +1,15 @@
-**AZ-305 Microsoft Azure Infrastructure Solutions の設計**
+**SC-100 Microsoft サイバーセキュリティ エキスパート**
 ***
 > このコースは、ケース スタディによるディスカッションを念頭に置いて設計されました。このコースは座学のみなので Auzreのサブスクリプション（Azure Pass）は提供されていません。
 
 **リンク一覧およびメモ**
 
-[AZ-305 ラボトップ](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/tree/main/Instructions/CaseStudy)
+[SC-100 ラボトップ](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp)
 
 Skillpipe
 
 - 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/learn/certifications/courses/az-305t00?wt.mc_id=esi_m2l_content_wwl)
+- [トレーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/training/courses/sc-100t00?wt.mc_id=esi_m2l_content_wwl#study-guide)
 
 [Azure アーキテクチャ アイコン](https://docs.microsoft.com/ja-jp/azure/architecture/icons/)
   - ダウンロードしてご利用ください。
