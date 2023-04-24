@@ -45,6 +45,7 @@ Restart-Computer -Force
 ***
 
 **ラボのシミュレーション（英語版）**
+
 [SC-200 Interactive Simulations](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulations%20-%20Microsoft%20Security%20Operations%20Analyst)
 
 **ラボのリンク（講師による翻訳修正済み）**
