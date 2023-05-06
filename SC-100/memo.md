@@ -4,7 +4,7 @@
 
 **リンク一覧およびメモ**
 
-[SC-100 ラボトップ](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp)
+[SC-100 ケーススタディ](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp)
 
 Skillpipe
 
