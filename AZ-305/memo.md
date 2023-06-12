@@ -4,7 +4,7 @@
 
 **リンク一覧およびメモ**
 
-[AZ-305 ラボトップ](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/tree/main/Instructions/CaseStudy)
+[AZ-305 ケーススタディ](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/tree/main/Instructions/CaseStudy)
 
 Skillpipe
 
@@ -32,7 +32,7 @@ Skillpipe
 
 
 
-**ラボのリンク**
+**ケーススタディのリンク**
 
 - モジュール01
   - [ガバナンス ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/01-Governance.md)
