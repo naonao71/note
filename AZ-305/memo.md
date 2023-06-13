@@ -14,7 +14,7 @@ Skillpipe
 [Azure アーキテクチャ アイコン](https://docs.microsoft.com/ja-jp/azure/architecture/icons/)
   - ダウンロードしてご利用ください。
 
-[SC-305補足資料Ver1.1](https://github.com/naonao71/note/blob/main/AZ-305/AZ-305%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.1.pdf)
+[SC-305補足資料Ver1.2](https://github.com/naonao71/note/blob/main/AZ-305/AZ-305%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.2.pdf)
 
 - ローカルにダウンロードする
 
