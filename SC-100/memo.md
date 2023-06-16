@@ -6,10 +6,7 @@
 
 [SC-100 ケーススタディ](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp)
 
-Skillpipe
-
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/training/courses/sc-100t00?wt.mc_id=esi_m2l_content_wwl#study-guide)
+[SC-100のテキスト](https://learn.microsoft.com/ja-jp/training/courses/sc-100t00?wt.mc_id=esi_m2l_content_wwl#study-guide)
 
 [Azure アーキテクチャ アイコン](https://docs.microsoft.com/ja-jp/azure/architecture/icons/)
   - ダウンロードしてご利用ください。
