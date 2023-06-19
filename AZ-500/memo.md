@@ -1,19 +1,14 @@
 # 1. **AZ-500 Microsoft Azure セキュリティ テクノロジ**
 
-最終更新日 2022/12/06
+最終更新日 2023/06/19
 
 **リンク一覧およびメモ**
 
 [AZ-500 ラボコンテンツ](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies.ja-jp/tree/main/Instructions/Labs)
 
-- ラボファイルをローカルにダウンロードする
-
 [AZ-500 ラボコンテンツ(講師修正済み)](https://github.com/naonao71/AZ-500JA-AzureSecurityTechnologies/tree/master/Instructions/Labs)
 
-Skillpipe
-
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/neqjf5m83e37x4?wt.mc_id=esi_m2l_content_wwl)
+[AZ-500のテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/neqjf5m83e37x4?wt.mc_id=esi_m2l_content_wwl)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
