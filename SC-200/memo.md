@@ -77,8 +77,6 @@ Restart-Computer -Force
   - [演習 7 - 検出を作成する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex6_Detections.md)
   - [演習 8 - インシデントを調査する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex7_Investigate.md)
   - [演習 9 - ASIM パーサーの作成](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex9_ASIM.md)
-  - [演習 10 - ワークブックを作成する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex10_Workbooks.md)
-  - [演習 11 - Microsoft Sentinel でリポジトリを使用する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex11_Content_Management.md)
 - モジュール08
   - [演習 1 - Microsoft Sentinel で脅威ハンティングを実行する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_08_Lab1_Ex1_Hunting.md)
   - [演習 2 - Microsoft Sentinel でノートブックを使用した脅威ハンティング](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_08_Lab1_Ex2_Notebooks.md)
