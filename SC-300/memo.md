@@ -49,17 +49,11 @@ Restart-Computer -Force
   - [ラボ 01 - ユーザー ロールを管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_01_ManageUserRoles.md)
   - [ラボ 02 - テナントのプロパティを操作する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_02_WorkingWithTenantProperties.md)
   - [ラボ 03 - グループ メンバーシップを使用してライセンスを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_03_AssignLicensesToUsersByGroupMembershipAAD.md)
-  - [ラボ 08 - 外部コラボレーションの設定を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_08_ConfigureExternalCollaborationSettings.md)
-  - [ラボ 09 - ゲスト ユーザーをディレクトリに追加する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_09_AddGuestUsersToTheDirectory.md)
+  - [ラボ 04 - 外部コラボレーションの設定を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_04_ConfigureExternalCollaborationSettings.md)
+  - [ラボ 05 - ゲスト ユーザーをディレクトリに追加する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_05_AddGuestUsersToTheDirectory.md)
   - [ラボ 06 - フェデレーション ID プロバイダーを追加する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_06_AddFederatedIdentityProvider.md)
+  - [ラボ 07 - Azure AD Connect を使用してハイブリッド ID を追加する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_07_AddHybridIdentityWithAzureADConnect.md)
 
-- モジュール01 OLD
-  - [ラボ 04 - 削除済みユーザーの復元](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_04_RestoreRemoveRecentlyDeletedUserUsingAAD.md)
-  - [ラボ 05 - Azure AD にグループを追加する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_05_AddingGroupsToAAD.md)
-  - [ラボ 06 - グループ ライセンス割り当てを変更する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_06_ChangeGroupLicenseAssignments.md)
-  - [ラボ 07 - ユーザー ライセンス割り当てを変更する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_07_ChangeUserLicenseAssignments.md)
-  - [ラボ 10 - ゲスト ユーザーを一括招待する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_10_InviteGuestUsersInBulk.md)
-  - [ラボ 11 - 動的グループを使用する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_11_WorkingWithDynamicGroups.md)
 
 - モジュール02
   - [ラボ 08 - Azure AD の多要素認証を有効にする](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_08_EnableAzureADMultiFactorAuthentication.md)
@@ -72,15 +66,7 @@ Restart-Computer -Force
   - [ラボ 15 - Azure AD の多要素認証登録ポリシーを構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_15_ConfigureAAD_MultiFactorAuthRegPolicy.md)
   - [ラボ 16 - マネージド ID に Azure Key Vault を使用する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_16_UsingAzureKeyVaultForManagedIdentities.md)
 
-- モジュール02 OLD
-  - [ラボ 12 - Azure AD の Multi-Factor Authentication を有効にする](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_12_EnableAzureADMultiFactorAuthentication.md)
-  - [ラボ 13 - セルフサービス パスワード リセットを構成してデプロイする](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_13_ConfigureAndDeploySelfServicePasswordReset.md)
-  - [ラボ 14 - セキュリティの既定値群を使用する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_14_WorkingWithSecurityDefaults.md)
-  - [ラボ 15 - 条件付きアクセス ポリシーの実装とテストを行う](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_15_ImplementAndTestAConditionalAccessPolicy.md)
-  - [ラボ 16 - 認証セッション制御を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_16_ConfigureAuthenticationSessionControls.md)
-  - [ラボ 17 - Azure AD スマート ロックアウトの値を管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_17_ManageAzureADSmartLockoutValues.md)
-  - [ラボ 18 - サインインとユーザー リスク ポリシーを有効にする](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_18_EnableSignRiskPolicy.md)
-  - [ラボ 19 - Azure AD Multi-Factor Authentication 登録ポリシーを構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_19_ConfigureAAD_MultiFactorAuthRegPolicy.md)
+
 
 - モジュール03
   - [ラボ 17 - Defender for Cloud Apps アプリケーション検出と制限適用](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_17_DefenderForCloudAppsDiscoveryAndRestrictions.md)
@@ -89,27 +75,16 @@ Restart-Computer -Force
   - [ラボ 20 - アプリのアクセス管理を実装する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_20_ImplementAccessManagementForApps.md)
   - [ラボ 21 - アプリケーションに対してテナント全体の管理者の同意を付与する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_21_GrantTenantWideAdminConsentToAnApplication.md)
 
-- モジュール03 OLD
-  - [ラボ 21 - カスタム ロールを作成してアプリ登録を管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_21_CreateANewCustomRoleToGrantAccessToManageAppRegistrations.md)
-  - [ラボ 22 - アプリケーションを登録する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_22_RegisterAnApplication.md)
-  - [ラボ 23 - アプリケーションに対してテナント全体の管理者の同意を付与する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_23_GrantTenantWideAdminConsentToAnApplication.md)
-  - [ラボ 24 - アプリにアプリ ロールを追加してトークンで受け取る](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_24_AddAppRolesToYourAppAndReceiveThemInTheToken.md)
-  - [ラボ 24 - Azure AD Identity Governance の設定で外部ユーザーのライフサイクルを管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_24_ManageTheLifecycleOfExternalUsersInAADIdentityGovernanceSettings%20.md)
 
 - モジュール04
-  - [ラボ 25 - Azure AD エンタイトルメント管理でリソースのカタログを作成して管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_25_CreateAndManageACatalogOfResourcesInAADEntitlementManagement.md)
-  - [ラボ 26 - 利用規約と同意レポートを追加する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_26_AddTermsOfUseAcceptanceReporting.md)
-  - [ラボ 27 - Azure AD Identity Governance の設定で外部ユーザーのライフサイクルを管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_27_ManageTheLifecycleOfExternalUsersInAADIdentityGovernanceSettings%20.md)
+  - [ラボ 22 - Azure AD エンタイトルメント管理でリソースのカタログを作成して管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_22_CreateAndManageACatalogOfResourcesInAADEntitlementManagement.md)
+  - [ラボ 23 - 利用規約と同意レポートを追加する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_23_AddTermsOfUseAcceptanceReporting.md)
+  - [ラボ 24 - Azure AD Identity Governance の設定で外部ユーザーのライフサイクルを管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_24_ManageTheLifecycleOfExternalUsersInAADIdentityGovernanceSettings%20.md)
   - [ラボ 25 - 内部および外部ユーザーのアクセス レビューの作成](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_25_CreatingAccessReviewsForUsers.md)
   - [ラボ 26 - Azure AD ロール用に Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_26_ConfigurePrivilegedIdentityManagementForAADRoles.md)
   - [ラボ 27 - Azure AD データ ソースの Microsoft Sentinel Kusto クエリ](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_27_MicrosoftSentinelKustoQueries.md)
   - [ラボ 28 - ID セキュリティ スコアを使用してセキュリティ態勢を監視および管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_28_MonitorIdentitySecureScore.md)
 
-
-- モジュール04 OLD
-  - [ラボ 28 - Azure AD ロール用に Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_28_ConfigurePrivilegedIdentityManagementForAADRoles.md)
-  - [ラボ 29 - Privileged Identity Management で Azure AD ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_29_AssignAADRolesInPrivilegedIdentityManagement.md)
-  - [ラボ 30 - Privileged Identity Management で Azure リソース ロールを割り当てる](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_30_AssignAzureResourceRolesInPrivilegedIdentityManagement.md)
 
 **研修の準備**
 
