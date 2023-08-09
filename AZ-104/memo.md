@@ -39,7 +39,7 @@ Restart-Computer -Force
 ```
 - LODS を起動すると、Promo Code を入手できる
 
-[AZ-104補足資料](https://github.com/naonao71/note/blob/main/AZ-104/pdf/AZ-104%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.4.pdf)
+[AZ-104補足資料](https://github.com/naonao71/note/blob/main/AZ-104/pdf/AZ-104%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.5.pdf)
 
 - ローカルにダウンロードする
 
