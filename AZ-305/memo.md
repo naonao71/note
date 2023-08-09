@@ -4,7 +4,7 @@
 
 **リンク一覧およびメモ**
 
-[AZ-305 ラボトップ](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/tree/main/Instructions/CaseStudy)
+[AZ-305 ケーススタディ](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/tree/main/Instructions/CaseStudy)
 
 Skillpipe
 
@@ -14,7 +14,7 @@ Skillpipe
 [Azure アーキテクチャ アイコン](https://docs.microsoft.com/ja-jp/azure/architecture/icons/)
   - ダウンロードしてご利用ください。
 
-[SC-305補足資料Ver1.0](https://github.com/naonao71/note/blob/main/AZ-305/AZ-305%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.0.pdf)
+[AZ-305補足資料Ver1.2](https://github.com/naonao71/note/blob/main/AZ-305/AZ-305%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.2.pdf)
 
 - ローカルにダウンロードする
 
@@ -32,7 +32,7 @@ Skillpipe
 
 
 
-**ラボのリンク**
+**ケーススタディのリンク**
 
 - モジュール01
   - [ガバナンス ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/01-Governance.md)

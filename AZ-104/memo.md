@@ -76,7 +76,7 @@ Restart-Computer -Force
     - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-storage-security/8-simulation-storage)
   - モジュール 08 – Azure Virtual Machines を管理する
     - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-machine-availability/11-simulation-machine-scale)
-  - モジュール 09 - PaaS Compute オプションを管理する](#19-モジュール-09---paas-compute-オプションを管理する)
+  - モジュール 09 - PaaS Compute オプションを管理する
     - [ラボシミュレーション9a](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-app-services/11-simulation-web-apps)
     - [ラボシミュレーション9b](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-container-instances/6-simulation-containers)
     - [ラボシミュレーション9c](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-kubernetes-service/8-simulation-kubernetes)
