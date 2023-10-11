@@ -10,7 +10,7 @@ SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200
 Skillpipe
 
 - 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/zwm5c4dezn0k1n?wt.mc_id=esi_m2l_content_wwl)
+- [レーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/credentials/certifications/exams/sc-200/)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
