@@ -12,9 +12,9 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 
 **リンク一覧およびメモ**
 
+<!--
 [AZ-104 ラボコンテンツ](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator.ja-jp)
 
-<!--
 [AZ-104 ラボコンテンツ（翻訳修正版）](https://github.com/naonao71/AZ-104JA-MicrosoftAzureAdministrator/tree/master/Instructions/Labs)
 
 [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/xe42fkkpzr6roe?wt.mc_id=esi_m2l_content_wwl)
