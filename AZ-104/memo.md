@@ -21,6 +21,7 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 -->
 
 - [MS Learn にてテキストは公開されいますので、いつでもご利用できます。](https://learn.microsoft.com/ja-jp/training/courses/az-104t00?wt.mc_id=esi_m2l_content_wwl#study-guide){:target="_blank"}
+- <a href="[URL](https://learn.microsoft.com/ja-jp/training/courses/az-104t00?wt.mc_id=esi_m2l_content_wwl#study-guide)" target="_blank">MS Learn にてテキストは公開されいますので、いつでもご利用できます。</a>	
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
