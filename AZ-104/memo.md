@@ -20,8 +20,7 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/xe42fkkpzr6roe?wt.mc_id=esi_m2l_content_wwl)
 -->
 
-- [MS Learn にてテキストは公開されいますので、いつでもご利用できます。](https://learn.microsoft.com/ja-jp/training/courses/az-104t00?wt.mc_id=esi_m2l_content_wwl#study-guide){:target="_blank"}
-- <a href="https://learn.microsoft.com/ja-jp/training/courses/az-104t00?wt.mc_id=esi_m2l_content_wwl#study-guide)" target="_blank">MS Learn にてテキストは公開されいますので、いつでもご利用できます。</a>	
+- [MS Learn にてテキストは公開されいますので、いつでもご利用できます。](https://learn.microsoft.com/ja-jp/training/courses/az-104t00?wt.mc_id=esi_m2l_content_wwl#study-guide)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
