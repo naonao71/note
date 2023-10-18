@@ -10,6 +10,8 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 
  > [CloudSliceのTIPSを紹介しています。](https://github.com/naonao71/note/blob/main/AZ-104/pdf/CloudSlice.pdf)
 
+[AZ-104 ラボコンテンツ（翻訳修正版）](https://github.com/naonao71/AZ-104JA-MicrosoftAzureAdministrator/tree/master/Instructions/Labs)
+
 **リンク一覧およびメモ**
 
 <!--
