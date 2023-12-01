@@ -7,7 +7,6 @@ AZ-700のトレーニングコースを始めるにあたり、以下の準備�
 
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
-- [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
 
  > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
 
@@ -39,9 +38,6 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Restart-Computer -Force
 ```
 
-[トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
-
-- LODS を起動すると、Promo Code を入手できる
 
 [補足資料](https://github.com/naonao71/note/blob/main/AZ-700/AZ-700%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99Ver1.0.pdf)
 

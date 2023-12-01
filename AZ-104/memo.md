@@ -10,6 +10,8 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 
  > [CloudSliceのTIPSを紹介しています。](https://github.com/naonao71/note/blob/main/AZ-104/pdf/CloudSlice.pdf)
 
+[AZ-104 ラボコンテンツ（翻訳修正版）](https://github.com/naonao71/AZ-104JA-MicrosoftAzureAdministrator/tree/master/Instructions/Labs)
+
 **リンク一覧およびメモ**
 
 <!--
@@ -39,7 +41,6 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
 Restart-Computer -Force
 ```
-- LODS を起動すると、Promo Code を入手できる
 
 [AZ-104補足資料](https://github.com/naonao71/note/blob/main/AZ-104/pdf/AZ-104%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.5.pdf)
 
