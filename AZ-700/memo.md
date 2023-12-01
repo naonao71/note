@@ -52,6 +52,33 @@ Restart-Computer -Force
 ***
 
 **ラボのシミュレーション**
+- モジュール01
+  - [Azure で仮想ネットワークを設計および実装する](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-azure-virtual-networks/4-exercise-design-implement-virtual-network-azure)
+  - [Azure で DNS 設定を構成する](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-azure-virtual-networks/6-exercise-configure-domain-name-servers-configuration-azure)
+  - [グローバル仮想ネットワーク ピアリングを使用して 2 つの Azure 仮想ネットワークを接続する](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-azure-virtual-networks/8-exercise-connect-two-azure-virtual-networks-global)
+- モジュール02
+  - [仮想ネットワーク ゲートウェイを作成および構成する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-hybrid-networking/3-exercise-create-configure-local-network-gateway)
+  - [Azure portal を使用して仮想 WAN を作成する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-hybrid-networking/7-exercise-create-virtual-wan-by-using-azure-portal)
+- モジュール03
+  - [ExpressRoute ゲートウェイを構成する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-azure-expressroute/4-exercise-configure-expressroute-gateway)
+  - [ExpressRoute 回線のプロビジョニング](https://learn.microsoft.com/ja-jp/training/modules/design-implement-azure-expressroute/5-exercise-provision-expressroute-circuit)
+- モジュール04
+  - [Azure のロード バランサーを作成し、構成する](https://learn.microsoft.com/ja-jp/training/modules/load-balancing-non-https-traffic-azure/4-exercise-create-configure-azure-load-balancer)
+  - [Azure portal を使用して Traffic Manager プロファイルを作成する](https://learn.microsoft.com/ja-jp/training/modules/load-balancing-non-https-traffic-azure/6-exercise-create-traffic-manager-profile-using-azure-portal)
+- モジュール05
+  - [Azure Application Gateway をデプロイする](https://learn.microsoft.com/ja-jp/training/modules/load-balancing-https-traffic-azure/4-exercise-deploy-azure-application-gateway)
+  - [Azure portal を使用して高可用性 Web アプリケーションのフロント ドアを作成する](https://learn.microsoft.com/ja-jp/training/modules/load-balancing-https-traffic-azure/6-exercise-create-front-door-for-highly-available)
+- モジュール06
+  - [Azure portal を使用して仮想ネットワーク上に DDoS Protection を構成する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-security-monitoring/4-exercise-configure-ddos-protection-virtual-network-using-azure-portal)
+  - [Azure portal を使用して Azure Firewall をデプロイして構成する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-security-monitoring/7-exercise-deploy-configure-azure-firewall-using-azure-portal)
+  - [Azure Firewall Manager を使用して仮想ハブのセキュリティを保護する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-security-monitoring/9-exercise-secure-your-virtual-hub-using-azure-firewall-manager)
+- モジュール07
+  - [Azure PowerShell を使用して Azure プライベート エンドポイントを作成する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-private-access-to-azure-services/5-exercise-restrict-network-paas-resources-virtual-network-service-endpoints)
+  - [仮想ネットワーク サービス エンドポイントを使用して、PaaS リソースへのネットワーク アクセスを制限する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-private-access-to-azure-services/6-exercise-create-azure-private-endpoint-using-azure-powershell)
+- モジュール08
+  - [Azure Monitor を使用してロード バランサー リソースを監視する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-monitoring/3-exercise-monitor-load-balancer-resource-using-azure-monitor)
+
+
 
 
 **ラボのリンク（講師翻訳修正済み）**
