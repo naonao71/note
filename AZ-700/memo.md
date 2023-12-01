@@ -7,7 +7,6 @@ AZ-700のトレーニングコースを始めるにあたり、以下の準備�
 
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
-- [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
 
  > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
 
