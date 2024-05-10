@@ -68,6 +68,8 @@ Restart-Computer -Force
   - モジュール 02 – ガバナンスとコンプライアンスを管理する
     - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-policy/9-simulation-policy)
   - モジュール 03 – Azure リソースを管理する
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-resources-tools/5-simulation-powershell)
+    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-resources-tools/7-simulation-command-line)
   - モジュール 04 – 仮想ネットワークを管理する
     - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-networks/9-simulation-create-networks)
     - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-network-security-groups/7-simulation-create-network-groups)
