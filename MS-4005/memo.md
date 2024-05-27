@@ -49,3 +49,20 @@ Restart-Computer -Force
 ```prompt
 上司向けのこのPowerPointプレゼンテーションのスライド5〜10を要約し、クライアントと会う前の要点の概要を含めます。要点を箇条書きにし、プロフェッショナルな口調で表現してください。
 ```
+
+**Contoso Chai Tea market trends 2023.xlsx**
+
+```prompt
+5月から8月までのアーティザナル チャイ販売数 (個)と既製チャイ販売数 (個)それぞれの最も高い数をそれぞれハイライトしてください
+```
+
+Copilot for Microsoft 365
+
+**Market Analysis Report for Mystic Spice Premium Chai Tea.docx**
+**Contoso Chai Tea market trends 2023.xlsx**
+**Market Trend Report - Protein shake.docx**
+
+```prompt
+今後の四半期ごとのビジネス レビューのために、Contoso の新しい Protein Plus シェイクに関する情報を検索してコンパイルします。エグゼクティブサマリーと、ソーシャルメディアキャンペーンと競合製品の詳細が必要です。要約はプロフェッショナルに聞こえ、リリースブロッカーについて希望に満ちたトーンで書かれているはずです。競合分析には、表内の関連製品へのリンクも含める必要があります。
+```
+
