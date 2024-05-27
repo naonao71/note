@@ -38,6 +38,8 @@ Restart-Computer -Force
 
 **Module1**
 
+****
+
 **Word**
 
 **Market Analysis Report for Mystic Spice Premium Chai Tea.docx** 
@@ -72,4 +74,34 @@ Restart-Computer -Force
 今後の四半期ごとのビジネス レビューのために、Contoso の新しい Protein Plus シェイクに関する情報をまとめます。エグゼクティブサマリーと、ソーシャルメディアキャンペーンと競合製品の詳細が必要です。エグゼクティブ サマリーを書くには、/Market Analysis Report for Mystic Spice Premium Chai Tea.docx、 /Contoso Chai Tea market trends 2023.xlsx および /**Market Trend Report - Protein shake.docx
 で情報を探してください。要約はプロフェッショナルに聞こえ、リリースブロッカーについて希望に満ちたトーンで書かれているはずです。競合分析には、表内の関連製品へのリンクも含める必要があります。
 ```
+
+****
+
+**Module2**
+
+**Word**
+
+**Contoso CipherGuard Product Specification.docx**
+
+```prompt
+Contoso の最新製品である CipherGuard のマーケティング提案を作成します。製品の仕様と要件を使用して、マーケティング キャンペーンの 3 つのアイデアを生成する必要があります。製品の概要、各アイデアの長所と短所、およびROIの予測を含めてください。文書は2ページに収め、楽観的で説得力のある言葉を使用してください。
+```
+
+ >NOTE: Wordを開いてソースとして参照ファイルを指定する（参照文章を開いて、Copilotでプロンプトを入力した場合と比較すると違いがあることがわかります）
+
+ 他のプロンプト例：
+
+ ```prompt
+ワークライフバランスの重要性について記事を書く。
+```
+
+ ```prompt
+プロジェクト管理に関するホワイトペーパーを書く。
+```
+
+ ```prompt
+Contoso の営業職の求人レターを作成します。開始日は8月1日で、給与は年間60,000ドルとボーナスです。
+```
+
+
 
