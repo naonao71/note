@@ -79,7 +79,7 @@ Restart-Computer -Force
 
 **Module2**
 
-**Word**
+*Word*
 
 **Contoso CipherGuard Product Specification.docx**
 
@@ -103,7 +103,7 @@ Contoso の最新製品である CipherGuard のマーケティング提案を�
 Contoso の営業職の求人レターを作成します。開始日は8月1日で、給与は年間60,000ドルとボーナスです。
 ```
 
-**PowerPoint**
+*PowerPoint*
 
 Market Trend Report- Protein shake.docx
 
