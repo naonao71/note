@@ -103,5 +103,20 @@ Contoso の最新製品である CipherGuard のマーケティング提案を�
 Contoso の営業職の求人レターを作成します。開始日は8月1日で、給与は年間60,000ドルとボーナスです。
 ```
 
+**PowerPoint**
 
+Market Trend Report- Protein shake.docx
 
+ ```prompt
+/Market Trend Report- Protein shake.docx の最新情報を使用して、新しいPowerPointプレゼンテーションを作成します。製品の機能と利点を潜在的なクライアントに提示する必要があります。製品の概要、主な機能と利点、および市場に出回っている同様の製品との比較を含めてください。プレゼンテーションは10枚のスライドに収め、簡単な言葉を使用してください。
+```
+
+ >TIPS: Word文章はスタイルを使用して作成することでPPTの分割を理解します。必要に応じてタイトルとヘッダーをがあればCopilotはより理解が高まります。PPTを作成する際にWordの画像を組み込もうとしますので必要な画像はWord文章に含めてください。テンプレートを用いたPPTを作成する際は、そのテンプレートをからCopilotを始めてください。
+
+ **Copilot for Microsoft 365**
+
+ Contoso CipherGuard Product Specification.docx
+
+  ```prompt
+クライアントとのミーティングの議題を 1 時間で作成し、プロジェクトの目標、ミッション ステートメント、完了予定日などを含めます。/Contoso CipherGuard Product Specification.docx の情報を使用して、未解決の項目と未回答の質問を探します。アジェンダは、時間配分のある表形式にすべきであり、最後に質問するための変更を人々に与えるようにしてください。
+```
