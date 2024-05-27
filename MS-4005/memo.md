@@ -164,3 +164,54 @@ Market Trend Report- Protein shake.docx
 エンゲージしたユーザーあたりの純収益の降順で並べ替えてください。
 ```
 
+****
+
+**Module4**
+
+*Word*
+
+**Market Analysis Report for Mystic Spice Premium Chai Tea.docx**
+
+文書に関する質問
+
+```prompt
+行動に移す呼びかけはありますか？
+```
+
+```prompt
+この市場分析レポートには、私たちの課題や懸念に対処するための行動に移す呼びかけはありますか？マーケティング計画に、プロモーション計画や期間限定割引など、明確で具体的な行動計画が含まれているかどうかを確認してください。必要に応じて、行動に移す呼びかけを改善するための提案を提供してください。
+```
+
+*PowerPoint*
+
+**Mystic Spice Premium Chai Market Analysis Presentation.pptx**
+
+スライドの整理（セクション）や追加、作成
+- ファイルを開きコピーを保存する
+
+```prompt
+このプレゼンテーションを整理する
+```
+
+```prompt
+このプレゼンテーションは、来週のエグゼクティブ製品レビュー用に使用します。製品情報については /Mystic Spice Premium Chai Tea product description.docx を参照してください。スライドを製品別に配置し、概要、主な機能と利点のリスト、顧客からのフィードバックを含めます。
+```
+
+*Excel*
+
+Fabrikam Q1 marketing campaigns.xlsx
+
+式の説明
+
+```prompt
+ユーザーエンゲージメントの計算方法を理解する必要があります。引数と構文を含む数式の詳細な内訳を提供してください。
+```
+
+```prompt
+投資収益率を決定するのに役立つ追加の式を提案してください。
+```
+
+```prompt
+投資収益率をJ列に追加してください
+```
+
