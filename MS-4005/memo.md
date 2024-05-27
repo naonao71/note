@@ -39,6 +39,7 @@ Restart-Computer -Force
 **Module1**
 
 **Word**
+
 **Market Analysis Report for Mystic Spice Premium Chai Tea.docx** 
 
 ```prompt
@@ -46,6 +47,7 @@ Restart-Computer -Force
 ```
 
 **PowerPoint**
+
 **Mystic Spice Premium Chai Market Analysis Presentation.pptx**
 
 ```prompt
@@ -53,6 +55,7 @@ Restart-Computer -Force
 ```
 
 **Excel**
+
 **Contoso Chai Tea market trends 2023.xlsx**
 
 ```prompt
