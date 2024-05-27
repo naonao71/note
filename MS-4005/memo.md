@@ -40,7 +40,7 @@ Restart-Computer -Force
 
 ****
 
-**Word**
+*Word*
 
 **Market Analysis Report for Mystic Spice Premium Chai Tea.docx** 
 
@@ -56,7 +56,7 @@ Restart-Computer -Force
 上司向けのこのPowerPointプレゼンテーションのスライド5〜10を要約し、クライアントと会う前の要点の概要を含めます。要点を箇条書きにし、プロフェッショナルな口調で表現してください。
 ```
 
-**Excel**
+*Excel*
 
 **Contoso Chai Tea market trends 2023.xlsx**
 
@@ -64,7 +64,7 @@ Restart-Computer -Force
 5月から8月までのアーティザナル チャイ販売数 (個)と既製チャイ販売数 (個)それぞれの最も高い数をそれぞれハイライトしてください
 ```
 
-**Copilot for Microsoft 365**
+*Copilot for Microsoft 365*
 
 **Market Analysis Report for Mystic Spice Premium Chai Tea.docx**</BR>
 **Contoso Chai Tea market trends 2023.xlsx**</BR>
@@ -113,10 +113,12 @@ Market Trend Report- Protein shake.docx
 
  >TIPS: Word文章はスタイルを使用して作成することでPPTの分割を理解します。必要に応じてタイトルとヘッダーをがあればCopilotはより理解が高まります。PPTを作成する際にWordの画像を組み込もうとしますので必要な画像はWord文章に含めてください。テンプレートを用いたPPTを作成する際は、そのテンプレートをからCopilotを始めてください。
 
- **Copilot for Microsoft 365**
+ *Copilot for Microsoft 365*
 
  Contoso CipherGuard Product Specification.docx
 
   ```prompt
 クライアントとのミーティングの議題を 1 時間で作成し、プロジェクトの目標、ミッション ステートメント、完了予定日などを含めます。/Contoso CipherGuard Product Specification.docx の情報を使用して、未解決の項目と未回答の質問を探します。アジェンダは、時間配分のある表形式にすべきであり、最後に質問するための変更を人々に与えるようにしてください。
 ```
+
+
