@@ -29,3 +29,23 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
 Restart-Computer -Force
 ```
+
+**Lab 概要**
+
+[Sampleファイル](https://github.com/naonao71/note/tree/main/MS-4005/SampleFile)のすべてのデータを自分のOneDriveにコピーする
+
+***
+
+**Module1**
+
+**Market Analysis Report for Mystic Spice Premium Chai Tea.docx** 
+
+```prompt
+このWord文書の競合分析のセクションを要約し、明日の営業会議でチームと話し合う主なポイントの概要を簡潔に説明します。要約は5つの重要なポイントにとどめ、簡単な言葉を使用してください。
+```
+
+**Mystic Spice Premium Chai Market Analysis Presentation.pptx**
+
+```prompt
+上司向けのこのPowerPointプレゼンテーションのスライド5〜10を要約し、クライアントと会う前の要点の概要を含めます。要点を箇条書きにし、プロフェッショナルな口調で表現してください。
+```
