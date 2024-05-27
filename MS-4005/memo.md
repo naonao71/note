@@ -117,8 +117,34 @@ Market Trend Report- Protein shake.docx
 
  Contoso CipherGuard Product Specification.docx
 
-  ```prompt
+```prompt
 クライアントとのミーティングの議題を 1 時間で作成し、プロジェクトの目標、ミッション ステートメント、完了予定日などを含めます。/Contoso CipherGuard Product Specification.docx の情報を使用して、未解決の項目と未回答の質問を探します。アジェンダは、時間配分のある表形式にすべきであり、最後に質問するための変更を人々に与えるようにしてください。
 ```
 
+****
 
+**Module3**
+
+*Word*
+
+**Graphic Design Institute - Employee Benefits.docx**
+
+テキストから表の作成
+- ファイルを開きコピーを保存する
+- 「Ctrl+A」キーを押して文書内のすべてのテキストを強調表示し、左に表示されるCopilotアイコンをクリックして **表として視覚化** をクリックする
+
+  ```prompt
+  テーブルとして視覚化します。これらの福利厚生を潜在的な従業員に伝える明確な方法が必要です。従業員にとっての福利厚生と、それが従業員のウェルビーイングにどのように影響するかを明確に説明する 3 番目の列を含めます。
+  ```
+
+*PowerPoint*
+
+スライドの追加
+
+```prompt
+女子オリンピックサッカーの歴史に関するスライドを追加してください
+```
+
+```prompt
+ピザ生地を作っているシェフの画像を追加してください
+```
