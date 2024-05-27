@@ -38,32 +38,35 @@ Restart-Computer -Force
 
 **Module1**
 
+**Word**
 **Market Analysis Report for Mystic Spice Premium Chai Tea.docx** 
 
 ```prompt
 このWord文書の競合分析のセクションを要約し、明日の営業会議でチームと話し合う主なポイントの概要を簡潔に説明します。要約は5つの重要なポイントにとどめ、簡単な言葉を使用してください。
 ```
 
+**PowerPoint**
 **Mystic Spice Premium Chai Market Analysis Presentation.pptx**
 
 ```prompt
 上司向けのこのPowerPointプレゼンテーションのスライド5〜10を要約し、クライアントと会う前の要点の概要を含めます。要点を箇条書きにし、プロフェッショナルな口調で表現してください。
 ```
 
+**Excel**
 **Contoso Chai Tea market trends 2023.xlsx**
 
 ```prompt
 5月から8月までのアーティザナル チャイ販売数 (個)と既製チャイ販売数 (個)それぞれの最も高い数をそれぞれハイライトしてください
 ```
 
-Copilot for Microsoft 365
+**Copilot for Microsoft 365**
 
 **Market Analysis Report for Mystic Spice Premium Chai Tea.docx**</BR>
 **Contoso Chai Tea market trends 2023.xlsx**</BR>
 **Market Trend Report - Protein shake.docx**</BR>
 
 ```prompt
-今後の四半期ごとのビジネス レビューのために、Contoso の新しい Protein Plus シェイクに関する情報をまとめます。エグゼクティブサマリーと、ソーシャルメディアキャンペーンと競合製品の詳細が必要です。エグゼクティブ サマリーを書くには、/**Market Analysis Report for Mystic Spice Premium Chai Tea.docx**、 /**Contoso Chai Tea market trends 2023.xlsx** および /**Market Trend Report - Protein shake.docx**
+今後の四半期ごとのビジネス レビューのために、Contoso の新しい Protein Plus シェイクに関する情報をまとめます。エグゼクティブサマリーと、ソーシャルメディアキャンペーンと競合製品の詳細が必要です。エグゼクティブ サマリーを書くには、/Market Analysis Report for Mystic Spice Premium Chai Tea.docx、 /Contoso Chai Tea market trends 2023.xlsx および /**Market Trend Report - Protein shake.docx
 で情報を探してください。要約はプロフェッショナルに聞こえ、リリースブロッカーについて希望に満ちたトーンで書かれているはずです。競合分析には、表内の関連製品へのリンクも含める必要があります。
 ```
 
