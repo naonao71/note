@@ -118,6 +118,10 @@
 
 **アプリケーションを構成する**
 
+**prompt-engineering.py**
+
+ > 下記のプログラムは日本人が理解しやすいようにシステムメッセージを変更しています。また、コメントも日本語で記載しています。
+
 ```prompt
 import os
 import asyncio
@@ -301,8 +305,8 @@ async def main():
     except Exception as ex:
         print(ex)
 
-# Azure OpenAIモデルにリクエストを送信し、応答を取得する関数
-async def call_openai_model(system_message, user_message, model, client):
+    # Azure OpenAIモデルにリクエストを送信し、応答を取得する関数
+    async def call_openai_model(system_message, user_message, model, client):
     # リクエストをモデルに送信するためのメッセージをフォーマット
     print("\nAdding grounding context from grounding.txt")
     grounding_text = open(file="grounding.txt", encoding="utf8").read().strip()
