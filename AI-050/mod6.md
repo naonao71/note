@@ -53,7 +53,7 @@ def main():
     # 設定を取得し、Azure OpenAI クライアントを初期化
     try:
         # 引用を表示するフラグ
-        show_citations = False
+        show_citations = Ture
 
         # 環境変数を読み込む
         load_dotenv()
