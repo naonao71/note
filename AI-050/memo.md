@@ -39,7 +39,7 @@ Restart-Computer -Force
 - Module03 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/03-prompt-engineering.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod3.md)
 - Module04 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/04-code-generation.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod4.md)
 - Module05 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/05-generate-images.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod5.md)
-- Module6 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/06-use-own-data.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod6.md)
+- Module06 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/06-use-own-data.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod6.md)
 
 
 
