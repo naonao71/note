@@ -34,7 +34,7 @@ Restart-Computer -Force
 
 **Lab 概要**
 
-- Module1 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/01-get-started-azure-openai.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod1.md)
+- Module01 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/01-get-started-azure-openai.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod1.md)
 - Module02 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/02-natural-language-azure-openai.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod2.md)
 - Module03 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/03-prompt-engineering.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod3.md)
 - Module04 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/04-code-generation.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod4.md)
