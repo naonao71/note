@@ -40,6 +40,8 @@ Restart-Computer -Force
 - Module04 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/04-code-generation.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod4.md)
 - Module05 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/05-generate-images.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod5.md)
 - Module06 [手順](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/blob/main/Instructions/Exercises/06-use-own-data.md)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod6.md)
+- Module07 [手順](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/14-azure-openai-content-filters.html#explore-content-filters)/[解説](https://github.com/naonao71/note/blob/main/AI-050/mod7.md)
+
 
 
 
