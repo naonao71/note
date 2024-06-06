@@ -1,7 +1,8 @@
-**AZ-104**
-***
+**AZ-104: Microsoft Azure 管理者**
 
 最終更新日 2023/06/07
+
+---
 
 **研修の準備**
 
@@ -53,7 +54,8 @@ Restart-Computer -Force
 
 - ローカルにダウンロードする
 
-***
+---
+
 **AZ-104 タイムスケジュール**
 
 | |Day1|Day2|Day3|Day4|
@@ -64,18 +66,16 @@ Restart-Computer -Force
 
 > - 進行状況によってはこのスケジュール通りに進まないことがあります。 
 > - すべてのラボを講義中に行わないことがあります。その場合は、別途ご自身の都合がよい時間に行ってください。
-***
 
 ---
 
-モジュールごとのテキスト
+**モジュールごとのテキスト**
 
 モジュール01: 
 - [Microsoft Entra ID の概要](https://learn.microsoft.com/ja-jp/training/modules/understand-azure-active-directory/)
 - [ユーザーが Microsoft Entra のセルフサービス パスワード リセットを使用してパスワードをリセットできるようにする](https://learn.microsoft.com/ja-jp/training/modules/allow-users-reset-their-password/)
 - [ユーザー アカウントとグループ アカウントを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-user-group-accounts/)
 - [Microsoft Entra ID で Azure ユーザーとグループを作成する](https://learn.microsoft.com/ja-jp/training/modules/create-users-and-groups-in-azure-active-directory/)
-- 
 
 モジュール02: 
 - [サブスクリプションを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-subscriptions/)
@@ -102,11 +102,32 @@ Restart-Computer -Force
 - [Azure Load Balancer を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-load-balancer/)
 - [Azure Application Gateway を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-application-gateway/)
 - [Azure Load Balancer を使用してアプリケーションのスケーラビリティと回復性を向上させる](https://learn.microsoft.com/ja-jp/training/modules/improve-app-scalability-resiliency-with-load-balancer/)
+- [Network Watcher を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-network-watcher/)
 
+モジュール07:
+- [Azure でのストレージの実装と管理](https://learn.microsoft.com/ja-jp/training/paths/az-104-manage-storage/)
 
+モジュール08:
+- [仮想マシンの構成](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-machines/)
+- [Azure CLI を使用して仮想マシンを管理する](https://learn.microsoft.com/ja-jp/training/modules/manage-virtual-machines-with-azure-cli/)
+- [Azure で Windows 仮想マシンを作成する](https://learn.microsoft.com/ja-jp/training/modules/create-windows-virtual-machine-in-azure/)
+- [仮想マシンの可用性を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-machine-availability/)
 
+モジュール09:
+- [ Azure App Service プランを構成します](https://learn.microsoft.com/ja-jp/training/modules/configure-app-service-plans/)
+- [Azure App Service の構成](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-app-services/)
+- [Azure App Service で Web アプリケーションをホストする](https://learn.microsoft.com/ja-jp/training/modules/host-a-web-app-with-azure-app-service/)
+- [Azure Container Instances を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-container-instances/)
 
+モジュール10:
+- [仮想マシンのバックアップを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-machine-backups/)
 
+モジュール11:
+- [Azure Monitor を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-monitor/)
+- [Azure Monitor を使用して Azure 仮想マシンを監視する](https://learn.microsoft.com/ja-jp/training/modules/monitor-azure-vm-using-diagnostic-data/)
+- [Azure Monitor アラートを使用したインシデント対応の向上](https://learn.microsoft.com/ja-jp/training/modules/incident-response-with-alerting-on-azure/)
+- [Log Analytics の構成](https://learn.microsoft.com/ja-jp/training/modules/configure-log-analytics/)
+- [Azure Monitor ログを使用して Azure インフラストラクチャを分析する](https://learn.microsoft.com/ja-jp/training/modules/analyze-infrastructure-with-azure-monitor-logs/)
 
 
 
