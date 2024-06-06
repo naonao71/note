@@ -69,7 +69,7 @@ Restart-Computer -Force
 
 ---
 
-**モジュールごとのテキスト**
+**モジュールに対応したテキストのリンク**
 
 モジュール01: 
 - [Microsoft Entra ID の概要](https://learn.microsoft.com/ja-jp/training/modules/understand-azure-active-directory/)
