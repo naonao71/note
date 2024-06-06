@@ -193,13 +193,6 @@ AZ-104
 
 ## 1.1. モジュール 01 - ID を管理する
 
-**MS Learn コンテンツ**
-
-- [Azure Active Directory を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
-- [ユーザー アカウントとグループ アカウントを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-user-group-accounts/?wt.mc_id=esi_m2l_content_wwl)
-
-***
-
 [Azure Active Directory の価格](https://azure.microsoft.com/ja-jp/pricing/details/active-directory/)
 
 [Azure Active Directory のセルフサービス パスワード リセットのライセンス要件](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-sspr-licensing)
@@ -223,14 +216,6 @@ AZ-104
 [ユーザーの種類](https://github.com/naonao71/note/blob/main/AZ-104/mod01-02-user.md)
 
 ## 1.2. モジュール 02 – ガバナンスとコンプライアンスを管理する
-
-**MS Learn コンテンツ**
-
-- [サブスクリプションを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-subscriptions/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Policy を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-policy/?wt.mc_id=esi_m2l_content_wwl)
-- [ロールベースのアクセス制御の構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-role-based-access-control/?wt.mc_id=esi_m2l_content_wwl)
-
-***
 
 [Azure でのデータ所在地](https://azure.microsoft.com/ja-jp/global-infrastructure/data-residency/)
 
@@ -272,14 +257,6 @@ Get-AzRoleDefinition 'user access administrator'
 
 ## 1.3. モジュール 03 – Azure リソースを管理する
 
-**MS Learn コンテンツ**
-
-- [ツールを使用して Azure リソースを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-resources-tools/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Resource Manager を使用する](https://docs.microsoft.com/ja-jp/learn/modules/use-azure-resource-manager/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Resource Manager テンプレートを使用してリソースを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-resources-arm-templates/?wt.mc_id=esi_m2l_content_wwl)
-
-***
-
 [ARM テンプレートとは](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/templates/overview)
 
 [Azure サービスのリソース プロバイダー](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/management/azure-services-resource-providers)
@@ -320,15 +297,6 @@ Get-AzResourceGroup -Name az104* | Remove-AzResourceGroup -Force
 [ARMテンプレート](https://github.com/naonao71/note/blob/main/AZ-104/mod03-04-template.md)
 
 ## 1.4. モジュール 04 – 仮想ネットワークを管理する
-
-**MS Learn コンテンツ**
-
-- [仮想ネットワークを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-virtual-networks/?wt.mc_id=esi_m2l_content_wwl)
-- [ネットワーク セキュリティ グループを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-network-security-groups/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Firewall を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-firewall/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure DNS を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-dns/?wt.mc_id=esi_m2l_content_wwl)
-
-***
 
 - サブネットを作成すると各サブネットには5つの予約されたアドレス作成されます。
   - x.x.x.0: ネットワーク アドレス
@@ -374,14 +342,6 @@ $vnet | Set-AzVirtualNetwork
 [Azure DNS](https://github.com/naonao71/note/blob/main/AZ-104/mod04-05-dns.md)
 ## 1.5. モジュール 05 – サイト間の接続性を管理する
 
-**MS Learn コンテンツ**
-
-- [仮想ネットワーク ピアリングを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-vnet-peering/?wt.mc_id=esi_m2l_content_wwl)
-- [VPN Gateway を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-vpn-gateway/?wt.mc_id=esi_m2l_content_wwl)
-- [ExpressRoute と Virtual WAN を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-expressroute-virtual-wan/?wt.mc_id=esi_m2l_content_wwl)
-
-***
-
 [仮想ネットワーク ピアリングの作成、変更、削除](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-manage-peering)
 
 [ポリシー ベース VPN の Azure のサポート](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps#azure-support-for-policy-based-vpn)
@@ -412,14 +372,6 @@ $vnet | Set-AzVirtualNetwork
 
 ## 1.6. モジュール 06 – ネットワーク トラフィック管理を管理する
 
-**MS Learn コンテンツ**
-
-- [ネットワーク ルーティングとエンドポイントを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-network-routing-endpoints/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Load Balancer を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-load-balancer/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Application Gateway を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-application-gateway/?wt.mc_id=esi_m2l_content_wwl)
-
-***
-
 [仮想ネットワーク トラフィックのルーティング](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-networks-udr-overview)
 
 [仮想ネットワーク サービス エンドポイント](https://docs.microsoft.com/ja-jp/azure/virtual-network/virtual-network-service-endpoints-overview)
@@ -446,16 +398,6 @@ $vnet | Set-AzVirtualNetwork
 [Application Gateway](https://github.com/naonao71/note/blob/main/AZ-104/mod06-03-appgw.md)
 
 ## 1.7. モジュール 07 – Azure Storage を管理する
-
-**MS Learn コンテンツ**
-
-- [ストレージ アカウントの構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-storage-accounts/?wt.mc_id=esi_m2l_content_wwl)
-- [BLOB ストレージを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-blob-storage/?wt.mc_id=esi_m2l_content_wwl)
-- [ストレージ セキュリティを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-storage-security/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Files と Azure File Sync を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-files-file-sync/?wt.mc_id=esi_m2l_content_wwl)
-- [ツールを使用したストレージの構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-storage-tools/?wt.mc_id=esi_m2l_content_wwl)
-
-***
 
 [ストレージ アカウントの概要](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-overview)
 
@@ -491,14 +433,6 @@ $vnet | Set-AzVirtualNetwork
 [ストレージの管理ツール](https://github.com/naonao71/note/blob/main/AZ-104/mod07-06-admin.md)
 
 ## 1.8. モジュール 08 – Azure Virtual Machines を管理する
-
-**MS Learn コンテンツ**
-
-- [仮想マシンの構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-virtual-machines/?wt.mc_id=esi_m2l_content_wwl)
-- [仮想マシンの可用性を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-virtual-machine-availability/?wt.mc_id=esi_m2l_content_wwl)
-- [仮想マシン拡張機能を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-virtual-machine-extensions/?wt.mc_id=esi_m2l_content_wwl)
-
-***
 
 [仮想マシン の SLA](https://azure.microsoft.com/ja-jp/support/legal/sla/virtual-machines/v1_9/)
 
@@ -553,15 +487,6 @@ $vnet | Set-AzVirtualNetwork
 
 ## 1.9. モジュール 09 - PaaS Compute オプションを管理する
 
-**MS Learn コンテンツ**
-
-- [App Service プランを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-app-service-plans/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure App Service を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-app-services/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Container Instances を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-container-instances/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure Kubernetes Service の構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-kubernetes-service/?wt.mc_id=esi_m2l_content_wwl)
-
-***
-
 [Docker Hub](https://hub.docker.com/)
 
 [Azure Kubernetes Services (AKS) における Kubernetes の中心概念](https://docs.microsoft.com/ja-jp/azure/aks/concepts-clusters-workloads)
@@ -601,13 +526,6 @@ AKS では、次の 2 つのネットワーク モデルのいずれかを使用
 
 ## 1.10. モジュール 10 – データ保護を管理する
 
-**MS Learn コンテンツ**
-
-- [ファイルとフォルダーのバックアップを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-file-folder-backups/?wt.mc_id=esi_m2l_content_wwl)
-- [仮想マシンのバックアップを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-virtual-machine-backups/?wt.mc_id=esi_m2l_content_wwl)
-
-***
-
 [Azure Backup のアーキテクチャとコンポーネント](https://docs.microsoft.com/ja-jp/azure/backup/backup-architecture)
 
 [Azure VM バックアップの概要](https://docs.microsoft.com/ja-jp/azure/backup/backup-azure-vms-introduction)
@@ -630,15 +548,6 @@ AKS では、次の 2 つのネットワーク モデルのいずれかを使用
 [Azure Site Recovery](https://github.com/naonao71/note/blob/main/AZ-104/mod10-03-asr.md)
 
 ## 1.11. モジュール 11 - 監視を管理する
-
-**MS Learn コンテンツ**
-
-- [Azure Monitor を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-monitor/?wt.mc_id=esi_m2l_content_wwl)
-- [Azure アラートを構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-alerts/?wt.mc_id=esi_m2l_content_wwl)
-- [Log Analytics の構成](https://docs.microsoft.com/ja-jp/learn/modules/configure-log-analytics/?wt.mc_id=esi_m2l_content_wwl)
-- [Network Watcher を構成する](https://docs.microsoft.com/ja-jp/learn/modules/configure-network-watcher/?wt.mc_id=esi_m2l_content_wwl)
-
-***
 
 収集するデータのソースは階層で考えることができます。
 アプリケーションは、最上位に当たります。そして、下にある各階層はAzureプラットフォームの各コンポーネントになります。
