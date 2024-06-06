@@ -1,10 +1,12 @@
 **AZ-104: Microsoft Azure 管理者**
+-
 
 最終更新日 2023/06/07
 
 ---
 
 **研修の準備**
+-
 
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
@@ -29,6 +31,7 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 -->
 
 **リンク一覧およびメモ**
+-
 
 [AZ-104テキスト](https://learn.microsoft.com/ja-jp/training/courses/az-104t00?wt.mc_id=esi_m2l_content_wwl#study-guide)
 
@@ -57,6 +60,7 @@ Restart-Computer -Force
 ---
 
 **AZ-104 タイムスケジュール**
+-
 
 | |Day1|Day2|Day3|Day4|
 |:----|:----|:----|:----|:----|
@@ -70,6 +74,7 @@ Restart-Computer -Force
 ---
 
 **モジュールに対応したテキストのリンク**
+-
 
 モジュール01: 
 - [Microsoft Entra ID の概要](https://learn.microsoft.com/ja-jp/training/modules/understand-azure-active-directory/)
