@@ -1,6 +1,8 @@
-# 1. **AZ-104**
+**AZ-104 **
 
 **研修の準備**
+
+ > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
 AZ-104のトレーニングコースを始めるにあたり、以下の準備が必要です。
 - マイクロソフトアカウントの作成
@@ -51,13 +53,56 @@ Restart-Computer -Force
 
 | |Day1|Day2|Day3|Day4|
 |:----|:----|:----|:----|:----|
-|午前|環境構築</BR>モジュール1（Lab01）| 前日の振り返り</BR>モジュール4（Lab4）|前日の振り返り</BR>モジュール7|前日の振り返り</BR>モジュール9（Lab9b,c）|
-|午後|モジュール2（Lab02a,b）</BR>モジュール3（Lab03a,b,c,d）</BR>|モジュール5</BR>モジュール6（Lab6）|モジュール8（Lab8）</BR>モジュール9（Lab9a）|モジュール10</BR>モジュール11 （Lab10,11）|
+|午前|環境構築</BR>モジュール1| 前日の振り返り</BR>モジュール4（Lab4）|前日の振り返り</BR>モジュール7|前日の振り返り</BR>モジュール9|
+|午後|モジュール2</BR>モジュール3</BR>自己学習（LABなど）|モジュール5</BR>モジュール6</BR>自己学習（LABなど） |モジュール8（Lab8）</BR>モジュール9（Lab9a）|モジュール10</BR>モジュール11</BR>自己学習（LABなど）|
 |オプションラボ||5| | |
 
 > - 進行状況によってはこのスケジュール通りに進まないことがあります。 
 > - すべてのラボを講義中に行わないことがあります。その場合は、別途ご自身の都合がよい時間に行ってください。
 ***
+
+---
+
+モジュールごとのテキスト
+
+モジュール01: 
+- [Microsoft Entra ID の概要](https://learn.microsoft.com/ja-jp/training/modules/understand-azure-active-directory/)
+- [ユーザーが Microsoft Entra のセルフサービス パスワード リセットを使用してパスワードをリセットできるようにする](https://learn.microsoft.com/ja-jp/training/modules/allow-users-reset-their-password/)
+- [ユーザー アカウントとグループ アカウントを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-user-group-accounts/)
+- [Microsoft Entra ID で Azure ユーザーとグループを作成する](https://learn.microsoft.com/ja-jp/training/modules/create-users-and-groups-in-azure-active-directory/)
+- 
+
+モジュール02: 
+- [サブスクリプションを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-subscriptions/)
+- [Azure ポリシーを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-policy/)
+- [ロールベースのアクセス制御の構成](https://learn.microsoft.com/ja-jp/training/modules/configure-role-based-access-control/)
+- [Azure ロールベースのアクセス制御 (Azure RBAC) を使用した Azure リソースのセキュリティ保護](https://learn.microsoft.com/ja-jp/training/modules/secure-azure-resources-with-rbac/)
+
+モジュール03: 
+- [Azure 管理者向けの前提条件](https://learn.microsoft.com/ja-jp/training/paths/az-104-administrator-prerequisites/)
+
+モジュール04:
+- [仮想ネットワークを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-networks/)
+- [Azure デプロイの IP アドレス指定スキーマを設計するhttps://learn.microsoft.com/ja-jp/training/modules/design-ip-addressing-for-azure/](https://learn.microsoft.com/ja-jp/training/modules/design-ip-addressing-for-azure/)
+- [ネットワーク セキュリティ グループを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-network-security-groups/)
+- [Azure DNS でドメインをホストする](https://learn.microsoft.com/ja-jp/training/modules/host-domain-azure-dns/)
+
+モジュール05:
+- [Azure Virtual Network ピアリングを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-vnet-peering/)
+- [Azure 仮想ネットワーク全体にサービスを分散させ、仮想ネットワーク ピアリングを使用して統合する](https://learn.microsoft.com/ja-jp/training/modules/integrate-vnets-with-vnet-peering/)
+- [ネットワーク ルーティングとエンドポイントを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-network-routing-endpoints/)
+- [ルートを使用して Azure デプロイでのトラフィック フローを管理および制御する](https://learn.microsoft.com/ja-jp/training/modules/control-network-traffic-flow-with-routes/)
+
+モジュール06:
+- [Azure Load Balancer を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-load-balancer/)
+- [Azure Application Gateway を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-application-gateway/)
+- [Azure Load Balancer を使用してアプリケーションのスケーラビリティと回復性を向上させる](https://learn.microsoft.com/ja-jp/training/modules/improve-app-scalability-resiliency-with-load-balancer/)
+
+
+
+
+
+
 
 
 **ラボシミュレーション**</BR>
@@ -95,28 +140,27 @@ Restart-Computer -Force
 
 AZ-104
 
-- [1. **AZ-104**](#1-az-104)
-  - [1.1. モジュール 01 - ID を管理する](#11-モジュール-01---id-を管理する)
-  - [**補足情報**](#補足情報)
-  - [1.2. モジュール 02 – ガバナンスとコンプライアンスを管理する](#12-モジュール-02--ガバナンスとコンプライアンスを管理する)
-  - [**補足情報**](#補足情報-1)
-  - [1.3. モジュール 03 – Azure リソースを管理する](#13-モジュール-03--azure-リソースを管理する)
-  - [**補足情報**](#補足情報-2)
-  - [1.4. モジュール 04 – 仮想ネットワークを管理する](#14-モジュール-04--仮想ネットワークを管理する)
-  - [**補足情報**](#補足情報-3)
-  - [1.5. モジュール 05 – サイト間の接続性を管理する](#15-モジュール-05--サイト間の接続性を管理する)
-  - [**補足情報**](#補足情報-4)
-  - [1.6. モジュール 06 – ネットワーク トラフィック管理を管理する](#16-モジュール-06--ネットワーク-トラフィック管理を管理する)
-  - [**補足情報**](#補足情報-5)
-  - [1.7. モジュール 07 – Azure Storage を管理する](#17-モジュール-07--azure-storage-を管理する)
-  - [**補足情報**](#補足情報-6)
-  - [1.8. モジュール 08 – Azure Virtual Machines を管理する](#18-モジュール-08--azure-virtual-machines-を管理する)
-  - [**補足情報**](#補足情報-7)
-  - [1.9. モジュール 09 - PaaS Compute オプションを管理する](#19-モジュール-09---paas-compute-オプションを管理する)
-  - [1.10. モジュール 10 – データ保護を管理する](#110-モジュール-10--データ保護を管理する)
-  - [**補足情報**](#補足情報-8)
-  - [1.11. モジュール 11 - 監視を管理する](#111-モジュール-11---監視を管理する)
-  - [**補足情報**](#補足情報-9)
+- [1.1. モジュール 01 - ID を管理する](#11-モジュール-01---id-を管理する)
+- [**補足情報**](#補足情報)
+- [1.2. モジュール 02 – ガバナンスとコンプライアンスを管理する](#12-モジュール-02--ガバナンスとコンプライアンスを管理する)
+- [**補足情報**](#補足情報-1)
+- [1.3. モジュール 03 – Azure リソースを管理する](#13-モジュール-03--azure-リソースを管理する)
+- [**補足情報**](#補足情報-2)
+- [1.4. モジュール 04 – 仮想ネットワークを管理する](#14-モジュール-04--仮想ネットワークを管理する)
+- [**補足情報**](#補足情報-3)
+- [1.5. モジュール 05 – サイト間の接続性を管理する](#15-モジュール-05--サイト間の接続性を管理する)
+- [**補足情報**](#補足情報-4)
+- [1.6. モジュール 06 – ネットワーク トラフィック管理を管理する](#16-モジュール-06--ネットワーク-トラフィック管理を管理する)
+- [**補足情報**](#補足情報-5)
+- [1.7. モジュール 07 – Azure Storage を管理する](#17-モジュール-07--azure-storage-を管理する)
+- [**補足情報**](#補足情報-6)
+- [1.8. モジュール 08 – Azure Virtual Machines を管理する](#18-モジュール-08--azure-virtual-machines-を管理する)
+- [**補足情報**](#補足情報-7)
+- [1.9. モジュール 09 - PaaS Compute オプションを管理する](#19-モジュール-09---paas-compute-オプションを管理する)
+- [1.10. モジュール 10 – データ保護を管理する](#110-モジュール-10--データ保護を管理する)
+- [**補足情報**](#補足情報-8)
+- [1.11. モジュール 11 - 監視を管理する](#111-モジュール-11---監視を管理する)
+- [**補足情報**](#補足情報-9)
 
 
 ## 1.1. モジュール 01 - ID を管理する
@@ -142,33 +186,6 @@ AZ-104
 - ExcelでCSV保存すると1行目に余分なカンマが入ってしまうので修正が必要となる。よって、メモ帳などで操作したほうがベター
 - カンマは17個必要（サンプルは途中で終わっていて、アップロード時にカンマの数がチェックされる）
 - 利用場所は記載したほうがベター（Office365のライセンス登録では必須となるため）
-
-**ラボ内容**
-- タスク1
-  - ユーザーを作成します。
-    - az104-01a-aaduser1(役職:クラウド管理者, 部署: IT)
-	- az104-01a-aaduser2(役職:システム管理者, 部署: IT)
-  - aaduser1には「ユーザー管理者」ロールを割り当てます。これにより、aaduser1は他のユーザーを管理（作成）することができるようになります。az104-01a-aaduser1で、Azure portalにサインインし、az104-01a-aaduser2を作成します。
-  - サインインに使用するユーザー名は「az104-01a-aaduser1」ではなく、「az104-01a-aaduser1@ドメイン」形式（User Principal Name）となります。az104-01a-aaduser1をクリックすると、詳細画面のユーザー名の下に、この形式（User Principal Name）が表示されています。
-- タスク2
-  - Azure AD Premium P2 の開始方法（無料試用版のアクティブ化）と、ユーザーへの、Azure AD Premium ライセンスの割り当て方法を学習します。
-  - グループを作成します。
-	- 「IT クラウド管理者」グループ（jobTitle == クラウド管理者）
-	- 「IT システム管理者」グループ（jobTitle == システム管理者）
-	- 「IT ラボ管理者」グループ（割り当て済み、メンバー：「IT クラウド管理者」グループと「IT システム管理者」グループ）
-	- 最初の2つのグループでは「動的メンバーシップ」で「動的ユーザー」を選択します。これにより、条件を満たしたユーザーがグループに自動的に所属するようになります。
-	- 3つめのグループでは、グループにグループを追加しています。
-- タスク3
-  - 新しいテナントの作成方法を学びます。
-  - 基本的には「1組織 1テナント」ですが、必要に応じて検証用のテナントなどを作成することができます。
-  - テナントを作成したユーザーは、その新しいテナントの管理者（グローバル管理者）となります。
-- タスク4
-  - 新しいテナントに切り替えて、ユーザーを作成します。
-    - az104-01b-aaduser1
-  - 元のテナントに切り替えて、az104-01b-aaduser1 をゲストユーザーとして元のテナントに招待します。
-- クリーンナップ
-  - このラボで作成したユーザー、グループ、テナントなどを削除します。
-  - Azure Active Directoryを削除する際は、自分が規定のディレクトリにいないと削除できない
 
 **補足情報**
 -
