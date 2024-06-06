@@ -88,7 +88,7 @@ Restart-Computer -Force
 
 モジュール04:
 - [仮想ネットワークを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-networks/)
-- [Azure デプロイの IP アドレス指定スキーマを設計するhttps://learn.microsoft.com/ja-jp/training/modules/design-ip-addressing-for-azure/](https://learn.microsoft.com/ja-jp/training/modules/design-ip-addressing-for-azure/)
+- [Azure デプロイの IP アドレス指定スキーマを設計する](https://learn.microsoft.com/ja-jp/training/modules/design-ip-addressing-for-azure/)
 - [ネットワーク セキュリティ グループを構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-network-security-groups/)
 - [Azure DNS でドメインをホストする](https://learn.microsoft.com/ja-jp/training/modules/host-domain-azure-dns/)
 
