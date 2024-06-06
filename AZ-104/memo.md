@@ -129,9 +129,10 @@ Restart-Computer -Force
 - [Log Analytics の構成](https://learn.microsoft.com/ja-jp/training/modules/configure-log-analytics/)
 - [Azure Monitor ログを使用して Azure インフラストラクチャを分析する](https://learn.microsoft.com/ja-jp/training/modules/analyze-infrastructure-with-azure-monitor-logs/)
 
-
+---
 
 **ラボシミュレーション**</BR>
+
 実機ではなくシミレーターを使用して動作確認を行うことができます（英語画面）
 
   - モジュール 01 - ID を管理する
