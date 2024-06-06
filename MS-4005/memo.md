@@ -5,6 +5,8 @@
 
 **リンク一覧およびメモ**
 
+ > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
+
 MS-4005 ラボトップ [英語](https://github.com/MicrosoftLearning/MS-4005-Craft-effective-prompts-for-Microsoft-Copilot-for-Microsoft-365/tree/master/Instructions/Labs)
 
 Skillpipe
