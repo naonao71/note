@@ -5,6 +5,8 @@
 
 **リンク一覧およびメモ**
 
+ > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
+
 AI-050 ラボトップ [日本語](https://github.com/MicrosoftLearning/mslearn-openai.ja-jp/tree/main/Labfiles)
 
 Skillpipe
