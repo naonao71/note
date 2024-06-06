@@ -29,6 +29,15 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
 Restart-Computer -Force
 ```
+**テキストおよび補足資料**
+- Module01: Azure OpenAI Service で作業を開始する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/get-started-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod1_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
+- Module02: Azure OpenAI Service を使用して自然言語ソリューションを構築する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/build-language-solution-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod2_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
+- Module03: Azure OpenAI Service を使用してプロンプト エンジニアリングを適用する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/apply-prompt-engineering-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod3_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
+- Module04: Azure OpenAI Service を使用してコードを生成する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/generate-code-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod4_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
+- Module05: Azure OpenAI Service を使用して画像を生成する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/generate-images-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod5_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
+- Module06: Azure OpenAI Service を使用して検索拡張生成 (RAG) を実装する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/use-own-data-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod6_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
+- Module07: 責任ある生成 AI の基礎([テキスト](https://learn.microsoft.com/ja-jp/training/modules/responsible-generative-ai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod7_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
+
 
 ---
 
