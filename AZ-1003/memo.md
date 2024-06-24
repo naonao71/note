@@ -8,6 +8,7 @@
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
 AZ-1003ラボトップ [日本語](https://github.com/MicrosoftLearning/Secure-storage-for-Azure-Files-and-Azure-Blob-Storage.ja-jp)
+/[英語](https://github.com/MicrosoftLearning/Secure-storage-for-Azure-Files-and-Azure-Blob-Storage/tree/master)
 
 Skillpipe
 
