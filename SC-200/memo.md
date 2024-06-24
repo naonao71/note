@@ -1,7 +1,7 @@
 **SC-200 Microsoft セキュリティ運用アナリスト**
 ***
 
-最終更新日 2023/06/07
+最終更新日 2024/06/18
 
 **リンク一覧およびメモ**
 
@@ -34,7 +34,7 @@ Restart-Computer -Force
 
 - LODS を起動すると、Promo Code を入手できる
 
-[SC-200補足資料Ver1.5](https://github.com/naonao71/note/blob/main/SC-200/SC-200%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99Ver1.5.pdf)
+[SC-200補足資料Ver1.6](https://github.com/naonao71/note/blob/main/SC-200/SC-200%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99Ver1.6.pdf)
 
 - ローカルにダウンロードする
 
