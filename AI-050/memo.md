@@ -37,7 +37,7 @@ Restart-Computer -Force
 - Module03: Azure OpenAI Service を使用してプロンプト エンジニアリングを適用する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/apply-prompt-engineering-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod3_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
 - Module04: Azure OpenAI Service を使用してコードを生成する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/generate-code-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod4_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
 - Module05: Azure OpenAI Service を使用して画像を生成する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/generate-images-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod5_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
-- Module06: Azure OpenAI Service を使用して検索拡張生成 (RAG) を実装する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/use-own-data-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod6_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
+- Module06: Azure OpenAI Service を使用して検索拡張生成 (RAG) を実装する([テキスト](https://learn.microsoft.com/ja-jp/training/modules/use-own-data-azure-openai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod6_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.1.pdf)
 - Module07: 責任ある生成 AI の基礎([テキスト](https://learn.microsoft.com/ja-jp/training/modules/responsible-generative-ai/)/[資料](https://github.com/naonao71/note/blob/main/AI-050/AI-050_Mod7_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf))
 
 
