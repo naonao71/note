@@ -33,6 +33,19 @@ Restart-Computer -Force
 ```
 
 ***
+モジュール
+- [Defender for Cloud の規制コンプライアンス標準の詳細](https://learn.microsoft.com/ja-jp/training/modules/examine-defender-cloud-regulatory-compliance-standards/)
+- [Azure サブスクリプションで Defender for Cloud を有効にする](https://learn.microsoft.com/ja-jp/training/modules/enable-defender-cloud-azure-subscription/)
+- [Azure portal を使用してネットワーク セキュリティ グループでネットワーク トラフィックをフィルター処理する](https://learn.microsoft.com/ja-jp/training/modules/filter-network-traffic-network-security-group-using-azure-portal/)
+- [Microsoft Defender for Cloud 用の Log Analytics ワークスペースを作成する](https://learn.microsoft.com/ja-jp/training/modules/create-log-analytics-workspace-microsoft-defender-cloud/)
+- [Log Analytics エージェントを構成して Defender for Cloud のワークスペースと統合する](https://learn.microsoft.com/ja-jp/training/modules/configure-integrate-analytics-agent-defender-cloud/)
+- [Just-In-Time 仮想マシン アクセスについて調べる](https://learn.microsoft.com/ja-jp/training/modules/just-in-time-access/)
+- [Azure Key Vault のネットワーク設定を構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-key-vault-networking-settings/)
+- [Azure portal を使用して Azure プライベート エンドポイントを使って Azure SQL サーバーに接続する](https://learn.microsoft.com/ja-jp/training/modules/connect-azure-server-private-endpoint-using-azure-portal/)
+
+
+
+***
 ラボ環境は英語で提供されています。そのまま行うこともできますが、ローカル環境からブラウザーを使用してラボを行うことができます。以下に日本語での指示をリンクします。
 
 - [仮想ネットワーク インフラストラクチャを作成する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_01_Create%20a%20virtual%20network%20infrastructure.md)
