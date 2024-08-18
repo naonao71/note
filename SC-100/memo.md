@@ -32,123 +32,19 @@
 
 
 **ラボのリンク**
-
-- モジュール01
-  - [ガバナンス ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/01-Governance.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/01-GovernanceAnswer.md)
-- モジュール02
-  - [コンピューティング ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/02-Compute.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/02-ComputeAnswer.md)
-- モジュール03
-  - [非リレーショナル ストレージ の ケース スタディを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/03-Nonrelationalstorage.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/03-NonrelationalstorageAnswer.md)
-- モジュール04
-  - [リレーショナル ストレージ の ケース スタディを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/04-Relationalstorage.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/04-RelationalstorageAnswer.md)
-- モジュール05
-  - [データ統合ソリューションを設計する(オリジナル)](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/05-dataintegration.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/05-dataintegrationAnswer.md)
-- モジュール06
-  - [アプリのアーキテクチャ ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/06-Apparchitecture.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/06-ApparchitectureAnswer.md)
-- モジュール07
-  - [認証および承認ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/07-Access.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/07-AccessAnswer.md)
-- モジュール08
-  - [Azure リソースをログに記録して監視するソリューションを設計する(オリジナル)](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/08-monitorsolution.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/08-monitorsolutionAnswer.md)
-- モジュール09
-  - [ネットワーク インフラストラクチャ ソリューションを設計する](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/blob/main/Instructions/CaseStudy/09-Networkingoption2.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/09-Networkingoption1Answer.md)
-- モジュール10
-  - [ビジネス継続性ソリューションの設計(オリジナル)](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/10-bcpsolution.md)
-  - [検討例](https://github.com/naonao71/note/blob/main/AZ-305/CaseStudy/10-bcpsolutionAnswer.md)
-- モジュール11
-  - 移行ソリューションを設計する
-
-***
-
-# モジュール 01: ガバナンス ソリューションを設計する
-
-**Point**
-- Azure階層
-  - 管理グループ＞サブスクリプション＞リソースグループ＞リソース であり、継承される（RBAC、Policy）
-
-- サブスクリプション
-  - サブスクリプションは課金の境界であり、Azure階層のひとつ
-  - サブスクリプションが組織で1つの場合は、管理グループを使用しなくても同様の管理
-  - 複数のサブスクリプションを使用することで課金の分離が可能
-    - Policy、RBACはそれぞれのサブスクリプションで行う必要あり（管理グループを使用することで継承を使用することができる）
-
-> 異なるサブスクリプションで作成した仮想ネットワークに仮想マシンはデプロイできないことに注意
-
-- リソースグループ
-  - リソースは必ずどこかのリソースグループに所属する。よって、複数のリソースグループに所属は不可。
-  - リソースグループは、ポリシーやライフサイクルがすべてのリソースで同じ場合に適している。
-    - テスト環境、サービス単位、リージョン、ロック範囲など
-  - リソースグループを削除すると、そのリソースグループに紐づけされているすべてのリソースが削除される。
-
-- リソースタグ
-  - リソースを整理するためのもう１つの方法.
-  - Key-Value形式
-  - 同じタグを付与する際、リソースグループやリソースが異なっていても構わない.
-  - リソースグループから継承しない.（デフォルトでは）
-  - タグの単位で課金レポートが可能.
-  - 日本語も扱える.
-  - サブスクリプション、リソースグループ、リソースに付与できる
-  - 管理グループには付与できない
-  - タグの単位で課金レポートが可能
-
-**タグのカテゴリ例**
-
-| タグの種類 | 使用例 |
-| --- | --- |
-| 機能 | app = catalogsearch1</BR>tier = web</BR>webserver = apache</BR>env = prod, dev, staging |
-| 分類 | confidentiality = private</BR>SLA = 24hours |
-| 会計 | department = finance</BR>program = business-initiative</BR>region = northamerica |
-| パートナーシップ | owner = jsmith</BR>contactalias = catsearchowners</BR>stakeholders = user1;user2;user3 |
-| 目的 | businessprocess = support</BR>businessimpact = moderate</BR>revenueimpact = high |
-
-
-**Azure ポリシー**
-Azureポリシーを使用して、あるべき姿を強制する（コンプライアンス）ことができる。そのポリシーをまとめたものがイニシアティブとなる。
-
-Azureポリシーの機能には以下の3つの大きな柱があります
-- 強制とコンプライアンス
-  - 設定したポリシーに対してすべてのリソースに対するコンプライアンス評価としてコンプライアンス状態を確認できる
-- ポリシーを大規模に運用
-  - 管理グループにポリシーを適用できることで、1つのポリシーを数百のサブスクリプションとそのすべてのリソースに対して適用できる
-- 修復
-  - コンプライアンスが非準拠のリソースを自動的に修復する修復ポリシーを使用できる
-  - 修復時にマネージドIDが必要な効果は**DeployIfNotExists**と**Modify**
-
-[Azure Policy の効果について](https://docs.microsoft.com/ja-jp/azure/governance/policy/concepts/effects)
-
-[Azure Policy の定義の構造](https://docs.microsoft.com/ja-jp/azure/governance/policy/concepts/definition-structure)
-
-[チュートリアル:コンプライアンスを強制するポリシーの作成と管理](https://docs.microsoft.com/ja-jp/azure/governance/policy/tutorials/create-and-manage)
-
-**Azure リソースの組み込みロール**
-
-組み込みロール一覧
-```powershell
-Get-AzRoleDefinition | ft name
-```
-AD Role の確認例
-```powershell
-Get-AzRoleDefinition 'Owner'
-Get-AzRoleDefinition 'contributor'
-Get-AzRoleDefinition 'user access administrator'
-```
-[Azure ロールの定義について](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/role-definitions)
-
-[Azure カスタム ロール](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/custom-roles)
-
-[Azure Blueprint とは](https://docs.microsoft.com/ja-jp/azure/governance/blueprints/overview)
-
-**参考資料**
-
-- [Azure に移行されたワークロードのセキュリティ保護と管理のためのベスト プラクティス](https://docs.microsoft.com/ja-jp/azure/cloud-adoption-framework/migrate/azure-best-practices/migrate-best-practices-security-management#best-practice-name-resource-groups)
-- [リソースの名前付けとタグ付けの意思決定ガイド](https://docs.microsoft.com/ja-jp/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=%2Fazure%2Fazure-resource-manager%2Fmanagement%2Ftoc.json#resource-tagging-patterns)
-- [Azure Policy の組み込みのポリシー定義](https://docs.microsoft.com/ja-jp/azure/governance/policy/samples/built-in-policies#general)
-
+[モジュール 00: ケース スタディの概要](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/00-Case%20study%20introduction.md)
+[モジュール 01: ゼロ トラスト ソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/01a-Build_security_strategy.md)
+[モジュール 01: アーキテクチャのベスト プラクティス](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/01b-Architecture_best_practices.md)
+[モジュール 02: クラウド導入フレームワーク (CAF) に沿ったソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/02-Design_solutions_CAF.md)
+[モジュール 03: MCRA と MCSB のベスト プラクティスに沿ったソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/03-Best_practices_MCRA_MCSB.md)
+[モジュール 04: ランサムウェア攻撃に対応する回復性戦略を設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/04-Design_resiliency_strategy_ransomware.md)
+[モジュール 05: 規制コンプライアンスを評価する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/05-Evaluate_regulatory_compliance.md)
+[モジュール 06:  ID セキュリティ ソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/06-Design_solutions_identity_access_management.md)
+モジュール 07: 特権アクセスをセキュリティで保護するためのソリューションを設計する(準備中)
+[モジュール 08: セキュリティ オペレーションのためのソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/08-Design_solutions_security_operations.md)
+モジュール 09: Microsoft 365 をセキュリティで保護するためのソリューションを設計する(準備中)
+[モジュール 10: アプリケーションをセキュリティで保護するためのソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/10-Design_solutions_securing_applications.md)
+[モジュール 11: 組織のデータを守るセキュリティ対策ソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/11-Design_solutions_securing_organizations_data.md)
+[モジュール 12: SaaS、PaaS、IaaS サービスをセキュリティで保護するための要件を指定する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/12-Specify_requirements_securing_PaaS_IaaS_and_SaaS.md)
+[モジュール 13: ハイブリッドとマルチクラウドの環境でのセキュリティ態勢管理のためのソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/13-Evaluate_security_posture.md)
+[モジュール 14: リモート アクセスとエンドポイント戦略を作成する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/14-Design_solutions_securing_server_client_endpoints.md)
