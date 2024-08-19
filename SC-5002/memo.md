@@ -55,10 +55,11 @@ Restart-Computer -Force
 
 - [Azure サブスクリプションで Defender for Cloud を有効にする](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_01_Enable%20Defender%20for%20Cloud%20on%20your%20Azure%20subscription.md)
 - [仮想ネットワーク インフラストラクチャを作成する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_01_Create%20a%20virtual%20network%20infrastructure.md)
+  - すでに**azure-rg-1**リソースグループが作成されている場合は、そのリソースグループを使用します。
 - [ワークスペースを作成する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_02_Create%20a%20Log%20Analytics%20workspace%20for%20Microsoft%20Defender%20for%20Cloud.md)
-- [VM で Just-In-Time アクセスを有効にする](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_03b_Configure%20just-in-time%20(JIT)%20VM%20access%20in%20Defender%20for%20Cloud.md)
 - [Log Analytics エージェントを構成して Defender for Cloud のワークスペースと統合する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_04_Configure%20and%20integrate%20a%20Log%20Analytics%20agent%20and%20workspace%20in%20Defender%20for%20Cloud.md)
-  - **この演習は2024/08で非推奨になります**
+  - **この演習はすでに非推奨になります。セキュリティイベントストレージがグレーアプトして選択できません。よって設定内容を確認するのみとなります。**
+- [VM で Just-In-Time アクセスを有効にする](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_03b_Configure%20just-in-time%20(JIT)%20VM%20access%20in%20Defender%20for%20Cloud.md)
 - [Azure Key Vault のネットワーク設定を構成する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_06a_Configure%20Azure%20Key%20Vault%20networking%20settings.md)
   - **キーコンテナー名は「AZAPLKeyVault」の後ろにランダムな4桁の数字を入力してください**
 - [論理的な削除と消去保護キー コンテナー リカバリを実行する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_06b_Perform%20soft-delete%20and%20purge%20protection%20key%20vault%20recovery.md)
@@ -66,5 +67,6 @@ Restart-Computer -Force
 - [Azure portal を使用して Azure プライベート エンドポイント経由で Azure SQL サーバーに接続する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_07_Connect%20to%20an%20Azure%20SQL%20server%20using%20an%20Azure%20Private%20Endpoint%20using%20the%20Azure%20portal.md)
   - **データベース名とサーバー名は演習環境に提示されている名前を使用してください。**
   - **サービス レベルおよびコンピューティング レベルはBasicを選択してください**
+  - **SQLデータベースのサーバー名のリンクをクリックすると、ネットワークの設定ができます**
   - **SQL Server Management Studio は SSMS を検索して最新のバージョンをインストールしてください**
 
