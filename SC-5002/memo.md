@@ -32,6 +32,11 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Restart-Computer -Force
 ```
 
+- ローカルにダウンロードする
+
+[補足資料](https://github.com/naonao71/note/blob/main/SC-5002/SC-5002_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf)
+
+
 ***
 モジュール
 - [Defender for Cloud の規制コンプライアンス標準の詳細](https://learn.microsoft.com/ja-jp/training/modules/examine-defender-cloud-regulatory-compliance-standards/)
