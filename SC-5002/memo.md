@@ -53,9 +53,9 @@ Restart-Computer -Force
 ***
 ラボ環境は英語で提供されています。そのまま行うこともできますが、ローカル環境からブラウザーを使用してラボを行うことができます。以下に日本語での指示をリンクします。
 
+- [Azure サブスクリプションで Defender for Cloud を有効にする](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_01_Enable%20Defender%20for%20Cloud%20on%20your%20Azure%20subscription.md)
 - [仮想ネットワーク インフラストラクチャを作成する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_01_Create%20a%20virtual%20network%20infrastructure.md)
 - [ワークスペースを作成する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_02_Create%20a%20Log%20Analytics%20workspace%20for%20Microsoft%20Defender%20for%20Cloud.md)
-- [Azure サブスクリプションで Defender for Cloud を有効にする](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_01_Enable%20Defender%20for%20Cloud%20on%20your%20Azure%20subscription.md)
 - [VM で Just-In-Time アクセスを有効にする](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_03b_Configure%20just-in-time%20(JIT)%20VM%20access%20in%20Defender%20for%20Cloud.md)
 - [Log Analytics エージェントを構成して Defender for Cloud のワークスペースと統合する](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls.ja-jp/blob/main/Instructions/Labs/LAB_04_Configure%20and%20integrate%20a%20Log%20Analytics%20agent%20and%20workspace%20in%20Defender%20for%20Cloud.md)
   - **この演習は2024/08で非推奨になります**
