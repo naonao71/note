@@ -61,7 +61,7 @@ lab:
 
  ![Screenshot of Add resources to catalog user interface. You can add Teams, Applications, SharePoints, and other items.](./Media/add-resources-to-catalog.png)
 
-1. Using the selectors at the top of the screen, add the following resources:
+1. 画面上部のセレクターを使用して、次のリソースを追加します。
 
   | リソースの種類 | 値 |
   | :---  | :---  |
