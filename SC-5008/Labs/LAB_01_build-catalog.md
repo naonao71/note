@@ -128,53 +128,51 @@ lab:
   | + SharePoint サイト | U.S. Sales | U.S. Sales Members |
   | | |
 
-1. Set the **Select role** dropdown to set the Role to **Member** for each item.
+1. 「次: 要求>」を選択して、「**要求**」タブに移動します。
 
-1. Use the **Next: Requests>** to move to the Requests tab.
+2. **アクセス権を要求できるユーザー** で、**なし(管理者直接割り当てのみ)** オプションを選択します。
 
-1. For the **Users who can request access** select the option **None (administrator direct assignment only).
+3. 有効化 の「新しい要求を有効にする」を **はい** に設定します。
 
-1. Set the **Enable** to **Yes**.
+4. 画面上部のラベルを使用して **ライフサイクル** タブに移動します。
 
-1. Move to the **Lifecycle** tab using the labels at the top of the screen.
+5. パッケージのライフサイクルを設定する値を選択します。
 
-1. Choose the values to set the lifecycle of the pacakge:
-
-  | Field | Value |
+  | フィールド | 値|
   | :---  | :---  |
-  | Access package assignments expire  | Number of Days |
-  | Assignments expire after | 30 |
-  | Users can request specific timeline | No |
-  | Require access reviews | No |
+  | アクセス パッケージ割り当ての有効期限が切れる | 日数 |
+  | 割り当ては (日数) 後に有効期限が切れます | 30 |
+  | ユーザーは特定のタイムラインを要求できます | いいえ |
+  | アクセス レビューが必要 | いいえ |
   | | |
 
-1. Select the **Review + create** at the bottom of the screen.
+6. 画面下部の **確認および作成** を選択します。
 
-1. Review the values you chose on the Review + create screen.
+7. **確認および作成** 画面で、選択した値を確認します。
 
-1. Select **Create** to build your Access package.
+8. **作成** を選択して、アクセス パッケージを作成します。
 
-#### Task 5: Assign the package to Christopher
+#### Task 5: パッケージを Christopher に割り当てる
 
-1. Make sure you are in **Microsoft Entra admin center**, **Identity governance**, **Entitlement management**, and have the **Access packages** menu open.
+1. **Microsoft Entra 管理センター**、**Indentity Governance** 、**エンタイトルメント管理** に移動し、 **アクセス パッケージ** メニューが開いていることを確認します。
 
-1. Select the **pckSales** that we create in the previous task.
+2. 前のタスクで作成した **pckSales** を選択します。
 
-1. From the menu select **Assignments**.
+3. メニューから **割り当て** を選択します。
 
-1. Select **+ New Assignment** from the top of the screen.
+4. 画面上部の **+ 新しい割り当て** を選択します。
 
-1. For the **Select policy** use the **Initial Policy** provided in the dropdown.
+5. **ポリシーの選択** で、ドロップダウンに示されている **Initial Policy** を使用します。
 
-1. Make sure the **User already in my directory** is marked.
+6. **ユーザーが自分のディレクトリに既に存在します** がチェックされていることを確認してください。
 
-1. Select the **Add users** item from the dialog.
+7. ダイアログから **ユーザーを追加** 項目を選択します。
 
-1. Find **Christopher Green** in the list of users.  Put a check in the box next to that name.  Then select the **Select** button at the bottom of the screen.
+8. ユーザーのリストで **Christopher Green** を見つけます。その名前の横にあるチェックボックスをオンにします。次に、画面の下部にある **選択** ボタンを選択します。
 
-1. Leave the rest of the values set at the defaults.
+9. 残りの値はデフォルトのままにします。
 
-1. Select the **Add** button at the bottom of the page.
+10. ページの下部にある **追加** ボタンを選択します。
 
 #### Task 6: Check to see if Christopher Green has been added
 
