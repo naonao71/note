@@ -53,11 +53,11 @@ lab:
 
 1. まだアクセスしていない場合は、**Microsoft Entra 管理センター**、**Indentity Governance**、**エンタイトルメント管理**、**カタログ** ページに移動します。
 
-2. 前のタスクで作成した **catSales** を選択します。
+1. 前のタスクで作成した **catSales** を選択します。
 
-3. メニューから「リソース」を選択します。
+1. メニューから「リソース」を選択します。
 
-4. 次に、ページの上部にある **+ リソースを追加します** を選択します。
+1. 次に、ページの上部にある **+ リソースを追加します** を選択します。
 
  ![Screenshot of Add resources to catalog user interface. You can add Teams, Applications, SharePoints, and other items.](./Media/add-resources-to-catalog.png)
 
