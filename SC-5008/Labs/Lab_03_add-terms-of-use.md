@@ -86,7 +86,7 @@ Microsoft Entra の使用条件ポリシーは、組織がエンド ユーザー
 
     **IMPORTANT** - 条件付きアクセス ポリシー制御 (使用条件を含む) では、サービス アカウントに対する適用はサポートされていません。条件付きアクセス ポリシーからすべてのサービス アカウントを除外することをお勧めします。
 
-    カスタム条件付きアクセス ポリシーを使用すると、特定のクラウド アプリケーションやユーザー グループに至るまで、詳細な利用規約を作成できます。詳細については、「https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou」を参照してください。
+    カスタム条件付きアクセス ポリシーを使用すると、特定のクラウド アプリケーションやユーザー グループに至るまで、詳細な利用規約を作成できます。詳細については、[Require terms of use to be accepted before accessing Microsoft Admin Portals](https://learn.microsoft.com/en-us/entra/identity/conditional-access/require-tou)を参照してください。
 
 15. 完了したら、 **作成** を選択します。
 
