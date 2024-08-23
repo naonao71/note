@@ -41,194 +41,195 @@ Microsoft Entra の使用条件ポリシーは、組織がエンド ユーザー
 
 6. **利用規約のドキュメント** ボックスを選択し、最終的な利用規約 PDF を参照して選択します。
 
-   **ToU File Provided** - browse to the github repo **AllFiles/Labs/Lab3** to get a sample Terms-of-User PDF document for use in this lab.
+   [サンプルPDFドキュメント](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Contoso_TermsOfUse.pdf)を入手してください。
 
-7. In the **Display name** box, enter **Contoso Terms of Use**.
+7. **表示名** ボックスに「**Contoso Terms of Use**」と入力します。
 
-    **Note** - This is the title that users see when they sign in.
+    **Note** -  これは、ユーザーがサインインするときに表示されるタイトルです。
 
-8. Select **English** for the language for your terms of use document.
+8. 利用規約ドキュメントの言語として **日本語** を選択します。
 
-   **Note** - The language option allows you to upload multiple terms of use, each with a different language. The version of the terms of use that an end user will see will be based on their browser preferences.
+   **Note** - 言語オプションを使用すると、それぞれ異なる言語の複数の利用規約をアップロードできます。エンドユーザーに表示される利用規約のバージョンは、ブラウザーの設定に基づきます。
 
-9. To require end users to view the terms of use prior to accepting them, set **Require users to expand the terms of use** to **On**.
+9. エンドユーザーが利用規約に同意する前に表示するように要求するには、**ユーザーは利用規約を展開する必要があります** を **オン** に設定します。
 
-10. To require end users to accept your terms of use on every device they are accessing from, set **Require users to consent on every device** to **Off**. Users may be required to install additional applications if this option is enabled.
+10. エンドユーザーがアクセスするすべてのデバイスで利用規約に同意するように要求するには、**各デバイスでユーザーによる同意が必要** を **オフ** に設定します。このオプションが有効になっている場合、ユーザーは追加のアプリケーションのインストールを求められる場合があります。
 
-    **Warning** - Consent on every device will require users to register each device with Microsoft Entra ID prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using Off.
+    **警告** - すべてのデバイスで同意するには、ユーザーがアクセスする前に各デバイスを Microsoft Entra ID に登録する必要があります。この設定を **オン** にすることをお勧めします。ただし、よりクリーンなラボの目的で、Offを使用しています。
 
-11. If you want to expire terms of use consents on a schedule, set **Expire consents** to **On**. When set to On, two additional schedule settings are displayed.
+11. 使用条件の同意をスケジュールに従って期限切れにする場合は、**同意の期限** を **オン** に設定します。**オン** に設定すると、2 つの追加のスケジュール設定が表示されます。
 
-12. Use the **Expire starting on** and **Frequency** settings to specify the schedule for terms of use expirations. The following table shows the result for a couple of example settings:
+12. [以下の日付から期限切れになります] と [頻度] の設定を使用して、利用規約の有効期限のスケジュールを指定します。次の表は、いくつかの設定例の結果を示しています。
 
-    | Expire starting on | Frequency | Result |
+    | 以下の日付から期限切れになります | 頻度 | 結果 |
     |---|---|---|
-    | Today's date | Monthly | Starting today, users must accept the terms of use and then reaccept every month.|
-    | Date in the future | Monthly | Starting today, users must accept the terms of use. When the future date occurs, consents will expire and then users must reaccept every month. |
+    | 今日の日付 | 毎月 | 本日より、ユーザーは利用規約に同意し、毎月再度同意する必要があります。|
+    | 将来の日付 | 毎月 | 本日より、ユーザーは利用規約に同意する必要があります。将来の日付が発生すると、同意は期限切れになり、ユーザーは毎月再同意する必要があります。 |
 
-    For example, if you set the expire starting on date to **Jan 1** and frequency to **Monthly**, here is how expirations might occur for two users:
+    たとえば、有効期限を 1 月 1 日に、頻度を **毎月** に設定した場合、2 人のユーザーに対して有効期限は次のようになります。
 
-    | User | First accept date | First expire date | Second expire date | Third expire date |
+    | ユーザー | 最初の受け入れ日 | 初回有効期限 | 2回目の有効期限 | 3回目の有効期限 |
     |---|---|---|---|---|
-    | Alice | Jan 1 | Feb 1 | Mar 1 | Apr 1|
-    | Bob | Jan 15 | Feb 1 | Mar 1| Apr 1 |
+    | Alice | 1月1日 | 2月1日 | 3月1日 | 4月1日|
+    | Bob | 1月15日 | 2月1日 | 3月1日| 4月1日|
 
-13. Use the **Duration before re-acceptance requires (days)** setting to specify the number of days before the user must reaccept the terms of use. This allows users to follow their own schedule. For example, if you set the duration to **30** days, here is how expirations might occur for two users:
+13. **もう一度同意を求めるまでの期間 (日数)** 設定を使用して、ユーザーが利用規約に再同意する必要があるまでの日数を指定します。これにより、ユーザーは自分のスケジュールに従うことができます。たとえば、期間を 30 日間に設定した場合、2 人のユーザーに有効期限が発生すると、次のようになります。
 
-    | User | First accept date | First expire date | Second expire date | Third expire date |
+    | ユーザー | 最初の受け入れ日 | 初回有効期限 | 2回目の有効期限 | 3回目の有効期限 |
     |---|---|---|---|---|
-    | Alice | Jan 1 | Jan 31 | Mar 2 | Apr 1|
-    | Bob | Jan 15 | Feb 14 | Mar 16| Apr 15
+    | Alice | 1月1日 | 1月31日 | 3月2日 | 4月1日 |
+    | Bob | 1月15日 | 2月14日 | 3月16日| 4月15日 |
 
-    **Note** - It is possible to use the Expire consents and Duration before re-acceptance requires (days) settings together, but typically you use one or the other.
+    **Note** - **同意の期限** と **もう一度同意を求めるまでの期間 (日数)** の設定を一緒に使用できますが、通常はどちらか一方を使用します。
 
-14. Under **Conditional Access**, select **Custom policy**.
+14. **条件付きアクセス** で、**カスタム ポリシー** を選択します。
 
-    **IMPORTANT** - Conditional Access policy controls (including terms of use) do not support enforcement on service accounts. We recommend excluding all service accounts from the Conditional Access policy.
+    **IMPORTANT** - 条件付きアクセス ポリシー制御 (使用条件を含む) では、サービス アカウントに対する適用はサポートされていません。条件付きアクセス ポリシーからすべてのサービス アカウントを除外することをお勧めします。
 
-    Custom Conditional Access policies enable granular terms of use, down to a specific cloud application or group of users. For more information, see [https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou).
+    カスタム条件付きアクセス ポリシーを使用すると、特定のクラウド アプリケーションやユーザー グループに至るまで、詳細な利用規約を作成できます。詳細については、「https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/require-tou」を参照してください。
 
-15. When complete, select **Create**.
+15. 完了したら、 **作成** を選択します。
 
-16. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page, in the **Name** box, enter **Enforce ToU**.
+16. 利用規約が作成されると、条件付きアクセス ポリシー ページに自動的にリダイレクトされます。ページの **名前** ボックスに「**Enforce ToU**」と入力します。
 
-17. Under **Assignments**, select **Users or workload identities**.
+17. **割り当て** で、 **ユーザー** を選択します。
 
-18. On the include tab, select **Users and groups** check box.
+18. **対象** タブで、**ユーザーとグループの選択** チェック ボックスで **ユーザーとグループ** をオンにします。
 
-19. In the Select pane, select **Adele Vance** to use to test the terms of use policy.
+19. **選択** ウィンドウで、使用条件ポリシーのテストに使用する **Adele Vance** を選択します。
 
-   **Warning** - If you choose your administrator account, like all conditional access policies, be sure you have another account with enough permissions to change the conditional access policy. This is to ensure your administrator account will not be locked out should the conditional access policy result in an undesirable outcome.
+   **警告** - 管理者アカウントを選択する場合は、すべての条件付きアクセス ポリシーと同様に、条件付きアクセス ポリシーを変更するのに十分なアクセス許可を持つ別のアカウントがあることを確認してください。これは、条件付きアクセス ポリシーによって望ましくない結果が発生した場合に、管理者アカウントがロックアウトされないようにするためです。
 
-20. Select **Cloud apps or actions.**
+20. **ターゲットリソース** を選択します。
 
-21. Select **All cloud apps**.
+21. **すべてのクラウド アプリ** を選択します。
 
-22. Under **Access controls**, select **Grant**.
+22. **アクセス制御** で、**許可** を選択します。
 
-23. In the Grant pane, select **Testing terms of use** and then select **Select**.
+23. **許可** ウィンドウで、**Testing terms of use** を選択し、[ 選択] を選択します。
 
-24. Under **Enable policy**, select **On**.
+24. **ポリシーの有効化** で、 **オン** を選択します。
 
-25. When complete, select **Create**.
+25. 完了したら、 **作成** を選択します。
 
     ![Screen image displaying the conditional access policy with configuration options highlighted](./Media/terms-of-use-ca-policy.png)
 
-26. If you chose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
+26. 自分のアカウントを使用することを選択した場合は、ブラウザを更新できます。再度サインインするように求められます。サインインするときは、利用規約に同意する必要があります。
 
-#### Task 2 - Log in as Adele
+#### Task 2 - Adele としてログイン
+1. 新しい InPrivate ブラウザー ウィンドウを開きます。
 
-1. Open a new InPrivate browser window.
-2. Connect to https://portal.azure.com.
-3. If if comes up saying you are already logged in, Select on the logged in users name in the upper-right of the screen and choose **Sign in with a different account**.
-4. Log in as Adele:
+2. https://portal.azure.com に接続します。
 
-    | Setting | Value to enter |
+3. すでにログインしていると表示される場合は、画面の右上にあるログインしたユーザー名を選択し、[別のアカウントでサインイン]を選択します。
+
+4. Adele としてログインします。
+
+    | 設定 | 入力する値 |
     | :--- | :--- |
-    | User Name | **AdeleV@** `<<your domain name>>.onmicrosoft.com` |
-    | Password | Enter the tenant's admin password(Refer the Lab Resources tab to retrieve the tenant admin password) |
+    | ユーザー名 | **AdeleV@** `<<your domain name>>.onmicrosoft.com` |
+    | パスワード | パスワードを入力します |
 
-5. Validate Adele's login with the MFA request.
-6. View the Terms of Use.
-7. You can choose to **Accept** or **Decline**.
+5. Adele のログインを検証します。
 
-    **Note** - If you choose **decline** then during a future login as AdeleV you will again be required to view and accept the Terms of Use.
+6. 利用規約が表示されます。
 
-    **Note**: Terms of Use may take a few minutes to appear or you can logout and log back in to the portal.
- 
-#### Task 3 - View report of who has accepted and declined
+7. **承諾する** または **拒否** を選択できます。
 
-The Terms of use page shows a count of the users who have accepted and declined. These counts and who accepted/declined are stored for the life of the terms of use.
+    **Note** -**拒否**を選択した場合、今後AdeleVとしてログインする際には、再度利用規約を表示して承諾する必要があります。
 
-1. In Microsoft Azure, in **Identity Governance > Terms of use**, locate your terms of use.
+    **Note**: 利用規約が表示されるまでに数分かかる場合や、ポータルからログアウトして再度ログインできる場合があります。
 
-2. For a terms of use, select the numbers under **Accepted** or **Declined** to view the current state for users.
+#### Task 3 - 承諾したユーザーと拒否したユーザーのレポートを表示する
+
+利用規約ページには、承諾したユーザーと拒否したユーザーの数が表示されます。これらのカウントと、同意/拒否した人は、利用規約の存続期間中保存されます。
+
+1. Microsoft Azure の **Identity Governance** > **利用規約** で、利用規約を見つけます。
+
+2. 利用規約については、**承諾済み** または **拒否済み** の下の番号を選択して、ユーザーの現在の状態を表示します。
 
     ![Screen image displaying the terms of use with the Accepted and Declined columns highlighted](./Media/terms-of-use-accept-decline.png)
 
-3. In this exercise you may not have any accepted or declined terms of use. In the following example, the **Accepted** value was selected. You can see the reported user information for those that have accepted the terms of use.
+3. この演習では、利用規約に同意または拒否することはできません。次の例では、**承諾済み** の値が選択されています。利用規約に同意したユーザーの報告されたユーザー情報を確認できます。
 
     ![Terms of use consents pane listing the users that have accepted](./Media/accepted-tou.png)
 
-4. On the **Terms of Use Consents** page select **Download** to download a consents report.
+4. **利用規約の同意** ページで、**ダウンロード** を選択して同意レポートをダウンロードします。
 
-5. On the **Identity Governance | Terms of Use** page, highlight **Testing terms of use** and select **View selected audit logs** to view the audit logs activity.
+5. **Identity Governance | 利用規約** ページの上部のメニューから **監査ログの表示** を選択して監査ログのアクティビティを表示します。
 
-#### Task 4 - What terms of use looks like for users
+#### Task 4 - ユーザーにとっての利用規約の表示
 
-1. Once a terms of use is created and enforced, users who are in scope will see the terms of use page.
+1. 利用規約が作成されて適用されると、スコープ内のユーザーに利用規約ページが表示されます。
 
     ![Example terms of use that appears when a user signs in](./Media/user-tou.png)
 
-2. Users can view the terms of use and, if necessary, use buttons to zoom in and out.
+2. ユーザーは利用規約を表示し、必要に応じてボタンを使用してズームインおよびズームアウトできます。
 
     ![View of terms of use with zoom buttons](./Media/zoom-buttons.png)
 
-3. On mobile devices, the terms of use will be displayed similar to the following example.
+3. モバイルデバイスでは、次の例のように利用規約が表示されます。
 
     ![Example terms of use that appears when a user signs in on a mobile device](./Media/mobile-tou.png)
 
-#### Task 5 - How users can review their terms of use
+#### Task 5 - ユーザーが利用規約を確認する方法
 
-Users can review and see the terms of use that they have accepted by using the following procedure.
+ユーザーは、次の手順を使用して、同意した使用条件を確認および確認できます。
 
-1. Browse to [https://myapps.microsoft.com](https://myapps.microsoft.com/) and then sign in using your user account.
+1. https://myapps.microsoft.com を参照し、ユーザー アカウントを使用してサインインします。
 
-2. Select the user profile photo and then select **View account**. On the Overview page, select VIEW SETTINGS AND PRIVACY.
+2. ユーザー プロファイル写真を選択し、**アカウントを表示** を選択します。**Overview** ページで、**VIEW SETTINGS AND PRIVACY** を選択します。
 
+3. **Settings & Privacy** ページで **Privacy** タブを選択します。
 
-3. On the Settings & Privacy page, select the **Privacy** tab.
+4. **Organization’s notice**で、同意した利用規約を確認することができます。
 
-4. Under **Organization’s notice**, you can review the terms of use you have accepted.
+#### Task 6 - 利用規約の詳細の編集
 
-#### Task 6 - Edit terms of use details
+利用規約の詳細の一部は編集できますが、既存のドキュメントを変更することはできません。次の手順では、詳細を編集する方法について説明します。
 
-You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
+1. グローバル管理者として https://entra.microsoft.com にサインインします。
 
-1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) as a Global administrator.
+2. Microsoft Entra ID 項目を開き、メニューから **Identity Governance** を選択します。
 
-2. Open Microsoft Entra ID item and the select **Identity Governance** from the menu.
+3. 左側のナビゲーション メニューの **エンタイトルメント管理** で、**利用規約** を選択します。
 
-3. In the left navigation menu, under **Entitlement management**, select **Terms of use**.
+4. 編集する利用規約を選択します。
 
-4. Select the terms of use you want to edit.
+5. 上部のメニューで、**条件の編集** を選択します。
 
-5. On the top menu, select **Edit terms**.
+6. **利用規約の編集** ウィンドウでは、次の項目を変更できます。
 
-6. In the Edit terms of use pane, you can change the following:
-
-    - **Name** – this is the internal name of the ToU that is not shared with end users
+    - **名前** – これは、エンド ユーザーと共有されていない 利用規約 の内部名です
   
-    - **Display name** – this is the name that end users can see when viewing the ToU
+    - **ユーザーは利用規約を展開する必要があります** – これを **オン** に設定すると、最終使用者は利用規約ドキュメントに同意する前に拡張するように強制されます。
 
-    - **Require users to expand the terms of use** – Setting this to **On** will force the end use to expand the terms of use document before accepting it.
+    - 既存の利用規約ドキュメントを更新します。
 
-    - **Update an existing terms of use** document.
-
-    - You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
+    - 既存の使用条件に言語を追加できる すべてのデバイスでユーザーに同意を求める、同意の有効期限が切れる、再同意までの期間、条件付きアクセス ポリシーなど、変更する他の設定がある場合は、新しい使用条件を作成する必要があります。
 
     ![Screen image of the Identity Governance terms of use being edited.](./Media/edit-terms-of-use.png)
 
-7. Once you are done, select **Save** to save your changes.
+7. 完了したら、**Save** を選択して変更を保存します。
 
-#### Task 7 - Update an existing terms of use document
+#### Task 7 - 既存の利用規約ドキュメントを更新する
 
-You may, on occasion, be required to update the terms of use document.
+場合によっては、利用規約の更新を求められる場合があります。
 
-1. Select the terms of use you want to edit.
+1. 編集する利用規約を選択します。
 
-2. Select **Edit terms**.
+2. 上部のメニューで、**条件の編集** を選択します。
 
-3. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
+3. **言語オプション** テーブルで、更新する使用条件の言語を特定し、操作 列で **更新** を選択します。
 
     ![Screen image displaying the terms of use with the update option highlighted](./Media/edit-terms-of-use-update.png)
 
-4. In the Update terms of use version pane, you can upload a new version of your terms of use document.
+4. **使用条件のバージョンの更新** ウィンドウで、利用規約ドキュメントの新しいバージョンをアップロードできます。
 
-5. Additionally, you can use the **Require reaccept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
+5. さらに、次回のサインイン時にこの新しいバージョンを受け入れるようにユーザーに要求する場合は、**再承諾が必要** 切り替えボタンを使用できます。ユーザーに再度承諾を求めない場合、以前のは最新の状態のままで、以前に承諾していない新規ユーザーや同意の有効期限が切れた新規ユーザーのみに新しいバージョンが表示されます。
 
     ![Screen image displaying the update terms of use version pane with the upload required pdf and require re-accept highlighted](./Media/update-terms-of-use-version.png)
 
-6. Once you have uploaded your new pdf and decided on re-accept, select **Add**.
+6. 新しいPDFをアップロードし、再承認を決定したら、**追加**を選択します。
 
-7. You will now see the most recent version under the Document column.
+7. これで、**ドキュメント** 列の下に最新バージョンが表示されます。
