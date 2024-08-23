@@ -34,7 +34,7 @@ Restart-Computer -Force
 
 - ローカルにダウンロードする
 
-[補足資料](https://github.com/naonao71/note/blob/main/SC-5002/SC-5002_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.0.pdf)
+[SC-5002_補足資料Ver1.1](https://github.com/naonao71/note/blob/main/SC-5002/SC-5002_%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99_Ver1.1.pdf)
 
 
 ***
