@@ -65,9 +65,9 @@ lab:
 
   | リソースの種類 | 値 |
   | :---  | :---  |
-  | + グループとチーム  | Sales and Marketing, and U.S. Sales |
-  | + アプリケーション | LinkedIn |
-  | + SharePoint サイト | Sales and Marketings, and U.S. Sales |
+  | + グループとチーム  | 'sg-Sales and Marketing', 'U.S. Sales' |
+  | + アプリケーション | 'LinkedIn' |
+  | + SharePoint サイト | 'Sales and Marketing', 'U.S. Sales' |
   | | |
 
 6. **追加** ボタンを選択します。
