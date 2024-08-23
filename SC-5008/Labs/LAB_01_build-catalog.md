@@ -174,25 +174,25 @@ lab:
 
 10. ページの下部にある **追加** ボタンを選択します。
 
-#### Task 6: Check to see if Christopher Green has been added
+#### Task 6: Christopher Green が追加されていることを確認する
 
-1. Open a **New InPrivate window** on your browser.
+1. ブラウザーで「新しい InPrivate ウィンドウ」を開きます。
 
-1. Connect to **Microsoft Entra admin center** at `https://entra.microsoft.com` address.
+2. **Microsoft Entra 管理センター** に接続します。https://entra.microsoft.com
 
-1. Log into the site using your Chistopher Green account and password created earlier.
+3. 以前に作成したChistopher Greenアカウントとパスワードを使用してサイトにログインします。
 
-1. You will be prompted to change your password.  Set a new password and record it in a tool like Notepad for future use.
+4. パスワードを変更するように求められます。新しいパスワードを設定し、メモ帳などのツールに記録して、後で使用できるようにします。
 
-1. Select **Identity**, then **Users**, then **All Users**, and then select **Christopher Green**.
+5. **ID**、**ユーザー**、**すべてのユーザー** の順に選択し、**Christopher Green** を選択します。
 
-1. From the menu on the left, select **Groups**.
+6. 左側のメニューから **グループ** を選択します。
 
-1. Confirm that you have been granted access to the **Sales and Marketing** group, per the Access Package.
+7. アクセス パッケージに従って、**Sales and Marketing** グループへのアクセス権が付与されていることを確認します。
 
-1. From the menu on the left, select **Applications**.
+8. 左側のメニューから **アプリケーション** を選択します。
 
-1. Confirm that you have access to the **LinkedIn**.
+9. **LinkedIn** にアクセスできることを確認します。
 
 #### Task 7: Challenge - Dynamic changes to the Access package
 
