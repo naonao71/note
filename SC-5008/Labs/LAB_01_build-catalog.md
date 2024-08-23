@@ -65,7 +65,7 @@ lab:
 
   | リソースの種類 | 値 |
   | :---  | :---  |
-  | + グループとチーム  | sg-Sales and Marketing, U.S. Sales |
+  | + グループとチーム  | Sales and Marketing, U.S. Sales |
   | + アプリケーション | LinkedIn |
   | + SharePoint サイト | Sales and Marketing, U.S. Sales |
   | | |
