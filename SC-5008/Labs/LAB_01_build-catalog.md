@@ -94,38 +94,38 @@ lab:
 
 6. **プロパティ**タブを選択します。
 
-7. **プロパティ** 画面の下部で、**使用場所** = **米国** を設定します。
+7. **プロパティ** 画面の下部で、**利用場所** = **米国** を設定します。
 
 8. **レビューと作成** を選択し、**作成** を選択します。
 
 #### Task 4: アクセス パッケージを生成する
 
-1. In Microsoft Entra admin center, select **Identity governance** then select **Entitlement management**.
+1. Microsoft Entra 管理センターで、**Indentity Governance** を選択し、**エンタイトルメント管理** を選択します。
 
-1. From the Entitlement management menu, select **Access packages**.
+2. エンタイトルメント管理 メニューから、 **アクセス パッケージ** を選択します。
 
-1. Select **+ New access package** at the top of the screen.
+1. 画面の上部にある **+ 新しいアクセス パッケージ** を選択します。
 
-1. Enter the requested values:
+2. 要求された値を入力します。
 
-  | Field | Value |
+  | フィールド | 値 |
   | :---  | :---  |
-  | Name  | `pckSales` |
-  | Diplay name | `Use this access package to assign resources to members of the Sales team.` |
-  | Catalog | catSales |
+  | 名前  | `pckSales` |
+  | 説明| `このアクセス パッケージを使用して、営業チームのメンバーにリソースを割り当てます。` |
+  | カタログ| catSales |
   | | |
 
-  **Note** - You must pick the catSales catalog we created in the previous task. This will provide the list of resources available to be assigned in this package.  There is a General package that is listed as the default.  If you accidentally chose this, you will not see any resources available.
+  **Note** - 前のタスクで作成したcatSalesカタログを選択する必要があります。これにより、このパッケージで割り当てることができるリソースの一覧が提供されます。デフォルトとしてリストされている General パッケージがあります。誤ってこれを選択してしまった場合、利用可能なリソースは表示されません。
 
-1. Select the "Resource roles" tab.
+3. **リソースロール** タブを選択します。
 
-1. Select the resources that you want to provide in his Access package, from the items in the catSales catalog. Then use the **Select role** dropdown to set the Role to listed in the table below.
+4. アクセスパッケージで提供するリソースを、catSales カタログの項目から選択します。次に、**ロールの選択** ドロップダウンを使用して、ロールを下の表にリストされている値に設定します。
 
-  | Resource Type | Value | Role |
+  | リソースの種類| 値 | ロール |
   | :---  | :---  | :--- |
-  | + Groups and Teams  | Sales and Marketing | Member |
-  | + Applications | LinkedIn | msiam_access |
-  | + SharePoint sites | U.S. Sales | U.S. Sales Members |
+  | + グループとチーム | Sales and Marketing | Member |
+  | + アプリケーション | LinkedIn | msiam_access |
+  | + SharePoint サイト | U.S. Sales | U.S. Sales Members |
   | | |
 
 1. Set the **Select role** dropdown to set the Role to **Member** for each item.
