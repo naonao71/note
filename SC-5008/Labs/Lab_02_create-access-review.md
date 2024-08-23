@@ -82,25 +82,25 @@ lab:
 
 1. ID、ユーザー、すべてのユーザーから **Adele Vance** を選択して、パスワードのリセットを選択します。一時パスワードが発行されるのでメモしておきます。
 
-1. ブラウザーで「新しい InPrivate ウィンドウ」を開き、 `https://outlook.office.com/` にアクセスします。
+2. ブラウザーで「新しい InPrivate ウィンドウ」を開き、 `https://outlook.office.com/` にアクセスします。
 
-1. Adele Vance としてログインします。
+3. Adele Vance としてログインします。
 
  **Note** - **Microsoft Security** から **Action required: Review access to the LinkedIn...** のメールが届いている必要があります。
 
-1. **Start review >** ボタンを選択します。
+4. **Start review >** ボタンを選択します。
 
  ![Screenshot of the Access review page that AdeleV gets when launching the link in email.  Note that Christopher Green is recommended to be removed.](./Media/access-review-page.png)
 
-1. **Christopher Green** のチェックをします。
+5. **Christopher Green** のチェックをします。
 
-1. トップメニューから **拒否** オプションを選択します。
+6. トップメニューから **拒否** オプションを選択します。
 
-1. リソースへのアクセスを拒否する理由を入力します。例：販売キャンペーンは終了し、Christopher はもうアクセスする必要はない
+7. リソースへのアクセスを拒否する理由を入力します。例：販売キャンペーンは終了し、Christopher はもうアクセスする必要はない
 
-1. 残りのすべてのユーザーをチェックして、**承認する** を選択します。
+8. 残りのすべてのユーザーをチェックして、**承認する** を選択します。
 
-1. リソースへの継続的なアクセスを承認する理由を入力します。例：問題ありません
+9. リソースへの継続的なアクセスを承認する理由を入力します。例：問題ありません
 
 #### Task 5 - Confirm the Access review results
 
