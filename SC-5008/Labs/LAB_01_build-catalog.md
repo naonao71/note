@@ -192,18 +192,18 @@ lab:
 
 8. 左側のメニューから **アプリケーション** を選択します。
 
-9. **LinkedIn** にアクセスできることを確認します。
+9. **LinkedIn** が割り当てられていることを確認します。
 
-#### Task 7: Challenge - Dynamic changes to the Access package
+#### Task 7: チャレンジ - Access パッケージへの動的な変更
 
-  **Note** - This task does not going to have step by step instructions. You are provide the set of tasks, and you can reference previous steps above to remind you of where to make specific changes.
+  **Note** - このタスクには、ステップバイステップの指示はありません。一連のタスクが提供され、上記の前の手順を参照して、特定の変更を行う場所を思い出すことができます。
 
-- Make sure you logged into **Microsoft Entra admin center** as your admin account.
-- Open your **pckSales** Access package.
-- Go to the **Resources roles** and choose to remove the **Sales and Marketing** group and add in the **U.S. Sales** group instead.
-- Use the **Assignments** tab to **Reprocess** the assignment.
-- Log out and log back in as Christopher Green.  Note that the group assignments have changed.  That quick and easy.
-- Revoke access by deleting the Assignment for Christopher Green.
+- 管理者アカウントとして **Microsoft Entra 管理センター** にログインしたことを確認します。
+- **pckSales** アクセスパッケージを開きます。
+- リソースロール に移動し、Sales and Marketing グループを削除して、代わりに U.S. Sales グループを追加することを選択します。
+- 「割り当て」メニューから、割り当てを **再処理** します。
+- ログアウトし、Christopher Green として再度ログインします。グループの割り当てが変更されていることに注意してください。それは速くて簡単です。
+- Christopher Greenの割り当てを削除して、アクセス権を取り消します。
 
-### Conclusion
-This is a simple lab to demo the basic features of Entitlement management.  Think of the option you could use this feature for; and the advanced configuration options you could configure within the lab.
+### 結論
+これは、エンタイトルメント管理の基本機能のデモを行う簡単なラボです。この機能を使用できるオプションを考えてみてください。また、ラボ内で構成できる高度な構成オプションもあります。
