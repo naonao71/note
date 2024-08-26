@@ -104,6 +104,8 @@ Microsoft Entra ID を使用すると、グローバル管理者は永続的な 
    | ユーザー名 | **MiriamG@** `<<your domain.onmicrosoft.com>>` |
    | パスワード | パスワードを入力します。 |
 
+    > Miriam Graham のパスワードのリセットをしてログインします。 
+
 4. **ID** メニューから**ユーザー** を開き、**すべてのユーザー** を選択します。
 
 5. ユーザーのリストから **Miriam** を見つけます。
@@ -130,21 +132,21 @@ Microsoft Entra ロールを引き受ける必要がある場合は、Privileged
 
 5. コンプライアンス管理者ロールの行で、**アクティブ化** を選択します。
 
-6. In the Activate – Compliance Administrator pane, select **Additional verification required** and then follow the instructions to provide additional security verification. You are required to authenticate only once per session.
+6. **アクティブ化 – コンプライアンス管理者** ウィンドウで、**追加の確認が必要です。クリックして続行します** を選択し、指示に従って追加のセキュリティ確認を提供します。認証はセッションごとに 1 回だけ行う必要があります。
 
     ![Screen image displaying a popup to activate the compliance administrator](./Media/pim-activate-role.png)
 
-    **Verification** - Based on our current lab environment configuration, you will be required configure MFA and log in successfully.
+    **検証** - 現在のラボ環境の構成に基づいて、MFA を構成し、正常にログインする必要があります。
 
-7. After you have completed the additional security verification, in the Activate – Compliance Administrator pane, in the **Reason** box, enter the **This is my justification for activating this role**.
+7. 追加のセキュリティ検証が完了したら、**アクティブ化 – コンプライアンス管理者** ウィンドウの **理由** ボックスに、「Tこれが、私がこの役割を有効にした理由です。」と入力します。
 
-    **Important Note** - the principal of least prvilege, you should only activate the account for the amount of time you need it.  If the work needed to be done, only takes 1.5 hours, then set the duration to two hours.  Similarily, if you know that you won't be able to do the work until after 3pm, choose a Custom activation time.
+    **重要な注意** - 最小原則の原則は、必要な時間だけアカウントをアクティブ化する必要があります。作業を行う必要がある場合は、1.5時間しかかからない場合は、期間を2時間に設定します。同様に、午後3時を過ぎるまで作業ができないことがわかっている場合は、**カスタムアクティブ化の開始時刻** を選択します。
 
-8. Select **Activate**.
+8. **アクティブ化** を選択します
 
-#### Task 4 - Assign a role with restricted scope
+#### Task 4 - スコープが制限されたロールを割り当てる
 
-For certain roles, the scope of the granted permissions can be restricted to a single admin unit, service principal, or application. This procedure is an example if assigning a role that has the scope of an administrative unit.
+特定のロールでは、付与されるアクセス許可の範囲を 1 つの管理ユニット、サービス プリンシパル、またはアプリケーションに制限できます。この手順は、管理単位のスコープを持つロールを割り当てる場合の例です。
 
 1. Remember to close out the browser windows for MiriamG, then open the Microsoft Entra admin center with your administrator account.
 2. Browse to the Privileged Identity Management page, and in the left navigation menu, select Azure **Microsoft Entra roles.**
