@@ -118,7 +118,7 @@ Microsoft Entra ID を使用すると、グローバル管理者は永続的な 
 
 #### Task 3 - Microsoft Entra ロールをアクティブ化する
 
-Microsoft Entra ロールを引き受ける必要がある場合は、Privileged Identity Management の [マイ ロール] を開いてアクティブ化を要求できます。
+Microsoft Entra ロールを引き受ける必要がある場合は、Privileged Identity Management の **自分のロール** を開いてアクティブ化を要求できます。
 
 1. 検索ウインドウで PIM と入力します。
 
