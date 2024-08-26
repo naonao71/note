@@ -40,6 +40,13 @@ Restart-Computer -Force
 - [特権アクセスを計画し、実装する](https://learn.microsoft.com/ja-jp/training/modules/plan-implement-privileged-access/)
 - [Microsoft Entra Permissions Management の多くの機能を確認する](https://learn.microsoft.com/ja-jp/training/modules/explore-features-of-permissions-management/)
 
+***
+ラボ環境は英語で提供されています。そのまま行うこともできますが、ローカル環境からブラウザーを使用してラボを行うことができます。以下に日本語での指示をリンクします。
 
+- [Microsoft Entra エンタイトルメント管理でカタログを作成する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/LAB_01_build-catalog.md)
+- [アクセス レビューを作成して管理する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Lab_02_create-access-review.md)
+- [利用規約と同意レポートを追加する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Lab_03_add-terms-of-use.md)
+- [Microsoft Entra Identity Governance 設定で外部ユーザーのライフサイクルを管理する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Lab_04_manage-external-user-lifecycle.md)
+- 
 
 
