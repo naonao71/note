@@ -148,29 +148,32 @@ Microsoft Entra ロールを引き受ける必要がある場合は、Privileged
 
 特定のロールでは、付与されるアクセス許可の範囲を 1 つの管理ユニット、サービス プリンシパル、またはアプリケーションに制限できます。この手順は、管理単位のスコープを持つロールを割り当てる場合の例です。
 
-1. Remember to close out the browser windows for MiriamG, then open the Microsoft Entra admin center with your administrator account.
-2. Browse to the Privileged Identity Management page, and in the left navigation menu, select Azure **Microsoft Entra roles.**
-3. Select **Roles**.
-4. In the Roles page, on the top menu, select **+ Add assignments.**
+1. MiriamG のブラウザー ウィンドウを閉じてから、管理者アカウントで **Microsoft Entra 管理センター** を開くことを忘れないでください。
 
-5. In the Add assignments page, select the **Select role** menu and then select **User administrator.**
+2. **Privileged Identity Management** ページを参照し、左側のナビゲーション メニューで **Azure Microsoft Entra ロール** を選択します。
 
-6. Select the **Scope type** menu and review the available options. For now, you will use the **Directory** scope type.
+3. **ロール** を選択します。
 
-   **Tip** - Go to [https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-manage](https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-manage) for more information about the administrative unit scope type.
+4. **ロール** ページのトップ メニューで、**+ 割り当ての追加** を選択します。
 
-7. As you did when assigning a role without a restricted scope, you would add members and complete the settings options. For now, select **Cancel**.
+5. **割り当ての追加** ページで、**ロールの選択** メニューを選択し、**ユーザー管理者** を選択します。
 
-#### Task 5 - Update or remove an existing role assignment
+6. **スコープの種類** メニューを選択し、使用可能なオプションを確認します。ここでは、**ディレクトリ** スコープの種類を使用します。
 
-Follow these steps to update or remove an existing role assignment.
+   **Tip** - 管理単位のスコープ・タイプについて詳しくは、[管理単位の作成または削除](https://learn.microsoft.com/ja-jp/entra/identity/role-based-access-control/admin-units-manage?tabs=ms-powershell) を参照してください。
 
-1. In the Open Privileged Identity Management > Microsoft Entra roles page, in the left navigation, select **Assignments**.
+7. スコープを制限せずにロールを割り当てる場合と同様に、メンバーを追加して設定オプションを完了します。ここでは、**キャンセル** を選択します。
 
-2. In **Assignments** list, for Compliance Administrator, review the options in the **Action** column.
+#### Task 5 - 既存のロールの割り当てを更新または削除する
 
-3. Select **Update** and review the options available in the Membership settings pane. When complete, close the pane.
+既存のロールの割り当てを更新または削除するには、次の手順に従います。
 
-4. Select **Remove**.
+1. **Privileged Identity Management** > **Microsoft Entra ロール** ページの左側のナビゲーションで **割り当て** を選択します。
 
-5. In the **Remove** dialog box, review the information and then select **Yes**.
+2. **割り当て** リストの **コンプライアンス管理者** で、**操作** 列のオプションを確認します。
+
+3. **更新** を選択し、**メンバーシップ設定** ウィンドウで使用できるオプションを確認します。完了したら、ペインを閉じます。
+
+4. **削除** を選択します
+
+5. **削除** ダイアログ ボックスで、情報を確認し、**はい** を選択します。
