@@ -1,7 +1,7 @@
 **AZ-104: Microsoft Azure 管理者**
 -
 
-最終更新日 2024/06/11
+最終更新日 2024/08/29
 
 ---
 
@@ -18,6 +18,7 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 
  > [CloudSliceのTIPSを紹介しています。](https://github.com/naonao71/note/blob/main/AZ-104/pdf/CloudSlice.pdf)
 
+AZ-104 ラボコンテンツ [日本語](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator.ja-jp/tree/main/Instructions/Labs) / [英語](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/tree/master/Instructions/Labs)
 
 <!--
 
