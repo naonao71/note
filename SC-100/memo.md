@@ -15,6 +15,8 @@
 ***
 
 **コンテンツ**
+
+
 Day1
 - [Module01: ゼロ トラストとベスト プラクティス フレームワークの概要](https://learn.microsoft.com/ja-jp/training/modules/introduction-zero-trust-best-practice-frameworks/)
 - [Module02: クラウド導入フレームワーク (CAF) と Well-Architected フレームワーク (WAF) に沿ったセキュリティ ソリューションを設計する](https://learn.microsoft.com/ja-jp/training/modules/design-solutions-align-cloud-adoption-framework-well-architected-framework/)
