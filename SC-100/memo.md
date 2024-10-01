@@ -14,6 +14,29 @@
 
 ***
 
+**ケーススタディー(問題と検討例)**
+問題と検討例を参考にケーススタディーを確認することができます。ケーススタディーを自分で検討する場合は、上記リンクからケーススタディーを参照してください。この検討例は、講師が作成したものになります（AIモデルChat-GTP4oで前提条件を学習して、内容を適時修正して作成しています）。
+
+> Note: この検討例はMicrosoftが推奨するものではなく、講師個人が検討したものです。
+
+Day1:
+- [ゼロトラストソリューションの設計](https://github.com/naonao71/note/blob/main/SC-100/module01a.md)
+- [アーキテクチャのベストプラクティス](https://github.com/naonao71/note/blob/main/SC-100/moduke01b.md)
+- [クラウド導入フレームワーク (CAF) に沿ったソリューションの設計](https://github.com/naonao71/note/blob/main/SC-100/module02.md)
+- [MCRAとMCSBのベストプラクティスを使用したソリューションの設計](https://github.com/naonao71/note/blob/main/SC-100/module03.md)
+- [ランサムウェア攻撃に対応する回復性戦略を設計する](https://github.com/naonao71/note/blob/main/SC-100/module04.md)
+
+Day2:
+- [規制コンプライアンスを評価する](https://github.com/naonao71/note/blob/main/SC-100/module05.md)
+- [ID セキュリティ ソリューションを設計する](https://github.com/naonao71/note/blob/main/SC-100/module06.md)
+- [セキュリティ オペレーションのためのソリューションを設計する](https://github.com/naonao71/note/blob/main/SC-100/module08.md)
+
+Day3
+- [アプリケーションをセキュリティで保護するためのソリューションを設計する](https://github.com/naonao71/note/blob/main/SC-100/module10.md)
+- [組織のデータを守るセキュリティ対策ソリューションを設計する](https://github.com/naonao71/note/blob/main/SC-100/module11.md)
+- 
+
+
 **コンテンツ**
 
 
