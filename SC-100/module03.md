@@ -22,7 +22,7 @@ Contoso では、コンプライアンスと規制の要件のためにオンプ
 クラウド移行が継続し、拡大していくにつれて、Contoso では、オンプレミスのすべての  
 データとアプリケーションをクラウドに移行することを計画しています (スコープ外のアプリケーションは除く)。 
 
-* Microsoft Defender XDR と Defender for Cloud をデプロイして、敵対者に対する Contoso のセキュリティ態勢を強化します 
+* Microsoft Defender XDR と Defender for Cloud をデプロイして、攻撃者に対する Contoso のセキュリティ態勢を強化します 
 * Microsoft コンプライアンス ポリシー MCSB を Azure サブスクリプションに適用する必要があります 
 * Contoso では、考えられる脅威を事前に追求し、攻撃面を積極的に管理したいと考えています 
 * Contoso では、外部の請負業者および患者と内部従業員の両方の ID を一元的に管理したいと考えています 
