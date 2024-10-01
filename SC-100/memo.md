@@ -21,7 +21,7 @@
 
 Day1:
 - [ゼロトラストソリューションの設計](https://github.com/naonao71/note/blob/main/SC-100/module01a.md)
-- [アーキテクチャのベストプラクティス](https://github.com/naonao71/note/blob/main/SC-100/moduke01b.md)
+- [アーキテクチャのベストプラクティス](https://github.com/naonao71/note/blob/main/SC-100/module01b.md)
 - [クラウド導入フレームワーク (CAF) に沿ったソリューションの設計](https://github.com/naonao71/note/blob/main/SC-100/module02.md)
 - [MCRAとMCSBのベストプラクティスを使用したソリューションの設計](https://github.com/naonao71/note/blob/main/SC-100/module03.md)
 - [ランサムウェア攻撃に対応する回復性戦略を設計する](https://github.com/naonao71/note/blob/main/SC-100/module04.md)
@@ -34,7 +34,11 @@ Day2:
 Day3
 - [アプリケーションをセキュリティで保護するためのソリューションを設計する](https://github.com/naonao71/note/blob/main/SC-100/module10.md)
 - [組織のデータを守るセキュリティ対策ソリューションを設計する](https://github.com/naonao71/note/blob/main/SC-100/module11.md)
-- 
+
+Day4
+- [SaaS、PaaS、IaaS サービスをセキュリティで保護するための要件を指定する](https://github.com/naonao71/note/blob/main/SC-100/module12.md)
+- [ハイブリッドとマルチクラウドの環境でのセキュリティ態勢管理のためのソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/13-Evaluate_security_posture.md)
+- [リモート アクセスとエンドポイント戦略を作成する](https://github.com/naonao71/note/blob/main/SC-100/module14.md)
 
 
 **コンテンツ**
