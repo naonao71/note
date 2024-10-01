@@ -99,7 +99,7 @@ Contoso Group はクラウド サービスを使用しておらず、インフ�
 
 ### Contoso Banking 環境 1 のための Azure ランディング ゾーンの推奨  
   
-- **Azure Enterprise-Scale Landing Zone**  
+- **[Azure Enterprise-Scale Landing Zone](https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/ready/enterprise-scale/implementation)**  
   - 既存のコアバンキングシステムを安全に移行するためのベストプラクティスを含む。  
   - セキュリティ、ガバナンス、ネットワークの設計が考慮されている。  
 
@@ -111,7 +111,9 @@ Contoso Group はクラウド サービスを使用しておらず、インフ�
    - Azure Policy や Azure Blueprints を利用することで、全体のガバナンスを強化し、コンプライアンスを維持できます。
 3. スケーラビリティ:
    - 将来的な拡張を考慮したアーキテクチャを採用し、ビジネスの成長に合わせてスケールアップ・ダウンが可能です。
-  
+
+## Contoso Banking に対して、環境 2 用として、どの Azure ランディング ゾーンの実装を推奨しますか?
+
 ### Contoso Banking 環境 2 のための Azure ランディング ゾーンの推奨  
   
 - **Azure Kubernetes Service (AKS) Landing Zone**  
@@ -125,7 +127,7 @@ Contoso Group はクラウド サービスを使用しておらず、インフ�
 2. CI/CDパイプラインの統合:
    - Azure DevOpsやGitHub Actionsを利用したCI/CDパイプラインを構築することで、100回/月のリリース要件を満たし、効率的なデリバリーが実現します。
 3. 監査とコンプライアンス:
-   - Azure MonitorやAzure Sentinelを使用して、アプリケーションのパフォーマンスやセキュリティイベントを監視し、常に監査の準備が整った状態を保つことができます。
+   - Azure MonitorやMicrosoft Sentinelを使用して、アプリケーションのパフォーマンスやセキュリティイベントを監視し、常に監査の準備が整った状態を保つことができます。
 
 ## 結論  
   
