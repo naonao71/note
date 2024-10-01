@@ -116,7 +116,7 @@ Contoso Group はクラウド サービスを使用しておらず、インフ�
 
 ### Contoso Banking 環境 2 のための Azure ランディング ゾーンの推奨  
   
-- **Azure Kubernetes Service (AKS) Landing Zone**  
+- **[Azure Kubernetes Service (AKS) Landing Zone](https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/scenarios/app-platform/aks/landing-zone-accelerator)**  
   - マイクロサービスアーキテクチャを利用した次世代アプリのために最適化されている。  
   - 高頻度のリリースと監査対応のためのツール（CI/CDパイプライン、監視ツール）を組み込み込むことが容易。  
 
@@ -128,6 +128,8 @@ Contoso Group はクラウド サービスを使用しておらず、インフ�
    - Azure DevOpsやGitHub Actionsを利用したCI/CDパイプラインを構築することで、100回/月のリリース要件を満たし、効率的なデリバリーが実現します。
 3. 監査とコンプライアンス:
    - Azure MonitorやMicrosoft Sentinelを使用して、アプリケーションのパフォーマンスやセキュリティイベントを監視し、常に監査の準備が整った状態を保つことができます。
+
+![概念参照アーキテクチャの例](./image/aks-eslz-architecture.png)
 
 ## 結論  
   
