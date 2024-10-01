@@ -44,7 +44,7 @@ Tailwind Traders は、架空のホームセンターです。 この会社は�
 ### Tailwind Traders は、一貫したセキュリティ ポリシーを定義し、制御を有効にするために、どの製品を利用する必要がありますか?
   
 1. **セキュリティ状態とリスクを理解するためのソリューション**:  
-   - **Microsoft Defender for Cloud**: セキュリティ状態の評価、推奨事項の提供、脅威の検出を行う。  
+   - **Microsoft Defender for Cloud** および **Microsoft Defender XDR**: セキュリティ状態の評価、推奨事項の提供、脅威の検出を行う。  
    - **Microsoft Sentinel**: SIEM（Security Information and Event Management）ソリューションとして、セキュリティイベントの分析と監視を実施する。  
   
 2. **一貫したセキュリティポリシーを定義し、制御を有効にするための製品**:  
