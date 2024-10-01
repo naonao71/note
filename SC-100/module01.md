@@ -188,7 +188,7 @@
 - **条件付きアクセス**を設定し、リスクに応じたアクセス制御を実施します。  
   
 ### b. ネットワークセキュリティ  
-  - **Virtual Network(VNet)**を設計し、リソースを論理的に分離します。  
+  - **Virtual Network(VNet)** を設計し、リソースを論理的に分離します。  
   - **Network Security Groups (NSGs)**や**Azure Firewall**を使用して、トラフィックをフィルタリングし、アクセスを制限します。  
   - **Azure DDoS Protection**を導入し、分散型サービス妨害攻撃から保護します。  
   
