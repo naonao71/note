@@ -27,6 +27,8 @@ Tailwind Traders は、最新の方法で商取引を行っている企業です
 ### 2. CISO が採用するべきツール  
 - **推奨ツール**:   
   - セキュリティ情報およびイベント管理 (SIEM) システム（例: Microsoft Sentinel）
+  - Microsoft Defender for Cloud
+  - **Microsoft Defender XDR**
   - Copilot for Security  
   - 脅威インテリジェンスプラットフォーム（例: ThreatConnect、Recorded Future）  
 - **理由**: これらのツールは、セキュリティイベントをリアルタイムで監視し、脅威インテリジェンスを統合して、より効果的な防御を実現するための情報を提供します。
@@ -38,7 +40,8 @@ Tailwind Traders は、最新の方法で商取引を行っている企業です
 ### 1. CTI フィードを集計し、意味のあるダッシュボードに表示するためのツール  
 - **推奨ツール**:   
   - Microsoft Sentinel
-  - Microsoft Defender XDR  
+  - Microsoft Defender for Cloud
+  - **Microsoft Defender XDR**  
   - Splunk  
 - **理由**: これらのツールは、データの視覚化と分析を容易にし、脅威に対する迅速な対応を可能にします。  
   
