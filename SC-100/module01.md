@@ -174,7 +174,7 @@
 
 ---
 
-Microsoft Cybersecurity Reference Architectures (MCRA) をどのように組み込んで、セキュリティで保護され、可用性が高く、効率的なクラウド アーキテクチャを作成していますか?
+# Microsoft Cybersecurity Reference Architectures (MCRA) をどのように組み込んで、セキュリティで保護され、可用性が高く、効率的なクラウド アーキテクチャを作成していますか?
 
 ---
 
@@ -184,7 +184,7 @@ Microsoft Cybersecurity Reference Architectures (MCRA) をどのように組み�
   
 ### a. アイデンティティとアクセス管理  
 - **Entra ID**を使用して、ユーザーとデバイスのアクセスを管理します。  
-- **多要素認証 (MFA)**を必須にし、アカウントへの不正アクセスを防ぎます。  
+- **多要素認証(MFA)**を必須にし、アカウントへの不正アクセスを防ぎます。  
 - **条件付きアクセス**を設定し、リスクに応じたアクセス制御を実施します。  
   
 ### b. ネットワークセキュリティ  
