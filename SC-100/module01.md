@@ -26,7 +26,7 @@
   
 4. **ネットワークセキュリティ**  
    - **Azure Virtual Network**を使用して、リソースをセグメント化。  
-   - **Azure Firewall**や**Network Security Groups（NSGs）**を設定し、ビジネスクリティカルなリソースを隔離。  
+   - **Azure Firewall** や **Network Security Groups** を設定し、ビジネスクリティカルなリソースを隔離。  
   
 ## 意思決定プロセス  
   
