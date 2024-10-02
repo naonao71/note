@@ -48,7 +48,6 @@ Tailwind Traders は、最新の方法で商取引を行っている企業です
 ### 2. 企業の防御を改善するための組み込みの脅威インテリジェンス レポートが提供されるツール  
 - **推奨ツール**:   
   - Microsoft Defender for Cloud
-  - Copilot for Security(MDC,Sentinel,Entra IDなどのソリューションと連携)
   - CrowdStrike  
 - **理由**: これらのツールは、脅威の検出と防止において強力な機能を持っており、特定の脅威を迅速に特定し、対応策を講じるためのデータを提供します。  
 
