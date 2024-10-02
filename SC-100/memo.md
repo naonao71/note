@@ -37,7 +37,7 @@ Day3
 
 Day4
 - [SaaS、PaaS、IaaS サービスをセキュリティで保護するための要件を指定する](https://github.com/naonao71/note/blob/main/SC-100/module12.md)
-- [ハイブリッドとマルチクラウドの環境でのセキュリティ態勢管理のためのソリューションを設計する](https://github.com/MicrosoftLearning/SC-100-Microsoft-Cybersecurity-Architect.ja-jp/blob/main/Instructions/CaseStudyv2/13-Evaluate_security_posture.md)
+- [ハイブリッドとマルチクラウドの環境でのセキュリティ態勢管理のためのソリューションを設計する](https://github.com/naonao71/note/blob/main/SC-100/module13.md)
 - [リモート アクセスとエンドポイント戦略を作成する](https://github.com/naonao71/note/blob/main/SC-100/module14.md)
 
 
