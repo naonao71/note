@@ -42,3 +42,4 @@ Restart-Computer -Force
 - [Microsoft Copilot for Security の埋め込みエクスペリエンスについて説明する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-embedded-experiences/)
 - [Microsoft Copilot for Security のユース ケースを確認する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/)
 
+***
