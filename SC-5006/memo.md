@@ -1,13 +1,11 @@
 **Microsoft Copilot for Security の概要**
 ***
 
-最終更新日 2024/08/18
+最終更新日 2024/11/26
 
 **リンク一覧およびメモ**
 
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
-
-SC-5006 ラボトップ [英語](https://github.com/MicrosoftLearning/SC-5006-Get-started-with-Microsoft-Copilot-for-Security)
 
 Skillpipe
 
