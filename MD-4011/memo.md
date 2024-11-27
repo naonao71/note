@@ -1,7 +1,7 @@
 **Microsoft Intune と Microsoft Copilot for Security でエンドポイント セキュリティを強化する**
 ***
 
-最終更新日 2024/11/26
+最終更新日 2024/11/27
 
 **リンク一覧およびメモ**
 
