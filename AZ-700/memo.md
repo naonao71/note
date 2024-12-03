@@ -14,7 +14,9 @@ AZ-700のトレーニングコースを始めるにあたり、以下の準備�
 
 **リンク一覧およびメモ**
  
+ <!--
 AZ-700 ラボトップ（[日本語](https://github.com/MicrosoftLearning/AZ-700JA-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/tree/master/Instructions/Exercises)/[英語](https://github.com/MicrosoftLearning/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/tree/master/Instructions/Exercises)）
+-->
 
 [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/kox0iz3xxxy80j?wt.mc_id=esi_m2l_content_wwl)
 
@@ -80,7 +82,7 @@ Restart-Computer -Force
 
 
 
-
+<!--
 **ラボのリンク（講師翻訳修正済み）**
 
 - モジュール01
@@ -109,7 +111,7 @@ Restart-Computer -Force
 - モジュール08
   - [Azure Monitor を使用してロード バランサー リソースを監視する](https://github.com/naonao71/AZ-700JA-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/blob/master/Instructions/Exercises/M08-Unit%203%20Monitor%20a%20load%20balancer%20resource%20using%20Azure%20Monitor.md)
 
-
+-->
 ***
 
 **AZ-700のテキスト**
