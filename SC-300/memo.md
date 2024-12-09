@@ -1,7 +1,22 @@
 **SC-300**
 ***
 
-**リンク一覧およびメモ**
+最終更新日 2024/12/09
+
+**研修の準備**
+
+SC-300のトレーニングコースを始めるにあたり、以下の準備が必要です。
+
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+
+ > ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。2024/12 時点では英語環境のみ提供されていますので、日本語での手順を確認したい方はブラウザーの翻訳機能を使用してください。
+
+ > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+
+トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://github.com/naonao71/note/blob/main/AZ-104/pdf/Opening.pdf)を参考に進めてください。
+
+**リンク一覧およびメモ（参考）**
 
 SC-300 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/tree/main/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator/tree/master/Instructions/Labs)）
 
@@ -28,6 +43,7 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Restart-Computer -Force
 ```
 
+ <!--
 [トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
 
 - LODS を起動すると、Promo Code を入手できる
@@ -39,6 +55,7 @@ Restart-Computer -Force
 [ESI Security Courses 配布用](https://github.com/naonao71/note/blob/main/AZ-500/ESI%20Security%20Courses%20%E9%85%8D%E5%B8%83%E7%94%A8.pdf)
 
 - Microsoft が提供しているコース内容概要マップ
+-->
 
 ***
 
@@ -90,7 +107,6 @@ Restart-Computer -Force
 
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
-- [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
 
 ***
 
