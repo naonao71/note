@@ -1,4 +1,4 @@
-**SC-300**
+**SC-300：Microsoft Identity and Access Administrator**
 ***
 
 最終更新日 2024/12/09
