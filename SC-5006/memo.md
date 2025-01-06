@@ -22,11 +22,11 @@ Skillpipe
 
 ***
 シミュレーション環境でのLab
-- [最初の実行のエクスペリエンスを調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/2-first-run-experience)
-- [スタンドアロン エクスペリエンスを確認する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/3-explore-standalone-experience)
-- [Microsoft Sentinel プラグインを構成する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/4-configure-plugin)
-- [カスタム プラグインを有効にする](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/5-enable-custom-plugin)
-- [ナレッジ ベースとしてのファイルのアップロードについて調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/6-explore-knowledge-base-file-upload)
-- [カスタム プロンプトブックを作成する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/7-create-custom-promptbook)
-- [Microsoft Defender XDR での Copilot の機能について調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/8-explore-embedded-defender-xdr)
-- [Microsoft Purview での Copilot の機能を調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/9-explore-embedded-purview)
+- [最初の実行のエクスペリエンスを調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/2-first-run-experience)/[動画](https://youtu.be/9FYb29aS_jw)
+- [スタンドアロン エクスペリエンスを確認する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/3-explore-standalone-experience)/[動画](https://youtu.be/BXZu-j9rjrg)
+- [Microsoft Sentinel プラグインを構成する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/4-configure-plugin)/[動画](https://youtu.be/b8EsY9eWGlI)
+- [カスタム プラグインを有効にする](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/5-enable-custom-plugin)/[動画](https://youtu.be/tRLiLATDHFE)
+- [ナレッジ ベースとしてのファイルのアップロードについて調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/6-explore-knowledge-base-file-upload)/[動画](https://youtu.be/mp_-PJq8J_U)
+- [カスタム プロンプトブックを作成する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/7-create-custom-promptbook)/[動画](https://youtu.be/vrGHbvOlHAs)
+- [Microsoft Defender XDR での Copilot の機能について調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/8-explore-embedded-defender-xdr)/[動画](https://youtu.be/e_bH_bU0kjE)
+- [Microsoft Purview での Copilot の機能を調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/9-explore-embedded-purview)/[動画](https://youtu.be/qaweKzi99JA)
