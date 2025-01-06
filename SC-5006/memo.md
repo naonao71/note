@@ -21,7 +21,7 @@ Skillpipe
 - [Microsoft Copilot for Security のユース ケースを確認する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/)
 
 ***
-シミュレーション環境でのLab
+シミュレーション環境でのLab(講師がシミュレーション環境で実施した動画です)
 - [最初の実行のエクスペリエンスを調べる](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/2-first-run-experience)/[動画](https://youtu.be/9FYb29aS_jw)
 - [スタンドアロン エクスペリエンスを確認する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/3-explore-standalone-experience)/[動画](https://youtu.be/BXZu-j9rjrg)
 - [Microsoft Sentinel プラグインを構成する](https://learn.microsoft.com/ja-jp/training/modules/security-copilot-exercises/4-configure-plugin)/[動画](https://youtu.be/b8EsY9eWGlI)
