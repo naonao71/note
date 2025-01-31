@@ -1,14 +1,12 @@
 # 1. **AZ-500 Microsoft Azure セキュリティ テクノロジ**
 
-最終更新日 2023/06/19
+最終更新日 2025/01/31
 
 **リンク一覧およびメモ**
 
 [AZ-500 ラボコンテンツ](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies.ja-jp/tree/main/Instructions/Labs)
 
-[AZ-500 ラボコンテンツ(講師修正済み)](https://github.com/naonao71/AZ-500JA-AzureSecurityTechnologies/tree/master/Instructions/Labs)
-
-[AZ-500のテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/neqjf5m83e37x4?wt.mc_id=esi_m2l_content_wwl)
+[AZ-500のテキスト](https://learn.microsoft.com/ja-jp/training/courses/az-500t00)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
@@ -27,10 +25,6 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
 Restart-Computer -Force
 ```
-
-[トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
-
-- LODS を起動すると、Promo Code を入手できる
 
 [AZ-500補足資料](https://github.com/naonao71/note/blob/main/AZ-500/AZ-500%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.4.pdf)
 
@@ -54,6 +48,29 @@ Restart-Computer -Force
 ***
 **コンテンツ**
 
+- 1. [AZ-500:ID とアクセスを管理する](https://learn.microsoft.com/ja-jp/training/paths/manage-identity-access-new/)
+  - 1.1 [Microsoft Entra ID で ID を管理する](https://learn.microsoft.com/ja-jp/training/modules/manage-identities-microsoft-entra-id/)
+  - 1.2 [Microsoft Entra ID を使用して認証を管理する](https://learn.microsoft.com/ja-jp/training/modules/manage-authentication-microsoft-entra-id/)
+  - 1.3 [Microsoft Entra ID を使用して認可を管理する](https://learn.microsoft.com/ja-jp/training/modules/manage-authorization-microsoft-entra-id/)
+  - 1.4 [Microsoft Entra ID でアプリケーション アクセスを管理する](https://learn.microsoft.com/ja-jp/training/modules/manage-application-access-microsoft-entra-id/)
+- 2. [セキュアなネットワーキング](https://learn.microsoft.com/ja-jp/training/paths/secure-networking/)
+  - 2.1 [仮想ネットワークのセキュリティを計画して実装する](https://learn.microsoft.com/ja-jp/training/modules/security-virtual-networks/)
+  - 2.2 [Azure リソースへのプライベート アクセスのセキュリティを計画して実装する](https://learn.microsoft.com/ja-jp/training/modules/security-private-access-azure-resources/)
+  - 2.3 [Azure リソースへのパブリック アクセスのセキュリティを計画して実装する](https://learn.microsoft.com/ja-jp/training/modules/security-public-access-azure-resources/)
+- 3. [コンピューティング、ストレージ、データベースをセキュリティで保護する](https://learn.microsoft.com/ja-jp/training/paths/secure-compute-storage-databases/)
+  - 3.1 [コンピューティングの高度なセキュリティを計画して実装する](https://learn.microsoft.com/ja-jp/training/modules/advanced-security-compute/)
+  - 3.2 [ストレージのセキュリティを計画して実装する](https://learn.microsoft.com/ja-jp/training/modules/security-storage/)
+  - 3.3 [Azure SQL Database と Azure SQL Managed Instance のセキュリティを計画して実装する](https://learn.microsoft.com/ja-jp/training/modules/security-azure-sql-database-azure-sql-managed-instance/)
+- 4. [セキュリティ オペレーションを管理する](https://learn.microsoft.com/ja-jp/training/paths/manage-security-operations-new/)
+  - 4.1 [セキュリティのガバナンスを計画、実装、管理する](https://learn.microsoft.com/ja-jp/training/modules/governance-security/)
+  - 4.2 [Microsoft Defender for Cloud を使用してセキュリティ態勢を管理する](https://learn.microsoft.com/ja-jp/training/modules/microsoft-defender-cloud-security-posture/)
+  - 4.3 [Microsoft Defender for Cloud を使用して脅威に対する保護を構成して管理する](https://learn.microsoft.com/ja-jp/training/modules/microsoft-defender-cloud-threat-protection/)
+  - 4.4 [セキュリティ監視とオートメーション ソリューションを構成して管理する](https://learn.microsoft.com/ja-jp/training/modules/security-monitoring-automation-solutions/)
+
+
+
+
+<!--
 - [1. **AZ-500 Microsoft Azure セキュリティ テクノロジ**](#1-az-500-microsoft-azure-セキュリティ-テクノロジ)
   - [1.1. モジュール01](#11-モジュール01)
     - [1.1.1. Azure Active Directory](#111-azure-active-directory)
@@ -885,3 +902,4 @@ Set-SqlColumnEncryption -InputObject $database -ColumnEncryptionSettings $ces -L
 
 [Find your Microsoft Sentinel data connector](https://docs.microsoft.com/en-us/azure/sentinel/data-connectors-reference)
 
+-->
