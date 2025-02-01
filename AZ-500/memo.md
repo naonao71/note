@@ -102,7 +102,7 @@ PrivateおよびPublicのNSGを作成して、ルールを作成します。ス�
 ![image](https://github.com/naonao71/note/blob/main/AZ-500/media/sql.jpg)
 
 
-- **9-Azure Monitor, Microsoft Defender for Cloud, Microsoft Sentinel**
+- **9-Azure Monitor, Microsoft Defender for Cloud, Microsoft Sentinel**（★★★）</BR>
 VM、Log Analyticsワークスペース、ストレージアカウントを作成します。DCRを作成しAMAをVMにインストールします。Sentinelをデプロイして動作を確認します。Sentinelの動作確認には時間がかかる場合があります。
 
   - Microsoft Defender for Cloud を有効にして反映されるまでに時間がかかる場合があります。
