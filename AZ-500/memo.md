@@ -103,7 +103,15 @@ PrivateおよびPublicのNSGを作成して、ルールを作成します。ス�
 
 
 - **9-Azure Monitor, Microsoft Defender for Cloud, Microsoft Sentinel**
+VM、Log Analyticsワークスペース、ストレージアカウントを作成します。DCRを作成しAMAをVMにインストールします。Sentinelをデプロイして動作を確認します。Sentinelの動作確認には時間がかかる場合があります。
 
+  - Microsoft Defender for Cloud を有効にして反映されるまでに時間がかかる場合があります。
+  - Microsoft Defender for Cloud で Just-In-Time VMアクセスを設定する際に、「構成されていません」タブに表示されるまで時間がかかる場合があります。今回はRDPの構成を行うので、ワークアラウンドとして仮想マシンの接続から「Just-In-Timeポリシーの**構成**」を選択します。その後、MDCのJust-In-Time VMアクセスを参照します。
+  - SentinelのAzure アクティビティのデータコネクタを接続しますが、Azure ポリシーによる構成なので反映するまで30分程度かかる場合があります。
+  - Sentinelの分析ルールの「不審なリソースの作成またはデプロイの数」は「Suspicious number of resource creation or deployment activities」です。
+  - 分析ルールからオートメーションルールを新規作成できない場合は、オートメーションメニューから作成します。その際、トリガーは「When alert is created」を選択し、分析ルール名は「プレイブックデモ」、アクションを「Run playbook」を選択して、先に作成した「Change-Incident-Severity」を選択します。
+  - 1回目のインシデントではオートメーションルールが実行されない場合がありますが、2回目以降はオートメーションルールが実行され重大度が「高」に変更されます。
+  - 環境によってはMicrosoft Defender for Cloudのセキュリティ態勢が表示されない場合があります。（Lab環境のみ）
 
 <!--
 - [1. **AZ-500 Microsoft Azure セキュリティ テクノロジ**](#1-az-500-microsoft-azure-セキュリティ-テクノロジ)
