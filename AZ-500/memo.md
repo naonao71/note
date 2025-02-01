@@ -66,7 +66,7 @@ Restart-Computer -Force
 
   - 仮想マシンの作成時に **管理** タブではなく、**監視** タブの **ブート診断** を確認します。
 
-- 3. Azure Firewall（★★☆）</BR>
+- 3 Azure Firewall（★★☆）</BR>
 カスタムテンプレートを使用して仮想マシンをデプロイします。Firewall をデプロイして UDR を作成し、ルーティングテーブルを書き換えます。
 
   - ファイアウォールを作成時に **Enable Firewall Management NIC** のチェックを **オフ** にします。
