@@ -94,7 +94,7 @@ PrivateおよびPublicのNSGを作成して、ルールを作成します。ス�
 
   - Key Vaultのアクセスポリシーでは、ポリシーのローテーション操作セクションはチェックを外してください。
 
-![image](../media/sql.jpeg)
+![image](../media/sql.jpg)
 
 
 <!--
