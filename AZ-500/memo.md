@@ -1,7 +1,6 @@
 # 1. **AZ-500 Microsoft Azure セキュリティ テクノロジ**
 
-最終更新日 2025/01/31
-
+最終更新日 2025/02/02
 **リンク一覧およびメモ**
 
 [AZ-500 ラボコンテンツ](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies.ja-jp/tree/main/Instructions/Labs)
