@@ -48,8 +48,28 @@ Restart-Computer -Force
   - 4.3 [Microsoft Defender for Cloud を使用して脅威に対する保護を構成して管理する](https://learn.microsoft.com/ja-jp/training/modules/microsoft-defender-cloud-threat-protection/)
   - 4.4 [セキュリティ監視とオートメーション ソリューションを構成して管理する](https://learn.microsoft.com/ja-jp/training/modules/security-monitoring-automation-solutions/)
 
+***
+**Lab(講師所感)**
+すべてのLab環境で注意事項が記載されています。注意事項にはLab環境独自の手順（例えば、すでに作成されているユーザーなど）が記載されていることがあります。
+お勧めのラボは（★★★）で印をつけています。
 
+- 1. ロール ベースのアクセス制御（★☆☆）
+この演習では、ポータル、CloudShellのPowerShellとBashを使用してユーザーやグループを作成し権限割り当てを確認します。共通のテナントを使用しているため多くのオブジェクトがありコマンドを実行した際返答までに時間がかかります。この演習ではGitHubからファイルのダウンロードは必要ありません。
 
+  - 演習1のタスク2で所有者とメンバーにJoseph-XXX (手順書のグループ名に記載されている番号) を選択します。
+  - 演習4のタスク2で検索には、Virtual Machine Contributor ではなく日本語で **仮想マシン共同作成者** を入力します。
+  - 演習4のタスク2でメンバーの選択で、Service DeskXXX (手順書のグループ名に記載されている番号) を選択します。
+  - 演習4のタスク2のステップ6のロール割り当ては英語（Role Assignments）で表示されています。
+
+- 2. ネットワーク セキュリティ グループとアプリケーション セキュリティ グループ（★★☆）
+この演習では、仮想ネットワークとNSG、ASGを作成します。また仮想マシンを作成します。それぞれの仮想マシンに関連付けされたNSGを確認します。
+
+  - 仮想マシンの作成時に **管理** タブではなく、**監視** タブの **ブート診断** を確認します。
+
+- 3. Azure Firewall
+カスタムテンプレートを使用して仮想マシンをデプロイします。Firewall をデプロイして UDR を作成し、ルーティングテーブルを書き換えます。
+
+  - ファイアウォールを作成時に **Enable Firewall Management NIC** のチェックを **オフ** にします。
 
 <!--
 - [1. **AZ-500 Microsoft Azure セキュリティ テクノロジ**](#1-az-500-microsoft-azure-セキュリティ-テクノロジ)
