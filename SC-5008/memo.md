@@ -1,13 +1,13 @@
-**Microsoft Copilot for Security の概要**
+**Microsoft Entra ID を使用して権利を構成および管理する**
 ***
 
-最終更新日 2024/08/18
+最終更新日 2025/02/07
 
 **リンク一覧およびメモ**
 
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
-SC-5008 ラボトップ [英語](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID)
+SC-5008 ラボトップ [英語](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID)/[日本語](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/tree/main/Instructions/Labs)
 
 Skillpipe
 
@@ -43,11 +43,11 @@ Restart-Computer -Force
 ***
 ラボ環境は英語で提供されています。そのまま行うこともできますが、ローカル環境からブラウザーを使用してラボを行うことができます。以下に日本語での指示をリンクします。
 
-- [Lab 1: Microsoft Entra エンタイトルメント管理でカタログを作成する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/LAB_01_build-catalog.md)
-- [Lab 2: アクセス レビューを作成して管理する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Lab_02_create-access-review.md)
-- [Lab 3: 利用規約と同意レポートを追加する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Lab_03_add-terms-of-use.md)
-- [Lab 4: Microsoft Entra Identity Governance 設定で外部ユーザーのライフサイクルを管理する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Lab_04_manage-external-user-lifecycle.md)
-- [Lab 5: Microsoft Entra ロールの Privileged Identity Management を構成する](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Lab_05_configure-privileged-identity-management.md)
-- [Lab 6: Identity Secure Score を使用したセキュリティ体制の監視と管理](https://github.com/naonao71/note/blob/main/SC-5008/Labs/Lab_06_monitor-identity-secure-score.md)
+- [Lab 1: Microsoft Entra エンタイトルメント管理でカタログを作成する](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/blob/main/Instructions/Labs/LAB_01_build-catalog.md)
+- [Lab 2: アクセス レビューを作成して管理する](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/blob/main/Instructions/Labs/Lab_02_create-access-review.md)
+- [Lab 3: 利用規約と同意レポートを追加する](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/blob/main/Instructions/Labs/Lab_03_add-terms-of-use.md)
+- [Lab 4: Microsoft Entra Identity Governance 設定で外部ユーザーのライフサイクルを管理する](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/blob/main/Instructions/Labs/Lab_04_manage-external-user-lifecycle.md)
+- [Lab 5: Microsoft Entra ロールの Privileged Identity Management を構成する](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/blob/main/Instructions/Labs/Lab_05_configure-privileged-identity-management.md)
+- [Lab 6: Identity Secure Score を使用したセキュリティ体制の監視と管理](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/blob/main/Instructions/Labs/Lab_06_monitor-identity-secure-score.md)
 
 
