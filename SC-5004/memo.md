@@ -39,7 +39,8 @@ Restart-Computer -Force
 - [Microsoft Defender for Endpoint でアラートと検出用に構成する](https://learn.microsoft.com/ja-jp/training/modules/configure-settings-for-alerts-detections-microsoft-defender-for-endpoint/)
 - [Microsoft Defender for Endpoint を使用した自動化の構成および管理](https://learn.microsoft.com/ja-jp/training/modules/configure-manage-automation-microsoft-defender-for-endpoint/)
 - [Microsoft Defender for Endpoint でデバイスの調査を実行する](https://learn.microsoft.com/ja-jp/training/modules/perform-device-investigations-microsoft-defender-for-endpoints/)
-- [「Microsoft Defender XDR を使用してサイバー脅威を防ぐ」ラボ演習](https://learn.microsoft.com/ja-jp/training/modules/defend-against-cyberthreats-microsoft-defender-xdr-labs/)
+
+
 
 
 
