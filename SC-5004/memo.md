@@ -41,7 +41,6 @@ Restart-Computer -Force
 - [Microsoft Defender for Endpoint でデバイスの調査を実行する](https://learn.microsoft.com/ja-jp/training/modules/perform-device-investigations-microsoft-defender-for-endpoints/)
 - [「Microsoft Defender XDR を使用してサイバー脅威を防ぐ」ラボ演習](https://learn.microsoft.com/ja-jp/training/modules/defend-against-cyberthreats-microsoft-defender-xdr-labs/)
 
-***
-ラボ環境は英語で提供されています。そのまま行うこともできますが、ローカル環境からブラウザーを使用してラボを行うことができます。以下に日本語での指示をリンクします。
+
 
 
