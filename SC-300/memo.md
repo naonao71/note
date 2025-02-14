@@ -1,9 +1,11 @@
 **SC-300：Microsoft Identity and Access Administrator**
 ***
 
-最終更新日 2024/12/09
+最終更新日 2025/02/14
 
 **研修の準備**
+
+[ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
 
 SC-300のトレーニングコースを始めるにあたり、以下の準備が必要です。
 
@@ -14,7 +16,7 @@ SC-300のトレーニングコースを始めるにあたり、以下の準備�
 
  > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
 
-トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://github.com/naonao71/note/blob/main/AZ-104/pdf/Opening.pdf)を参考に進めてください。
+トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
 **リンク一覧およびメモ（参考）**
 
