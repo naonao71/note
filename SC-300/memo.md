@@ -113,16 +113,16 @@ Restart-Computer -Force
 ***
 
 - [1. モジュール01](#1-モジュール01)
-  - [1.1. Azure Active Directory の初期構成を実装する](#11-azure-active-directory-の初期構成を実装する)
+  - [1.1. Entra ID の初期構成を実装する](#11-entra-id-の初期構成を実装する)
   - [1.2. ID を作成、構成、管理する](#12-id-を作成構成管理する)
   - [1.3. 外部 ID を実装および管理する](#13-外部-id-を実装および管理する)
   - [1.4. ハイブリッド ID の実装と管理](#14-ハイブリッド-id-の実装と管理)
 - [2. モジュール02](#2-モジュール02)
-  - [2.1. 多要素認証によるセキュリティで Azure Active Directory ユーザーを保護する](#21-多要素認証によるセキュリティで-azure-active-directory-ユーザーを保護する)
+  - [2.1. 多要素認証によるセキュリティで Entra ID ユーザーを保護する](#21-多要素認証によるセキュリティで-entra-id-ユーザーを保護する)
   - [2.2. ユーザー認証を管理する](#22-ユーザー認証を管理する)
   - [2.3. 条件付きアクセスの計画、実装、管理を行う](#23-条件付きアクセスの計画実装管理を行う)
   - [**条件付きアクセスポリシー(CA)**](#条件付きアクセスポリシーca)
-  - [2.4. Azure AD Identity Protection を管理する](#24-azure-ad-identity-protection-を管理する)
+  - [2.4. Entra Identity Protection を管理する](#24-entra-identity-protection-を管理する)
 - [3. モジュール03](#3-モジュール03)
   - [3.1. SSO 用エンタープライズ アプリの統合を計画し、設計する](#31-sso-用エンタープライズ-アプリの統合を計画し設計する)
   - [3.2. SSO 用エンタープライズ アプリの統合を実装し、監視する](#32-sso-用エンタープライズ-アプリの統合を実装し監視する)
@@ -131,20 +131,20 @@ Restart-Computer -Force
   - [4.1. エンタイトルメント管理を計画して実装する](#41-エンタイトルメント管理を計画して実装する)
   - [4.2. アクセス レビューの計画、実装、管理](#42-アクセス-レビューの計画実装管理)
   - [4.3. 特権アクセスを計画し、実装する](#43-特権アクセスを計画し実装する)
-  - [4.4. Azure Active Directory を監視および保守する](#44-azure-active-directory-を監視および保守する)
+  - [4.4. Entra ID を監視および保守する](#44-entra-id-を監視および保守する)
 
 ***
 
 # 1. モジュール01
-## 1.1. [Azure Active Directory の初期構成を実装する](https://docs.microsoft.com/ja-jp/learn/modules/implement-initial-configuration-of-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
+## 1.1. [Entra ID の初期構成を実装する](https://docs.microsoft.com/ja-jp/learn/modules/implement-initial-configuration-of-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
 
 
 **管理ポータル**
 
 - [Azure portal](https://portal.azure.com/)
-- [Azure Active Directory 管理センター](https://aad.portal.azure.com/)
+- [Entra ID 管理センター](https://aad.portal.azure.com/)
 - [Microsoft 365 管理センター](https://admin.microsoft.com/)
-- [Microsoft 365 Defender](https://security.microsoft.com/)
+- [Microsoft Defender](https://security.microsoft.com/)
 
 **Break Glass アカウントとは**
 - 不測の事態に影響を受けない緊急用 全体管理者アカウント
@@ -176,61 +176,61 @@ Restart-Computer -Force
 
 ## 1.2. [ID を作成、構成、管理する](https://docs.microsoft.com/ja-jp/learn/modules/create-configure-manage-identities/?wt.mc_id=esi_m2l_content_wwl)
 
-[Azure Active Directory の動的グループ メンバーシップ ルール](https://docs.microsoft.com/ja-jp/azure/active-directory/enterprise-users/groups-dynamic-membership)
+[Entra ID の動的グループ メンバーシップ ルール](https://docs.microsoft.com/ja-jp/azure/active-directory/enterprise-users/groups-dynamic-membership)
 
-[Azure Active Directory の動的グループ メンバーシップ ルール](https://docs.microsoft.com/ja-jp/azure/active-directory/enterprise-users/groups-dynamic-membership)
+[Entra ID の動的グループ メンバーシップ ルール](https://docs.microsoft.com/ja-jp/azure/active-directory/enterprise-users/groups-dynamic-membership)
 
-[動的グループと Azure Active Directory B2B コラボレーション](https://docs.microsoft.com/ja-jp/azure/active-directory/external-identities/use-dynamic-groups)
+[動的グループと Entra ID B2B コラボレーション](https://docs.microsoft.com/ja-jp/azure/active-directory/external-identities/use-dynamic-groups)
 ## 1.3. [外部 ID を実装および管理する](https://docs.microsoft.com/ja-jp/learn/modules/implement-manage-external-identities/?wt.mc_id=esi_m2l_content_wwl)
 
-[Azure Active Directory B2C とは](https://docs.microsoft.com/ja-jp/azure/active-directory-b2c/overview)
+[Entra ID B2C とは](https://docs.microsoft.com/ja-jp/azure/active-directory-b2c/overview)
 
-[Azure Active Directory の External Identities](https://docs.microsoft.com/ja-jp/azure/active-directory/external-identities/external-identities-overview)
+[Entra ID の External Identities](https://docs.microsoft.com/ja-jp/azure/active-directory/external-identities/external-identities-overview)
 
 ## 1.4. [ハイブリッド ID の実装と管理](https://docs.microsoft.com/ja-jp/learn/modules/implement-manage-hybrid-identity/?wt.mc_id=esi_m2l_content_wwl)
 
 [ハイブリッド ID で必要なポートとプロトコル](https://docs.microsoft.com/ja-jp/azure/active-directory/hybrid/reference-connect-ports)
 
-[Azure AD Connect:アカウントとアクセス許可](https://docs.microsoft.com/ja-jp/azure/active-directory/hybrid/reference-connect-accounts-permissions)
+[Entra Connect:アカウントとアクセス許可](https://docs.microsoft.com/ja-jp/azure/active-directory/hybrid/reference-connect-accounts-permissions)
 
-[Azure Active Directory Connect クラウド同期の FAQ](https://docs.microsoft.com/ja-jp/azure/active-directory/cloud-sync/reference-cloud-sync-faq)
+[Entra Connect クラウド同期の FAQ](https://docs.microsoft.com/ja-jp/azure/active-directory/cloud-sync/reference-cloud-sync-faq)
 
-[Azure AD Connect クラウド同期とは](https://docs.microsoft.com/ja-jp/azure/active-directory/cloud-sync/what-is-cloud-sync)
+[Entra Connect クラウド同期とは](https://docs.microsoft.com/ja-jp/azure/active-directory/cloud-sync/what-is-cloud-sync)
 
-[Azure AD Connect クラウド同期の前提条件](https://docs.microsoft.com/ja-jp/azure/active-directory/cloud-sync/how-to-prerequisites)
+[Entra Connect クラウド同期の前提条件](https://docs.microsoft.com/ja-jp/azure/active-directory/cloud-sync/how-to-prerequisites)
 
 # 2. モジュール02
-## 2.1. [多要素認証によるセキュリティで Azure Active Directory ユーザーを保護する](https://docs.microsoft.com/ja-jp/learn/modules/secure-aad-users-with-mfa/?wt.mc_id=esi_m2l_content_wwl)
+## 2.1. [多要素認証によるセキュリティで Entra ID ユーザーを保護する](https://docs.microsoft.com/ja-jp/learn/modules/secure-aad-users-with-mfa/?wt.mc_id=esi_m2l_content_wwl)
 
-[Azure のネットワーク ポリシー サーバー拡張機能を使用して VPN インフラストラクチャを Azure AD MFA と統合する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-mfa-nps-extension-vpn)
+[Azure のネットワーク ポリシー サーバー拡張機能を使用して VPN インフラストラクチャを Entra ID MFA と統合する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-mfa-nps-extension-vpn)
 
-[Azure AD の多要素認証のデプロイを計画する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-mfa-getstarted)
+[Entra ID の多要素認証のデプロイを計画する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## 2.2. [ユーザー認証を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-user-authentication/?wt.mc_id=esi_m2l_content_wwl)
 
-[Azure Active Directory パスワード保護を使用して不適切なパスワードを排除する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad)
+[Entra ID パスワード保護を使用して不適切なパスワードを排除する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad)
 
-[Azure Active Directory でのパスワード ポリシーと脆弱なパスワードの組み合わせチェック](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-combined-policy)
+[Entra ID でのパスワード ポリシーと脆弱なパスワードの組み合わせチェック](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-combined-policy)
 
-[Active Directory Domain Services にオンプレミスの Azure AD パスワード保護を適用する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
+[Active Directory Domain Services にオンプレミスの Entra ID パスワード保護を適用する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
 
 [アクセスをテナントに制限する](https://docs.microsoft.com/ja-jp/azure/active-directory/manage-apps/tenant-restrictions)
 
 [テナント制限について](https://jpazureid.github.io/blog/azure-active-directory/tenant-restriction/)
 
 **参照URL**
-- [Azure Active Directory での統合されたセキュリティ情報の登録の有効化](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-registration-mfa-sspr-combined)
-- [Azure Active Directory で回復性があるアクセス制御管理戦略を作成する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-resilient-controls)
-- [Azure AD認証方法 API の概要](https://docs.microsoft.com/ja-jp/graph/api/resources/authenticationmethods-overview?view=graph-rest-1.0)
+- [Entra ID での統合されたセキュリティ情報の登録の有効化](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-registration-mfa-sspr-combined)
+- [Entra ID で回復性があるアクセス制御管理戦略を作成する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-resilient-controls)
+- [Entra ID認証方法 API の概要](https://docs.microsoft.com/ja-jp/graph/api/resources/authenticationmethods-overview?view=graph-rest-1.0)
 - [Windows Hello for Business](https://docs.microsoft.com/ja-jp/windows/security/identity-protection/hello-for-business/hello-overview)
-- [Azure Active Directory の認証方法 - Microsoft Authenticator アプリ](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-authenticator-app)
-- [Azure Active Directory のパスワードレス認証オプション](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-passwordless)
-- [Azure Active Directory の認証方法 - OATH トークン](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-oath-tokens)
-- [Azure Active Directory を使用して SMS ベース認証用にユーザーを構成して有効にする](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-authentication-sms-signin)
-- [Azure Active Directory の認証方法 - 電話オプション](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-phone-options)
-- [Active Directory Domain Services にオンプレミスの Azure AD パスワード保護を適用する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
-- [オンプレミスの Azure Active Directory パスワード保護を有効にする](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-ban-bad-on-premises-operations)
-- [Step-By-Step: Implementing Azure AD Password Protection On-Premises](https://techcommunity.microsoft.com/t5/itops-talk-blog/step-by-step-implementing-azure-ad-password-protection-on/ba-p/563342)
+- [Entra ID の認証方法 - Microsoft Authenticator アプリ](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-authenticator-app)
+- [Entra ID のパスワードレス認証オプション](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-passwordless)
+- [Entra ID の認証方法 - OATH トークン](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-oath-tokens)
+- [Entra ID を使用して SMS ベース認証用にユーザーを構成して有効にする](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-authentication-sms-signin)
+- [Entra ID の認証方法 - 電話オプション](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-authentication-phone-options)
+- [Active Directory Domain Services にオンプレミスの Entra ID パスワード保護を適用する](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
+- [オンプレミスの Entra ID パスワード保護を有効にする](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-password-ban-bad-on-premises-operations)
+- [Step-By-Step: Implementing Entra ID Password Protection On-Premises](https://techcommunity.microsoft.com/t5/itops-talk-blog/step-by-step-implementing-azure-ad-password-protection-on/ba-p/563342)
 
 ## 2.3. [条件付きアクセスの計画、実装、管理を行う](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-administer-conditional-access/?wt.mc_id=esi_m2l_content_wwl)
 
@@ -298,16 +298,16 @@ Restart-Computer -Force
 - [コンプライアンス ポリシーを使用して、Intune で管理するデバイスのルールを設定する](https://docs.microsoft.com/ja-jp/mem/intune/protect/device-compliance-get-started)
 - [セキュリティの既定値群を実装する](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/introducing-security-defaults/ba-p/1061414)
 
-## 2.4. [Azure AD Identity Protection を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-azure-active-directory-identity-protection/?wt.mc_id=esi_m2l_content_wwl)
+## 2.4. [Entra Identity Protection を管理する](https://docs.microsoft.com/ja-jp/learn/modules/manage-azure-active-directory-identity-protection/?wt.mc_id=esi_m2l_content_wwl)
 
 **参照URL**
 - [Identity Protection とは](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/overview-identity-protection)
-- [Azure Active Directory での統合されたセキュリティ情報の登録の有効化](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-registration-mfa-sspr-combined)
-- [Azure AD で緊急アクセス用管理者アカウントを管理する](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/security-emergency-access)
+- [Entra ID での統合されたセキュリティ情報の登録の有効化](https://docs.microsoft.com/ja-jp/azure/active-directory/authentication/howto-registration-mfa-sspr-combined)
+- [Entra ID で緊急アクセス用管理者アカウントを管理する](https://docs.microsoft.com/ja-jp/azure/active-directory/roles/security-emergency-access)
 - [方法:リスク ポリシーを構成して有効にする](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies)
 - [Azure リソースのマネージド ID とは](https://docs.microsoft.com/ja-jp/azure/active-directory/managed-identities-azure-resources/overview)
 - [リスクを修復してユーザーをブロック解除する](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-remediate-unblock)
-- [Azure Active Directory Identity Protection の通知](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-notifications)
+- [Entra Identity Protection の通知](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/howto-identity-protection-configure-notifications)
 - [Identity Protection ポリシー](https://docs.microsoft.com/ja-jp/azure/active-directory/identity-protection/concept-identity-protection-policies)
 
 # 3. モジュール03
@@ -332,5 +332,5 @@ Restart-Computer -Force
 
 ## 4.2. [アクセス レビューの計画、実装、管理](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-manage-access-review/?wt.mc_id=esi_m2l_content_wwl)
 ## 4.3. [特権アクセスを計画し、実装する](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-privileged-access/?wt.mc_id=esi_m2l_content_wwl)
-## 4.4. [Azure Active Directory を監視および保守する](https://docs.microsoft.com/ja-jp/learn/modules/monitor-maintain-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
+## 4.4. [Entra ID を監視および保守する](https://docs.microsoft.com/ja-jp/learn/modules/monitor-maintain-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
 
