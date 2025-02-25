@@ -23,9 +23,9 @@ Skillpipe
 
 - トレーニングで使用するラボ環境
 
- > LODS環境は英語キーボードに設定されています。日本語キーボード設定に変更するにはLODS環境で下記コマンドを実行します。
- > 2025/03 現在英語環境で提供されています。ラボの特性上、ポータルで言語を日本語にすることで日本語で演習できます。
- > ラボを起動して、Microosft Defender XDR の初期化を行ってから30分以上時間を置かないと Endpoint のメニューが出ない場合があります。
+ > - LODS環境は英語キーボードに設定されています。日本語キーボード設定に変更するにはLODS環境で下記コマンドを実行します。
+ > - 2025/03 現在英語環境で提供されています。日本語で演習するためには Microosft Defender ポータルで言語を日本語に変更します。
+ > - ラボを起動して、Microosft Defender XDR の初期化を行ってから30分程度時間を置かないと Endpoint のメニューが出ない場合があります。
 
 ```powershell
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "LayerDriver JPN" -Value "kbd106.dll"
