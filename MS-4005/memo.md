@@ -1,13 +1,13 @@
 **MS-4005 Microsoft Copilot for Microsoft 365 に対して効果的なプロンプトを作成する**
 ***
 
-最終更新日 2024/05/27
+最終更新日 2025/03/18
 
 **リンク一覧およびメモ**
 
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
-MS-4005 ラボトップ [英語](https://github.com/MicrosoftLearning/MS-4005-Craft-effective-prompts-for-Microsoft-Copilot-for-Microsoft-365/tree/master/Instructions/Labs)
+MS-4005 ラボトップ [英語](https://github.com/MicrosoftLearning/MS-4005-Craft-effective-prompts-for-Microsoft-Copilot-for-Microsoft-365/tree/master/Instructions/Labs)/[日本語](https://github.com/MicrosoftLearning/MS-4005-Craft-effective-prompts-for-Microsoft-Copilot-for-Microsoft-365.ja-jp/tree/main/Instructions/Labs)
 
 Skillpipe
 
@@ -33,6 +33,10 @@ Restart-Computer -Force
 ```
 
 **Lab 概要**
+
+一般的なMS-4005トレーニングコースでは Microsoft 365 Copilot が利用可能なラボ環境が提供されます。自身の環境に Microsoft 365 Copilot が導入されている場合は、ラボ環境を使用しないでラボを実施することができます。（ラボで使用するファイルは別途取得できます。）
+
+- ラボで用意されているプロンプトは英語を直訳したものなので、日本語環境では動作しないことがあります。その場合は微調整が必要です。
 
 [Sampleファイル](https://github.com/naonao71/note/tree/main/MS-4005/SampleFile)のすべてのデータを自分のOneDriveにコピーする
 
