@@ -7,13 +7,15 @@
 > [!NOTE]
 > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
-MS-4018 ラボトップ [日本語](https://github.com/MicrosoftLearning/MS-4018-Draft-analyze-present-Microsoft-365-Copilot.ja-jp/tree/main/Instructions/Labs)
+[MS-4018 テキスト](https://learn.microsoft.com/ja-jp/training/paths/draft-analyze-present-microsoft-365-copilot/)
 
-- [トレーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/training/paths/draft-analyze-present-microsoft-365-copilot/)
+> [!NOTE]
+> MS-4018 は MS-4005 の後継トレーニングコースです。
+
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
-> [!IMPORTANT]
+> [!NOTE]
 > - トレーニングで使用するマイクロソフトアカウントを作成する。既にアカウントがある方もこのトレーニング用に作成することを推奨。
 > - メールアドレスも新規に作成する（既存メールアドレスに紐づけない）。
 
@@ -32,12 +34,13 @@ Restart-Computer -Force
 
 **Lab 概要**
 
+MS-4018 ラボトップ [日本語](https://github.com/MicrosoftLearning/MS-4018-Draft-analyze-present-Microsoft-365-Copilot.ja-jp/tree/main/Instructions/Labs)
+
 一般的なMS-4018トレーニングコースでは Microsoft 365 Copilot が利用可能なラボ環境が提供されます。自身の環境に Microsoft 365 Copilot が導入されている場合は、ラボ環境を使用しないでラボを実施することができます。（ラボで使用するファイルは別途取得できます。）
 
 > [!IMPORTANT]
 > 2025年4月現在、ラボ環境は英語環境で提供されています。日本語で Microsoft Copilot を体験したい場合は、自身のブラウザーアプリ（日本語）で https://portal.office.com にアクセスしてください。
-
-- ラボで用意されているプロンプトは英語を直訳したものなので、日本語環境では動作しないことがあります。その場合は微調整が必要です。
+> ラボで用意されているプロンプトは英語を直訳したものなので、日本語環境では動作しないことがあります。その場合は微調整が必要です。
 
 
 
