@@ -1,6 +1,26 @@
 **SC-100 Microsoft サイバーセキュリティ エキスパート**
 ***
-> このコースは、ケース スタディによるディスカッションを念頭に置いて設計されました。このコースは座学のみなので Auzreのサブスクリプション（Azure Pass）は提供されていません。
+
+最終更新日 2025/04/25
+
+> このコースは、ケース スタディによるディスカッションを念頭に置いて設計されました。このコースは座学のみなので Auzreのサブスクリプション（Azure Pass）は提供されていません。現在ラボ（英語環境）にて提供されるようになりました。
+
+**研修の準備**
+
+[ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
+
+SC-100のトレーニングコースを始めるにあたり、以下の準備が必要です。
+
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+
+> [!NOTE]
+> - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。
+> - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+> - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
+
+> [!IMPORTANT]
+> - SC-100で提供されているラボ環境は、英語版で提供されています。このラボではセキュリティに関連するAzureでの操作を体験することができますが、一部のラボではペアで行うことを想定しているものもありますので、単独では簡潔しないラボもあります。チャレンジする方は行ってみてください。
 
 **リンク一覧およびメモ**
 
