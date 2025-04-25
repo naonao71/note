@@ -1,21 +1,33 @@
 **SC-200 Microsoft セキュリティ運用アナリスト**
 ***
 
-最終更新日 2024/07/22
+最終更新日 2025/04/25
+
+**研修の準備**
+
+[ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
+
+SC-200のトレーニングコースを始めるにあたり、以下の準備が必要です。
+
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+
+> [!NOTE]
+> - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。
+> - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+> - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
 **リンク一覧およびメモ**
 
 SC-200 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-200T00A-Microsoft-Security-Operations-Analyst.ja-jp/tree/main/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-200T00A-Microsoft-Security-Operations-Analyst/tree/master/Instructions/Labs)）
 
-Skillpipe
-
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/training/courses/sc-200t00)
+[SC-200テキスト](https://learn.microsoft.com/ja-jp/training/courses/sc-200t00)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
-- トレーニングで使用するマイクロソフトアカウントを作成する。既にアカウントがある方もこのトレーニング用に作成することを推奨。
-- メールアドレスも新規に作成する（既存メールアドレスに紐づけない）。
+> [!NOTE]
+> - トレーニングで使用するマイクロソフトアカウントを作成する。既にアカウントがある方もこのトレーニング用に作成することを推奨。
+> - メールアドレスも新規に作成する（既存メールアドレスに紐づけない）。
 
 [LODS（Learn On Demand LMS)](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
@@ -30,17 +42,9 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Restart-Computer -Force
 ```
 
-[トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
-
-- LODS を起動すると、Promo Code を入手できる
-
 [SC-200補足資料Ver1.7](https://github.com/naonao71/note/blob/main/SC-200/SC-200%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99Ver1.7.pdf)
 
 - ローカルにダウンロードする
-
-[ESI Security Courses 配布用](https://github.com/naonao71/note/blob/main/AZ-500/ESI%20Security%20Courses%20%E9%85%8D%E5%B8%83%E7%94%A8.pdf)
-
-- Microsoft が提供しているコース内容概要マップ
 
 ***
 
