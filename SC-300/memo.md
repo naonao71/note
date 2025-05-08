@@ -90,11 +90,6 @@ Restart-Computer -Force
   - [ラボ 28 - ID セキュリティ スコアを使用してセキュリティ態勢を監視および管理する](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_28_MonitorIdentitySecureScore.md)
 
 
-**研修の準備**
-
-- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
-- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
-
 ***
 
 - [1. モジュール01](#1-モジュール01)
@@ -120,6 +115,7 @@ Restart-Computer -Force
 
 ***
 
+<!--
 # 1. モジュール01
 ## 1.1. [Entra ID の初期構成を実装する](https://docs.microsoft.com/ja-jp/learn/modules/implement-initial-configuration-of-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
 
@@ -319,3 +315,4 @@ Restart-Computer -Force
 ## 4.3. [特権アクセスを計画し、実装する](https://docs.microsoft.com/ja-jp/learn/modules/plan-implement-privileged-access/?wt.mc_id=esi_m2l_content_wwl)
 ## 4.4. [Entra ID を監視および保守する](https://docs.microsoft.com/ja-jp/learn/modules/monitor-maintain-azure-active-directory/?wt.mc_id=esi_m2l_content_wwl)
 
+-->
