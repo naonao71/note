@@ -1,16 +1,25 @@
-**Microsoft Copilot for Security の概要**
+**Microsoft Copilot Security の概要**
 ***
 
-最終更新日 2025/01/06
+最終更新日 2025/05/06
+
+**研修の準備**
+
+[ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
+
+SC-5006のトレーニングコースを始めるにあたり、下記の注意事項をお読みください。
+
+> [!NOTE]
+> - ラボ環境は Microsoft のセキュリティ施策により シミレーション 環境で提供されました。
+> - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+> - シミレーション環境は英語です。講師がシミレーション環境で行った操作を動画にアップしています。
+
 
 **リンク一覧およびメモ**
 
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
-Skillpipe
-
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/training/paths/security-copilot-and-ai/)
+- [SC-5006テキスト](https://learn.microsoft.com/ja-jp/training/paths/security-copilot-and-ai/)
 
 ***
 モジュール
