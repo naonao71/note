@@ -147,6 +147,8 @@ Restart-Computer -Force
   - [8.3. Microsoft Sentinel でノートブックを使用して脅威をハンティングする](#83-microsoft-sentinel-でノートブックを使用して脅威をハンティングする)
 
 
+<!-- 
+
 ***
 
 # 1. モジュール01
@@ -759,3 +761,4 @@ MISP、Anomali ThreatStream、ThreatConnect、EclecticIQ Platform、ThreatQ Thre
 
 [Jupyter のノートブックを使用してセキュリティの脅威を検出する](https://docs.microsoft.com/ja-jp/azure/sentinel/notebooks)
 
+--> 
