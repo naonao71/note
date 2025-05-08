@@ -1,7 +1,7 @@
 **SC-300：Microsoft Identity and Access Administrator**
 ***
 
-最終更新日 2025/04/23
+最終更新日 2025/05/08
 
 **研修の準備**
 
