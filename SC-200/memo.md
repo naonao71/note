@@ -51,6 +51,10 @@ Restart-Computer -Force
 
 ***
 
+
+
+<!-- 
+
 **ラボのシミュレーション（英語版）**
 
 [SC-200 Interactive Simulations](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulations%20-%20Microsoft%20Security%20Operations%20Analyst)
@@ -74,7 +78,6 @@ Restart-Computer -Force
   - [演習 2 - データ コネクタを使用して Windows デバイスを Microsoft Sentinel に接続する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_06_Lab1_Ex2_Connect_Windows.md)
   - [演習 3 - データ コネクタを使用して Linux ホストを Microsoft Sentinel に接続する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_06_Lab1_Ex3_Connect_Linux.md)
   - [演習 4 - データ コネクタを使用して Defender XDR を Microsoft Sentinel に接続する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_06_Lab1_Ex4_Connect_Defender_XDR.md)
-<!--  - [演習 4 - データ コネクタを使用して脅威インテリジェンスを Microsoft Sentinel に接続する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_06_Lab1_Ex4_Connect_Threat_Intel.md)-->
 - モジュール07
   - [演習 1 - Microsoft セキュリティ ルールを有効化する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex1_Security_Rule.md)
   - [演習 2 - プレイブックを作成する](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_07_Lab1_Ex2_Playbook.md)
@@ -146,8 +149,6 @@ Restart-Computer -Force
   - [8.2. Microsoft Sentinel を使用した脅威ハンティング](#82-microsoft-sentinel-を使用した脅威ハンティング)
   - [8.3. Microsoft Sentinel でノートブックを使用して脅威をハンティングする](#83-microsoft-sentinel-でノートブックを使用して脅威をハンティングする)
 
-
-<!-- 
 
 ***
 
