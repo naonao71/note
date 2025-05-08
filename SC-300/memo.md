@@ -60,7 +60,7 @@ Restart-Computer -Force
 
 **ラボのリンク**
 
- > 以前のラボ環境では Azure Pass が提供されていました。現在は CloudSlice 環境に移行したので正式な手順は CloudSlice 環境に記載されています。よって、この手順はほとんど CloudSlice 環境と同じですが環境による制約によって細かい部分が異なる場合があります。よって、参考程度にとどめてください。
+ > 以前のラボ環境では Azure Pass が提供されていました。現在は CloudSlice 環境に移行したので正式な手順は CloudSlice 環境に記載されています。この手順はほとんど CloudSlice 環境と同じですが CloudSlice 環境の制約によって細かい部分が異なる場合があります。そのため、参考程度にとどめてください。
 
 - モジュール01
   - [ラボ 00 - ラボ環境のセットアップ](https://github.com/MicrosoftLearning/SC-300-Identity-and-Access-Administrator.JA-JP/blob/main/Instructions/Labs/Lab_00_SetUpLabResources.md)
