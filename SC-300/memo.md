@@ -42,20 +42,6 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Restart-Computer -Force
 ```
 
- <!--
-[トレーニング用サブスクリプションの取得](https://www.microsoftazurepass.com/)
-
-- LODS を起動すると、Promo Code を入手できる
-
-[SC-300補足資料Ver1.2](https://github.com/naonao71/note/blob/main/SC-300/SC-300%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.2.pdf)
-
-- ローカルにダウンロードする
-
-[ESI Security Courses 配布用](https://github.com/naonao71/note/blob/main/AZ-500/ESI%20Security%20Courses%20%E9%85%8D%E5%B8%83%E7%94%A8.pdf)
-
-- Microsoft が提供しているコース内容概要マップ
--->
-
 ***
 
 **ラボのリンク**
