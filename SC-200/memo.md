@@ -1,7 +1,7 @@
 **SC-200 Microsoft セキュリティ運用アナリスト**
 ***
 
-最終更新日 2025/04/25
+最終更新日 2025/05/08
 
 **研修の準備**
 
@@ -16,6 +16,9 @@ SC-200のトレーニングコースを始めるにあたり、以下の準備�
 > - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。
 > - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
 > - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
+
+> [!IMPORTANT]
+> - SC-200で提供されているラボ環境は、2025/05現在、英語版で提供されています。
 
 **リンク一覧およびメモ**
 
