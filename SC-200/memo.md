@@ -90,17 +90,6 @@ Restart-Computer -Force
   - [演習 2 - Microsoft Sentinel でノートブックを使用した脅威ハンティング](https://github.com/naonao71/SC-200T00JA-Microsoft-Security-Operations-Analyst/blob/master/Instructions/Labs/LAB_AK_08_Lab1_Ex2_Notebooks.md)
 ***
 
-**研修の準備**
-
-- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/zwm5c4dezn0k1n?wt.mc_id=esi_m2l_content_wwl)
-- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
-- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
-- [Azure Pass サブスクリプションの入手](https://www.microsoftazurepass.com/)
-
-***
-
-
-
 - [1. モジュール01](#1-モジュール01)
   - [1.1. Microsoft 365 による脅威保護の紹介](#11-microsoft-365-による脅威保護の紹介)
   - [1.2. Microsoft 365 Defender を使用してインシデントを軽減する](#12-microsoft-365-defender-を使用してインシデントを軽減する)
