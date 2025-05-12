@@ -75,6 +75,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   - VM作成時に指定されているサイズを選択しないとポリシーエラーになります。
 - Module09</BR>
   - 非常に時間のかかるラボです。ビデオ撮りしましたが、待ち時間をカットしても1時間以上あります。
+  - 以下に Lab での課題と回避策を記載しました。今後、これらの修正がされる予定ですが問題がある場合は参考にしてください。
   
   **問題: プレイブックを作成できません**</BR>
   原因: プレイブック名が長すぎます（64文字の制限のため）</BR>
@@ -118,7 +119,6 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   ```powershell 
   auditpol /set /category:"Account Management" /subcategory:"Security Group Management" /success:enable /failure:enable
   ```
-
 
   **問題: Startup RegKey のKQLが機能しない**</BR>
   原因: Reg.exeの取得方法に関するKQLが正しくない</BR>
