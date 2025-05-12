@@ -107,7 +107,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   **問題: Anomalies分析ルールを編集できない**</BR>
   原因: 権限が不足しているため編集できない</BR>
   場所: Lab1-Ex4-Task2-Step3</BR>
-  回避策: Sentinel が属するリソース グループに Microsoft Sentinel Contributor 権限を追加する</BR>
+  回避策: Sentinel が属するリソース グループに、Microsoft Sentinel Contributor 権限を追加して自分のユーザーを割り当てる。</BR>
   </BR> 
    
   **問題: WINServerのEventID "4732"を取得できません**</BR>
