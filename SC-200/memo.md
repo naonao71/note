@@ -125,7 +125,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   回避策: KQLを修正する</BR>
 
   </BR>
-  
+  ■Step10</BR>
   ```powershell
   SecurityEvent 
   | where Activity startswith "4688" 
@@ -133,7 +133,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   | where CommandLine !startswith "REG" 
   ```
   </BR>
-
+  ■Step11</BR>
   ```powershell    
   SecurityEvent 
   | where Activity startswith "4688" 
