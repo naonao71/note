@@ -124,7 +124,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   回避策: KQLを修正する</BR>
   
   </BR>
-  ```powershell   
+  ```powershell
   SecurityEvent 
   | where Activity startswith "4688" 
   | where Process == "reg.exe" 
