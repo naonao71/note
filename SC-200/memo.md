@@ -126,14 +126,17 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
 
   </BR>
   ■Step10</BR>
+
   ```powershell
   SecurityEvent 
   | where Activity startswith "4688" 
   | where Process == "reg.exe" 
   | where CommandLine !startswith "REG" 
   ```
+
   </BR>
   ■Step11</BR>
+
   ```powershell    
   SecurityEvent 
   | where Activity startswith "4688" 
@@ -141,6 +144,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   | where CommandLine !startswith "REG" 
   | extend timestamp = TimeGenerated, HostCustomEntity = Computer, AccountCustomEntity = SubjectUserName
   ```
+  
   </BR>
 
   **問題: SecurityEvent Local Administrators User Add ルールに Automation ルールを追加するためのプレイブックがありません。**</BR>
