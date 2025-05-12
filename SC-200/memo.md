@@ -65,6 +65,77 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
 > - [Module09](https://youtu.be/9p3jJtsyr7o)
 > - Module10(TBD)
 
+***
+講師によるLabコメント
+- Module06
+  - デモサイトが2025/05時点で機能していませんので、Logがありません。よって、このラボはスキップしてください。 
+- Module08
+  - WIndows10を作成するように指示されていますが、マーケットプレイスにはすでにありませんので **Windows11** を選んでください。
+  - データコネクタを使用して、Azure Activity、Microsoft Defender for Cloud の接続を行いますが、データ転送はされません。このラボでは接続の方法をチェックするだけなのでラボは進められます。
+  - VM作成時に指定されているサイズを選択しないとポリシーエラーになります。
+- Module09
+  問題: プレイブックを作成できません
+  原因: プレイブック名が長すぎます（64文字の制限のため）
+  場所: Lab1-Ex2-Task1-STEP12
+  回避策: 例えば、「Defender_XDR_Ransomware」に変更してください。
+      
+  問題: Azure Activity データコネクタが接続されない
+  原因: CloudSlice 環境の問題により、Azure Policy が正常に機能しない
+  場所: Lab1-Ex3
+  回避策: 直接サブスクリプションのアクティビティログでアクティビティログのエクスポートを設定する
+   
+  問題: 新しいCloudShellユーザーのルールが機能しない
+  原因: CloudShellの変更によりKQLが機能しない
+  場所: Lab1-Ex3-Task2-Step6
+  回避策: エンティティマッピングからIPを削除して、KQLを変更する
+
+  ''' KQL 
+  let match_window = 3m;
+  AzureActivity
+  | where ResourceGroup has "cloud-shell"
+  | where (OperationNameValue =~ "Microsoft.Storage/storageAccounts/listKeys/action")
+  | where ActivityStatusValue =~ "Success"
+  | extend TimeKey = bin(TimeGenerated, match_window), AzureIP = CallerIpAddress
+  | summarize count() by TimeKey, Caller, ResourceGroup, SubscriptionId, TenantId, AzureIP, HTTPRequest, Type, Properties, CategoryValue,OperationList = strcat(OperationNameValue)
+  | extend Name = tostring(split(Caller,'@',0)), UPNSuffix = tostring(split(Caller,'@',1))
+  ''' 
+   
+  Issue: Unable to edit Anomalies analytics rules
+  Cause: Unable to edit due to lack of permissions
+  Location: Lab1-Ex4-Task2-Step3
+  Workaround: Add Microsoft Sentinel Contributor permissions to the resource group to which Sentinel belongs
+   
+   
+  Issue: Unable to obtain WINServer's EventID "4732"
+  Cause: Audit settings are not configured on WINServer
+  Location: Lab1-Ex5-Task1-Step2
+  Workaround: Configure audit settings on WINServer
+   
+  auditpol /set /category:"Account Management" /subcategory:"Security Group Management" /success:enable /failure:enable
+   
+  Issue: Startup RegKey KQL doesn't work
+  Cause: KQL for Reg.exe acquisition method is incorrect
+  Location: Lab1-Ex7-Task1-Step10 and 11
+  Workaround: Fix KQL
+   
+  SecurityEvent 
+  | where Activity startswith "4688" 
+  | where Process == "reg.exe" 
+  | where CommandLine !startswith "REG" 
+   
+  SecurityEvent 
+  | where Activity startswith "4688" 
+  | where Process == "reg.exe" 
+  | where CommandLine !startswith "REG" 
+  | extend timestamp = TimeGenerated, HostCustomEntity = Computer, AccountCustomEntity = SubjectUserName
+   
+  Issue: There is no Playbook to add to the Automation Rule in the SecurityEvent Local Administrators User Add analysis rule.
+  Cause: The Playbook PostMessageTeams-OnIncident has not been created.
+  Location: Lab1-Ex7-Task2-Step14-16
+  Workaround: Skip
+  
+
+
 
 <!-- 
 
