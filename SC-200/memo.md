@@ -117,6 +117,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   ```powershell 
   auditpol /set /category:"Account Management" /subcategory:"Security Group Management" /success:enable /failure:enable
   ```
+
   </BR>
   **問題: Startup RegKey のKQLが機能しない**</BR>
   原因: Reg.exeの取得方法に関するKQLが正しくない</BR>
