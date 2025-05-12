@@ -74,22 +74,23 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
   - データコネクタを使用して、Azure Activity、Microsoft Defender for Cloud の接続を行いますが、データ転送はされません。このラボでは接続の方法をチェックするだけなのでラボは進められます。
   - VM作成時に指定されているサイズを選択しないとポリシーエラーになります。
 - Module09</BR>
-  問題: プレイブックを作成できません</BR>
+  
+  **問題: プレイブックを作成できません**</BR>
   原因: プレイブック名が長すぎます（64文字の制限のため）</BR>
   場所: Lab1-Ex2-Task1-STEP12</BR>
   回避策: 例えば、「Defender_XDR_Ransomware」に変更してください。</BR>
   </BR>    
-  問題: Azure Activity データコネクタが接続されない</BR>
+  **問題: Azure Activity データコネクタが接続されない**</BR>
   原因: CloudSlice 環境の問題により、Azure Policy が正常に機能しない</BR>
   場所: Lab1-Ex3</BR>
   回避策: 直接サブスクリプションのアクティビティログでアクティビティログのエクスポートを設定する</BR>
   </BR> 
-  問題: 新しいCloudShellユーザーのルールが機能しない</BR>
+  **問題: New CloudShell User のルールが機能しない**</BR>
   原因: CloudShellの変更によりKQLが機能しない</BR>
   場所: Lab1-Ex3-Task2-Step6</BR>
   回避策: エンティティマッピングからIPを削除して、KQLを変更する</BR>
   </BR>
-  ''' KQL 
+  ```powershell
   let match_window = 3m;
   AzureActivity
   | where ResourceGroup has "cloud-shell"
@@ -98,7 +99,7 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
   | extend TimeKey = bin(TimeGenerated, match_window), AzureIP = CallerIpAddress
   | summarize count() by TimeKey, Caller, ResourceGroup, SubscriptionId, TenantId, AzureIP, HTTPRequest, Type, Properties, CategoryValue,OperationList = strcat(OperationNameValue)
   | extend Name = tostring(split(Caller,'@',0)), UPNSuffix = tostring(split(Caller,'@',1))
-  ''' 
+  ```
   </BR>
   Issue: Unable to edit Anomalies analytics rules
   Cause: Unable to edit due to lack of permissions
