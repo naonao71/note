@@ -1,7 +1,7 @@
 **SC-200 Microsoft セキュリティ運用アナリスト**
 ***
 
-最終更新日 2025/05/08
+最終更新日 2025/05/12
 
 **研修の準備**
 
@@ -50,7 +50,7 @@ Restart-Computer -Force
 - ローカルにダウンロードする
 
 ***
-CloudSlice環境で提供するLABは2025/05時点では英語のみの提供となっています。また、CloudSliceの特徴として、すべてのLab環境は独立しており前後のLabとはつながりがありません。そのため、LAB環境の起動（構築）に20分程度かかります。そして、Lab環境でDefender XDRやSentinelにデータ反映するまでに時間がかかる場合があります。よって、時間の余裕があるときに行ってみてください。
+CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提供となっています。また、CloudSliceの特徴として、すべてのLab環境は独立しており前後のLabとはつながりがありません。そのため、LAB環境の起動（構築）に **20分程度** かかります。そして、Lab環境で Defender XDR やSentinel にデータ反映するまでに時間がかかる場合があります。よって、時間の余裕があるときに行ってみてください。
 
 > [!IMPORTANT]
 > - **No official**（講師が実施した動画なので動作確認などの参考に使用できるかもしれません。これはオフィシャルではありません。）
@@ -74,6 +74,7 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
   - データコネクタを使用して、Azure Activity、Microsoft Defender for Cloud の接続を行いますが、データ転送はされません。このラボでは接続の方法をチェックするだけなのでラボは進められます。
   - VM作成時に指定されているサイズを選択しないとポリシーエラーになります。
 - Module09</BR>
+  - 非常に時間のかかるラボです。ビデオ撮りしましたが、待ち時間をカットしても1時間以上あります。
   
   **問題: プレイブックを作成できません**</BR>
   原因: プレイブック名が長すぎます（64文字の制限のため）</BR>
@@ -101,6 +102,7 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
   | extend Name = tostring(split(Caller,'@',0)), UPNSuffix = tostring(split(Caller,'@',1))
   ```
   </BR>
+
   **問題: Anomalies分析ルールを編集できない**</BR>
   原因: 権限が不足しているため編集できない</BR>
   場所: Lab1-Ex4-Task2-Step3</BR>
@@ -116,10 +118,11 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
   auditpol /set /category:"Account Management" /subcategory:"Security Group Management" /success:enable /failure:enable
   ```
   </BR>
-  問題: Startup RegKey のKQLが機能しない</BR>
+  **問題: Startup RegKey のKQLが機能しない**</BR>
   原因: Reg.exeの取得方法に関するKQLが正しくない</BR>
   場所: Lab1-Ex7-Task1-Step10および11</BR>
   回避策: KQLを修正する</BR>
+  
   </BR>
   ```powershell   
   SecurityEvent 
