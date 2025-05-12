@@ -61,7 +61,7 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
 > - [Module05](https://youtu.be/dtNxfEbKZME)
 > - Module06(Cannot Lab)
 > - [Module07](https://youtu.be/vjoAGr05Cko)
-> - Module08(TBD)
+> - [Module08](https://youtu.be/IjGG3Hz3WYU)
 > - [Module09](https://youtu.be/9p3jJtsyr7o)
 > - Module10(TBD)
 
@@ -101,40 +101,49 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
   | extend Name = tostring(split(Caller,'@',0)), UPNSuffix = tostring(split(Caller,'@',1))
   ```
   </BR>
-  Issue: Unable to edit Anomalies analytics rules
-  Cause: Unable to edit due to lack of permissions
-  Location: Lab1-Ex4-Task2-Step3
-  Workaround: Add Microsoft Sentinel Contributor permissions to the resource group to which Sentinel belongs
+  **問題: Anomalies分析ルールを編集できない**</BR>
+  原因: 権限が不足しているため編集できない</BR>
+  場所: Lab1-Ex4-Task2-Step3</BR>
+  回避策: Sentinel が属するリソース グループに Microsoft Sentinel Contributor 権限を追加する</BR>
+  </BR> 
    
-   
-  Issue: Unable to obtain WINServer's EventID "4732"
-  Cause: Audit settings are not configured on WINServer
-  Location: Lab1-Ex5-Task1-Step2
-  Workaround: Configure audit settings on WINServer
-   
+  **問題: WINServerのEventID "4732"を取得できません**</BR>
+  原因: WINServerで監査設定が構成されていません</BR>
+  場所: Lab1-Ex5-Task1-Step2</BR>
+  回避策: WINServerで監査設定を構成してください</BR>
+  </BR>
+  ```powershell 
   auditpol /set /category:"Account Management" /subcategory:"Security Group Management" /success:enable /failure:enable
-   
-  Issue: Startup RegKey KQL doesn't work
-  Cause: KQL for Reg.exe acquisition method is incorrect
-  Location: Lab1-Ex7-Task1-Step10 and 11
-  Workaround: Fix KQL
-   
+  ```
+  </BR>
+  問題: Startup RegKey のKQLが機能しない</BR>
+  原因: Reg.exeの取得方法に関するKQLが正しくない</BR>
+  場所: Lab1-Ex7-Task1-Step10および11</BR>
+  回避策: KQLを修正する</BR>
+  </BR>
+  ```powershell   
   SecurityEvent 
   | where Activity startswith "4688" 
   | where Process == "reg.exe" 
   | where CommandLine !startswith "REG" 
-   
+  ```
+  </BR>
+
+  ```powershell    
   SecurityEvent 
   | where Activity startswith "4688" 
   | where Process == "reg.exe" 
   | where CommandLine !startswith "REG" 
   | extend timestamp = TimeGenerated, HostCustomEntity = Computer, AccountCustomEntity = SubjectUserName
-   
-  Issue: There is no Playbook to add to the Automation Rule in the SecurityEvent Local Administrators User Add analysis rule.
-  Cause: The Playbook PostMessageTeams-OnIncident has not been created.
-  Location: Lab1-Ex7-Task2-Step14-16
-  Workaround: Skip
-  
+  ```
+  </BR>
+
+  **問題: SecurityEvent Local Administrators User Add ルールに Automation ルールを追加するためのプレイブックがありません。**</BR>
+  原因: Playbook の PostMessageTeams-OnIncident が作成されていません。</BR>
+  場所: Lab1-Ex7-Task2-Step14-16</BR>
+  回避策: スキップ</BR>
+
+
 
 
 
