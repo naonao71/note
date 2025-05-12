@@ -50,7 +50,20 @@ Restart-Computer -Force
 - ローカルにダウンロードする
 
 ***
+CloudSlice環境で提供するLABは2025/05時点では英語のみの提供となっています。また、CloudSliceの特徴として、すべてのLab環境は独立しており前後のLabとはつながりがありません。そのため、LAB環境の起動（構築）に20分程度かかります。そして、Lab環境でDefender XDRやSentinelにデータ反映するまでに時間がかかる場合があります。よって、時間の余裕があるときに行ってみてください。
 
+> [!IMPORTANT]
+> - **No official**（講師が実施した動画なので動作確認などの参考に使用できるかもしれません。これはオフィシャルではありません。）
+> - [Module01](https://youtu.be/cHdSZyG1qTw)
+> - [Module02](https://youtu.be/DAaANT0Op04)
+> - [Module03](https://youtu.be/J6GVrDrd8LM)
+> - [Module04](https://youtu.be/Bjzh7DdubVg)
+> - Module05(Cannot Lab)
+> - Module06(TBD)
+> - [Module07](https://youtu.be/vjoAGr05Cko)
+> - Module08(TBD)
+> - [Module09](https://youtu.be/9p3jJtsyr7o)
+> - Module10(TBD)
 
 
 <!-- 
