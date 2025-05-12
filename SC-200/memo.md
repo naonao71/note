@@ -114,6 +114,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   場所: Lab1-Ex5-Task1-Step2</BR>
   回避策: WINServerで監査設定を構成してください</BR>
   </BR>
+  
   ```powershell 
   auditpol /set /category:"Account Management" /subcategory:"Security Group Management" /success:enable /failure:enable
   ```
@@ -144,7 +145,7 @@ CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提
   | where CommandLine !startswith "REG" 
   | extend timestamp = TimeGenerated, HostCustomEntity = Computer, AccountCustomEntity = SubjectUserName
   ```
-  
+
   </BR>
 
   **問題: SecurityEvent Local Administrators User Add ルールに Automation ルールを追加するためのプレイブックがありません。**</BR>
