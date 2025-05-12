@@ -58,7 +58,7 @@ CloudSlice環境で提供するLABは2025/05時点では英語のみの提供と
 > - [Module02](https://youtu.be/DAaANT0Op04)
 > - [Module03](https://youtu.be/J6GVrDrd8LM)
 > - [Module04](https://youtu.be/Bjzh7DdubVg)
-> - Module05(TBD)
+> - [Module05](https://youtu.be/dtNxfEbKZME)
 > - Module06(Cannot Lab)
 > - [Module07](https://youtu.be/vjoAGr05Cko)
 > - Module08(TBD)
