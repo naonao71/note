@@ -1,7 +1,26 @@
 **MS-4005 Microsoft 365 Copilot に対して効果的なプロンプトを作成する**
 ***
 
-最終更新日 2025/03/21
+最終更新日 2025/05/19
+
+**研修の準備**
+
+[ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
+
+MS-4005のトレーニングコースを始めるにあたり、以下の準備が必要です。
+
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+
+> [!NOTE]
+> - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。
+> - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+> - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
+
+> [!IMPORTANT]
+> - MS-4005で提供されているラボ環境は、英語版を日本語に翻訳して提供されています。ご自身の Microsoft 365 Copilot 環境がない方はこの環境で経験することができます。ただしアプリは英語なので日本語にするか、ブラウザでアクセスして日本語で行う必要があります。
+
+
 
 **リンク一覧およびメモ**
 
@@ -9,10 +28,7 @@
 
 MS-4005 ラボトップ [英語](https://github.com/MicrosoftLearning/MS-4005-Craft-effective-prompts-for-Microsoft-Copilot-for-Microsoft-365/tree/master/Instructions/Labs)/[日本語](https://github.com/MicrosoftLearning/MS-4005-Craft-effective-prompts-for-Microsoft-Copilot-for-Microsoft-365.ja-jp/tree/main/Instructions/Labs)
 
-Skillpipe
-
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/training/courses/ms-4005)
+- [MS-4005テキスト](https://learn.microsoft.com/ja-jp/training/courses/ms-4005)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
@@ -34,7 +50,7 @@ Restart-Computer -Force
 
 **Lab 概要**
 
-一般的なMS-4005トレーニングコースでは Microsoft 365 Copilot が利用可能なラボ環境が提供されます。自身の環境に Microsoft 365 Copilot が導入されている場合は、ラボ環境を使用しないでラボを実施することができます。（ラボで使用するファイルは別途取得できます。）
+自身の環境に Microsoft 365 Copilot が導入されている場合は、ラボ環境を使用しないでCopilotを実施することができます。（ラボで使用するファイルは別途取得できます。）
 
 - ラボで用意されているプロンプトは英語を直訳したものなので、日本語環境では動作しないことがあります。その場合は微調整が必要です。
 
