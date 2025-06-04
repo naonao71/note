@@ -52,8 +52,9 @@ Restart-Computer -Force
 ***
 CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提供となっています。また、CloudSliceの特徴として、すべてのLab環境は独立しており前後のLabとはつながりがありません。そのため、LAB環境の起動（構築）に **20分程度** かかります。そして、Lab環境で Defender XDR やSentinel にデータ反映するまでに時間がかかる場合があります。よって、時間の余裕があるときに行ってみてください。
 
-|Lab 1|Learning Path 1 - Mitigate threats using Microsoft Defender XDR|30|Exercise 1 - Explore Microsoft Defender XDR|
+| No | Learning Path | Time | Exercise |
 |:----|:----|:----|:----|
+|Lab 1|Learning Path 1 - Mitigate threats using Microsoft Defender XDR|30|Exercise 1 - Explore Microsoft Defender XDR|
 | |Learning Path 2 - Mitigate threats using Microsoft Security Copilot|45|Exercise 1 - Explore use cases in Microsoft Security Copilot|
 | |Learning Path 3 - Mitigate threats using Microsoft Purview|15|Exercise 1 - Explore Microsoft Purview Audit logs|
 | |Learning Path 4 - Mitigate threats using Microsoft Defender for Endpoint|30|Exercise 1 - Deploy Microsoft Defender for Endpoint|
