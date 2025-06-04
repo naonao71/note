@@ -52,6 +52,48 @@ Restart-Computer -Force
 ***
 CloudSlice環境で提供するLABは **2025/05** 時点では英語のみの提供となっています。また、CloudSliceの特徴として、すべてのLab環境は独立しており前後のLabとはつながりがありません。そのため、LAB環境の起動（構築）に **20分程度** かかります。そして、Lab環境で Defender XDR やSentinel にデータ反映するまでに時間がかかる場合があります。よって、時間の余裕があるときに行ってみてください。
 
+|Lab 1|Learning Path 1 - Mitigate threats using Microsoft Defender XDR|30|Exercise 1 - Explore Microsoft Defender XDR|
+|:----|:----|:----|:----|
+| |Learning Path 2 - Mitigate threats using Microsoft Security Copilot|45|Exercise 1 - Explore use cases in Microsoft Security Copilot|
+| |Learning Path 3 - Mitigate threats using Microsoft Purview|15|Exercise 1 - Explore Microsoft Purview Audit logs|
+| |Learning Path 4 - Mitigate threats using Microsoft Defender for Endpoint|30|Exercise 1 - Deploy Microsoft Defender for Endpoint|
+| |Learning Path 4 - Mitigate threats using Microsoft Defender for Endpoint|30|Exercise 4 - Mitigate Attacks with Microsoft Defender for Endpoint|
+| | |150|Skillable client 8 hours, normal startup|
+| | | | |
+|Lab 2|Learning Path 5 - Mitigate threats using Microsoft Defender for Cloud|25|Exercise 1 - Enable Microsoft Defender for Cloud|
+| |Learning Path 5 - Mitigate threats using Microsoft Defender for Cloud|15|Exercise 2 - Mitigate threats using Microsoft Defender for Cloud|
+| | |40|Skillable client 2 hours, normal startup|
+| | | | |
+|Lab 3|Learning Path 6 - Create queries for Microsoft Sentinel using Kusto Query Language (KQL)|60|Exercise 1 - Create queries for Microsoft Sentinel using Kusto Query Language (KQL)|
+| | |60|Skillable client 2 hours, normal startup|
+| | | | |
+|Lab 4|Learning Path 7 - Configure your Microsoft Sentinel environment|30|Exercise 1 - Configure your Microsoft Sentinel environment|
+| | |30|Skillable client 1 hour, normal startup|
+| | | | |
+|Lab 5|Learning Path 8 - Connect logs to Microsoft Sentinel|20|Exercise 1 - Connect data to Microsoft Sentinel using data connectors|
+| |Learning Path 8 - Connect logs to Microsoft Sentinel|30|Exercise 2 - Connect Windows devices to Microsoft Sentinel using data connectors|
+| |Learning Path 8 - Connect logs to Microsoft Sentinel|30|Exercise 3 - Connect Linux hosts to Microsoft Sentinel using data connectors|
+| | |80|Skillable client 4 hours, >20 min startup|
+| | | | |
+|Lab 6|Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|10|Exercise 1 - Modify a Microsoft Security rule|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|15 (not listed)|Exercise 2 - Create a Playbook|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|45|Exercise 3 - Create a Scheduled Query from a template|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|15|Exercise 4 - Explore Entity Behavior Analytics|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|30|Exercise 5 - Prepare to perform simulated attacks|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|30|Exercise 6 - Conduct attacks|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|30|Exercise 7 - Create Detections|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|30|Exercise 8 - Investigate Incidents|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|30|Exercise 9 - Create ASIM parsers|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|30|Exercise 10 - Create workbooks|
+| |Learning Path 9 - Create detections and perform investigations using Microsoft Sentinel|30|Exercise 11 - Use Repositories in Microsoft Sentinel|
+| | |~300|Skillable client 4 hours, >20 min startup|
+| | | | |
+|Lab 7|Learning Path 10 - Perform threat hunting in Microsoft Sentinel|45|Exercise 1 - Perform Threat Hunting in Microsoft Sentinel|
+| |Learning Path 10 - Perform threat hunting in Microsoft Sentinel|30|Exercise 2 - Threat Hunting using Notebooks with Microsoft Sentinel|
+| | |75|Skillable client 4 hours, >20 min startup|
+
+
+
 > [!IMPORTANT]
 > - **No official**（講師が実施した動画なので動作確認などの参考に使用できるかもしれません。これはオフィシャルではありません。）
 > - [Module01](https://youtu.be/cHdSZyG1qTw)
