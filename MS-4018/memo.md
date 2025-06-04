@@ -36,7 +36,7 @@ Restart-Computer -Force
 
 MS-4018 ラボトップ [日本語](https://github.com/MicrosoftLearning/MS-4018-Draft-analyze-present-Microsoft-365-Copilot.ja-jp/tree/main/Instructions/Labs)
 
-一般的なMS-4018トレーニングコースでは Microsoft 365 Copilot が利用可能なラボ環境が提供されます。自身の環境に Microsoft 365 Copilot が導入されている場合は、ラボ環境を使用しないでラボを実施することができます。（ラボで使用するファイルは別途取得できます。）
+一般的なMS-4018トレーニングコースでは Microsoft 365 Copilot が利用可能なラボ環境が提供されます。自身の環境に Microsoft 365 Copilot が導入されている場合は、自分の環境でプロンプトを実施することができます。（ラボで使用するファイルは別途取得できます。）
 
 > [!IMPORTANT]
 > ラボで用意されているプロンプトは英語を直訳したものなので、日本語環境では動作しないことがあります。その場合は微調整が必要です。
