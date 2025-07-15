@@ -1,7 +1,7 @@
 **SC-401 Information Security Administrator**
 ***
 
-最終更新日 2025/05/08
+最終更新日 2025/07/15
 
 **研修の準備**
 
@@ -18,11 +18,14 @@ SC-401のトレーニングコースを始めるにあたり、以下の準備�
 > - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
 > [!IMPORTANT]
-> - SC-401で提供されているラボ環境は、2025/05現在、英語版で提供されています。
+> - SC-401で提供されているラボ環境は、2025/07現在、英語版で提供されています。
 
 **リンク一覧およびメモ**
 
 [SC-401のテキスト](https://learn.microsoft.com/ja-jp/training/courses/sc-401t00)
+
+SC-401 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-401T00-Information-Security-Administrator.ja-jp/tree/main/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-401T00-Information-Security-Administrator/tree/master/Instructions/Labs)
+
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
