@@ -1,7 +1,7 @@
 **Microsoft Entra ID を使用して権利を構成および管理する**
 ***
 
-最終更新日 2025/02/07
+最終更新日 2025/07/24
 
 **リンク一覧およびメモ**
 
@@ -41,7 +41,7 @@ Restart-Computer -Force
 - [Microsoft Entra Permissions Management の多くの機能を確認する](https://learn.microsoft.com/ja-jp/training/modules/explore-features-of-permissions-management/)
 
 ***
-ラボ環境は英語で提供されています。そのまま行うこともできますが、ローカル環境からブラウザーを使用してラボを行うことができます。以下に日本語での指示をリンクします。
+ラボ環境は日本語で提供されています。そのまま行うこともできますが、ローカル環境からブラウザーを使用してラボを行うことができます。以下に日本語での指示をリンクします。
 
 - [Lab 1: Microsoft Entra エンタイトルメント管理でカタログを作成する](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/blob/main/Instructions/Labs/LAB_01_build-catalog.md)
 - [Lab 2: アクセス レビューを作成して管理する](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/blob/main/Instructions/Labs/Lab_02_create-access-review.md)
