@@ -3,16 +3,28 @@
 
 最終更新日 2025/07/24
 
+**研修の準備**
+
+[ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
+
+SC-5008のトレーニングコースを始めるにあたり、以下の準備が必要です。
+
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+
+> [!NOTE]
+> - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。
+> - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+> - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
+
+
 **リンク一覧およびメモ**
 
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
 SC-5008 ラボトップ [英語](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID)/[日本語](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/tree/main/Instructions/Labs)
 
-Skillpipe
-
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/training/paths/configure-manage-entitlement-microsoft-entra-id/)
+- [SC-5008テキスト](https://learn.microsoft.com/ja-jp/training/paths/configure-manage-entitlement-microsoft-entra-id/)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
@@ -21,7 +33,9 @@ Skillpipe
 
 [LODS（Learn On Demand LMS)](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
-- トレーニングで使用するラボ環境
+[SC-5008補足資料](https://github.com/naonao71/note/blob/main/SC-5008/SC-5008-%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.0.pdf)
+
+ トレーニングで使用するラボ環境
 
  > LODS環境は英語キーボードに設定されています。日本語キーボード設定に変更するにはLODS環境で下記コマンドを実行します。
 
