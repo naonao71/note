@@ -24,14 +24,14 @@ SC-5008のトレーニングコースを始めるにあたり、以下の準備�
 
 SC-5008 ラボトップ [英語](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID)/[日本語](https://github.com/MicrosoftLearning/SC-5008-Configure-and-manage-entitlement-with-Microsoft-Entra-ID.ja-jp/tree/main/Instructions/Labs)
 
-- [SC-5008テキスト](https://learn.microsoft.com/ja-jp/training/paths/configure-manage-entitlement-microsoft-entra-id/)
-
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
 - トレーニングで使用するマイクロソフトアカウントを作成する。既にアカウントがある方もこのトレーニング用に作成することを推奨。
 - メールアドレスも新規に作成する（既存メールアドレスに紐づけない）。
 
 [LODS（Learn On Demand LMS)](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
+
+[SC-5008テキスト](https://learn.microsoft.com/ja-jp/training/paths/configure-manage-entitlement-microsoft-entra-id/)
 
 [SC-5008補足資料](https://github.com/naonao71/note/blob/main/SC-5008/SC-5008-%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.0.pdf)
 
