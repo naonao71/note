@@ -6,6 +6,7 @@
 **研修の準備**
 
 [ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
+
 AZ-700のトレーニングコースを始めるにあたり、以下の準備が必要です。
 
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
