@@ -23,9 +23,7 @@ AZ-700のトレーニングコースを始めるにあたり、以下の準備�
 AZ-700 ラボトップ（[日本語](https://github.com/MicrosoftLearning/AZ-700JA-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/tree/master/Instructions/Exercises)/[英語](https://github.com/MicrosoftLearning/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/tree/master/Instructions/Exercises)）
 -->
 
-[トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/users/msftofficialcurriculum-4292/collections/kox0iz3xxxy80j?wt.mc_id=esi_m2l_content_wwl)
-
-- MS Learn にてテキストは公開されいますので、いつでもご利用できます。
+[AZ-700のテキスト](https://learn.microsoft.com/ja-jp/training/paths/design-implement-microsoft-azure-networking-solutions-az-700/)
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
