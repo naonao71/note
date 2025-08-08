@@ -1,18 +1,21 @@
 **AZ-700**
 ***
 
-最終更新日 2024/12/03
+最終更新日 2025/08/08
 
 **研修の準備**
 
-AZ-700のトレーニングコースを始めるにあたり、以下の準備が必要です。
+[ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
+
+SC-100のトレーニングコースを始めるにあたり、以下の準備が必要です。
 
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
 
- > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
-
-トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://github.com/naonao71/note/blob/main/AZ-104/pdf/Opening.pdf)を参考に進めてください。
+> [!NOTE]
+> - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。
+> - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+> - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
 **リンク一覧およびメモ**
  
@@ -52,7 +55,7 @@ Restart-Computer -Force
 [ESI Security Courses 配布用](https://github.com/naonao71/note/blob/main/AZ-500/ESI%20Security%20Courses%20%E9%85%8D%E5%B8%83%E7%94%A8.pdf)
 
 - Microsoft が提供しているコース内容概要マップ
--->
+
 ***
 
 **ラボのシミュレーション**
@@ -83,8 +86,6 @@ Restart-Computer -Force
   - [Azure Monitor を使用してロード バランサー リソースを監視する](https://learn.microsoft.com/ja-jp/training/modules/design-implement-network-monitoring/3-exercise-monitor-load-balancer-resource-using-azure-monitor)
 
 
-
-<!--
 **ラボのリンク（講師翻訳修正済み）**
 
 - モジュール01
