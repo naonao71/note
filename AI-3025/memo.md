@@ -47,3 +47,26 @@ AI-3025のトレーニングコースでは、Microsoft 365 Copilot を使用で
 ただし、本コースで学習する内容の一部は、以下のCopilot 関連 Applied Skillsの準備に役立ちます。
 
 [Microsoft Applied Skills: Microsoft 365 Copilot をサポートするためのセキュリティとコンプライアンスの準備](https://learn.microsoft.com/ja-jp/credentials/applied-skills/prepare-security-and-compliance-to-support-microsoft-365-copilot/)
+
+***
+**Copilot Prompt**
+
+```powershell
+現在の沖縄の天気を教えてください
+```
+
+```powershell
+プロジェクト管理の専門家として、新しい太陽光発電式ベビーカーのプロジェクト計画を、最新のPMI（プロジェクトマネジメント協会）標準に基づいて作成してください。
+Word.docxのドキュメントを作成してください
+```
+
+```powershell
+ドキュメントの中から最も重要な5つのポイントに焦点を当てて、300語の要約を作成してください。
+```
+
+```powershell
+Microsoft 365 Copilot Chat の専門家として、Microsoft 365 Copilot Chat の主な機能、アクセス方法、さまざまな利用形態、起動方法に関する選択式の質問を2つ作成してください。1問ずつ提示し、私の回答を待ってください。私が答えたら、正解を簡単に説明してから次の質問に進んでください。
+```
+
+
+
