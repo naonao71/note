@@ -6,10 +6,7 @@
 
 [AZ-305 ケーススタディ](https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions.ja-jp/tree/main/Instructions/CaseStudy)
 
-Skillpipe
-
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
-- [トレーニングで使用するテキスト](https://docs.microsoft.com/ja-jp/learn/certifications/courses/az-305t00?wt.mc_id=esi_m2l_content_wwl)
+[AZ-305テキスト](https://docs.microsoft.com/ja-jp/learn/certifications/courses/az-305t00?wt.mc_id=esi_m2l_content_wwl)
 
 [Azure アーキテクチャ アイコン](https://docs.microsoft.com/ja-jp/azure/architecture/icons/)
   - ダウンロードしてご利用ください。
@@ -27,10 +24,6 @@ Skillpipe
 |午後|モジュール2|モジュール4</BR>モジュール5|モジュール7</BR>モジュール8|モジュール10</BR>モジュール11|
 > - 進行状況によってはこのスケジュール通りに進まないことがあります。 
 ***
-
-**コンテンツ**
-
-
 
 **ケーススタディのリンク**
 
