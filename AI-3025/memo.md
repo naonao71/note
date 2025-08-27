@@ -25,15 +25,13 @@ AI-3025のトレーニングコースでは、Microsoft 365 Copilot を使用で
 前半2時間が講義、後半1時間が演習（希望者のみ）となります。
 
 - [開始時のご案内](../opening.md)
-- 講義
-  - [講義資料PDF](AI-3025-work-smart.pdf)
 - [終了時のご案内](../closing-cloudslice.md)
 - 満足度アンケート
 - 演習（希望者のみ）・ご質問対応など
 
 ## ラボ環境
 
-日本語バージョンあり。Labの指示は日本語ですが、アプリケーションやPromptは英語で提供されています。英語の Prompt を日本語で記載するか、Promptの最後に "in Japanese" を追加すると日本語で出力されます。
+手順のみ日本語バージョンで提供されています。Labの手順は日本語ですが、アプリケーションやPromptは英語で提供されています。英語の Prompt を翻訳して日本語で記載するか、Promptの最後に "in Japanese" を追加すると日本語で出力されます。
 
 - Lab 1: Explore Microsoft Copilot (M365 version)
 - Lab 2: Explore Microsoft Copilot (Edge version)
