@@ -6,7 +6,7 @@
 ---
 
 **研修の準備**
--
+
 [ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
 
 AZ-104のトレーニングコースを始めるにあたり、以下の準備が必要です。
@@ -14,13 +14,10 @@ AZ-104のトレーニングコースを始めるにあたり、以下の準備�
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
 
- > ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。2024/12 時点では英語環境のみ提供されていますので、日本語での手順を確認したい方はブラウザーの翻訳機能を使用してください。
-
- > このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
-
-  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
-
-トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
+> [!NOTE]
+> - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境で提供されました。
+> - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
+> - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
 AZ-104 ラボコンテンツ [日本語](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator.ja-jp/tree/main/Instructions/Labs) / [英語](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/tree/master/Instructions/Labs)
 
@@ -77,6 +74,18 @@ Restart-Computer -Force
 > - すべてのラボを講義中に行わないことがあります。その場合は、別途ご自身の都合がよい時間に行ってください。
 
 ---
+
+## 講義
+
+前半2時間が講義、後半1時間が演習（希望者のみ）となります。
+
+- [開始時のご案内](../opening.md)
+- 講義
+  - [講義資料PDF](https://github.com/naonao71/note/blob/main/AZ-104/pdf/AZ-104%E8%A3%9C%E8%B6%B3%E8%B3%87%E6%96%99v1.5.pdf)
+- [終了時のご案内](../closing-cloudslice.md)
+- 満足度アンケート
+- 演習（希望者のみ）・ご質問対応など
+
 
 **モジュールに対応したテキストのリンク**
 -
