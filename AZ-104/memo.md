@@ -1,7 +1,7 @@
 **AZ-104: Microsoft Azure 管理者**
 -
 
-最終更新日 2025/08/27
+最終更新日 2025/09/02
 
 ---
 
@@ -145,40 +145,6 @@ Restart-Computer -Force
 - [Azure Monitor アラートを使用したインシデント対応の向上](https://learn.microsoft.com/ja-jp/training/modules/incident-response-with-alerting-on-azure/)
 - [Log Analytics の構成](https://learn.microsoft.com/ja-jp/training/modules/configure-log-analytics/)
 - [Azure Monitor ログを使用して Azure インフラストラクチャを分析する](https://learn.microsoft.com/ja-jp/training/modules/analyze-infrastructure-with-azure-monitor-logs/)
-
----
-
-**ラボシミュレーション**</BR>
--
-
-実機ではなくシミレーターを使用して動作確認を行うことができます（英語画面）
-
-  - モジュール 01 - ID を管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-user-group-accounts/7-simulation-user-groups)
-  - モジュール 02 – ガバナンスとコンプライアンスを管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-policy/9-simulation-policy)
-  - モジュール 03 – Azure リソースを管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-resources-tools/5-simulation-powershell)
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-resources-tools/7-simulation-command-line)
-  - モジュール 04 – 仮想ネットワークを管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-networks/9-simulation-create-networks)
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-network-security-groups/7-simulation-create-network-groups)
-  - モジュール 05 – サイト間の接続性を管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-vnet-peering/6-simulation-peering)
-  - モジュール 06 – ネットワーク トラフィック管理を管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-network-routing-endpoints/7-simulation-routing)
-  - モジュール 07 – Azure Storage を管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-storage-security/8-simulation-storage)
-  - モジュール 08 – Azure Virtual Machines を管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-machine-availability/11-simulation-machine-scale)
-  - モジュール 09 - PaaS Compute オプションを管理する
-    - [ラボシミュレーション9a](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-app-services/11-simulation-web-apps)
-    - [ラボシミュレーション9b](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-container-instances/6-simulation-containers)
-    - [ラボシミュレーション9c](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-kubernetes-service/8-simulation-kubernetes)
-  - モジュール 10 – データ保護を管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-virtual-machine-backups/11-simulation-machine-backups)
-  - モジュール 11 - 監視を管理する
-    - [ラボシミュレーション](https://learn.microsoft.com/ja-jp/training/modules/configure-azure-monitor/8-simulation-monitor)
 
 ---
 
