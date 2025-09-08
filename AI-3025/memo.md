@@ -10,6 +10,7 @@
 
 AI-3025のトレーニングコースでは、Microsoft 365 Copilot を使用できる環境を提供しています。しかし、すでにご自身の環境で使用できる場合はセットアップする必要はありません。必要な場合は、Lab環境を使用することができます。
 
+- [AI-3025のテキスト](https://learn.microsoft.com/ja-jp/training/paths/work-smarter-with-ai/)
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
 
