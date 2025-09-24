@@ -1,7 +1,20 @@
 **MS-4018 Microsoft 365 Copilotでドラフト、分析、プレゼンテーションを行う**
 ***
 
-最終更新日 2025/04/23
+最終更新日 2025/09/24
+
+**研修の準備**
+
+[ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
+
+MS-4018で Microsoft 365 Copilot 環境がなく自身で検証したい場合は以下の準備が必要です。
+
+- [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
+- [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
+
+> [!NOTE]
+> - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境（[接続テスト](https://labondemand.com/Launch/949F2C16)）で提供されました。
+> - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
 **リンク一覧およびメモ**
 > [!NOTE]
@@ -11,7 +24,6 @@
 
 > [!NOTE]
 > MS-4018 は MS-4005 の後継トレーニングコースです。
-
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
 
