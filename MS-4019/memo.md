@@ -51,7 +51,7 @@ MS-4019 ラボトップ [日本語](https://github.com/MicrosoftLearning/MS-4019
 > ラボ環境は英語版が提供されています。日本語での解答をしたい場合は、ブラウザーの言語を日本語にしてください。
 
 # Lab日本語版
-- [03-exercise-analyst-agent](https://github.com/MicrosoftLearning/MS-4019-Transform-your-everyday-business-processes-with-agents.ja-jp/blob/main/Instructions/Labs/M02-explore-prebuilt-microsoft-365-copilot-agents/03-exercise-analyst-agent.md)
+## [03-exercise-analyst-agent](https://github.com/MicrosoftLearning/MS-4019-Transform-your-everyday-business-processes-with-agents.ja-jp/blob/main/Instructions/Labs/M02-explore-prebuilt-microsoft-365-copilot-agents/03-exercise-analyst-agent.md)
 
 - 概要：アナリスト エージェント使用して、プロンプトを試す
 - 使用ファイル：[Project_Nexus_survey_results.xlsx](https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx)
