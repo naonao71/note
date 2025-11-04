@@ -38,7 +38,7 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Restart-Computer -Force
 ```
 
-**Lab 概要**
+## **Lab 概要**
 
 SC-5003 ラボトップ [日本語](https://github.com/MicrosoftLearning/SC-5003_Information-protection-and-Data-Loss-Prevention.ja-jp/tree/main/Instructions/Labs)
 
