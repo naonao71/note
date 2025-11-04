@@ -91,6 +91,8 @@ MS-4019トレーニングコースでは Microsoft 365 Copilot が利用可能�
 - リサーチ エージェントを使用して、プロンプトを試す
 - 自身の環境で行ってください。
 
+このトレーニングの演習では、リサーチ ツール エージェントを使って、Outlook、OneDrive、Teams にまたがる情報を統合し、ご自身のデータからトピックに関する分析情報を作成します。
+
 ```powershell
 過去 90 日間の [トピック X] に関連するすべての最近のディスカッション、ドキュメント、メールを収集して要約します。
 ```
@@ -141,3 +143,20 @@ MS-4019トレーニングコースでは Microsoft 365 Copilot が利用可能�
 [トピック X] について、過去 60 日間に作成されたすべての予算ファイルを一覧表示してリンクしてください。
 [トピック X] に関連する共有ドキュメントの内容を要約してください。
 ```
+
+## [10-exercise-agent-choice](https://github.com/MicrosoftLearning/MS-4019-Transform-your-everyday-business-processes-with-agents.ja-jp/blob/main/Instructions/Labs/M02-explore-prebuilt-microsoft-365-copilot-agents/10-exercise-agent-choice.md)
+
+- 適当なエージェントを使用して、プロンプトを試す
+- 自身の環境で行ってください。
+
+このモジュールのこれまでの演習では、アナリストとリサーチ ツールのエージェントを使用しました。 この演習では、これらのエージェントを再利用しないでください。 代わりに、他の事前構築済みエージェントのどれかを使用して、選択したプロジェクトを支援します。 そうすることで、Copilot のさまざまな機能について経験を得ることができ、さまざまな種類のタスクに対してどのエージェントが最適なのかを理解できます。
+
+
+## [6-exercise-create-copilot-chat-agent](https://github.com/MicrosoftLearning/MS-4019-Transform-your-everyday-business-processes-with-agents.ja-jp/blob/main/Instructions/Labs/M03-build-manage-no-code-agent-sharepoint/6-exercise-create-copilot-chat-agent.md)
+
+- Microsoft 365 Copilot Chat 用の独自のカスタム エージェントを作成します。
+
+
+## [8-exercise-create-sharepoint-agent](https://github.com/MicrosoftLearning/MS-4019-Transform-your-everyday-business-processes-with-agents.ja-jp/blob/main/Instructions/Labs/M03-build-manage-no-code-agent-sharepoint/8-exercise-create-sharepoint-agent.md)
+
+- SharePoint エージェントを作成して、すばやく答えを得たり、既に使用している特定の SharePoint サイトに関連する有用なアクションを実行します。
