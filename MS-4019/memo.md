@@ -53,8 +53,8 @@ MS-4019 ラボトップ [日本語](https://github.com/MicrosoftLearning/MS-4019
 # Lab日本語版
 - [03-exercise-analyst-agent](https://github.com/MicrosoftLearning/MS-4019-Transform-your-everyday-business-processes-with-agents.ja-jp/blob/main/Instructions/Labs/M02-explore-prebuilt-microsoft-365-copilot-agents/03-exercise-analyst-agent.md)
 
-概要：アナリスト エージェント使用して、プロンプトを試す
-使用ファイル：[Project_Nexus_survey_results.xlsx](https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx)
+- 概要：アナリスト エージェント使用して、プロンプトを試す
+- 使用ファイル：[Project_Nexus_survey_results.xlsx](https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx)
 
 ```powershell
 このスプレッドシートを分析し、上位 3 つの傾向を示してください。
