@@ -1,5 +1,7 @@
 # **MS-4022 Copilot Studioで Microsoft 365 Copilot を拡張する**
 
+最終更新日 2025/11/17
+
 ## コース概要
 
 - 3時間コース
@@ -10,9 +12,7 @@
 > 2. Microsoft Copilot Studio https://copilotstudio.microsoft.com/ (フル機能版) ← こちらを使用する
 
 
-最終更新日 2025/11/17
-
-**研修の準備**
+## **研修の準備**
 
 [ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
 
@@ -25,7 +25,7 @@ MS-4022で Microsoft 365 Copilot 環境がなく自身で検証したい場合�
 > - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境（[接続テスト](https://labondemand.com/Launch/949F2C16)）で提供されました。
 > - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
-**リンク一覧およびメモ**
+## **リンク一覧およびメモ**
 > [!NOTE]
 > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
