@@ -1,6 +1,6 @@
 # **AI-3017: Microsoft AI を使ってビジネスを変革する**
 
-最終更新日 2025/09/24
+最終更新日 2025/11/20
 
 **研修の準備**
 
@@ -17,7 +17,7 @@
 >  - マイクロソフトのその他のトレーニングコースとは異なり、マイクロソフトやAzureの製品の具体的な使い方を学ぶコースではありません。
 >  - 【組織のリーダーとして、組織にAIを導入し、活用していくためには、どういったことに配慮する必要があるか？】という観点で、ご受講いただければと思います。
 
-※本コースにはラボ（演習）はございません。講義のみのとなります。
+※本コースにはラボ（演習）はありません。講義のみのとなります。
 
 ※本コースで学んでいただく知識の一部は[AI-900](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-ai-fundamentals/)、[AI-102](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-ai-engineer/)などのAI系認定試験の準備に役立ちます。
 
