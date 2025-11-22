@@ -1,6 +1,6 @@
 # **AI-3017: Microsoft AI を使ってビジネスを変革する**
 
-最終更新日 2025/11/20
+最終更新日 2025/11/22
 
 **研修の準備**
 
@@ -19,18 +19,16 @@
 
 ※本コースにはラボ（演習）はありません。講義のみのとなります。
 
-※本コースで学んでいただく知識の一部は[AI-900](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-ai-fundamentals/)、[AI-102](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-ai-engineer/)などのAI系認定試験の準備に役立ちます。
-
 ## 講義
 - 講師自己紹介
 - 講義
-  - モジュール1: AI ツールとリソースをビジネスに活用する
+  - [モジュール1: AI ツールとリソースをビジネスに活用する](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M1.pdf)
     - マイクロソフトのAI製品を俯瞰します。
-  - モジュール2: AI からビジネス価値を作り出す
+  - [モジュール2: AI からビジネス価値を作り出す](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M2.pdf)
     - 組織としてのAIを導入するためのベストプラクティスを学びます。
-  - モジュール3: 責任ある AI の原則とプラクティスを採用する
+  - [モジュール3: 責任ある AI の原則とプラクティスを採用する](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M3.pdf)
     - 安心して利用できるAIシステムに必要な考え方を学びます。
-  - モジュール4: 組織で AI をスケーリングする
+  - [モジュール4: 組織で AI をスケーリングする](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M4.pdf)
     - AIプロジェクトの優先順位を特定する方法を学びます。
     - リーダーとしてAIプロジェクトをどのようにリードするかを学びます。
 - 満足度アンケート
