@@ -7,7 +7,10 @@
 
 [ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
 
-MS-4019で Microsoft 365 Copilot 環境がなく自身で検証したい場合は以下の準備が必要です。
+MS-4019では ラボ環境が提供されています。ラボ環境で検証したい場合は以下の準備が必要です。
+
+> [!NOTE]
+> 英語環境での提供となり、指示なども英語で記載されています。またラボ環境の制約としてエージェントの参照データがない場合があります。
 
 - [Microsoftアカウントの作成](https://github.com/naonao71/note/blob/main/prep/msa.md)
 - [ラボ環境（LODS）の入手](https://github.com/naonao71/note/blob/main/prep/lods.md)
@@ -40,6 +43,22 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters" -Name "OverrideKeyboardSubtype" -Value 2
 Restart-Computer -Force
 ```
+
+## 講義
+- 講師自己紹介
+- 講義(講義は講師がテキストから作成した資料を使用します。各自ダウンロードすることができます。)
+  - [モジュール1: AI ツールとリソースをビジネスに活用する](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M1.pdf)
+    - マイクロソフトのAI製品を俯瞰します。
+  - [モジュール2: AI からビジネス価値を作り出す](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M2.pdf)
+    - 組織としてのAIを導入するためのベストプラクティスを学びます。
+  - [モジュール3: 責任ある AI の原則とプラクティスを採用する](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M3.pdf)
+    - 安心して利用できるAIシステムに必要な考え方を学びます。
+  - [モジュール4: 組織で AI をスケーリングする](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M4.pdf)
+    - AIプロジェクトの優先順位を特定する方法を学びます。
+    - リーダーとしてAIプロジェクトをどのようにリードするかを学びます。
+- 満足度アンケート
+
+
 
 **Lab 概要**
 
