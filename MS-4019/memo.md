@@ -48,10 +48,10 @@ Restart-Computer -Force
 ## 講義
 - 講師自己紹介
 - 講義(講義は講師がテキストから作成した資料を使用します。各自ダウンロードすることができます。)
-  - [エージェントの使用を開始する](https://learn.microsoft.com/ja-jp/training/modules/get-started-no-code-copilot-agents-sharepoint/)
-  - [事前構築済みの Microsoft 365 Copilot エージェントを調べる](https://learn.microsoft.com/ja-jp/training/modules/explore-prebuilt-microsoft-365-copilot-agents/)
-  - [エージェントのビルドと管理](https://learn.microsoft.com/ja-jp/training/modules/build-manage-no-code-copilot-agent-sharepoint/)
-  - [エージェントの共有と使用](https://learn.microsoft.com/ja-jp/training/modules/use-no-code-agents-sharepoint/)
+  - エージェントの使用を開始する
+  - 事前構築済みの Microsoft 365 Copilot エージェントを調べる
+  - エージェントのビルドと管理
+  - エージェントの共有と使用
 - 満足度アンケート
 
 **Lab 概要**
