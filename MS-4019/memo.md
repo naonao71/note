@@ -30,6 +30,7 @@ MS-4019では ラボ環境が提供されています。ラボ環境で検証し
 > [!NOTE]
 > - トレーニングで使用するマイクロソフトアカウントを作成する。既にアカウントがある方もこのトレーニング用に作成することを推奨。
 > - メールアドレスも新規に作成する（既存メールアドレスに紐づけない）。
+> - 例：xxx@outlook.com
 
 [LODS（Learn On Demand LMS)](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
@@ -47,18 +48,11 @@ Restart-Computer -Force
 ## 講義
 - 講師自己紹介
 - 講義(講義は講師がテキストから作成した資料を使用します。各自ダウンロードすることができます。)
-  - [モジュール1: AI ツールとリソースをビジネスに活用する](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M1.pdf)
-    - マイクロソフトのAI製品を俯瞰します。
-  - [モジュール2: AI からビジネス価値を作り出す](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M2.pdf)
-    - 組織としてのAIを導入するためのベストプラクティスを学びます。
-  - [モジュール3: 責任ある AI の原則とプラクティスを採用する](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M3.pdf)
-    - 安心して利用できるAIシステムに必要な考え方を学びます。
-  - [モジュール4: 組織で AI をスケーリングする](https://github.com/naonao71/note/blob/main/AI-3017/AI-3017-M4.pdf)
-    - AIプロジェクトの優先順位を特定する方法を学びます。
-    - リーダーとしてAIプロジェクトをどのようにリードするかを学びます。
+  - [エージェントの使用を開始する](https://learn.microsoft.com/ja-jp/training/modules/get-started-no-code-copilot-agents-sharepoint/)
+  - [事前構築済みの Microsoft 365 Copilot エージェントを調べる](https://learn.microsoft.com/ja-jp/training/modules/explore-prebuilt-microsoft-365-copilot-agents/)
+  - [エージェントのビルドと管理](https://learn.microsoft.com/ja-jp/training/modules/build-manage-no-code-copilot-agent-sharepoint/)
+  - [エージェントの共有と使用](https://learn.microsoft.com/ja-jp/training/modules/use-no-code-agents-sharepoint/)
 - 満足度アンケート
-
-
 
 **Lab 概要**
 
