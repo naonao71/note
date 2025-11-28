@@ -2,7 +2,7 @@
 
 最終更新日 2025/11/28
 
-# #研修の準備
+## 研修の準備
 
 [ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
 
