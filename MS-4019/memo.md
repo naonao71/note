@@ -3,7 +3,7 @@
 
 最終更新日 2025/11/28
 
-**研修の準備**
+# #研修の準備
 
 [ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
 
@@ -29,7 +29,7 @@ MS-4019で Microsoft 365 Copilot 環境がなく自身で検証したい場合�
   - [エージェントのビルド、管理、共有、使用](https://github.com/naonao71/note/blob/main/MS-4019/MS-4019-M3-4.pdf)
 - 満足度アンケート
 
-**リンク一覧およびメモ**
+## リンク一覧およびメモ
 > [!NOTE]
 > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
