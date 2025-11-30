@@ -1,21 +1,21 @@
-**Microsoft Copilot Security の概要**
-***
+# SC-5006：Microsoft Copilot Security の概要
 
-最終更新日 2025/05/06
+最終更新日 2025/11/30
 
-**研修の準備**
+## 研修の準備
 
 [ESIトレーニング参加者に配布されているドキュメント](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Rje8)
 
 SC-5006のトレーニングコースを始めるにあたり、下記の注意事項をお読みください。
 
 > [!NOTE]
-> - ラボ環境は Microsoft のセキュリティ施策により シミレーション 環境で提供されました。
+> - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境（[接続テスト](https://labondemand.com/Launch/949F2C16)）で提供されました。
 > - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
 > - シミレーション環境は英語です。講師がシミレーション環境で行った操作を動画にアップしています。
+> - 2025/12 の現在のUIや動作はシミュレーション環境とは異なる場合があります。
 
 
-**リンク一覧およびメモ**
+## リンク一覧およびメモ
 
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
