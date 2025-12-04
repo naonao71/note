@@ -23,9 +23,9 @@ MS-4019で Microsoft 365 Copilot 環境がなく自身で検証したい場合�
 ## 講義
 - 講師自己紹介
 - 講義(講義は**講師がテキストから作成した資料**を使用します。各自ダウンロードすることができます。テキストで提供されているモジュール3とモジュール4は統合しています。)
-  - [エージェントの使用を開始する](https://github.com/naonao71/note/blob/main/MS-4019/MS-4019-M1.pdf)
-  - [事前構築済みの Microsoft 365 Copilot エージェントを調べる](https://github.com/naonao71/note/blob/main/MS-4019/MS-4019-M2.pdf)
-  - [エージェントのビルド、管理、共有、使用](https://github.com/naonao71/note/blob/main/MS-4019/MS-4019-M3-4.pdf)
+  - [モジュール1 エージェントの使用を開始する](https://github.com/naonao71/note/blob/main/MS-4019/MS-4019-M1.pdf)
+  - [モジュール2 事前構築済みの Microsoft 365 Copilot エージェントを調べる](https://github.com/naonao71/note/blob/main/MS-4019/MS-4019-M2.pdf)
+  - [モジュール3-4 エージェントのビルド、管理、共有、使用](https://github.com/naonao71/note/blob/main/MS-4019/MS-4019-M3-4.pdf)
 - 満足度アンケート
 
 ## リンク一覧およびメモ
