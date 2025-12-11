@@ -33,3 +33,6 @@ Microsoft 365 Copilotを拡張・カスタマイズする方法について概�
 - モジュール3 [Microsoft 365 Copilotの拡張・カスタマイズ](https://github.com/naonao71/note/blob/main/MS-4014/MS-4014-M3.pdf)
 - モジュール4 [カスタムエンジンエージェント開発](https://github.com/naonao71/note/blob/main/MS-4014/MS-4014-M4.pdf)
 - 満足度アンケート
+
+## Microsoft 365 Copilotのカスタマイズやエージェント開発に関するコースのご紹介
+- [その他トレーニングコース番号と内容を紹介](https://github.com/naonao71/note/blob/main/MS-4014/Copilot%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%BC%E3%82%B9%E7%B4%B9%E4%BB%8B.pdf)
