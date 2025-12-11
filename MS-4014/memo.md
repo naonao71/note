@@ -1,6 +1,6 @@
-# **MS-4014 AI エージェントを構築し、Microsoft 365 Copilot を拡張するための基盤を構築する**
+# MS-4014 AI エージェントを構築し、Microsoft 365 Copilot を拡張するための基盤を構築する
 
-最終更新日 2025/11/05
+最終更新日 2025/12/11
 
 **研修の準備**
 
@@ -24,4 +24,11 @@ Microsoft 365 Copilotを拡張・カスタマイズする方法について概�
 > - 本コースでは「Microsoft 365 Copilotの使い方」は解説されません。必要に応じてMS-4018などのMicrosoft 365 Copilot入門者・利用者向けコースをご受講ください。
 > - 本コースにはラボ（実機演習）はありません。座学のみとなります。
 
-
+## 講義
+- 講師自己紹介
+- 講義 (講義は**講師がテキストから作成した資料**を使用します。各自ダウンロードすることができます。)
+ - モジュール1 [エージェントの基礎の解説](https://github.com/naonao71/note/blob/main/MS-4014/MS-4014-M1.pdf)
+ - モジュール2 [MicrosoftのAIエージェント関連テクノロジ解説](https://github.com/naonao71/note/blob/main/MS-4014/MS-4014-M2.pdf)
+ - モジュール3 [Microsoft 365 Copilotの拡張・カスタマイズ](https://github.com/naonao71/note/blob/main/MS-4014/MS-4014-M3.pdf)
+ - モジュール4 [カスタムエンジンエージェント開発](https://github.com/naonao71/note/blob/main/MS-4014/MS-4014-M4.pdf)
+- 満足度アンケート
