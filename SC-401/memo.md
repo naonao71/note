@@ -57,7 +57,7 @@ SC-401 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-401
 - ラボ2-タスク2-5
   - 下部の [Encrypt messages from Finance department ] ポップアップで [保存] を選択します。
 - ラボ2-タスク3-1
-[ルール] ページで、新しく作成した [Encrypt messages from Finance department] [Disabled] を選択します。
+  - [ルール] ページで、新しく作成した [Encrypt messages from Finance department] [Disabled] を選択します。
 - ラボ2-タスク3-2
   - [Encrypt messages from Finance department] ポップアップで、[ルールを有効または無効にする] の下のトグルを [有効] に設定します。
 ***
