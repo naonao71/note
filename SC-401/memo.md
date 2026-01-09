@@ -43,3 +43,20 @@ SC-401 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-401
   - ウィザードに従って、自動ラベル付きポリシーを作成していますが、名前がバッティングしてエラーになります。この場合、作成された自動ラベル付きポリシーをいったん削除して、手動で作成すれば完了します。
 - ラボ1-タスク8-3
   - ドロップダウンから [Highly Confidential-Specified People] を選択します
+***
+- ラボ2-タスク1-4
+  - ドロップダウン 2:[このグループのメンバーです] については、[メンバーの選択] ポップアップで [Finance Team] と [保存] を選択します。
+  - [RMS テンプレートの選択] ポップアップで [Encrypt] を選択し、[保存] を選択します。
+- ラボ2-タスク2-1
+  - [ルール] ページで、新しく作成した [Encrypt messages from Finance department] を選択します。
+- ラボ2-タスク2-2
+  - [Encrypt messages from Finance department] ポップアップで、[ルール条件の編集] を選択します。
+- ラボ2-タスク2-4
+  - フォールバック アクションを追加するには、リンクを選択します。 [代替アクションの指定] ポップアップで [Wrap] を選択し、ポップアップの下部にある [保存] を選択します。
+- ラボ2-タスク2-5
+  - 下部の [Encrypt messages from Finance department ] ポップアップで [保存] を選択します。
+- ラボ2-タスク3-1
+[ルール] ページで、新しく作成した [Encrypt messages from Finance department] [Disabled] を選択します。
+- ラボ2-タスク3-2
+  - [Encrypt messages from Finance department] ポップアップで、[ルールを有効または無効にする] の下のトグルを [有効] に設定します。
+***
