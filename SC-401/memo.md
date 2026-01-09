@@ -32,5 +32,7 @@ SC-401 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-401
 [LODS（Learn On Demand LMS)](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
 ### Labの手順に関して
-ラボ1-タスク3-1 [秘密度ラベル] ページで、[**Internal**] 秘密度ラベル グループを見つけます。
-
+- ラボ1-タスク3-1 
+  - [秘密度ラベル] ページで、[**Internal**] 秘密度ラベル グループを見つけます。
+- ラボ1-タスク3-8 
+  - [アクセス許可の割り当て] リンクを選択します。 [アクセス許可の割り当て] ポップアップ パネルで [+ 任意の認証済みユーザーを追加] を選択し、[保存] を選択してこの設定を適用します。
