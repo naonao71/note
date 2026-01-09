@@ -16,9 +16,6 @@ SC-401のトレーニングコースを始めるにあたり、以下の準備�
 > - このトレーニングで初めて Azure Portal をご利用する方は、[こちら](https://learn.microsoft.com/ja-jp/training/modules/tour-azure-portal/)で操作方法を学習できます。
 > - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
-> [!IMPORTANT]
-> - SC-401で提供されているラボ環境は、2025/07現在、英語版で提供されています。
-
 **リンク一覧およびメモ**
 
 [SC-401のテキスト](https://learn.microsoft.com/ja-jp/training/courses/sc-401t00)
