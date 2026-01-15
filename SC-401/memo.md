@@ -20,7 +20,7 @@ SC-401のトレーニングコースを始めるにあたり、以下の準備�
 
 [SC-401のテキスト](https://learn.microsoft.com/ja-jp/training/courses/sc-401t00)
 
-SC-401 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-401T00-Information-Security-Administrator.ja-jp/tree/main/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-401T00-Information-Security-Administrator/tree/master/Instructions/Labs))
+SC-401 ラボトップ（[日本語](https://github.com/naonao71/SC-401T00-Information-Security-Administrator.ja-jp/tree/main/Instructions/Labs)/[英語](https://github.com/MicrosoftLearning/SC-401T00-Information-Security-Administrator/tree/master/Instructions/Labs))
 
 
 [マイクロソフトアカウント作成](https://account.microsoft.com/account/Account)
