@@ -31,7 +31,7 @@ SC-401 ラボトップ（[日本語](https://github.com/MicrosoftLearning/SC-401
 
 [LODS（Learn On Demand LMS)](https://esi.learnondemand.net/User/Login?ReturnUrl=%2F)
 
-**SC-401 タイムスケジュール**
+## **SC-401 タイムスケジュール**
 ---
 
 | |Day1|Day2|Day3|Day4|
