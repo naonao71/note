@@ -1,6 +1,6 @@
 ## **SC-401 Information Security Administrator**
 
-最終更新日 2026/01/09
+最終更新日 2026/01/19
 
 ### **研修の準備**
 
