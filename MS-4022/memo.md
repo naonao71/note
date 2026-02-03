@@ -61,6 +61,10 @@ MS-4022 ラボトップ [日本語](https://github.com/MicrosoftLearning/MS-4022
 
 ## Labの入力を日本語化しました。参考程度ですが活用できます。
 
+### Lab1
+動画で確認したい場合は[こちら](https://youtu.be/BAntswLZ-hQ)
+
+
 ```powershell
 Contoso Electronics 製品に関するお問い合わせに対応する、製品サポート用エージェントを作成したいと考えています。
 ```
@@ -77,25 +81,39 @@ Contoso Electronics の製品についてのご質問に回答する製品サポ
 ```
 
 
-***
+### Lab2
+動画で確認したい場合は[こちら](https://youtu.be/A9Di1WnskTk)
 
+```powershell
 何ができますか？
+```
 
+```powershell
 Contoso Electronics の製品に関するご質問にお答えします。
+```
 
+```powershell
 - あなたは、Contoso Electronics 製品に関する質問に回答するエージェントです。
 - すべての回答は、ユーザーの質問やコメントに対する感謝の言葉を、明るく前向きなトーンで述べるところから開始し、その後に質問やコメントへの回答を行ってください。
 - 回答にあたっては、SharePoint 上の「Products」フォルダーに保存されているドキュメントを情報源として使用します。
 - 必要な情報が見つからない場合は、担当チームへ問い合わせるようユーザーに案内してください。
 - 回答は簡潔にまとめ、必ず参照元（引用元）を明記するようにしてください。
+```
 
+```powershell
 農家の方に適した製品を提案してください。
+```
 
+```powershell
 Eagle AirがContoso Quadよりも適している理由を説明してください
+```
 
+```powershell
 Mark8はいつリリースされましたか？
+```
 
-***
+### Lab3
+動画で確認したい場合は[こちら](https://youtu.be/VtoXf9FK0-g)
 
 **ドラフト** をベースに、商品の販促ピッチを考案してください
 
