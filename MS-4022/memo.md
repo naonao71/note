@@ -1,6 +1,6 @@
 # **MS-4022 Copilot Studioで Microsoft 365 Copilot を拡張する**
 
-最終更新日 2025/11/17
+最終更新日 2026/02/03
 
 ## コース概要
 
@@ -8,7 +8,7 @@
 - Microsoft Copilot Studio を使用して、Microsoft 365 Copilot を拡張する「宣言型エージェント」を構築します
 
 > [!NOTE] 
-> 1. Copilot Studio（Lite Experience） https://m365.cloud.microsoft/chat (簡易版)
+> 1. Agent Builder https://m365.cloud.microsoft/chat (簡易版)
 > 2. Microsoft Copilot Studio https://copilotstudio.microsoft.com/ (フル機能版) ← こちらを使用する
 
 
