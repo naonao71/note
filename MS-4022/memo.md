@@ -25,6 +25,11 @@ MS-4022で Microsoft 365 Copilot 環境がなく自身で検証したい場合�
 > - ラボ環境は Microsoft のセキュリティ施策により 新規に CloudSlice 環境（[接続テスト](https://labondemand.com/Launch/949F2C16)）で提供されました。
 > - トレーニング初日に、講師と一緒に行います。遅れて参加した方は[こちら](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VkE4)を参考に進めてください。
 
+## 講義
+- 講師自己紹介
+- 講義(講義は**講師がテキストから作成した資料**を使用します。各自[ダウンロード](https://github.com/naonao71/note/blob/main/MS-4022/MS-4022.pdf)することができます。テキストで提供されているモジュール3とモジュール4は統合しています。)
+- 満足度アンケート
+
 ## **リンク一覧およびメモ**
 > [!NOTE]
 > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
