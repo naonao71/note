@@ -50,15 +50,6 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 Restart-Computer -Force
 ```
 
-## **Lab 概要**
-
-MS-4022 ラボトップ [日本語](https://github.com/MicrosoftLearning/MS-4022-Extend-Microsoft-365-Copilot-in-Copilot-Studio.ja-jp/tree/main/Instructions/Labs)
-
-- MS-4022トレーニングコースでは Microsoft 365 Copilot が利用可能なラボ環境が提供されます。自身の環境に Microsoft 365 Copilot が導入されている場合は、自分の環境でプロンプトを実施することができます。（ラボで使用するファイルは別途取得できます。）
-
-- [01-create-declarative-agent](https://github.com/MicrosoftLearning/MS-4022-Extend-Microsoft-365-Copilot-in-Copilot-Studio.ja-jp/blob/main/Instructions/Labs/01-Build-your-first-declarative-agent/01-create-declarative-agent.md)
-    - 初回起動時にすでにエージェントの作成が行われている状態ですが、キャンセルしてエージェント画面に戻り、Microsoft 365 Copilot を選択して、エージェントの**追加**をクリックします。
-
 ## Labの入力を日本語化しました。参考程度ですが活用できます。
 
 ### Lab1
