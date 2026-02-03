@@ -1,15 +1,12 @@
 **MS-4007 Microsoft 365 Copilot を採用するためのユーザー有効化戦略を確認する**
 ***
 
-最終更新日 2025/02/12
+最終更新日 2026/02/03
 
 **リンク一覧およびメモ**
 
  > リンクをクリックする際に、Ctrlキーを押してクリックすると別のタブで開きます。
 
-Skillpipe
-
-- 2022年1月17日より Skillpipe のコンテンツは Microsoft Learn と統合されました。これにより、Skillpipe は提供されません。
 - [トレーニングで使用するテキスト](https://learn.microsoft.com/ja-jp/training/paths/explore-how-drive-adoption-microsoft-copilot-m365/)
 
 ***
